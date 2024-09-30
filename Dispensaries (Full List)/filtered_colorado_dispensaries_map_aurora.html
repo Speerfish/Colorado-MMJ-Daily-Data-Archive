@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f4bd9045d4c65f49a049cc5346257f8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f4bd9045d4c65f49a049cc5346257f8c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f4bd9045d4c65f49a049cc5346257f8c = L.map(
+                "map_f4bd9045d4c65f49a049cc5346257f8c",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d7e133590420bdb3bd817dd4d682d54d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d7e133590420bdb3bd817dd4d682d54d.addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var marker_207caede85e89a6cdee74ce88e335175 = L.marker(
+                [39.7250311, -104.8124222],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_2bed87136132b2e9bac05dcf03ab5969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_207caede85e89a6cdee74ce88e335175.setIcon(icon_2bed87136132b2e9bac05dcf03ab5969);
+        
+    
+        var popup_a3a8e5d9c2341df3e79e7915cd48c90e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6578f9030090d116e76cde6ac3a82dc = $(`<div id="html_c6578f9030090d116e76cde6ac3a82dc" style="width: 100.0%; height: 100.0%;">     <strong>BROW ACQUISITIONS AURORA LLC</strong><br>     <strong>Xclusive Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     15200 East 6th Avenue Unit 1<br>     Aurora, CO 80011     </div>`)[0];
+                popup_a3a8e5d9c2341df3e79e7915cd48c90e.setContent(html_c6578f9030090d116e76cde6ac3a82dc);
+            
+        
+
+        marker_207caede85e89a6cdee74ce88e335175.bindPopup(popup_a3a8e5d9c2341df3e79e7915cd48c90e)
+        ;
+
+        
+    
+    
+            var marker_c989bcec1cbd516467e8066fc0a13cef = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_2e4c0df643735f869fba2fd703f4efb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c989bcec1cbd516467e8066fc0a13cef.setIcon(icon_2e4c0df643735f869fba2fd703f4efb9);
+        
+    
+        var popup_6380803ab5fba5fc6f5b466f9aa8b824 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dfbb43db7017d48e8f15d67b6ac573c = $(`<div id="html_7dfbb43db7017d48e8f15d67b6ac573c" style="width: 100.0%; height: 100.0%;">     <strong>CANNA CLUB LLC</strong><br>     <strong>Best Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     11900 East 33rd Avenue, Suite 1<br>     Aurora, CO 80010     </div>`)[0];
+                popup_6380803ab5fba5fc6f5b466f9aa8b824.setContent(html_7dfbb43db7017d48e8f15d67b6ac573c);
+            
+        
+
+        marker_c989bcec1cbd516467e8066fc0a13cef.bindPopup(popup_6380803ab5fba5fc6f5b466f9aa8b824)
+        ;
+
+        
+    
+    
+            var marker_817ca26436c7f57a1a15e2d4a6164987 = L.marker(
+                [39.7234623, -104.8660225],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_c0dc8942f4599bebfa0716e10418de5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_817ca26436c7f57a1a15e2d4a6164987.setIcon(icon_c0dc8942f4599bebfa0716e10418de5a);
+        
+    
+        var popup_42da4ea3e5f7299fe37061e530828240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8920643d6f3063928a2d908cab6e5fd1 = $(`<div id="html_8920643d6f3063928a2d908cab6e5fd1" style="width: 100.0%; height: 100.0%;">     <strong>DOUBLE BROW LLC</strong><br>     <strong>Emerald Fields</strong><br>     Facility Type: Retail Marijuana Store<br>     503 Havana Street<br>     Aurora, CO 80010     </div>`)[0];
+                popup_42da4ea3e5f7299fe37061e530828240.setContent(html_8920643d6f3063928a2d908cab6e5fd1);
+            
+        
+
+        marker_817ca26436c7f57a1a15e2d4a6164987.bindPopup(popup_42da4ea3e5f7299fe37061e530828240)
+        ;
+
+        
+    
+    
+            var marker_ae779859a2cb5f19bab822971a7c2e55 = L.marker(
+                [39.6385915, -104.7647885],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_ecf921a4e831642d003a6c4c1f7020b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae779859a2cb5f19bab822971a7c2e55.setIcon(icon_ecf921a4e831642d003a6c4c1f7020b8);
+        
+    
+        var popup_85dd6aecc7a1854a5cbf30e3ee89e62f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b641b1cfc6e34895f5f641a252dda14 = $(`<div id="html_7b641b1cfc6e34895f5f641a252dda14" style="width: 100.0%; height: 100.0%;">     <strong>DP RETAIL 103 LLC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Retail Marijuana Store<br>     19151 East Quincy Avenue<br>     Aurora, CO 80015     </div>`)[0];
+                popup_85dd6aecc7a1854a5cbf30e3ee89e62f.setContent(html_7b641b1cfc6e34895f5f641a252dda14);
+            
+        
+
+        marker_ae779859a2cb5f19bab822971a7c2e55.bindPopup(popup_85dd6aecc7a1854a5cbf30e3ee89e62f)
+        ;
+
+        
+    
+    
+            var marker_57b03253dbdba505c99aaf3ec40d2dca = L.marker(
+                [39.7256937, -104.811104],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_cabfe73efb0e21ad081aa05757812b11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57b03253dbdba505c99aaf3ec40d2dca.setIcon(icon_cabfe73efb0e21ad081aa05757812b11);
+        
+    
+        var popup_e55eae373bfd924ef36da7faaaa1aea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_745731dbccc2f045460742c28dfc642c = $(`<div id="html_745731dbccc2f045460742c28dfc642c" style="width: 100.0%; height: 100.0%;">     <strong>DP RETAIL 114 LLC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Retail Marijuana Store<br>     15225 East 6th Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_e55eae373bfd924ef36da7faaaa1aea3.setContent(html_745731dbccc2f045460742c28dfc642c);
+            
+        
+
+        marker_57b03253dbdba505c99aaf3ec40d2dca.bindPopup(popup_e55eae373bfd924ef36da7faaaa1aea3)
+        ;
+
+        
+    
+    
+            var marker_d9d69f5f162e194da0f410402380c183 = L.marker(
+                [39.7404954, -104.8661892],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_41a2a14d0f0465d679c72895625fbdf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9d69f5f162e194da0f410402380c183.setIcon(icon_41a2a14d0f0465d679c72895625fbdf5);
+        
+    
+        var popup_5143a7dd2534b6809c0de4fb13445601 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeb0bf7a8a4d70778d0d1935999a1c0f = $(`<div id="html_aeb0bf7a8a4d70778d0d1935999a1c0f" style="width: 100.0%; height: 100.0%;">     <strong>F102 LLC</strong><br>     <strong>Fired Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     10455 East Colfax Avenue<br>     Aurora, CO 80010     </div>`)[0];
+                popup_5143a7dd2534b6809c0de4fb13445601.setContent(html_aeb0bf7a8a4d70778d0d1935999a1c0f);
+            
+        
+
+        marker_d9d69f5f162e194da0f410402380c183.bindPopup(popup_5143a7dd2534b6809c0de4fb13445601)
+        ;
+
+        
+    
+    
+            var marker_81acea38adb8a9871d189ce8fdb24fdf = L.marker(
+                [39.6811056, -104.8660541],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_4293315d3dbfad97db2325937aa900bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_81acea38adb8a9871d189ce8fdb24fdf.setIcon(icon_4293315d3dbfad97db2325937aa900bb);
+        
+    
+        var popup_322c62906a2f583cb2362e3e4927f8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_103c70f61ef9f3c6ef3534505e5fec9a = $(`<div id="html_103c70f61ef9f3c6ef3534505e5fec9a" style="width: 100.0%; height: 100.0%;">     <strong>FUTUREVISION LTD</strong><br>     <strong>Medicine Man</strong><br>     Facility Type: Retail Marijuana Store<br>     1901 South Havana Street<br>     Aurora, CO 80014     </div>`)[0];
+                popup_322c62906a2f583cb2362e3e4927f8b7.setContent(html_103c70f61ef9f3c6ef3534505e5fec9a);
+            
+        
+
+        marker_81acea38adb8a9871d189ce8fdb24fdf.bindPopup(popup_322c62906a2f583cb2362e3e4927f8b7)
+        ;
+
+        
+    
+    
+            var marker_92a0c5671f554f2c4d8f66f48290a510 = L.marker(
+                [39.667444, -104.8605731],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_b76e07241270b7e90622c566e0a8df56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92a0c5671f554f2c4d8f66f48290a510.setIcon(icon_b76e07241270b7e90622c566e0a8df56);
+        
+    
+        var popup_e2ce19f2d4524dc4b1d6317a2096dd99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6113aacf80aa0be175dff300250908af = $(`<div id="html_6113aacf80aa0be175dff300250908af" style="width: 100.0%; height: 100.0%;">     <strong>HIGH COUNTRY SUPPLY LLC</strong><br>     <strong>Colorado Harvest Company</strong><br>     Facility Type: Retail Marijuana Store<br>     11002 East Yale Avenue<br>     Aurora, CO 80010     </div>`)[0];
+                popup_e2ce19f2d4524dc4b1d6317a2096dd99.setContent(html_6113aacf80aa0be175dff300250908af);
+            
+        
+
+        marker_92a0c5671f554f2c4d8f66f48290a510.bindPopup(popup_e2ce19f2d4524dc4b1d6317a2096dd99)
+        ;
+
+        
+    
+    
+            var marker_60f281b954ebe7d17a49893750645f35 = L.marker(
+                [39.6372955, -104.7918827],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_3480bfb4b9f8539ec99d5c18e7c278d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60f281b954ebe7d17a49893750645f35.setIcon(icon_3480bfb4b9f8539ec99d5c18e7c278d9);
+        
+    
+        var popup_0253fe8729d8df37178f1a0caf225aac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5074104d57190a5ba5883759d5f6833 = $(`<div id="html_d5074104d57190a5ba5883759d5f6833" style="width: 100.0%; height: 100.0%;">     <strong>JS INVESTMENTS AURORA LLC</strong><br>     <strong>JARS Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     4343 South Buckley Road, Unit E<br>     Aurora, CO 80015     </div>`)[0];
+                popup_0253fe8729d8df37178f1a0caf225aac.setContent(html_d5074104d57190a5ba5883759d5f6833);
+            
+        
+
+        marker_60f281b954ebe7d17a49893750645f35.bindPopup(popup_0253fe8729d8df37178f1a0caf225aac)
+        ;
+
+        
+    
+    
+            var marker_7d344b10813541ef58f8956403b9ca38 = L.marker(
+                [39.6025572, -104.7156415],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_8308cb6e43f1f58827b011cf7ba3210f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d344b10813541ef58f8956403b9ca38.setIcon(icon_8308cb6e43f1f58827b011cf7ba3210f);
+        
+    
+        var popup_5b9087bb8a6c597a796d4d48e95f4903 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d05847e6bb1a240aeaf7d6fae5920b67 = $(`<div id="html_d05847e6bb1a240aeaf7d6fae5920b67" style="width: 100.0%; height: 100.0%;">     <strong>JS INVESTMENTS AURORA LLC</strong><br>     <strong>JARS Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     6260 South Gun Club Road<br>     Aurora, CO 80016     </div>`)[0];
+                popup_5b9087bb8a6c597a796d4d48e95f4903.setContent(html_d05847e6bb1a240aeaf7d6fae5920b67);
+            
+        
+
+        marker_7d344b10813541ef58f8956403b9ca38.bindPopup(popup_5b9087bb8a6c597a796d4d48e95f4903)
+        ;
+
+        
+    
+    
+            var marker_95ca7501da585ea3d8754a570c1930a0 = L.marker(
+                [39.6737491, -104.7920714],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_2f342df43da94ff1960fff6ef8763529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_95ca7501da585ea3d8754a570c1930a0.setIcon(icon_2f342df43da94ff1960fff6ef8763529);
+        
+    
+        var popup_57af7d06ee13494f03c5d7c14e06868b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5433c7ed0ea2115c66f3a5843921adf5 = $(`<div id="html_5433c7ed0ea2115c66f3a5843921adf5" style="width: 100.0%; height: 100.0%;">     <strong>LIGHTSHADE LABS LLC</strong><br>     <strong>Lightshade</strong><br>     Facility Type: Retail Marijuana Store<br>     16821 East Iliff Avenue<br>     Aurora, CO 80014     </div>`)[0];
+                popup_57af7d06ee13494f03c5d7c14e06868b.setContent(html_5433c7ed0ea2115c66f3a5843921adf5);
+            
+        
+
+        marker_95ca7501da585ea3d8754a570c1930a0.bindPopup(popup_57af7d06ee13494f03c5d7c14e06868b)
+        ;
+
+        
+    
+    
+            var marker_731a729311c1caa2f85fb8e46e88555e = L.marker(
+                [39.738821, -104.847044],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_81d9243756baa1c58f7d74ec2db9c414 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_731a729311c1caa2f85fb8e46e88555e.setIcon(icon_81d9243756baa1c58f7d74ec2db9c414);
+        
+    
+        var popup_fdf0238ebdebe00aae27e8640a7ea692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7729629dbedb96433f3c76f55bc61dd7 = $(`<div id="html_7729629dbedb96433f3c76f55bc61dd7" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL X LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     1401 North Peoria Street<br>     Aurora, CO 80011     </div>`)[0];
+                popup_fdf0238ebdebe00aae27e8640a7ea692.setContent(html_7729629dbedb96433f3c76f55bc61dd7);
+            
+        
+
+        marker_731a729311c1caa2f85fb8e46e88555e.bindPopup(popup_fdf0238ebdebe00aae27e8640a7ea692)
+        ;
+
+        
+    
+    
+            var marker_cc1498e94d7fd658e7051b0dcdb1a066 = L.marker(
+                [39.740333, -104.7669953],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_dc7bd530edaf1dc5c6e429736361a94e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc1498e94d7fd658e7051b0dcdb1a066.setIcon(icon_dc7bd530edaf1dc5c6e429736361a94e);
+        
+    
+        var popup_c2f1bc4217bf674d2930c69254cf8599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88585d5745200fb8e9f8b240a1cc8488 = $(`<div id="html_88585d5745200fb8e9f8b240a1cc8488" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL X LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     19201 East Colfax Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_c2f1bc4217bf674d2930c69254cf8599.setContent(html_88585d5745200fb8e9f8b240a1cc8488);
+            
+        
+
+        marker_cc1498e94d7fd658e7051b0dcdb1a066.bindPopup(popup_c2f1bc4217bf674d2930c69254cf8599)
+        ;
+
+        
+    
+    
+            var marker_2a7c6821291b672ba46e3521af37f654 = L.marker(
+                [39.6389644, -104.7664399],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_51d87d75640cfb10e17153fca93b786e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a7c6821291b672ba46e3521af37f654.setIcon(icon_51d87d75640cfb10e17153fca93b786e);
+        
+    
+        var popup_2c459b9d16708e6106b92c983233225e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba1eeca84348803361d6fbecd691cfaa = $(`<div id="html_ba1eeca84348803361d6fbecd691cfaa" style="width: 100.0%; height: 100.0%;">     <strong>PI AURORA LLC</strong><br>     <strong>Lova Aurora</strong><br>     Facility Type: Retail Marijuana Store<br>     19005 East Quincy Avenue<br>     Aurora, CO 80015     </div>`)[0];
+                popup_2c459b9d16708e6106b92c983233225e.setContent(html_ba1eeca84348803361d6fbecd691cfaa);
+            
+        
+
+        marker_2a7c6821291b672ba46e3521af37f654.bindPopup(popup_2c459b9d16708e6106b92c983233225e)
+        ;
+
+        
+    
+    
+            var marker_d6d384ea77ee9540e27f59f94c4d8f0e = L.marker(
+                [39.6853654, -104.8097885],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_7c1c8f659d8f2158a2b75071b55e6578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6d384ea77ee9540e27f59f94c4d8f0e.setIcon(icon_7c1c8f659d8f2158a2b75071b55e6578);
+        
+    
+        var popup_e0cb5d0c388dc3a7a7f7a2995197a633 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_444892e15a6acc3518e4bcb57c4b035c = $(`<div id="html_444892e15a6acc3518e4bcb57c4b035c" style="width: 100.0%; height: 100.0%;">     <strong>RRAW LLC</strong><br>     <strong>Rocky Road Aurora</strong><br>     Facility Type: Retail Marijuana Store<br>     1712 South Chambers Road<br>     Aurora, CO 80017     </div>`)[0];
+                popup_e0cb5d0c388dc3a7a7f7a2995197a633.setContent(html_444892e15a6acc3518e4bcb57c4b035c);
+            
+        
+
+        marker_d6d384ea77ee9540e27f59f94c4d8f0e.bindPopup(popup_e0cb5d0c388dc3a7a7f7a2995197a633)
+        ;
+
+        
+    
+    
+            var marker_cf37b93f068050c49cb6b6ba6c02a78e = L.marker(
+                [39.7471232, -104.8701981],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_f9c8058cbf32b48a79dc5e8ee1c2f2d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf37b93f068050c49cb6b6ba6c02a78e.setIcon(icon_f9c8058cbf32b48a79dc5e8ee1c2f2d9);
+        
+    
+        var popup_05fc7c409881de41cd23f71e95af76d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f345cb7b3b0521db852e2c9b092037de = $(`<div id="html_f345cb7b3b0521db852e2c9b092037de" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     10100 East Montview Boulevard<br>     Aurora, CO 80010     </div>`)[0];
+                popup_05fc7c409881de41cd23f71e95af76d8.setContent(html_f345cb7b3b0521db852e2c9b092037de);
+            
+        
+
+        marker_cf37b93f068050c49cb6b6ba6c02a78e.bindPopup(popup_05fc7c409881de41cd23f71e95af76d8)
+        ;
+
+        
+    
+    
+            var marker_5d4a02ef6d70457e3107b9cc1f89d4c9 = L.marker(
+                [39.595637, -104.8185486],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_e12ec26e2c9ba0d30b3237fd0345b613 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d4a02ef6d70457e3107b9cc1f89d4c9.setIcon(icon_e12ec26e2c9ba0d30b3237fd0345b613);
+        
+    
+        var popup_6425c02b2212814de01f0d3d86a0836e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13c7496aeb8777d5d7702d93792a5926 = $(`<div id="html_13c7496aeb8777d5d7702d93792a5926" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     14655 East Arapahoe Road, Unit B<br>     Aurora, CO 80016     </div>`)[0];
+                popup_6425c02b2212814de01f0d3d86a0836e.setContent(html_13c7496aeb8777d5d7702d93792a5926);
+            
+        
+
+        marker_5d4a02ef6d70457e3107b9cc1f89d4c9.bindPopup(popup_6425c02b2212814de01f0d3d86a0836e)
+        ;
+
+        
+    
+    
+            var marker_4880763bdcfe93d1a84e62f9602e3fcf = L.marker(
+                [39.6970926, -104.8595499],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_3f568997e125573e74c3f8b6b52a2d94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4880763bdcfe93d1a84e62f9602e3fcf.setIcon(icon_3f568997e125573e74c3f8b6b52a2d94);
+        
+    
+        var popup_187decfdcdb02150aabd5886804eab8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d304b692608d8a7350d704a14a7fd08 = $(`<div id="html_3d304b692608d8a7350d704a14a7fd08" style="width: 100.0%; height: 100.0%;">     <strong>ST MISSISSIPPI LLC</strong><br>     <strong>Terrapin Care Station</strong><br>     Facility Type: Retail Marijuana Store<br>     11091 East Mississippi Avenue, Suite A<br>     Aurora, CO 80012     </div>`)[0];
+                popup_187decfdcdb02150aabd5886804eab8b.setContent(html_3d304b692608d8a7350d704a14a7fd08);
+            
+        
+
+        marker_4880763bdcfe93d1a84e62f9602e3fcf.bindPopup(popup_187decfdcdb02150aabd5886804eab8b)
+        ;
+
+        
+    
+    
+            var marker_cdb62e3fa057225c77a8e6b46364aa95 = L.marker(
+                [39.6735841, -104.7918423],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_164e7943202a37fa25a4abdbcf2e87b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cdb62e3fa057225c77a8e6b46364aa95.setIcon(icon_164e7943202a37fa25a4abdbcf2e87b8);
+        
+    
+        var popup_daa6959deead218c919b084839b32fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e37c457c3f7f9b9d55d99c0775899dc = $(`<div id="html_4e37c457c3f7f9b9d55d99c0775899dc" style="width: 100.0%; height: 100.0%;">     <strong>SWEETWATER PARTNERS LLC</strong><br>     <strong>Good Chemistry</strong><br>     Facility Type: Retail Marijuana Store<br>     16840 East Iliff Avenue<br>     Aurora, CO 80013     </div>`)[0];
+                popup_daa6959deead218c919b084839b32fa3.setContent(html_4e37c457c3f7f9b9d55d99c0775899dc);
+            
+        
+
+        marker_cdb62e3fa057225c77a8e6b46364aa95.bindPopup(popup_daa6959deead218c919b084839b32fa3)
+        ;
+
+        
+    
+    
+            var marker_8399ffbe1886e3223a9e40bb66ef034f = L.marker(
+                [39.7477214, -104.869564],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_e18a13f066853995603ca117cbf98796 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8399ffbe1886e3223a9e40bb66ef034f.setIcon(icon_e18a13f066853995603ca117cbf98796);
+        
+    
+        var popup_2c54b973611ae44d75f83831b79fa771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38667c568c0ff5ff9b873c9ef96552bc = $(`<div id="html_38667c568c0ff5ff9b873c9ef96552bc" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     10195 East Montview Boulevard<br>     Aurora, CO 80010     </div>`)[0];
+                popup_2c54b973611ae44d75f83831b79fa771.setContent(html_38667c568c0ff5ff9b873c9ef96552bc);
+            
+        
+
+        marker_8399ffbe1886e3223a9e40bb66ef034f.bindPopup(popup_2c54b973611ae44d75f83831b79fa771)
+        ;
+
+        
+    
+    
+            var marker_69b7b452dab189bd825d4785302e2f49 = L.marker(
+                [39.740769, -104.8211076],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_0f9e1b8eaaffe23256cf7618717eef31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69b7b452dab189bd825d4785302e2f49.setIcon(icon_0f9e1b8eaaffe23256cf7618717eef31);
+        
+    
+        var popup_32ce8c150f220a248091412ab3a44571 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d213d9040f331412474a217ed100950 = $(`<div id="html_9d213d9040f331412474a217ed100950" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     14301 East Colfax Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_32ce8c150f220a248091412ab3a44571.setContent(html_9d213d9040f331412474a217ed100950);
+            
+        
+
+        marker_69b7b452dab189bd825d4785302e2f49.bindPopup(popup_32ce8c150f220a248091412ab3a44571)
+        ;
+
+        
+    
+    
+            var marker_691958264060b37aca372f0de089a6b0 = L.marker(
+                [39.710117, -104.827872],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_fac203a5c1da01d973c65c20ee31bae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_691958264060b37aca372f0de089a6b0.setIcon(icon_fac203a5c1da01d973c65c20ee31bae3);
+        
+    
+        var popup_462eddd11c2126f21ac623b06ef9a8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceb48885a821a908fc684ecc09acd18b = $(`<div id="html_ceb48885a821a908fc684ecc09acd18b" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     350 South Potomac Street<br>     Aurora, CO 80012     </div>`)[0];
+                popup_462eddd11c2126f21ac623b06ef9a8e9.setContent(html_ceb48885a821a908fc684ecc09acd18b);
+            
+        
+
+        marker_691958264060b37aca372f0de089a6b0.bindPopup(popup_462eddd11c2126f21ac623b06ef9a8e9)
+        ;
+
+        
+    
+    
+            var marker_9aeac6e514eef216f2e8075c35237daa = L.marker(
+                [39.6588024, -104.8482665],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_3f00d43be5a1fce82551776f4405eec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9aeac6e514eef216f2e8075c35237daa.setIcon(icon_3f00d43be5a1fce82551776f4405eec4);
+        
+    
+        var popup_68855eb30a777e1a48a3c329924b2747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61b02bf8c1095cacf666db0dd02733f3 = $(`<div id="html_61b02bf8c1095cacf666db0dd02733f3" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     3179 South Peoria Court<br>     Aurora, CO 80014     </div>`)[0];
+                popup_68855eb30a777e1a48a3c329924b2747.setContent(html_61b02bf8c1095cacf666db0dd02733f3);
+            
+        
+
+        marker_9aeac6e514eef216f2e8075c35237daa.bindPopup(popup_68855eb30a777e1a48a3c329924b2747)
+        ;
+
+        
+    
+    
+            var marker_33f2e2849c960c7cfe84bfa7b1e1926c = L.marker(
+                [39.6379956, -104.7614965],
+                {}
+            ).addTo(map_f4bd9045d4c65f49a049cc5346257f8c);
+        
+    
+            var icon_a0ae5341942d604787c170ae980b1891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_33f2e2849c960c7cfe84bfa7b1e1926c.setIcon(icon_a0ae5341942d604787c170ae980b1891);
+        
+    
+        var popup_a5f7cb99d98c50e8c0c4660241bc36f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8ab19809e59d551cc10b71cda090e42 = $(`<div id="html_d8ab19809e59d551cc10b71cda090e42" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     19370 East Quincy Avenue<br>     Aurora, CO 80015     </div>`)[0];
+                popup_a5f7cb99d98c50e8c0c4660241bc36f2.setContent(html_d8ab19809e59d551cc10b71cda090e42);
+            
+        
+
+        marker_33f2e2849c960c7cfe84bfa7b1e1926c.bindPopup(popup_a5f7cb99d98c50e8c0c4660241bc36f2)
+        ;
+
+        
+    
+</script>
+</html>

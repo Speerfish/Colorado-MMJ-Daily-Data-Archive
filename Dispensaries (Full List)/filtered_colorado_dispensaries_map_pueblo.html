@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1bb0208252e0e6b1d4e8465612290fba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1bb0208252e0e6b1d4e8465612290fba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1bb0208252e0e6b1d4e8465612290fba = L.map(
+                "map_1bb0208252e0e6b1d4e8465612290fba",
+                {
+                    center: [38.2765, -104.6046],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6aa9890ac53656c56f14a89341210842 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6aa9890ac53656c56f14a89341210842.addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var marker_36949f1c9bc11ec22fafe931545437dd = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_535ce562639a4cb08c09812a2c223ebb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36949f1c9bc11ec22fafe931545437dd.setIcon(icon_535ce562639a4cb08c09812a2c223ebb);
+        
+    
+        var popup_13ff3344e41b4e05fc3d11001d615bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89232be6acca7d3bc9c999b0cecc9340 = $(`<div id="html_89232be6acca7d3bc9c999b0cecc9340" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>Apothecary Farms</strong><br>     Facility Type: Medical Marijuana Store<br>     1917 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_13ff3344e41b4e05fc3d11001d615bcf.setContent(html_89232be6acca7d3bc9c999b0cecc9340);
+            
+        
+
+        marker_36949f1c9bc11ec22fafe931545437dd.bindPopup(popup_13ff3344e41b4e05fc3d11001d615bcf)
+        ;
+
+        
+    
+    
+            var marker_94e545e99f7eeb9ef4a1906f13df4d47 = L.marker(
+                [38.3260135, -104.705327],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_b7ba610749b4cae3f9594002b42add45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94e545e99f7eeb9ef4a1906f13df4d47.setIcon(icon_b7ba610749b4cae3f9594002b42add45);
+        
+    
+        var popup_c84dbea6684444754134d19fed15d8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6fdf1f5c8338a70acc62aba6d1162c9 = $(`<div id="html_f6fdf1f5c8338a70acc62aba6d1162c9" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO DISTRIBUTING INC</strong><br>     <strong>The Dispo</strong><br>     Facility Type: Medical Marijuana Store<br>     893 East Enterprise Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_c84dbea6684444754134d19fed15d8c3.setContent(html_f6fdf1f5c8338a70acc62aba6d1162c9);
+            
+        
+
+        marker_94e545e99f7eeb9ef4a1906f13df4d47.bindPopup(popup_c84dbea6684444754134d19fed15d8c3)
+        ;
+
+        
+    
+    
+            var marker_16603e6931770c1e135ff371fd8eb337 = L.marker(
+                [38.323527, -104.703985],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_2d8d4c80e9fed02f63f7555ecfeb5ba4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16603e6931770c1e135ff371fd8eb337.setIcon(icon_2d8d4c80e9fed02f63f7555ecfeb5ba4);
+        
+    
+        var popup_6fc936336afeb0f85709bb75a1ecb6af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da9cf98e411ab92569aa335bf3be5df1 = $(`<div id="html_da9cf98e411ab92569aa335bf3be5df1" style="width: 100.0%; height: 100.0%;">     <strong>DENCO LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     922 East Kimble Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_6fc936336afeb0f85709bb75a1ecb6af.setContent(html_da9cf98e411ab92569aa335bf3be5df1);
+            
+        
+
+        marker_16603e6931770c1e135ff371fd8eb337.bindPopup(popup_6fc936336afeb0f85709bb75a1ecb6af)
+        ;
+
+        
+    
+    
+            var marker_84f70992379dd97b465fccfaa3304ddb = L.marker(
+                [38.2188076, -104.6415403],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_bc66783fb02e483030c38f7ea0bcccdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84f70992379dd97b465fccfaa3304ddb.setIcon(icon_bc66783fb02e483030c38f7ea0bcccdc);
+        
+    
+        var popup_cdd5af278c444e9cd053a2f003a0437f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de46da2ea95edf9ed4a14b9e67f31c95 = $(`<div id="html_de46da2ea95edf9ed4a14b9e67f31c95" style="width: 100.0%; height: 100.0%;">     <strong>EARTH SOLUTIONS INC</strong><br>     <strong>Canna Cabinet, Inc</strong><br>     Facility Type: Medical Marijuana Store<br>     2630 West Pueblo Boulevard, Suite A<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_cdd5af278c444e9cd053a2f003a0437f.setContent(html_de46da2ea95edf9ed4a14b9e67f31c95);
+            
+        
+
+        marker_84f70992379dd97b465fccfaa3304ddb.bindPopup(popup_cdd5af278c444e9cd053a2f003a0437f)
+        ;
+
+        
+    
+    
+            var marker_24f78dea2aff1fdf4caf750fb54aa4fe = L.marker(
+                [38.331954, -104.715379],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_b8166ca571cadf8f97cedc87960547e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_24f78dea2aff1fdf4caf750fb54aa4fe.setIcon(icon_b8166ca571cadf8f97cedc87960547e4);
+        
+    
+        var popup_66e515068d3416e8572ca7ba5fd01856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d102140619854ab750de42b9592907fc = $(`<div id="html_d102140619854ab750de42b9592907fc" style="width: 100.0%; height: 100.0%;">     <strong>GROW DISPENSARY INC</strong><br>     <strong>The BUZZ</strong><br>     Facility Type: Medical Marijuana Store<br>     67 North Silicon Drive Suite 130<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_66e515068d3416e8572ca7ba5fd01856.setContent(html_d102140619854ab750de42b9592907fc);
+            
+        
+
+        marker_24f78dea2aff1fdf4caf750fb54aa4fe.bindPopup(popup_66e515068d3416e8572ca7ba5fd01856)
+        ;
+
+        
+    
+    
+            var marker_604a655b623885d3f3c479c7e2e90fef = L.marker(
+                [38.3259298, -104.7421395],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f176dc54a8f44f7169ca468a3bb355c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_604a655b623885d3f3c479c7e2e90fef.setIcon(icon_f176dc54a8f44f7169ca468a3bb355c3);
+        
+    
+        var popup_6033bd5c470d38beeea524cf46ce9ffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8fcc5d0f3fa7ab1cf23c651e85446ba = $(`<div id="html_f8fcc5d0f3fa7ab1cf23c651e85446ba" style="width: 100.0%; height: 100.0%;">     <strong>LONG GONE FARMS LLC</strong><br>     <strong>Steel City Meds Medical Dispensary</strong><br>     Facility Type: Medical Marijuana Store<br>     74 North McCulloch Boulevard, Suite 120<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_6033bd5c470d38beeea524cf46ce9ffd.setContent(html_f8fcc5d0f3fa7ab1cf23c651e85446ba);
+            
+        
+
+        marker_604a655b623885d3f3c479c7e2e90fef.bindPopup(popup_6033bd5c470d38beeea524cf46ce9ffd)
+        ;
+
+        
+    
+    
+            var marker_dd68401741eeae61c46a1356e1797f00 = L.marker(
+                [38.350002, -104.722755],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_859b6b4d3b62f7a618255baafe3561b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd68401741eeae61c46a1356e1797f00.setIcon(icon_859b6b4d3b62f7a618255baafe3561b5);
+        
+    
+        var popup_bfe4f244fe872cdce3a84bc9808cf171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d6916facd17683798e59ca810758d94 = $(`<div id="html_7d6916facd17683798e59ca810758d94" style="width: 100.0%; height: 100.0%;">     <strong>MAGGIES FARM LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Medical Marijuana Store<br>     74 North Component Drive Suite 170<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_bfe4f244fe872cdce3a84bc9808cf171.setContent(html_7d6916facd17683798e59ca810758d94);
+            
+        
+
+        marker_dd68401741eeae61c46a1356e1797f00.bindPopup(popup_bfe4f244fe872cdce3a84bc9808cf171)
+        ;
+
+        
+    
+    
+            var marker_cd9c9ba2dd6ce0d1bb9d49972c9a40bf = L.marker(
+                [38.319119, -104.705094],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_3dc9a598ed18c6240276394a93cde21f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd9c9ba2dd6ce0d1bb9d49972c9a40bf.setIcon(icon_3dc9a598ed18c6240276394a93cde21f);
+        
+    
+        var popup_b46c51e2fb7ca3b508a5e92f61dbfffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_529cfc2f14cf2464d630677a2909147b = $(`<div id="html_529cfc2f14cf2464d630677a2909147b" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL GREEN SOURCE LLC</strong><br>     <strong>The Green Source</strong><br>     Facility Type: Medical Marijuana Store<br>     286 South Purcell Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_b46c51e2fb7ca3b508a5e92f61dbfffb.setContent(html_529cfc2f14cf2464d630677a2909147b);
+            
+        
+
+        marker_cd9c9ba2dd6ce0d1bb9d49972c9a40bf.bindPopup(popup_b46c51e2fb7ca3b508a5e92f61dbfffb)
+        ;
+
+        
+    
+    
+            var marker_7965a89a46267035a571956602eaa6da = L.marker(
+                [38.317696, -104.6118152],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_1301c59adc35882143046d0760090bd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7965a89a46267035a571956602eaa6da.setIcon(icon_1301c59adc35882143046d0760090bd1);
+        
+    
+        var popup_e0448955c6d37aabf2f86271f89d45c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_776cd8e9a8231a2848b676a725cf1a0e = $(`<div id="html_776cd8e9a8231a2848b676a725cf1a0e" style="width: 100.0%; height: 100.0%;">     <strong>NUVUE PHARMA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     4740 Dillon Drive<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_e0448955c6d37aabf2f86271f89d45c2.setContent(html_776cd8e9a8231a2848b676a725cf1a0e);
+            
+        
+
+        marker_7965a89a46267035a571956602eaa6da.bindPopup(popup_e0448955c6d37aabf2f86271f89d45c2)
+        ;
+
+        
+    
+    
+            var marker_0ed09e93d6815a1798981117f8154a39 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_c7b154628f46007302c3f815518c2fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ed09e93d6815a1798981117f8154a39.setIcon(icon_c7b154628f46007302c3f815518c2fa4);
+        
+    
+        var popup_95299d9aa3ff0b3940374673a0cdfb02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f090cdc5f0bb3c6c26ae72043650ed1 = $(`<div id="html_1f090cdc5f0bb3c6c26ae72043650ed1" style="width: 100.0%; height: 100.0%;">     <strong>THREE RIVERS DEVELOPMENT LLC</strong><br>     <strong>Three Rivers Dispensary</strong><br>     Facility Type: Medical Marijuana Store<br>     1714 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_95299d9aa3ff0b3940374673a0cdfb02.setContent(html_1f090cdc5f0bb3c6c26ae72043650ed1);
+            
+        
+
+        marker_0ed09e93d6815a1798981117f8154a39.bindPopup(popup_95299d9aa3ff0b3940374673a0cdfb02)
+        ;
+
+        
+    
+    
+            var marker_2021c6d78e398e13d634f4777c0af466 = L.marker(
+                [38.245725, -104.58602],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_7555f9c4737d3be4dcb197eb45355d41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2021c6d78e398e13d634f4777c0af466.setIcon(icon_7555f9c4737d3be4dcb197eb45355d41);
+        
+    
+        var popup_06a3604684dac59f536627190ed4bc3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cb761abb608473f74f4fe5560b34fe4 = $(`<div id="html_7cb761abb608473f74f4fe5560b34fe4" style="width: 100.0%; height: 100.0%;">     <strong>WESTSIDE WELLNESS CENTER LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Medical Marijuana Store<br>     1400  Santa Fe Drive, Suite A & B<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_06a3604684dac59f536627190ed4bc3d.setContent(html_7cb761abb608473f74f4fe5560b34fe4);
+            
+        
+
+        marker_2021c6d78e398e13d634f4777c0af466.bindPopup(popup_06a3604684dac59f536627190ed4bc3d)
+        ;
+
+        
+    
+    
+            var marker_bdd19aff89130380e0052cb381301814 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f917b0778787348cbc4c14077ae8e5e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bdd19aff89130380e0052cb381301814.setIcon(icon_f917b0778787348cbc4c14077ae8e5e4);
+        
+    
+        var popup_3b0a8ffc674518ba20ec9f6ab712bc35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e92f646a3794810502b12224c21788a = $(`<div id="html_4e92f646a3794810502b12224c21788a" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>Apothecary Farms</strong><br>     Facility Type: Retail Marijuana Store<br>     1917 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_3b0a8ffc674518ba20ec9f6ab712bc35.setContent(html_4e92f646a3794810502b12224c21788a);
+            
+        
+
+        marker_bdd19aff89130380e0052cb381301814.bindPopup(popup_3b0a8ffc674518ba20ec9f6ab712bc35)
+        ;
+
+        
+    
+    
+            var marker_8e57da52a59ad23365b1c87981caef58 = L.marker(
+                [38.326155, -104.702136],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_5a2d9b49effdb361132b60b671334e44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e57da52a59ad23365b1c87981caef58.setIcon(icon_5a2d9b49effdb361132b60b671334e44);
+        
+    
+        var popup_6494b9c57857833c3186e51b7011d9e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec1e2a0bf293531b5d48b750b1bb3a67 = $(`<div id="html_ec1e2a0bf293531b5d48b750b1bb3a67" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     922 East Hailey Lane Unit B<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_6494b9c57857833c3186e51b7011d9e4.setContent(html_ec1e2a0bf293531b5d48b750b1bb3a67);
+            
+        
+
+        marker_8e57da52a59ad23365b1c87981caef58.bindPopup(popup_6494b9c57857833c3186e51b7011d9e4)
+        ;
+
+        
+    
+    
+            var marker_8238c1beb67b6701444ac50799738f41 = L.marker(
+                [38.328899, -104.717874],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_a23a9f88672d23b16b190be350c169e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8238c1beb67b6701444ac50799738f41.setIcon(icon_a23a9f88672d23b16b190be350c169e1);
+        
+    
+        var popup_9498095d0fa53d42a8a5249bbbf4049d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f59b8378a6bf026763b9a2f21f28b1 = $(`<div id="html_a1f59b8378a6bf026763b9a2f21f28b1" style="width: 100.0%; height: 100.0%;">     <strong>CANNABIS DEPOT HWY 50 LLC</strong><br>     <strong>The Cannabis Depot</strong><br>     Facility Type: Retail Marijuana Store<br>     609 East Enterprise Drive Suite #140<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_9498095d0fa53d42a8a5249bbbf4049d.setContent(html_a1f59b8378a6bf026763b9a2f21f28b1);
+            
+        
+
+        marker_8238c1beb67b6701444ac50799738f41.bindPopup(popup_9498095d0fa53d42a8a5249bbbf4049d)
+        ;
+
+        
+    
+    
+            var marker_dc2f0fab19ab3f38b230bf61d1edb6a9 = L.marker(
+                [38.3241609, -104.6886055],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_d392e8551a7a1ad0a71d6045857993c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc2f0fab19ab3f38b230bf61d1edb6a9.setIcon(icon_d392e8551a7a1ad0a71d6045857993c9);
+        
+    
+        var popup_4e373dcf9c992a6252cf8f5b843b2739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_963e8943d945ffe521ae7f6340aa7760 = $(`<div id="html_963e8943d945ffe521ae7f6340aa7760" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO CANNABIS ASSOCIATES LLC</strong><br>     <strong>The Spot</strong><br>     Facility Type: Retail Marijuana Store<br>     748 East Industrial Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_4e373dcf9c992a6252cf8f5b843b2739.setContent(html_963e8943d945ffe521ae7f6340aa7760);
+            
+        
+
+        marker_dc2f0fab19ab3f38b230bf61d1edb6a9.bindPopup(popup_4e373dcf9c992a6252cf8f5b843b2739)
+        ;
+
+        
+    
+    
+            var marker_258dfdb1f6ddbd43d0df3eea52299916 = L.marker(
+                [38.3260135, -104.705327],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_c12c002ffaa5b1c66375ebcea7282dca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_258dfdb1f6ddbd43d0df3eea52299916.setIcon(icon_c12c002ffaa5b1c66375ebcea7282dca);
+        
+    
+        var popup_a34625ef657294cfe57b00e13ae495af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61401215605d861f342233c488647e19 = $(`<div id="html_61401215605d861f342233c488647e19" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO DISTRIBUTING INC</strong><br>     <strong>The Dispo</strong><br>     Facility Type: Retail Marijuana Store<br>     893 East Enterprise Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_a34625ef657294cfe57b00e13ae495af.setContent(html_61401215605d861f342233c488647e19);
+            
+        
+
+        marker_258dfdb1f6ddbd43d0df3eea52299916.bindPopup(popup_a34625ef657294cfe57b00e13ae495af)
+        ;
+
+        
+    
+    
+            var marker_487eeb4d9e25031c7d893c32a7fc9537 = L.marker(
+                [38.258813, -104.682858],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_dcdbc837c276d5e2a14bb1c7171ba1ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_487eeb4d9e25031c7d893c32a7fc9537.setIcon(icon_dcdbc837c276d5e2a14bb1c7171ba1ad);
+        
+    
+        var popup_7ac21efe9636d575eca2ba3f825f5ccd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e250f23cd208f1040361947958a2fceb = $(`<div id="html_e250f23cd208f1040361947958a2fceb" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO GOLD LLP</strong><br>     <strong>Sticky Icky's</strong><br>     Facility Type: Retail Marijuana Store<br>     5341 West Highway 96<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_7ac21efe9636d575eca2ba3f825f5ccd.setContent(html_e250f23cd208f1040361947958a2fceb);
+            
+        
+
+        marker_487eeb4d9e25031c7d893c32a7fc9537.bindPopup(popup_7ac21efe9636d575eca2ba3f825f5ccd)
+        ;
+
+        
+    
+    
+            var marker_004ba57bb51adb1b0709cb4f79963f04 = L.marker(
+                [38.323527, -104.703985],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_249ba9af31c5c62a5bd1d82328bc2532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_004ba57bb51adb1b0709cb4f79963f04.setIcon(icon_249ba9af31c5c62a5bd1d82328bc2532);
+        
+    
+        var popup_ab91f2f32cba0e472521368987ac2a4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc3e9e4eb13d55cb07f5dbf37759ee28 = $(`<div id="html_fc3e9e4eb13d55cb07f5dbf37759ee28" style="width: 100.0%; height: 100.0%;">     <strong>DENCO LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     922 East Kimble Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_ab91f2f32cba0e472521368987ac2a4a.setContent(html_fc3e9e4eb13d55cb07f5dbf37759ee28);
+            
+        
+
+        marker_004ba57bb51adb1b0709cb4f79963f04.bindPopup(popup_ab91f2f32cba0e472521368987ac2a4a)
+        ;
+
+        
+    
+    
+            var marker_29d9fdf757a66aace127aad22f71c1c9 = L.marker(
+                [38.2188076, -104.6415403],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_4476b59cadf348306e4dd4a5ae9964d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_29d9fdf757a66aace127aad22f71c1c9.setIcon(icon_4476b59cadf348306e4dd4a5ae9964d1);
+        
+    
+        var popup_b50cc307d014b8d28a3370f031099fe6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3a513006b61e24e98632a60366b1f9 = $(`<div id="html_6e3a513006b61e24e98632a60366b1f9" style="width: 100.0%; height: 100.0%;">     <strong>EARTH SOLUTIONS INC</strong><br>     <strong>Canna Cabinet Inc</strong><br>     Facility Type: Retail Marijuana Store<br>     2630 West Pueblo Boulevard Suite A<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_b50cc307d014b8d28a3370f031099fe6.setContent(html_6e3a513006b61e24e98632a60366b1f9);
+            
+        
+
+        marker_29d9fdf757a66aace127aad22f71c1c9.bindPopup(popup_b50cc307d014b8d28a3370f031099fe6)
+        ;
+
+        
+    
+    
+            var marker_4a6f113ea65459beb2fffe67d3a6f5ab = L.marker(
+                [38.2733858, -104.6648238],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_17c93e54ee6189e0ebb2aa7cf7a39079 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a6f113ea65459beb2fffe67d3a6f5ab.setIcon(icon_17c93e54ee6189e0ebb2aa7cf7a39079);
+        
+    
+        var popup_ad32c4281c41183cdaaf31b5a23ab79a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c521a17d3388f6d03bbae9bdd3a5ff2d = $(`<div id="html_c521a17d3388f6d03bbae9bdd3a5ff2d" style="width: 100.0%; height: 100.0%;">     <strong>GARDEN GREENS LLC</strong><br>     <strong>Strawberry Fields</strong><br>     Facility Type: Retail Marijuana Store<br>     4116 Nature Center Road<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_ad32c4281c41183cdaaf31b5a23ab79a.setContent(html_c521a17d3388f6d03bbae9bdd3a5ff2d);
+            
+        
+
+        marker_4a6f113ea65459beb2fffe67d3a6f5ab.bindPopup(popup_ad32c4281c41183cdaaf31b5a23ab79a)
+        ;
+
+        
+    
+    
+            var marker_832fe37bb3d5dc5a698d289a00c9a4e3 = L.marker(
+                [38.331954, -104.715379],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_2a9c8edf12f840384ae6d6cef350a8de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_832fe37bb3d5dc5a698d289a00c9a4e3.setIcon(icon_2a9c8edf12f840384ae6d6cef350a8de);
+        
+    
+        var popup_8f31b12946dc77d588eccb6d52b7eb2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_898bdeb4202e73ea5760a1470f7b7e5f = $(`<div id="html_898bdeb4202e73ea5760a1470f7b7e5f" style="width: 100.0%; height: 100.0%;">     <strong>GROW DISPENSARY INC</strong><br>     <strong>The BUZZ</strong><br>     Facility Type: Retail Marijuana Store<br>     67 North Silicon Drive, Unit 130<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_8f31b12946dc77d588eccb6d52b7eb2c.setContent(html_898bdeb4202e73ea5760a1470f7b7e5f);
+            
+        
+
+        marker_832fe37bb3d5dc5a698d289a00c9a4e3.bindPopup(popup_8f31b12946dc77d588eccb6d52b7eb2c)
+        ;
+
+        
+    
+    
+            var marker_c643c2f5d50e9501eae4339b538d71c8 = L.marker(
+                [38.313711, -104.642181],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f8d0aaa7cb256fb7b2cabd660702f440 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c643c2f5d50e9501eae4339b538d71c8.setIcon(icon_f8d0aaa7cb256fb7b2cabd660702f440);
+        
+    
+        var popup_672038567af8c5d95f6a1180bf81796d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_034f50afd422b064e8968e810e4c3e08 = $(`<div id="html_034f50afd422b064e8968e810e4c3e08" style="width: 100.0%; height: 100.0%;">     <strong>HARVESTS LLC </strong><br>     <strong>Harvest</strong><br>     Facility Type: Retail Marijuana Store<br>     875 Crane Ridge Drive<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_672038567af8c5d95f6a1180bf81796d.setContent(html_034f50afd422b064e8968e810e4c3e08);
+            
+        
+
+        marker_c643c2f5d50e9501eae4339b538d71c8.bindPopup(popup_672038567af8c5d95f6a1180bf81796d)
+        ;
+
+        
+    
+    
+            var marker_a046ce132fee1e862f546ccb54ea364f = L.marker(
+                [38.330512, -104.716068],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_05aca098b8ab0674947402ad0d5e5d3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a046ce132fee1e862f546ccb54ea364f.setIcon(icon_05aca098b8ab0674947402ad0d5e5d3d);
+        
+    
+        var popup_4804962ff570df4099a5544de8620304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b7d5ed733076cbe7336af5a6c1645a = $(`<div id="html_79b7d5ed733076cbe7336af5a6c1645a" style="width: 100.0%; height: 100.0%;">     <strong>HIGH DEMAND LLC</strong><br>     <strong>Terps</strong><br>     Facility Type: Retail Marijuana Store<br>     38 North Silicon Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_4804962ff570df4099a5544de8620304.setContent(html_79b7d5ed733076cbe7336af5a6c1645a);
+            
+        
+
+        marker_a046ce132fee1e862f546ccb54ea364f.bindPopup(popup_4804962ff570df4099a5544de8620304)
+        ;
+
+        
+    
+    
+            var marker_09fcdf9c1bed57e81c252dbecadf951c = L.marker(
+                [37.969321, -104.787016],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_20680c3122705c57cbabd78b03dfade9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_09fcdf9c1bed57e81c252dbecadf951c.setIcon(icon_20680c3122705c57cbabd78b03dfade9);
+        
+    
+        var popup_18904947c5574543086fe8fd21fafcc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e596373b2c975110d205785ddbabbac7 = $(`<div id="html_e596373b2c975110d205785ddbabbac7" style="width: 100.0%; height: 100.0%;">     <strong>HIGH OCTANE LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     8910 South Interstate 25<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_18904947c5574543086fe8fd21fafcc4.setContent(html_e596373b2c975110d205785ddbabbac7);
+            
+        
+
+        marker_09fcdf9c1bed57e81c252dbecadf951c.bindPopup(popup_18904947c5574543086fe8fd21fafcc4)
+        ;
+
+        
+    
+    
+            var marker_006593c609eaa3092c4b9278561f69f3 = L.marker(
+                [38.335732, -104.727007],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_2adc0ce254ff1066038ff54461c5dd65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_006593c609eaa3092c4b9278561f69f3.setIcon(icon_2adc0ce254ff1066038ff54461c5dd65);
+        
+    
+        var popup_d5ab2ddb06d7d5b2eaa84b3c8444bc92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db58ed31c13a56b792c3f2194ed4d4b = $(`<div id="html_1db58ed31c13a56b792c3f2194ed4d4b" style="width: 100.0%; height: 100.0%;">     <strong>JJC ENTERPRISES INC</strong><br>     <strong>Rocky Mountain Blaze</strong><br>     Facility Type: Retail Marijuana Store<br>     78 North Precision Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_d5ab2ddb06d7d5b2eaa84b3c8444bc92.setContent(html_1db58ed31c13a56b792c3f2194ed4d4b);
+            
+        
+
+        marker_006593c609eaa3092c4b9278561f69f3.bindPopup(popup_d5ab2ddb06d7d5b2eaa84b3c8444bc92)
+        ;
+
+        
+    
+    
+            var marker_7cd85a166333c7503deda44949c8d3c5 = L.marker(
+                [38.347522, -104.621236],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_25d45bf4f575d9cd006b2b261cd2e735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7cd85a166333c7503deda44949c8d3c5.setIcon(icon_25d45bf4f575d9cd006b2b261cd2e735);
+        
+    
+        var popup_d8c6de768e8971d491bf8990352f21f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dcd10c5a2d97f507890a798291b0192 = $(`<div id="html_3dcd10c5a2d97f507890a798291b0192" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL IV LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     2565 North Interstate 25<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_d8c6de768e8971d491bf8990352f21f7.setContent(html_3dcd10c5a2d97f507890a798291b0192);
+            
+        
+
+        marker_7cd85a166333c7503deda44949c8d3c5.bindPopup(popup_d8c6de768e8971d491bf8990352f21f7)
+        ;
+
+        
+    
+    
+            var marker_4d2387734a72b8ed430c80670e0d7fe4 = L.marker(
+                [38.217382, -104.623381],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_440bb3eb6e3e42d8c5bc5ee38153e463 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4d2387734a72b8ed430c80670e0d7fe4.setIcon(icon_440bb3eb6e3e42d8c5bc5ee38153e463);
+        
+    
+        var popup_90d23019ae7f3251a2edecfedefadcbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a873905d34dfaf9471bf27366016e0d8 = $(`<div id="html_a873905d34dfaf9471bf27366016e0d8" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL V LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     1239 Southgate Place<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_90d23019ae7f3251a2edecfedefadcbc.setContent(html_a873905d34dfaf9471bf27366016e0d8);
+            
+        
+
+        marker_4d2387734a72b8ed430c80670e0d7fe4.bindPopup(popup_90d23019ae7f3251a2edecfedefadcbc)
+        ;
+
+        
+    
+    
+            var marker_c0a4a383d97314a2ab759ed20a447ecb = L.marker(
+                [38.350002, -104.722755],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_571587191c448a0dd251c46fc7acfae2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0a4a383d97314a2ab759ed20a447ecb.setIcon(icon_571587191c448a0dd251c46fc7acfae2);
+        
+    
+        var popup_3befabaaa738ece6a4a101558d612b8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_054870d09833bf39266cfca6aad1e355 = $(`<div id="html_054870d09833bf39266cfca6aad1e355" style="width: 100.0%; height: 100.0%;">     <strong>MAGGIES FARM LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Retail Marijuana Store<br>     74 North Component Drive, Suite 170<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_3befabaaa738ece6a4a101558d612b8c.setContent(html_054870d09833bf39266cfca6aad1e355);
+            
+        
+
+        marker_c0a4a383d97314a2ab759ed20a447ecb.bindPopup(popup_3befabaaa738ece6a4a101558d612b8c)
+        ;
+
+        
+    
+    
+            var marker_19defdbdea482429c1c307f90938aa9d = L.marker(
+                [38.319119, -104.705094],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_ca42788853b1e5be9b82a6fdbcb22831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19defdbdea482429c1c307f90938aa9d.setIcon(icon_ca42788853b1e5be9b82a6fdbcb22831);
+        
+    
+        var popup_2af0e31e58dd2ed44f68e86ea016cc13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8994b77d93de434d87d762739a461649 = $(`<div id="html_8994b77d93de434d87d762739a461649" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL GREEN SOURCE LLC</strong><br>     <strong>The Green Source</strong><br>     Facility Type: Retail Marijuana Store<br>     286 South Purcell Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_2af0e31e58dd2ed44f68e86ea016cc13.setContent(html_8994b77d93de434d87d762739a461649);
+            
+        
+
+        marker_19defdbdea482429c1c307f90938aa9d.bindPopup(popup_2af0e31e58dd2ed44f68e86ea016cc13)
+        ;
+
+        
+    
+    
+            var marker_c57260b14a1be45c7d158f3cb4fe47bf = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_dc9a386302e5954495e4e1df4ed696fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c57260b14a1be45c7d158f3cb4fe47bf.setIcon(icon_dc9a386302e5954495e4e1df4ed696fa);
+        
+    
+        var popup_4e8a54bb7eeaeaa955ddb8b597195031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_555479d8bfef53f4346f6be75ccdd945 = $(`<div id="html_555479d8bfef53f4346f6be75ccdd945" style="width: 100.0%; height: 100.0%;">     <strong>NUVUE PHARMA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     1805 Santa Fe Drive, Unit E<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_4e8a54bb7eeaeaa955ddb8b597195031.setContent(html_555479d8bfef53f4346f6be75ccdd945);
+            
+        
+
+        marker_c57260b14a1be45c7d158f3cb4fe47bf.bindPopup(popup_4e8a54bb7eeaeaa955ddb8b597195031)
+        ;
+
+        
+    
+    
+            var marker_b4fc4ea0611bd2e44bf2eacd73dcc755 = L.marker(
+                [38.317696, -104.6118152],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f8513a9a1e36d23130e7cec5205fb3b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4fc4ea0611bd2e44bf2eacd73dcc755.setIcon(icon_f8513a9a1e36d23130e7cec5205fb3b7);
+        
+    
+        var popup_d8707f3c24b16b0443459d41ce145137 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d67b777fa3bdf9d09602b0a2d1e5e6b2 = $(`<div id="html_d67b777fa3bdf9d09602b0a2d1e5e6b2" style="width: 100.0%; height: 100.0%;">     <strong>NUVUE PHARMA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     4740 Dillon Drive<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_d8707f3c24b16b0443459d41ce145137.setContent(html_d67b777fa3bdf9d09602b0a2d1e5e6b2);
+            
+        
+
+        marker_b4fc4ea0611bd2e44bf2eacd73dcc755.bindPopup(popup_d8707f3c24b16b0443459d41ce145137)
+        ;
+
+        
+    
+    
+            var marker_efe06b5ae1c9dc4513f3441f75995128 = L.marker(
+                [38.2457534, -104.5826731],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_6f46cc406c731092c4f3af1ddacb4664 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_efe06b5ae1c9dc4513f3441f75995128.setIcon(icon_6f46cc406c731092c4f3af1ddacb4664);
+        
+    
+        var popup_ffdad377d29e744c30f00b4d53430113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b796b51e17f66e31ef914de2092021a6 = $(`<div id="html_b796b51e17f66e31ef914de2092021a6" style="width: 100.0%; height: 100.0%;">     <strong>PBS HOLDCO LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     1405 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_ffdad377d29e744c30f00b4d53430113.setContent(html_b796b51e17f66e31ef914de2092021a6);
+            
+        
+
+        marker_efe06b5ae1c9dc4513f3441f75995128.bindPopup(popup_ffdad377d29e744c30f00b4d53430113)
+        ;
+
+        
+    
+    
+            var marker_a98eb41d6447d738ba9e550428de5d6b = L.marker(
+                [38.3070954, -104.6155845],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_cd321a87b2f9c4af7d18c68d7e0d4547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a98eb41d6447d738ba9e550428de5d6b.setIcon(icon_cd321a87b2f9c4af7d18c68d7e0d4547);
+        
+    
+        var popup_678967ee59466f4697fdc346e5206932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f30f1dd87bb7fe852cc5ebe111dfe0d4 = $(`<div id="html_f30f1dd87bb7fe852cc5ebe111dfe0d4" style="width: 100.0%; height: 100.0%;">     <strong>RJL ASSET MANAGEMENT LLC</strong><br>     <strong>The Spot 420</strong><br>     Facility Type: Retail Marijuana Store<br>     3504 North Elizabeth Street<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_678967ee59466f4697fdc346e5206932.setContent(html_f30f1dd87bb7fe852cc5ebe111dfe0d4);
+            
+        
+
+        marker_a98eb41d6447d738ba9e550428de5d6b.bindPopup(popup_678967ee59466f4697fdc346e5206932)
+        ;
+
+        
+    
+    
+            var marker_e0f5617088d8cdc2e799d80b4a7a23f2 = L.marker(
+                [38.258452, -104.665912],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f3284ff62e07b339c0e0341169a10964 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0f5617088d8cdc2e799d80b4a7a23f2.setIcon(icon_f3284ff62e07b339c0e0341169a10964);
+        
+    
+        var popup_0b25d5b629837ab0d434ebb5d65256fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1d1283d50ccfc1c46de76631c9623c6 = $(`<div id="html_d1d1283d50ccfc1c46de76631c9623c6" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     4305 Thatcher Avenue<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_0b25d5b629837ab0d434ebb5d65256fd.setContent(html_d1d1283d50ccfc1c46de76631c9623c6);
+            
+        
+
+        marker_e0f5617088d8cdc2e799d80b4a7a23f2.bindPopup(popup_0b25d5b629837ab0d434ebb5d65256fd)
+        ;
+
+        
+    
+    
+            var marker_7b6e5e3d188f82ad39edfde8210710d4 = L.marker(
+                [38.318869, -104.748939],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_041666f76a8dbe2bdaff2d1b43d195cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b6e5e3d188f82ad39edfde8210710d4.setIcon(icon_041666f76a8dbe2bdaff2d1b43d195cf);
+        
+    
+        var popup_006e756715c2835b3873578557e20923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709109780e73737988837d13220f7cb9 = $(`<div id="html_709109780e73737988837d13220f7cb9" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     428 South McCulloch Boulevard, Building A<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_006e756715c2835b3873578557e20923.setContent(html_709109780e73737988837d13220f7cb9);
+            
+        
+
+        marker_7b6e5e3d188f82ad39edfde8210710d4.bindPopup(popup_006e756715c2835b3873578557e20923)
+        ;
+
+        
+    
+    
+            var marker_d6aee648dae23ee62da2ce1df0988202 = L.marker(
+                [38.2440938, -104.6461217],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_f1ee4e9562fc3a44e57a00029d027481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6aee648dae23ee62da2ce1df0988202.setIcon(icon_f1ee4e9562fc3a44e57a00029d027481);
+        
+    
+        var popup_d20b3532732f33b8bed6ae2306f90b61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01e893ec348e2b6939287d85bceffa75 = $(`<div id="html_01e893ec348e2b6939287d85bceffa75" style="width: 100.0%; height: 100.0%;">     <strong>SEVEN-ONE-NINE LLC</strong><br>     <strong>COOKIES PUEBLO</strong><br>     Facility Type: Retail Marijuana Store<br>     3003 West Northern Avenue<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_d20b3532732f33b8bed6ae2306f90b61.setContent(html_01e893ec348e2b6939287d85bceffa75);
+            
+        
+
+        marker_d6aee648dae23ee62da2ce1df0988202.bindPopup(popup_d20b3532732f33b8bed6ae2306f90b61)
+        ;
+
+        
+    
+    
+            var marker_6c3dcf90206a939b2e395e18f5ccce88 = L.marker(
+                [38.069344, -104.711251],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_65dea06d3e06222cf9b229e892152de6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c3dcf90206a939b2e395e18f5ccce88.setIcon(icon_65dea06d3e06222cf9b229e892152de6);
+        
+    
+        var popup_2c20d373f5b4e20bcdf9f67893915deb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d652e752b72f5f0c3a59cd229f77b2 = $(`<div id="html_c4d652e752b72f5f0c3a59cd229f77b2" style="width: 100.0%; height: 100.0%;">     <strong>SOUTH PUEBLO LLC</strong><br>     <strong>Colorado Cannabis Exchange</strong><br>     Facility Type: Retail Marijuana Store<br>     3377 South Interstate 25<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_2c20d373f5b4e20bcdf9f67893915deb.setContent(html_c4d652e752b72f5f0c3a59cd229f77b2);
+            
+        
+
+        marker_6c3dcf90206a939b2e395e18f5ccce88.bindPopup(popup_2c20d373f5b4e20bcdf9f67893915deb)
+        ;
+
+        
+    
+    
+            var marker_7d05eb2e132a86ecf82f00c9df36759f = L.marker(
+                [38.3380009, -104.6201045],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_ee9a548b79c97f48e720cffaa157eeb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7d05eb2e132a86ecf82f00c9df36759f.setIcon(icon_ee9a548b79c97f48e720cffaa157eeb6);
+        
+    
+        var popup_b5deed198af289ebfba75f15e77fe3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feb1b7b7da01602b343b154b9eb29178 = $(`<div id="html_feb1b7b7da01602b343b154b9eb29178" style="width: 100.0%; height: 100.0%;">     <strong>STEM BEACH LLC</strong><br>     <strong>The Cannabis Depot</strong><br>     Facility Type: Retail Marijuana Store<br>     2440 Interstate 25 North  Unit B<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_b5deed198af289ebfba75f15e77fe3b5.setContent(html_feb1b7b7da01602b343b154b9eb29178);
+            
+        
+
+        marker_7d05eb2e132a86ecf82f00c9df36759f.bindPopup(popup_b5deed198af289ebfba75f15e77fe3b5)
+        ;
+
+        
+    
+    
+            var marker_b5190e278802611f61321e3c2c6232e6 = L.marker(
+                [38.3380009, -104.6201045],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_0d60a486d204a84ab2e8eaebd715b763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5190e278802611f61321e3c2c6232e6.setIcon(icon_0d60a486d204a84ab2e8eaebd715b763);
+        
+    
+        var popup_53569cb5442e6a19a69a1d946cd871f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2327ab2176190f24455cfc22842037d5 = $(`<div id="html_2327ab2176190f24455cfc22842037d5" style="width: 100.0%; height: 100.0%;">     <strong>SYLS LLC</strong><br>     <strong>Strawberry Fields</strong><br>     Facility Type: Retail Marijuana Store<br>     2285 North Interstate 25<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_53569cb5442e6a19a69a1d946cd871f0.setContent(html_2327ab2176190f24455cfc22842037d5);
+            
+        
+
+        marker_b5190e278802611f61321e3c2c6232e6.bindPopup(popup_53569cb5442e6a19a69a1d946cd871f0)
+        ;
+
+        
+    
+    
+            var marker_690877b09994a516c18cc9104450a81d = L.marker(
+                [38.2708157, -104.6129325],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_3866d0aab643653be2b86be3ff9e0061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_690877b09994a516c18cc9104450a81d.setIcon(icon_3866d0aab643653be2b86be3ff9e0061);
+        
+    
+        var popup_2b27770d016e3b989237c9a09fda9741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b5fec9c97eafc0ae74d42f511433829 = $(`<div id="html_6b5fec9c97eafc0ae74d42f511433829" style="width: 100.0%; height: 100.0%;">     <strong>THE 404 LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     404 North Greenwood Street<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_2b27770d016e3b989237c9a09fda9741.setContent(html_6b5fec9c97eafc0ae74d42f511433829);
+            
+        
+
+        marker_690877b09994a516c18cc9104450a81d.bindPopup(popup_2b27770d016e3b989237c9a09fda9741)
+        ;
+
+        
+    
+    
+            var marker_8e91a340d1327fac5a2413ea81f2c13f = L.marker(
+                [38.350002, -104.722755],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_2887eaee3e40b649fcf78e3b51921cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e91a340d1327fac5a2413ea81f2c13f.setIcon(icon_2887eaee3e40b649fcf78e3b51921cc1);
+        
+    
+        var popup_9e160f1e7ad900e2e9963082c2816ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f3ceed04498b7b7fe11169110773da0 = $(`<div id="html_5f3ceed04498b7b7fe11169110773da0" style="width: 100.0%; height: 100.0%;">     <strong>THE CANNABIS DEPOT III LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     74 North Component Drive Unit 130<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_9e160f1e7ad900e2e9963082c2816ab3.setContent(html_5f3ceed04498b7b7fe11169110773da0);
+            
+        
+
+        marker_8e91a340d1327fac5a2413ea81f2c13f.bindPopup(popup_9e160f1e7ad900e2e9963082c2816ab3)
+        ;
+
+        
+    
+    
+            var marker_9cfe3e4bc406dadd0d635204c58b95b7 = L.marker(
+                [38.217382, -104.623439],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_cd8d45e25db832082ea55f3ea4830b81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9cfe3e4bc406dadd0d635204c58b95b7.setIcon(icon_cd8d45e25db832082ea55f3ea4830b81);
+        
+    
+        var popup_4adf1f22da010d805b42f208c775c54b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fdd665e5c7d827194473790c5edf410 = $(`<div id="html_1fdd665e5c7d827194473790c5edf410" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     1207 Southgate Place<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_4adf1f22da010d805b42f208c775c54b.setContent(html_1fdd665e5c7d827194473790c5edf410);
+            
+        
+
+        marker_9cfe3e4bc406dadd0d635204c58b95b7.bindPopup(popup_4adf1f22da010d805b42f208c775c54b)
+        ;
+
+        
+    
+    
+            var marker_b6d8f9f62474127a1d77b1440b2dac0e = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_bdd526523bdc32b1c30e0b75717e0e06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6d8f9f62474127a1d77b1440b2dac0e.setIcon(icon_bdd526523bdc32b1c30e0b75717e0e06);
+        
+    
+        var popup_83847c9f9559fcb38da75ad1476b2a79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_811a09fd41fbc2f48477a032aa089fc0 = $(`<div id="html_811a09fd41fbc2f48477a032aa089fc0" style="width: 100.0%; height: 100.0%;">     <strong>THREE RIVERS DEVELOPMENT LLC</strong><br>     <strong>Three Rivers Dispensary</strong><br>     Facility Type: Retail Marijuana Store<br>     1714 B Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_83847c9f9559fcb38da75ad1476b2a79.setContent(html_811a09fd41fbc2f48477a032aa089fc0);
+            
+        
+
+        marker_b6d8f9f62474127a1d77b1440b2dac0e.bindPopup(popup_83847c9f9559fcb38da75ad1476b2a79)
+        ;
+
+        
+    
+    
+            var marker_df2d2a89885e9fa270ab1e4796d7535a = L.marker(
+                [38.335297, -104.724494],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_13bead3a4835d9fbaf3c4d358881c688 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df2d2a89885e9fa270ab1e4796d7535a.setIcon(icon_13bead3a4835d9fbaf3c4d358881c688);
+        
+    
+        var popup_e514ab289d59142556facd959db2809c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b0116970187a6f097e55d7c41b2a91 = $(`<div id="html_51b0116970187a6f097e55d7c41b2a91" style="width: 100.0%; height: 100.0%;">     <strong>THREE RIVERS DEVELOPMENT LLC</strong><br>     <strong>Three Rivers Dispensary</strong><br>     Facility Type: Retail Marijuana Store<br>     83 North Magneto Drive<br>     Pueblo, CO 81007     </div>`)[0];
+                popup_e514ab289d59142556facd959db2809c.setContent(html_51b0116970187a6f097e55d7c41b2a91);
+            
+        
+
+        marker_df2d2a89885e9fa270ab1e4796d7535a.bindPopup(popup_e514ab289d59142556facd959db2809c)
+        ;
+
+        
+    
+    
+            var marker_2ef7637226804f122bed415d4af9e703 = L.marker(
+                [38.3380009, -104.6201045],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_08941192287b5d80d53d08f3b2f01bfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2ef7637226804f122bed415d4af9e703.setIcon(icon_08941192287b5d80d53d08f3b2f01bfd);
+        
+    
+        var popup_defdd27f362a3b35b95ba69959629786 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c1e225856d974018484a8d8668d3e8 = $(`<div id="html_28c1e225856d974018484a8d8668d3e8" style="width: 100.0%; height: 100.0%;">     <strong>VIRTUAL MARKETING LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Retail Marijuana Store<br>     4803 North Interstate 25<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_defdd27f362a3b35b95ba69959629786.setContent(html_28c1e225856d974018484a8d8668d3e8);
+            
+        
+
+        marker_2ef7637226804f122bed415d4af9e703.bindPopup(popup_defdd27f362a3b35b95ba69959629786)
+        ;
+
+        
+    
+    
+            var marker_aa736785efe7c14b3564c599ef9a6566 = L.marker(
+                [38.245725, -104.58602],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_08f61bebec7d1157a906a2ed08430289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa736785efe7c14b3564c599ef9a6566.setIcon(icon_08f61bebec7d1157a906a2ed08430289);
+        
+    
+        var popup_49f6a5be02ef98a3830f83c750432654 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aee8adbad78a0efadb10f27ba0ef8161 = $(`<div id="html_aee8adbad78a0efadb10f27ba0ef8161" style="width: 100.0%; height: 100.0%;">     <strong>WESTSIDE WELLNESS CENTER LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Retail Marijuana Store<br>     1400 Santa Fe Drive, Suites A & B<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_49f6a5be02ef98a3830f83c750432654.setContent(html_aee8adbad78a0efadb10f27ba0ef8161);
+            
+        
+
+        marker_aa736785efe7c14b3564c599ef9a6566.bindPopup(popup_49f6a5be02ef98a3830f83c750432654)
+        ;
+
+        
+    
+    
+            var marker_32990e1372e55d1e18a7998548348202 = L.marker(
+                [38.340488, -104.736804],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_efb630101ca8da166d40d64f47ec7fab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32990e1372e55d1e18a7998548348202.setIcon(icon_efb630101ca8da166d40d64f47ec7fab);
+        
+    
+        var popup_c7cfeebe4011058b7b94c2e79f19e1e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ce0388851d57bda23ae5d9ab3c44c0f = $(`<div id="html_2ce0388851d57bda23ae5d9ab3c44c0f" style="width: 100.0%; height: 100.0%;">     <strong>WILDFLOWER DISPENSARY INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     148 East Assembly Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_c7cfeebe4011058b7b94c2e79f19e1e0.setContent(html_2ce0388851d57bda23ae5d9ab3c44c0f);
+            
+        
+
+        marker_32990e1372e55d1e18a7998548348202.bindPopup(popup_c7cfeebe4011058b7b94c2e79f19e1e0)
+        ;
+
+        
+    
+    
+            var marker_8f73be84b63e8855beaa6d6ddff8c16b = L.marker(
+                [38.069344, -104.711251],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_317f3d76b714be09f08c6f08dff323e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f73be84b63e8855beaa6d6ddff8c16b.setIcon(icon_317f3d76b714be09f08c6f08dff323e5);
+        
+    
+        var popup_dbca4be1607350058dcd658b5716abb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b8f4f6e7d3d50e3df4d1638a736ad03 = $(`<div id="html_5b8f4f6e7d3d50e3df4d1638a736ad03" style="width: 100.0%; height: 100.0%;">     <strong>ZZB INC</strong><br>     <strong>Doctor's Orders</strong><br>     Facility Type: Retail Marijuana Store<br>     3321 South Interstate 25<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_dbca4be1607350058dcd658b5716abb2.setContent(html_5b8f4f6e7d3d50e3df4d1638a736ad03);
+            
+        
+
+        marker_8f73be84b63e8855beaa6d6ddff8c16b.bindPopup(popup_dbca4be1607350058dcd658b5716abb2)
+        ;
+
+        
+    
+    
+            var marker_9ba56448f19d066ab61c1032e74aeacf = L.marker(
+                [38.3276058, -104.7120965],
+                {}
+            ).addTo(map_1bb0208252e0e6b1d4e8465612290fba);
+        
+    
+            var icon_020c85c12532292461d7e6e82b2db678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ba56448f19d066ab61c1032e74aeacf.setIcon(icon_020c85c12532292461d7e6e82b2db678);
+        
+    
+        var popup_e7e2baba183570b474f8a7a92cd35af5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dedc296a548fafeb6cc45a05d8817a7 = $(`<div id="html_5dedc296a548fafeb6cc45a05d8817a7" style="width: 100.0%; height: 100.0%;">     <strong>ZZB INC</strong><br>     <strong>Doctor's Orders</strong><br>     Facility Type: Retail Marijuana Store<br>     749 East Enterprise Drive<br>     Pueblo, CO 81007     </div>`)[0];
+                popup_e7e2baba183570b474f8a7a92cd35af5.setContent(html_5dedc296a548fafeb6cc45a05d8817a7);
+            
+        
+
+        marker_9ba56448f19d066ab61c1032e74aeacf.bindPopup(popup_e7e2baba183570b474f8a7a92cd35af5)
+        ;
+
+        
+    
+</script>
+</html>

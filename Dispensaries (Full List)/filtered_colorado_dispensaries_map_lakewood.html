@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b96bd42d4ff985919c9c623d12e1871d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b96bd42d4ff985919c9c623d12e1871d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b96bd42d4ff985919c9c623d12e1871d = L.map(
+                "map_b96bd42d4ff985919c9c623d12e1871d",
+                {
+                    center: [39.7109, -105.0815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_986051ba9625f11c97623e5adc618bb9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_986051ba9625f11c97623e5adc618bb9.addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var marker_c8d5319c984e4b2dc71b0ec38dbdab1e = L.marker(
+                [39.7403205, -105.1162959],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_2e45926c4edff99ab1fd90a7a2d03cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8d5319c984e4b2dc71b0ec38dbdab1e.setIcon(icon_2e45926c4edff99ab1fd90a7a2d03cfb);
+        
+    
+        var popup_b6c6d1d82a6e75ed5f4536df3154f685 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e335a019b9ceb05a06459bdc9500b0c = $(`<div id="html_4e335a019b9ceb05a06459bdc9500b0c" style="width: 100.0%; height: 100.0%;">     <strong>CPM LAKEWOOD LLC</strong><br>     <strong>Ajoya Medical Cannabis</strong><br>     Facility Type: Medical Marijuana Store<br>     10590 West Colfax Avenue<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_b6c6d1d82a6e75ed5f4536df3154f685.setContent(html_4e335a019b9ceb05a06459bdc9500b0c);
+            
+        
+
+        marker_c8d5319c984e4b2dc71b0ec38dbdab1e.bindPopup(popup_b6c6d1d82a6e75ed5f4536df3154f685)
+        ;
+
+        
+    
+    
+            var marker_63e4e8d450b75a86adf0d84896902a7f = L.marker(
+                [39.682017, -105.1293189],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_b0319b28e788f029f4acb1f66cd0f547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_63e4e8d450b75a86adf0d84896902a7f.setIcon(icon_b0319b28e788f029f4acb1f66cd0f547);
+        
+    
+        var popup_1883d831b77519c6e27f102106eccd90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_265cdbf06af8f757f0f0888293f5ea79 = $(`<div id="html_265cdbf06af8f757f0f0888293f5ea79" style="width: 100.0%; height: 100.0%;">     <strong>D & D CONSULTING INC</strong><br>     <strong>Kaya Cannabis</strong><br>     Facility Type: Medical Marijuana Store<br>     12018 West Jewell Avenue, Unit B & C<br>     Lakewood, CO 80228     </div>`)[0];
+                popup_1883d831b77519c6e27f102106eccd90.setContent(html_265cdbf06af8f757f0f0888293f5ea79);
+            
+        
+
+        marker_63e4e8d450b75a86adf0d84896902a7f.bindPopup(popup_1883d831b77519c6e27f102106eccd90)
+        ;
+
+        
+    
+    
+            var marker_e4aa223d035523e06ce24d53e7530067 = L.marker(
+                [39.7403904, -105.0910718],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_5eae6cee5c2b8a910cafe5fd687d7042 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e4aa223d035523e06ce24d53e7530067.setIcon(icon_5eae6cee5c2b8a910cafe5fd687d7042);
+        
+    
+        var popup_00b9713ecebae4df32a722a8af6855b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84a9b090813a8436bce88e96736c70f6 = $(`<div id="html_84a9b090813a8436bce88e96736c70f6" style="width: 100.0%; height: 100.0%;">     <strong>DENVER COMPASSIONATE CAREGIVERS INC</strong><br>     <strong>Rocky Mountain High</strong><br>     Facility Type: Medical Marijuana Store<br>     8420 West Colfax Avenue<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_00b9713ecebae4df32a722a8af6855b0.setContent(html_84a9b090813a8436bce88e96736c70f6);
+            
+        
+
+        marker_e4aa223d035523e06ce24d53e7530067.bindPopup(popup_00b9713ecebae4df32a722a8af6855b0)
+        ;
+
+        
+    
+    
+            var marker_d654bd720a7157f2dffbe62353435f6f = L.marker(
+                [39.711657, -105.0820001],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_4168ca24614b4d0d9a5aa755ae4adbd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d654bd720a7157f2dffbe62353435f6f.setIcon(icon_4168ca24614b4d0d9a5aa755ae4adbd6);
+        
+    
+        var popup_4789c889e37f4cb6b2f4d9f739657c70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50f40f2c6a0e0b180e6dee0b48ba58fb = $(`<div id="html_50f40f2c6a0e0b180e6dee0b48ba58fb" style="width: 100.0%; height: 100.0%;">     <strong>DOUBLE BROW LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Medical Marijuana Store<br>     265 South Wadsworth Boulevard<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_4789c889e37f4cb6b2f4d9f739657c70.setContent(html_50f40f2c6a0e0b180e6dee0b48ba58fb);
+            
+        
+
+        marker_d654bd720a7157f2dffbe62353435f6f.bindPopup(popup_4789c889e37f4cb6b2f4d9f739657c70)
+        ;
+
+        
+    
+    
+            var marker_2f5703149093bf26a6eac2b22d676b18 = L.marker(
+                [39.7106571, -105.1181927],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_706f18c4eaec2337ddff3398e07b1e14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f5703149093bf26a6eac2b22d676b18.setIcon(icon_706f18c4eaec2337ddff3398e07b1e14);
+        
+    
+        var popup_5ad0efeb9e78d2ca696f0dad569a2bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c1196694d118be8c243049a6102c921 = $(`<div id="html_2c1196694d118be8c243049a6102c921" style="width: 100.0%; height: 100.0%;">     <strong>HEALING HOUSE LAKEWOOD LLC</strong><br>     <strong>Ascend Cannabis Co.</strong><br>     Facility Type: Medical Marijuana Store<br>     10712 West Alameda Avenue<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_5ad0efeb9e78d2ca696f0dad569a2bb7.setContent(html_2c1196694d118be8c243049a6102c921);
+            
+        
+
+        marker_2f5703149093bf26a6eac2b22d676b18.bindPopup(popup_5ad0efeb9e78d2ca696f0dad569a2bb7)
+        ;
+
+        
+    
+    
+            var marker_1c35787d89d8650b550399fa0945a1fd = L.marker(
+                [39.7404435, -105.073132],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_5edb4ab72ebe3609f484d9e5a04e1e16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c35787d89d8650b550399fa0945a1fd.setIcon(icon_5edb4ab72ebe3609f484d9e5a04e1e16);
+        
+    
+        var popup_79536afaa4a042aad92fb1b80029a2e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d3f666401ad0dd67325572df587a168 = $(`<div id="html_1d3f666401ad0dd67325572df587a168" style="width: 100.0%; height: 100.0%;">     <strong>JET BLACK ENTERPRISES LLC</strong><br>     <strong>Leiffa</strong><br>     Facility Type: Medical Marijuana Store<br>     6900 West Colfax Avenue<br>     Lakewood, CO 80214     </div>`)[0];
+                popup_79536afaa4a042aad92fb1b80029a2e1.setContent(html_1d3f666401ad0dd67325572df587a168);
+            
+        
+
+        marker_1c35787d89d8650b550399fa0945a1fd.bindPopup(popup_79536afaa4a042aad92fb1b80029a2e1)
+        ;
+
+        
+    
+    
+            var marker_70871fec02af46a87d59945f61466f2e = L.marker(
+                [39.7219477, -105.081609],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_c9e73118e0ec076e50c7ca190ee425c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70871fec02af46a87d59945f61466f2e.setIcon(icon_c9e73118e0ec076e50c7ca190ee425c8);
+        
+    
+        var popup_a835f44256d71548c427d05b5698de7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c3eac3b6b37168294283bdaf5773fb1 = $(`<div id="html_8c3eac3b6b37168294283bdaf5773fb1" style="width: 100.0%; height: 100.0%;">     <strong>LEVELS IV INC</strong><br>     <strong>Levels IV, Inc.</strong><br>     Facility Type: Medical Marijuana Store<br>     389 Wadsworth Boulevard<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_a835f44256d71548c427d05b5698de7a.setContent(html_8c3eac3b6b37168294283bdaf5773fb1);
+            
+        
+
+        marker_70871fec02af46a87d59945f61466f2e.bindPopup(popup_a835f44256d71548c427d05b5698de7a)
+        ;
+
+        
+    
+    
+            var marker_bbd927573e6c15ff1b5f3b09f04a652b = L.marker(
+                [39.64993, -105.081397],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_e05e28574c4f5b7752feb96ca9b30e83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bbd927573e6c15ff1b5f3b09f04a652b.setIcon(icon_e05e28574c4f5b7752feb96ca9b30e83);
+        
+    
+        var popup_a532fb7561f0d437a77f213f96ca0d38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becf26ed6ed2cae6688f7fbdfa79b77c = $(`<div id="html_becf26ed6ed2cae6688f7fbdfa79b77c" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL XVI LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Medical Marijuana Store<br>     3600 South Wadsworth Boulevard, Units C D & E,<br>     Lakewood, CO 80235     </div>`)[0];
+                popup_a532fb7561f0d437a77f213f96ca0d38.setContent(html_becf26ed6ed2cae6688f7fbdfa79b77c);
+            
+        
+
+        marker_bbd927573e6c15ff1b5f3b09f04a652b.bindPopup(popup_a532fb7561f0d437a77f213f96ca0d38)
+        ;
+
+        
+    
+    
+            var marker_68abddb6cec0270405e774ca8f314f2d = L.marker(
+                [39.6965991, -105.0700452],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_e5aad466835234305b0ce37c00f9bfa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68abddb6cec0270405e774ca8f314f2d.setIcon(icon_e5aad466835234305b0ce37c00f9bfa8);
+        
+    
+        var popup_fbfb57ba890bc77e536b5095616b9466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9811b46d7d600e670998be691e08ad94 = $(`<div id="html_9811b46d7d600e670998be691e08ad94" style="width: 100.0%; height: 100.0%;">     <strong>MOCO VENTURES LLC</strong><br>     <strong>Horizon Cannabis</strong><br>     Facility Type: Medical Marijuana Store<br>     6745 West Mississippi Avenue<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_fbfb57ba890bc77e536b5095616b9466.setContent(html_9811b46d7d600e670998be691e08ad94);
+            
+        
+
+        marker_68abddb6cec0270405e774ca8f314f2d.bindPopup(popup_fbfb57ba890bc77e536b5095616b9466)
+        ;
+
+        
+    
+    
+            var marker_4a25adcd64071aaed611b60fec05f6b5 = L.marker(
+                [39.7403205, -105.1162959],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_25dabb65f14bc7a8805630ce63bf277c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a25adcd64071aaed611b60fec05f6b5.setIcon(icon_25dabb65f14bc7a8805630ce63bf277c);
+        
+    
+        var popup_75a78b47beb6a688a92d482a87fbf809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18f662f53a1732984773a31ede9a4a73 = $(`<div id="html_18f662f53a1732984773a31ede9a4a73" style="width: 100.0%; height: 100.0%;">     <strong>CPM Lakewood LLC</strong><br>     <strong>Ajoya Medical Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     10590 West Colfax Avenue<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_75a78b47beb6a688a92d482a87fbf809.setContent(html_18f662f53a1732984773a31ede9a4a73);
+            
+        
+
+        marker_4a25adcd64071aaed611b60fec05f6b5.bindPopup(popup_75a78b47beb6a688a92d482a87fbf809)
+        ;
+
+        
+    
+    
+            var marker_49c2b86f12ff5443a5f1b4167e39b25b = L.marker(
+                [39.682017, -105.1293189],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_a67435205db15bb36d484361e171fba9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49c2b86f12ff5443a5f1b4167e39b25b.setIcon(icon_a67435205db15bb36d484361e171fba9);
+        
+    
+        var popup_bced49c114150f946cb1ac7f0f6d972b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d59b9fec1df2bf8e083a7afda6deb169 = $(`<div id="html_d59b9fec1df2bf8e083a7afda6deb169" style="width: 100.0%; height: 100.0%;">     <strong>D & D CONSULTING INC</strong><br>     <strong>Kaya Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     12018 West Jewell Avenue Unit B & C<br>     Lakewood, CO 80228     </div>`)[0];
+                popup_bced49c114150f946cb1ac7f0f6d972b.setContent(html_d59b9fec1df2bf8e083a7afda6deb169);
+            
+        
+
+        marker_49c2b86f12ff5443a5f1b4167e39b25b.bindPopup(popup_bced49c114150f946cb1ac7f0f6d972b)
+        ;
+
+        
+    
+    
+            var marker_6ae123f2cb4da6fb0c93e66631ce0375 = L.marker(
+                [39.7403904, -105.0910718],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_54c17f8bb54f66782d7663060ab9aba2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ae123f2cb4da6fb0c93e66631ce0375.setIcon(icon_54c17f8bb54f66782d7663060ab9aba2);
+        
+    
+        var popup_d8924a7a3ab6bbca914777761bf32a52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e27307b1f20cdeb70677ee1206eab7a = $(`<div id="html_3e27307b1f20cdeb70677ee1206eab7a" style="width: 100.0%; height: 100.0%;">     <strong>DENVER COMPASSIONATE CAREGIVER INC</strong><br>     <strong>Rocky Mountain High</strong><br>     Facility Type: Retail Marijuana Store<br>     8420 West Colfax Avenue<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_d8924a7a3ab6bbca914777761bf32a52.setContent(html_3e27307b1f20cdeb70677ee1206eab7a);
+            
+        
+
+        marker_6ae123f2cb4da6fb0c93e66631ce0375.bindPopup(popup_d8924a7a3ab6bbca914777761bf32a52)
+        ;
+
+        
+    
+    
+            var marker_15b91c2b44fbbd45ebd095f1e869f001 = L.marker(
+                [39.711657, -105.0820001],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_bae9a9737bb3f04fe14be70c36331566 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_15b91c2b44fbbd45ebd095f1e869f001.setIcon(icon_bae9a9737bb3f04fe14be70c36331566);
+        
+    
+        var popup_27b98892a05a010095f0217e2e6386d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e4c59deaa726264d0580c266ef17dd2 = $(`<div id="html_8e4c59deaa726264d0580c266ef17dd2" style="width: 100.0%; height: 100.0%;">     <strong>DOUBLE BROW LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     265 South Wadsworth Boulevard<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_27b98892a05a010095f0217e2e6386d2.setContent(html_8e4c59deaa726264d0580c266ef17dd2);
+            
+        
+
+        marker_15b91c2b44fbbd45ebd095f1e869f001.bindPopup(popup_27b98892a05a010095f0217e2e6386d2)
+        ;
+
+        
+    
+    
+            var marker_8d20c5db55be8523b48c707239185f69 = L.marker(
+                [39.7547316, -105.1420901],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_43fdddbf06bebb691b7170ac8f5bc69b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d20c5db55be8523b48c707239185f69.setIcon(icon_43fdddbf06bebb691b7170ac8f5bc69b);
+        
+    
+        var popup_f62070398d0d6f1dd54763f32833a1aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab572c61de3ccf6972620504b9f1a87d = $(`<div id="html_ab572c61de3ccf6972620504b9f1a87d" style="width: 100.0%; height: 100.0%;">     <strong>GM LAKEWOOD LLC</strong><br>     <strong>Golden Meds</strong><br>     Facility Type: Retail Marijuana Store<br>     2636 Youngfield Street<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_f62070398d0d6f1dd54763f32833a1aa.setContent(html_ab572c61de3ccf6972620504b9f1a87d);
+            
+        
+
+        marker_8d20c5db55be8523b48c707239185f69.bindPopup(popup_f62070398d0d6f1dd54763f32833a1aa)
+        ;
+
+        
+    
+    
+            var marker_560349753af7fac8a5e45891a2ac7ba2 = L.marker(
+                [39.7106571, -105.1181927],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_b69aab50320aa4488f650535ff61377c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_560349753af7fac8a5e45891a2ac7ba2.setIcon(icon_b69aab50320aa4488f650535ff61377c);
+        
+    
+        var popup_eddf4a36fc6475107d8078246019742b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a80a70a23fe0b1701676876ba051777 = $(`<div id="html_7a80a70a23fe0b1701676876ba051777" style="width: 100.0%; height: 100.0%;">     <strong>HEALING HOUSE LAKEWOOD LLC</strong><br>     <strong>Ascend Cannabis CO.</strong><br>     Facility Type: Retail Marijuana Store<br>     10712 West Alameda Avenue<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_eddf4a36fc6475107d8078246019742b.setContent(html_7a80a70a23fe0b1701676876ba051777);
+            
+        
+
+        marker_560349753af7fac8a5e45891a2ac7ba2.bindPopup(popup_eddf4a36fc6475107d8078246019742b)
+        ;
+
+        
+    
+    
+            var marker_4855f41c0e376f4d5e790210494f49e1 = L.marker(
+                [39.7404435, -105.073132],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_398930d7b0d166c0c68687c1cf6912aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4855f41c0e376f4d5e790210494f49e1.setIcon(icon_398930d7b0d166c0c68687c1cf6912aa);
+        
+    
+        var popup_1e9e587d164d3fc0a91d41fd7885af26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00520df4fced6639d3d2cee124a43ccf = $(`<div id="html_00520df4fced6639d3d2cee124a43ccf" style="width: 100.0%; height: 100.0%;">     <strong>JET BLACK ENTERPRISES LLC</strong><br>     <strong>Leiffa</strong><br>     Facility Type: Retail Marijuana Store<br>     6900 West Colfax Avenue<br>     Lakewood, CO 80214     </div>`)[0];
+                popup_1e9e587d164d3fc0a91d41fd7885af26.setContent(html_00520df4fced6639d3d2cee124a43ccf);
+            
+        
+
+        marker_4855f41c0e376f4d5e790210494f49e1.bindPopup(popup_1e9e587d164d3fc0a91d41fd7885af26)
+        ;
+
+        
+    
+    
+            var marker_507de3f210d72a6e367c8d677924b3d9 = L.marker(
+                [39.7219477, -105.081609],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_21a94ccbac0a6680e7b05a6adac7c794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_507de3f210d72a6e367c8d677924b3d9.setIcon(icon_21a94ccbac0a6680e7b05a6adac7c794);
+        
+    
+        var popup_185a35ab74c71f828d0b67e488ea5bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28673c6a5dd9c586f3ebda5e4743dc2c = $(`<div id="html_28673c6a5dd9c586f3ebda5e4743dc2c" style="width: 100.0%; height: 100.0%;">     <strong>LEVELS IV INC</strong><br>     <strong>Levels IV, Inc.</strong><br>     Facility Type: Retail Marijuana Store<br>     389 Wadsworth Boulevard<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_185a35ab74c71f828d0b67e488ea5bb4.setContent(html_28673c6a5dd9c586f3ebda5e4743dc2c);
+            
+        
+
+        marker_507de3f210d72a6e367c8d677924b3d9.bindPopup(popup_185a35ab74c71f828d0b67e488ea5bb4)
+        ;
+
+        
+    
+    
+            var marker_1e07eb5291f0046f5edae8529e173c5b = L.marker(
+                [39.64993, -105.081397],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_ab5e898e0503181ec4cc823fc226732a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e07eb5291f0046f5edae8529e173c5b.setIcon(icon_ab5e898e0503181ec4cc823fc226732a);
+        
+    
+        var popup_d33c9058edc273c20d980a333b2cb714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_919d7964ac69a3c164d6f5e4b6254faf = $(`<div id="html_919d7964ac69a3c164d6f5e4b6254faf" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL XVI LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     3600 South Wadsworth Boulevard Units C D & E<br>     Lakewood, CO 80235     </div>`)[0];
+                popup_d33c9058edc273c20d980a333b2cb714.setContent(html_919d7964ac69a3c164d6f5e4b6254faf);
+            
+        
+
+        marker_1e07eb5291f0046f5edae8529e173c5b.bindPopup(popup_d33c9058edc273c20d980a333b2cb714)
+        ;
+
+        
+    
+    
+            var marker_4fb705797bd8e2349ab2e195b3e98793 = L.marker(
+                [39.6965991, -105.0700452],
+                {}
+            ).addTo(map_b96bd42d4ff985919c9c623d12e1871d);
+        
+    
+            var icon_416c5c0616efa3e2997ce6083e4b5445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fb705797bd8e2349ab2e195b3e98793.setIcon(icon_416c5c0616efa3e2997ce6083e4b5445);
+        
+    
+        var popup_26622795517527c025c2682487c717c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b36a19b4ea33db490dc9695515fb05 = $(`<div id="html_16b36a19b4ea33db490dc9695515fb05" style="width: 100.0%; height: 100.0%;">     <strong>MOCO VENTURES LLC</strong><br>     <strong>Horizon Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     6745 West Mississippi Avenue<br>     Lakewood, CO 80226     </div>`)[0];
+                popup_26622795517527c025c2682487c717c1.setContent(html_16b36a19b4ea33db490dc9695515fb05);
+            
+        
+
+        marker_4fb705797bd8e2349ab2e195b3e98793.bindPopup(popup_26622795517527c025c2682487c717c1)
+        ;
+
+        
+    
+</script>
+</html>
