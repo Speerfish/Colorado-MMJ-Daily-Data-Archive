@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3a45bf451ce1346492573c1d49bebd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d3a45bf451ce1346492573c1d49bebd6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d3a45bf451ce1346492573c1d49bebd6 = L.map(
+                "map_d3a45bf451ce1346492573c1d49bebd6",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5ed9824ab4efb7b96f55cc25572b01ff = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5ed9824ab4efb7b96f55cc25572b01ff.addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var marker_d35e9786ec4d0c1b9be2e3a6fb0995bc = L.marker(
+                [40.5738399, -105.0473852],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_94a9b1a530e041468a2856a89df02cee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d35e9786ec4d0c1b9be2e3a6fb0995bc.setIcon(icon_94a9b1a530e041468a2856a89df02cee);
+        
+    
+        var popup_3257928ae65cbab083e0bc3f0b73458c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34053968280ce2fea970bfca825313a8 = $(`<div id="html_34053968280ce2fea970bfca825313a8" style="width: 100.0%; height: 100.0%;">     <strong>Ace’s Place</strong><br>     1101 Academy Ct Unit 4<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_3257928ae65cbab083e0bc3f0b73458c.setContent(html_34053968280ce2fea970bfca825313a8);
+            
+        
+
+        marker_d35e9786ec4d0c1b9be2e3a6fb0995bc.bindPopup(popup_3257928ae65cbab083e0bc3f0b73458c)
+        ;
+
+        
+    
+    
+            var marker_39a13b2ad040ebb926e206a5d9d32dac = L.marker(
+                [40.5779514, -105.0035754],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_ff5bf329a8539fa1ab26c71b0f81de0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39a13b2ad040ebb926e206a5d9d32dac.setIcon(icon_ff5bf329a8539fa1ab26c71b0f81de0d);
+        
+    
+        var popup_97f7cab7c6d5ff8ce61324dd917b8a43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2393ef63be06d4e48f162888f15293b = $(`<div id="html_b2393ef63be06d4e48f162888f15293b" style="width: 100.0%; height: 100.0%;">     <strong>Choice Organics</strong><br>     813 Smithfield Dr<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_97f7cab7c6d5ff8ce61324dd917b8a43.setContent(html_b2393ef63be06d4e48f162888f15293b);
+            
+        
+
+        marker_39a13b2ad040ebb926e206a5d9d32dac.bindPopup(popup_97f7cab7c6d5ff8ce61324dd917b8a43)
+        ;
+
+        
+    
+    
+            var marker_2d9ea4704a0d8e257269cadb37c5aa4e = L.marker(
+                [40.5763751, -105.0767149],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_640468f9754aa40bafb6815b040a0844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d9ea4704a0d8e257269cadb37c5aa4e.setIcon(icon_640468f9754aa40bafb6815b040a0844);
+        
+    
+        var popup_ac58fe6c7a143758dcd96fcb40ef32e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7be952690e208b8703aa3f3b457cd142 = $(`<div id="html_7be952690e208b8703aa3f3b457cd142" style="width: 100.0%; height: 100.0%;">     <strong>Elite Organics</strong><br>     804 S College Ave Unit C<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_ac58fe6c7a143758dcd96fcb40ef32e4.setContent(html_7be952690e208b8703aa3f3b457cd142);
+            
+        
+
+        marker_2d9ea4704a0d8e257269cadb37c5aa4e.bindPopup(popup_ac58fe6c7a143758dcd96fcb40ef32e4)
+        ;
+
+        
+    
+    
+            var marker_2d69618f0f28e305a33fa3276e1a6a17 = L.marker(
+                [40.5903171, -105.0522535],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_db9e4f57bf284be4bea4fd4aa1f2d88c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d69618f0f28e305a33fa3276e1a6a17.setIcon(icon_db9e4f57bf284be4bea4fd4aa1f2d88c);
+        
+    
+        var popup_36adbd1398cffce651fcca4d67682f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_546a95dec3ce785094d3fc017aa81baf = $(`<div id="html_546a95dec3ce785094d3fc017aa81baf" style="width: 100.0%; height: 100.0%;">     <strong>Flower Power Botanicals</strong><br>     1308 Duff Dr<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_36adbd1398cffce651fcca4d67682f06.setContent(html_546a95dec3ce785094d3fc017aa81baf);
+            
+        
+
+        marker_2d69618f0f28e305a33fa3276e1a6a17.bindPopup(popup_36adbd1398cffce651fcca4d67682f06)
+        ;
+
+        
+    
+    
+            var marker_08641911dd228ebdf8ab1d733fd61002 = L.marker(
+                [40.4943803, -105.0774982],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_d4a326ea2dab81df2fd32c0b1d0df3f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08641911dd228ebdf8ab1d733fd61002.setIcon(icon_d4a326ea2dab81df2fd32c0b1d0df3f3);
+        
+    
+        var popup_9f6aa7e229ade4191610d7b03a37a427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55f4b5a4d3a2c9c6c9e5c206048d8651 = $(`<div id="html_55f4b5a4d3a2c9c6c9e5c206048d8651" style="width: 100.0%; height: 100.0%;">     <strong>KindCare of Colorado</strong><br>     6617 S College Ave<br>     Fort Collins, CO 80525<br>     Type: Undisclosed     </div>`)[0];
+                popup_9f6aa7e229ade4191610d7b03a37a427.setContent(html_55f4b5a4d3a2c9c6c9e5c206048d8651);
+            
+        
+
+        marker_08641911dd228ebdf8ab1d733fd61002.bindPopup(popup_9f6aa7e229ade4191610d7b03a37a427)
+        ;
+
+        
+    
+    
+            var marker_48ba9caac5b3a1972d007230e176b753 = L.marker(
+                [40.5988505, -105.0760529],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_eb96b4e8281fe6664f788d5fb01aac01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48ba9caac5b3a1972d007230e176b753.setIcon(icon_eb96b4e8281fe6664f788d5fb01aac01);
+        
+    
+        var popup_e08c1b4d54edb6202967a3034cfd655a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8baf8f7964d70e2e0ae1bad3e958926f = $(`<div id="html_8baf8f7964d70e2e0ae1bad3e958926f" style="width: 100.0%; height: 100.0%;">     <strong>LivWell Marijuana Dispensary</strong><br>     900 N College Ave<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_e08c1b4d54edb6202967a3034cfd655a.setContent(html_8baf8f7964d70e2e0ae1bad3e958926f);
+            
+        
+
+        marker_48ba9caac5b3a1972d007230e176b753.bindPopup(popup_e08c1b4d54edb6202967a3034cfd655a)
+        ;
+
+        
+    
+    
+            var marker_2d90092a7966dd180732e9782ec1d6f5 = L.marker(
+                [40.4930146, -105.0769588],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_7369e18c0a6f81de7dd55d58de31ac8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d90092a7966dd180732e9782ec1d6f5.setIcon(icon_7369e18c0a6f81de7dd55d58de31ac8f);
+        
+    
+        var popup_d0d8cb39a1eae25d605fb2551f2c21aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d1044cfeb6b1904a93c6b8bf0a03f3d = $(`<div id="html_9d1044cfeb6b1904a93c6b8bf0a03f3d" style="width: 100.0%; height: 100.0%;">     <strong>Natural Alternatives for Health</strong><br>     6712 S College Ave<br>     Fort Collins, CO 80525<br>     Type: Undisclosed     </div>`)[0];
+                popup_d0d8cb39a1eae25d605fb2551f2c21aa.setContent(html_9d1044cfeb6b1904a93c6b8bf0a03f3d);
+            
+        
+
+        marker_2d90092a7966dd180732e9782ec1d6f5.bindPopup(popup_d0d8cb39a1eae25d605fb2551f2c21aa)
+        ;
+
+        
+    
+    
+            var marker_fbea690110223a4fb6e6c79aeb4c9de9 = L.marker(
+                [40.5870952, -105.0730597],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_e9acbb192b4669515b189f8e42267624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fbea690110223a4fb6e6c79aeb4c9de9.setIcon(icon_e9acbb192b4669515b189f8e42267624);
+        
+    
+        var popup_af2c39fbe2f34bf3b4e7486e6fe4e5fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66bbc5252cd6bb8c83795307154c0103 = $(`<div id="html_66bbc5252cd6bb8c83795307154c0103" style="width: 100.0%; height: 100.0%;">     <strong>Organic Alternatives - Recreational & Medical Marijuana Dispensary</strong><br>     346 E Mountain Ave<br>     Fort Collins, CO 80524<br>     Type: Undisclosed     </div>`)[0];
+                popup_af2c39fbe2f34bf3b4e7486e6fe4e5fd.setContent(html_66bbc5252cd6bb8c83795307154c0103);
+            
+        
+
+        marker_fbea690110223a4fb6e6c79aeb4c9de9.bindPopup(popup_af2c39fbe2f34bf3b4e7486e6fe4e5fd)
+        ;
+
+        
+    
+    
+            var marker_efd7ed3e73ca80c91d61f89129bbad2a = L.marker(
+                [40.5068875, -105.0768224],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_5f1c364f2656616356ff592a9159fe65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_efd7ed3e73ca80c91d61f89129bbad2a.setIcon(icon_5f1c364f2656616356ff592a9159fe65);
+        
+    
+        var popup_61770d2da8443b48decc572ff7922872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2dfbf01c97cf2e340365bdc0ca7b1f4 = $(`<div id="html_c2dfbf01c97cf2e340365bdc0ca7b1f4" style="width: 100.0%; height: 100.0%;">     <strong>Smokey's 420 House</strong><br>     5740 S College Ave<br>     Fort Collins, CO 80525<br>     Type: Undisclosed     </div>`)[0];
+                popup_61770d2da8443b48decc572ff7922872.setContent(html_c2dfbf01c97cf2e340365bdc0ca7b1f4);
+            
+        
+
+        marker_efd7ed3e73ca80c91d61f89129bbad2a.bindPopup(popup_61770d2da8443b48decc572ff7922872)
+        ;
+
+        
+    
+    
+            var marker_870d76b863e50be9c598aea225f79d8c = L.marker(
+                [40.5064281, -105.0742571],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_9f5835680e43dea31a1ca364baa36c51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_870d76b863e50be9c598aea225f79d8c.setIcon(icon_9f5835680e43dea31a1ca364baa36c51);
+        
+    
+        var popup_69fb06611e74c8683adf56a0f537bc68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aff8b48d983f0f04fbb6ae448ec9a172 = $(`<div id="html_aff8b48d983f0f04fbb6ae448ec9a172" style="width: 100.0%; height: 100.0%;">     <strong>Solace Meds</strong><br>     301 Smokey St Unit A<br>     Fort Collins, CO 80525<br>     Type: Undisclosed     </div>`)[0];
+                popup_69fb06611e74c8683adf56a0f537bc68.setContent(html_aff8b48d983f0f04fbb6ae448ec9a172);
+            
+        
+
+        marker_870d76b863e50be9c598aea225f79d8c.bindPopup(popup_69fb06611e74c8683adf56a0f537bc68)
+        ;
+
+        
+    
+    
+            var marker_35e5ff546f0249f4c8c58b519b9697cf = L.marker(
+                [40.5743684, -105.0978292],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_8607ff2099263dd26cc928d311698ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_35e5ff546f0249f4c8c58b519b9697cf.setIcon(icon_8607ff2099263dd26cc928d311698ac5);
+        
+    
+        var popup_efc3ee0090bd59e89133d5007c5e0cf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec99745d030ae2c0d9b31a1fcd8e1d18 = $(`<div id="html_ec99745d030ae2c0d9b31a1fcd8e1d18" style="width: 100.0%; height: 100.0%;">     <strong>Verts Neighborhood Dispensary</strong><br>     1205 W Elizabeth St<br>     Fort Collins, CO 80521<br>     Type: Undisclosed     </div>`)[0];
+                popup_efc3ee0090bd59e89133d5007c5e0cf0.setContent(html_ec99745d030ae2c0d9b31a1fcd8e1d18);
+            
+        
+
+        marker_35e5ff546f0249f4c8c58b519b9697cf.bindPopup(popup_efc3ee0090bd59e89133d5007c5e0cf0)
+        ;
+
+        
+    
+    
+            var marker_b6a2c1f375e686c86bc94d24350fd297 = L.marker(
+                [40.5085577, -105.0757221],
+                {}
+            ).addTo(map_d3a45bf451ce1346492573c1d49bebd6);
+        
+    
+            var icon_eae5b01ca90ce2a5867b55cc6060f8d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6a2c1f375e686c86bc94d24350fd297.setIcon(icon_eae5b01ca90ce2a5867b55cc6060f8d0);
+        
+    
+        var popup_d450c1bd13e6077143627c28b6be7632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2fd96b2dcb0281fb66adccc5906b765 = $(`<div id="html_f2fd96b2dcb0281fb66adccc5906b765" style="width: 100.0%; height: 100.0%;">     <strong>Zengold’s</strong><br>     5739 Bueno Dr<br>     Fort Collins, CO 80525<br>     Type: Medical     </div>`)[0];
+                popup_d450c1bd13e6077143627c28b6be7632.setContent(html_f2fd96b2dcb0281fb66adccc5906b765);
+            
+        
+
+        marker_b6a2c1f375e686c86bc94d24350fd297.bindPopup(popup_d450c1bd13e6077143627c28b6be7632)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe14fea51b3b586f94ef006a4af59105 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fe14fea51b3b586f94ef006a4af59105" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fe14fea51b3b586f94ef006a4af59105 = L.map(
+                "map_fe14fea51b3b586f94ef006a4af59105",
+                {
+                    center: [39.7109, -105.0815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cb3700589cc1bde10bacdeff2b115cdf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cb3700589cc1bde10bacdeff2b115cdf.addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var marker_bd6383a590fc17f70e00b4bc2f50567c = L.marker(
+                [39.7400564, -105.1323528],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_1dbc8c40cf345f4ae97d8b8d5c0f1a6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd6383a590fc17f70e00b4bc2f50567c.setIcon(icon_1dbc8c40cf345f4ae97d8b8d5c0f1a6d);
+        
+    
+        var popup_b3f3b921dabd896b74919d80f4ec7fc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2181cfbe84079e081b510b5686d1969 = $(`<div id="html_d2181cfbe84079e081b510b5686d1969" style="width: 100.0%; height: 100.0%;">     <strong>Ajoya</strong><br>     11950 W Colfax Ave<br>     Lakewood, CO 80215<br>     Type: Undisclosed     </div>`)[0];
+                popup_b3f3b921dabd896b74919d80f4ec7fc6.setContent(html_d2181cfbe84079e081b510b5686d1969);
+            
+        
+
+        marker_bd6383a590fc17f70e00b4bc2f50567c.bindPopup(popup_b3f3b921dabd896b74919d80f4ec7fc6)
+        ;
+
+        
+    
+    
+            var marker_c760d6f68934ac893083cad6d11ba75c = L.marker(
+                [39.7106571, -105.1181927],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_fb063ddfb456aa532caadc955d4a065c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c760d6f68934ac893083cad6d11ba75c.setIcon(icon_fb063ddfb456aa532caadc955d4a065c);
+        
+    
+        var popup_66fdf2b210a1df111afc1391c3fd042a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb48c9b437cc0021137e8818325439df = $(`<div id="html_fb48c9b437cc0021137e8818325439df" style="width: 100.0%; height: 100.0%;">     <strong>Ascend Cannabis Company</strong><br>     10712 W Alameda Ave<br>     Lakewood, CO 80226<br>     Type: Undisclosed     </div>`)[0];
+                popup_66fdf2b210a1df111afc1391c3fd042a.setContent(html_fb48c9b437cc0021137e8818325439df);
+            
+        
+
+        marker_c760d6f68934ac893083cad6d11ba75c.bindPopup(popup_66fdf2b210a1df111afc1391c3fd042a)
+        ;
+
+        
+    
+    
+            var marker_51b2743c8695d95f4da48cdafa7a987d = L.marker(
+                [39.6965991, -105.0700452],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_d4947c372f89a28919129e81e69a955d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51b2743c8695d95f4da48cdafa7a987d.setIcon(icon_d4947c372f89a28919129e81e69a955d);
+        
+    
+        var popup_2b479e48253ea6c99bf65389c61737c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a018a4efbc60b1477725dd561aed65df = $(`<div id="html_a018a4efbc60b1477725dd561aed65df" style="width: 100.0%; height: 100.0%;">     <strong>Cross Genetics</strong><br>     6745 W Mississippi Ave<br>     Lakewood, CO 80226<br>     Type: Medical     </div>`)[0];
+                popup_2b479e48253ea6c99bf65389c61737c5.setContent(html_a018a4efbc60b1477725dd561aed65df);
+            
+        
+
+        marker_51b2743c8695d95f4da48cdafa7a987d.bindPopup(popup_2b479e48253ea6c99bf65389c61737c5)
+        ;
+
+        
+    
+    
+            var marker_1e906c3391c18ef490a2fd71f7533150 = L.marker(
+                [39.7547316, -105.1420901],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_6a43879ec22b37cd0b13def489f844df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e906c3391c18ef490a2fd71f7533150.setIcon(icon_6a43879ec22b37cd0b13def489f844df);
+        
+    
+        var popup_3a497f18a34efcb80c0a5eef4328a99b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5b29cefcbdf982b43141bd5d09741d = $(`<div id="html_2c5b29cefcbdf982b43141bd5d09741d" style="width: 100.0%; height: 100.0%;">     <strong>Golden Meds</strong><br>     2636 Youngfield St<br>     Lakewood, CO 80215<br>     Type: Undisclosed     </div>`)[0];
+                popup_3a497f18a34efcb80c0a5eef4328a99b.setContent(html_2c5b29cefcbdf982b43141bd5d09741d);
+            
+        
+
+        marker_1e906c3391c18ef490a2fd71f7533150.bindPopup(popup_3a497f18a34efcb80c0a5eef4328a99b)
+        ;
+
+        
+    
+    
+            var marker_ad12c38041507e2f8b3bc9f7db1be5ec = L.marker(
+                [39.7403904, -105.0910718],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_5b66bc3a90503580c067c80f8c0fd6ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad12c38041507e2f8b3bc9f7db1be5ec.setIcon(icon_5b66bc3a90503580c067c80f8c0fd6ee);
+        
+    
+        var popup_141f60d7780bea60a60cdce8407a59c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93b0b0e57dd0b6a241fb96f8d6f7ac27 = $(`<div id="html_93b0b0e57dd0b6a241fb96f8d6f7ac27" style="width: 100.0%; height: 100.0%;">     <strong>Good Meds</strong><br>     8420 W Colfax Ave<br>     Lakewood, CO 80215<br>     Type: Medical     </div>`)[0];
+                popup_141f60d7780bea60a60cdce8407a59c5.setContent(html_93b0b0e57dd0b6a241fb96f8d6f7ac27);
+            
+        
+
+        marker_ad12c38041507e2f8b3bc9f7db1be5ec.bindPopup(popup_141f60d7780bea60a60cdce8407a59c5)
+        ;
+
+        
+    
+    
+            var marker_832f866ae18a03399482b664ac7737c5 = L.marker(
+                [39.682017, -105.1293189],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_b37486bcbe081a631bd719cb424451ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_832f866ae18a03399482b664ac7737c5.setIcon(icon_b37486bcbe081a631bd719cb424451ed);
+        
+    
+        var popup_701660b7f8eb249e953fb4c91456bf36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79299e24b4514b10d03a37f9e801b8d = $(`<div id="html_b79299e24b4514b10d03a37f9e801b8d" style="width: 100.0%; height: 100.0%;">     <strong>Kaya Cannabis</strong><br>     12018 W Jewell Ave<br>     Lakewood, CO 80228<br>     Type: Medical     </div>`)[0];
+                popup_701660b7f8eb249e953fb4c91456bf36.setContent(html_b79299e24b4514b10d03a37f9e801b8d);
+            
+        
+
+        marker_832f866ae18a03399482b664ac7737c5.bindPopup(popup_701660b7f8eb249e953fb4c91456bf36)
+        ;
+
+        
+    
+    
+            var marker_b18c47f5312c58f259a497b8dd495009 = L.marker(
+                [39.7547316, -105.1420901],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_61a45e09a324bb6333155a457ae52241 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b18c47f5312c58f259a497b8dd495009.setIcon(icon_61a45e09a324bb6333155a457ae52241);
+        
+    
+        var popup_4ade32efb305673ada5f68e42a230714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15e4800ce4db28db29d1002ff72ee37d = $(`<div id="html_15e4800ce4db28db29d1002ff72ee37d" style="width: 100.0%; height: 100.0%;">     <strong>Kind Pain Management</strong><br>     2636 Youngfield St<br>     Lakewood, CO 80215<br>     Type: Undisclosed     </div>`)[0];
+                popup_4ade32efb305673ada5f68e42a230714.setContent(html_15e4800ce4db28db29d1002ff72ee37d);
+            
+        
+
+        marker_b18c47f5312c58f259a497b8dd495009.bindPopup(popup_4ade32efb305673ada5f68e42a230714)
+        ;
+
+        
+    
+    
+            var marker_c1d766ae69f411d7ce3a025ca92debb4 = L.marker(
+                [39.7401621, -105.0750108],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_ed7cc069d9acbd04817dba86e9e42f1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1d766ae69f411d7ce3a025ca92debb4.setIcon(icon_ed7cc069d9acbd04817dba86e9e42f1c);
+        
+    
+        var popup_9b899e6afeccd3333c2e45fc429456aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49e1659c1fc28da9a3f5602bee03a5e3 = $(`<div id="html_49e1659c1fc28da9a3f5602bee03a5e3" style="width: 100.0%; height: 100.0%;">     <strong>Leiffa</strong><br>     7063 W Colfax Ave<br>     Lakewood, CO 80214<br>     Type: Medical     </div>`)[0];
+                popup_9b899e6afeccd3333c2e45fc429456aa.setContent(html_49e1659c1fc28da9a3f5602bee03a5e3);
+            
+        
+
+        marker_c1d766ae69f411d7ce3a025ca92debb4.bindPopup(popup_9b899e6afeccd3333c2e45fc429456aa)
+        ;
+
+        
+    
+    
+            var marker_5c3c62f79d0905466b5611f9cc431d0f = L.marker(
+                [39.707537, -105.081562],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_52a66800e9b72d6f37c7501cdc907ace = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c3c62f79d0905466b5611f9cc431d0f.setIcon(icon_52a66800e9b72d6f37c7501cdc907ace);
+        
+    
+        var popup_434d0a110ec1ae8192f1be4e994f7c30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8b52434f2d3dcd949385bac7219cd87 = $(`<div id="html_d8b52434f2d3dcd949385bac7219cd87" style="width: 100.0%; height: 100.0%;">     <strong>Levels Medical Dispensary</strong><br>     389 Wadsworth Blvd<br>     BLakewood, CO 80226<br>     Type: Undisclosed     </div>`)[0];
+                popup_434d0a110ec1ae8192f1be4e994f7c30.setContent(html_d8b52434f2d3dcd949385bac7219cd87);
+            
+        
+
+        marker_5c3c62f79d0905466b5611f9cc431d0f.bindPopup(popup_434d0a110ec1ae8192f1be4e994f7c30)
+        ;
+
+        
+    
+    
+            var marker_f4262f382b9256f66344908fb6ffcd1b = L.marker(
+                [39.6889078, -105.0532828],
+                {}
+            ).addTo(map_fe14fea51b3b586f94ef006a4af59105);
+        
+    
+            var icon_d2581f1a4df551307cec798195a84251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4262f382b9256f66344908fb6ffcd1b.setIcon(icon_d2581f1a4df551307cec798195a84251);
+        
+    
+        var popup_77f3abe4734d66e8c00800f24c17659d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a1a48e57f021ff6c9d1890fa76cedc1 = $(`<div id="html_4a1a48e57f021ff6c9d1890fa76cedc1" style="width: 100.0%; height: 100.0%;">     <strong>Stellar Cannabis Company</strong><br>     1395 S Sheridan Blvd<br>     Lakewood, CO 80232<br>     Type: Medical     </div>`)[0];
+                popup_77f3abe4734d66e8c00800f24c17659d.setContent(html_4a1a48e57f021ff6c9d1890fa76cedc1);
+            
+        
+
+        marker_f4262f382b9256f66344908fb6ffcd1b.bindPopup(popup_77f3abe4734d66e8c00800f24c17659d)
+        ;
+
+        
+    
+</script>
+</html>

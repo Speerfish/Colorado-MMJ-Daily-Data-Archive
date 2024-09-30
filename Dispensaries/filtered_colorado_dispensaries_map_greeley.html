@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b72240e58b351bdf5e40fa6f7597ccff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b72240e58b351bdf5e40fa6f7597ccff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b72240e58b351bdf5e40fa6f7597ccff = L.map(
+                "map_b72240e58b351bdf5e40fa6f7597ccff",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4a02622039e9035de4401a4d9afc722 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f4a02622039e9035de4401a4d9afc722.addTo(map_b72240e58b351bdf5e40fa6f7597ccff);
+        
+    
+            var marker_a242ff17c604985bc41e41be411fb86f = L.marker(
+                [40.396977, -104.687597],
+                {}
+            ).addTo(map_b72240e58b351bdf5e40fa6f7597ccff);
+        
+    
+            var icon_31fb431fbbf6839f2d80b0659039cb46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a242ff17c604985bc41e41be411fb86f.setIcon(icon_31fb431fbbf6839f2d80b0659039cb46);
+        
+    
+        var popup_bbc349235e6e4d3f1ac41eebd43316b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d6438a8ee16713b8daa9b2cf01db93 = $(`<div id="html_e6d6438a8ee16713b8daa9b2cf01db93" style="width: 100.0%; height: 100.0%;">     <strong>High Plains Strainz</strong><br>     2506 Sixth Ave<br>     Greeley, CO 80631<br>     Type: Undisclosed     </div>`)[0];
+                popup_bbc349235e6e4d3f1ac41eebd43316b7.setContent(html_e6d6438a8ee16713b8daa9b2cf01db93);
+            
+        
+
+        marker_a242ff17c604985bc41e41be411fb86f.bindPopup(popup_bbc349235e6e4d3f1ac41eebd43316b7)
+        ;
+
+        
+    
+    
+            var marker_737ae2be789037bc7be9163f9489eb5c = L.marker(
+                [40.3942101, -104.6630567],
+                {}
+            ).addTo(map_b72240e58b351bdf5e40fa6f7597ccff);
+        
+    
+            var icon_0cc05628c67b76e663310aab27dac248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_737ae2be789037bc7be9163f9489eb5c.setIcon(icon_0cc05628c67b76e663310aab27dac248);
+        
+    
+        var popup_fc72b4f01799d42e32aa5e4cfc27dc95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cd408c0e847c6954a3fb1ecfe402e48 = $(`<div id="html_9cd408c0e847c6954a3fb1ecfe402e48" style="width: 100.0%; height: 100.0%;">     <strong>Nature’s Herbs and Wellness</strong><br>     522 27th St<br>     Greeley, CO 80631<br>     Type: Undisclosed     </div>`)[0];
+                popup_fc72b4f01799d42e32aa5e4cfc27dc95.setContent(html_9cd408c0e847c6954a3fb1ecfe402e48);
+            
+        
+
+        marker_737ae2be789037bc7be9163f9489eb5c.bindPopup(popup_fc72b4f01799d42e32aa5e4cfc27dc95)
+        ;
+
+        
+    
+    
+            var marker_59a5b9ba844aa9ba181382d8b4a74a08 = L.marker(
+                [40.396856, -104.689776],
+                {}
+            ).addTo(map_b72240e58b351bdf5e40fa6f7597ccff);
+        
+    
+            var icon_383bc6bfe2ab0aa88a82244b04ceec60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59a5b9ba844aa9ba181382d8b4a74a08.setIcon(icon_383bc6bfe2ab0aa88a82244b04ceec60);
+        
+    
+        var popup_92398415e5122b17217dddb6bb05e16f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7e450a1b361fd624faf2438a7aa89fa = $(`<div id="html_e7e450a1b361fd624faf2438a7aa89fa" style="width: 100.0%; height: 100.0%;">     <strong>Smokey’s 420 House</strong><br>     2515 Seventh Ave<br>     Greeley, CO 80631<br>     Type: Undisclosed     </div>`)[0];
+                popup_92398415e5122b17217dddb6bb05e16f.setContent(html_e7e450a1b361fd624faf2438a7aa89fa);
+            
+        
+
+        marker_59a5b9ba844aa9ba181382d8b4a74a08.bindPopup(popup_92398415e5122b17217dddb6bb05e16f)
+        ;
+
+        
+    
+</script>
+</html>

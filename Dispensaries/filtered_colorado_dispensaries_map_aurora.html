@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94c12be44745f1228a79ebc715dd5049 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94c12be44745f1228a79ebc715dd5049" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94c12be44745f1228a79ebc715dd5049 = L.map(
+                "map_94c12be44745f1228a79ebc715dd5049",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_980970f1cf1bce7797c7eade94b7efb1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_980970f1cf1bce7797c7eade94b7efb1.addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var marker_61521fe5e599cdb4aba3cd2146a976d5 = L.marker(
+                [39.6670498, -104.8598611],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_c75174d792644bcb6e2bcc0b747b0472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61521fe5e599cdb4aba3cd2146a976d5.setIcon(icon_c75174d792644bcb6e2bcc0b747b0472);
+        
+    
+        var popup_2b45cbc9c9adc2b584c2f8d9ada77b32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8731a8028610cd7708934b1db4d1bc54 = $(`<div id="html_8731a8028610cd7708934b1db4d1bc54" style="width: 100.0%; height: 100.0%;">     <strong>Colorado Harvest Company</strong><br>     11002 E Yale Ave<br>     Aurora, CO 80014<br>     Type: Recreational     </div>`)[0];
+                popup_2b45cbc9c9adc2b584c2f8d9ada77b32.setContent(html_8731a8028610cd7708934b1db4d1bc54);
+            
+        
+
+        marker_61521fe5e599cdb4aba3cd2146a976d5.bindPopup(popup_2b45cbc9c9adc2b584c2f8d9ada77b32)
+        ;
+
+        
+    
+    
+            var marker_ea0674004edbe3e879f81a667225c5c5 = L.marker(
+                [39.6373002, -104.7920785],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_04665046e71cf856e254a017c584f1c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea0674004edbe3e879f81a667225c5c5.setIcon(icon_04665046e71cf856e254a017c584f1c0);
+        
+    
+        var popup_0ed52210d8cead85777fbacc060dc8c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c210d9427b294de8e1c8a841997cd4f = $(`<div id="html_5c210d9427b294de8e1c8a841997cd4f" style="width: 100.0%; height: 100.0%;">     <strong>Euflora</strong><br>     4343 S Buckley Road<br>     Aurora, CO 80013<br>     Type: Undisclosed     </div>`)[0];
+                popup_0ed52210d8cead85777fbacc060dc8c5.setContent(html_5c210d9427b294de8e1c8a841997cd4f);
+            
+        
+
+        marker_ea0674004edbe3e879f81a667225c5c5.bindPopup(popup_0ed52210d8cead85777fbacc060dc8c5)
+        ;
+
+        
+    
+    
+            var marker_e24f230aff61d03cef12d1970eca35e5 = L.marker(
+                [39.6025572, -104.7156415],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_dd5742027cf6944f59fe6feb049957c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e24f230aff61d03cef12d1970eca35e5.setIcon(icon_dd5742027cf6944f59fe6feb049957c2);
+        
+    
+        var popup_ef0f737111fa1ce96d49831a680a2722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c385c80e6d51dbd3f51392debfe4869 = $(`<div id="html_1c385c80e6d51dbd3f51392debfe4869" style="width: 100.0%; height: 100.0%;">     <strong>Euflora</strong><br>     6260 S Gun Club Road<br>     Aurora, CO 80016<br>     Type: Undisclosed     </div>`)[0];
+                popup_ef0f737111fa1ce96d49831a680a2722.setContent(html_1c385c80e6d51dbd3f51392debfe4869);
+            
+        
+
+        marker_e24f230aff61d03cef12d1970eca35e5.bindPopup(popup_ef0f737111fa1ce96d49831a680a2722)
+        ;
+
+        
+    
+    
+            var marker_43795c345cdae3536083d02b96e2d0f9 = L.marker(
+                [39.6735841, -104.7918423],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_8f8f36b72f995d713d0133f6ff5eb5ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_43795c345cdae3536083d02b96e2d0f9.setIcon(icon_8f8f36b72f995d713d0133f6ff5eb5ad);
+        
+    
+        var popup_b603b6857c0d6bafae22ffebc52a4727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a99768c9ae28901517cf268a396697f3 = $(`<div id="html_a99768c9ae28901517cf268a396697f3" style="width: 100.0%; height: 100.0%;">     <strong>Good Chemistry</strong><br>     16840 E Iliff Ave<br>     Aurora, CO 80013<br>     Type: Undisclosed     </div>`)[0];
+                popup_b603b6857c0d6bafae22ffebc52a4727.setContent(html_a99768c9ae28901517cf268a396697f3);
+            
+        
+
+        marker_43795c345cdae3536083d02b96e2d0f9.bindPopup(popup_b603b6857c0d6bafae22ffebc52a4727)
+        ;
+
+        
+    
+    
+            var marker_be802f0bf38b6e14924cdbff4f305aef = L.marker(
+                [39.72554, -104.81452],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_3fd4897910dfb4e0911cbec4d2236f3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be802f0bf38b6e14924cdbff4f305aef.setIcon(icon_3fd4897910dfb4e0911cbec4d2236f3a);
+        
+    
+        var popup_3b5f4dfc722b0ff1140aa891639fa3e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f928e2da6d285d9762e7aab2f77e5c5 = $(`<div id="html_2f928e2da6d285d9762e7aab2f77e5c5" style="width: 100.0%; height: 100.0%;">     <strong>Green Dragon</strong><br>     15225 E Sixth Ave<br>     Aurora, CO 80011<br>     Type: Undisclosed     </div>`)[0];
+                popup_3b5f4dfc722b0ff1140aa891639fa3e1.setContent(html_2f928e2da6d285d9762e7aab2f77e5c5);
+            
+        
+
+        marker_be802f0bf38b6e14924cdbff4f305aef.bindPopup(popup_3b5f4dfc722b0ff1140aa891639fa3e1)
+        ;
+
+        
+    
+    
+            var marker_860fbebb9b45380113d7fee6e5412940 = L.marker(
+                [39.6385915, -104.7647885],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_80b5e789f20751753225c6aaf436346e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_860fbebb9b45380113d7fee6e5412940.setIcon(icon_80b5e789f20751753225c6aaf436346e);
+        
+    
+        var popup_584ea158f5e53aeb89b60c75da06cf6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dccba95fe9330c845362c36de7b5cb2b = $(`<div id="html_dccba95fe9330c845362c36de7b5cb2b" style="width: 100.0%; height: 100.0%;">     <strong>Green Dragon</strong><br>     19151 E Quincy Ave<br>     Aurora, CO 80015<br>     Type: Undisclosed     </div>`)[0];
+                popup_584ea158f5e53aeb89b60c75da06cf6b.setContent(html_dccba95fe9330c845362c36de7b5cb2b);
+            
+        
+
+        marker_860fbebb9b45380113d7fee6e5412940.bindPopup(popup_584ea158f5e53aeb89b60c75da06cf6b)
+        ;
+
+        
+    
+    
+            var marker_9c3d36e12dd292cbec75c9c5f99f860e = L.marker(
+                [39.6389644, -104.7664399],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_4d84cb754b9a4a2b5f787042499cdf88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9c3d36e12dd292cbec75c9c5f99f860e.setIcon(icon_4d84cb754b9a4a2b5f787042499cdf88);
+        
+    
+        var popup_97f9e6b6ae58d0bfabddb6976accde5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ea756c7aef5a94991c7cd7f5ebf29ca = $(`<div id="html_5ea756c7aef5a94991c7cd7f5ebf29ca" style="width: 100.0%; height: 100.0%;">     <strong>Green Heart</strong><br>     19005 E Quincy Ave<br>     Aurora, CO 80015<br>     Type: Undisclosed     </div>`)[0];
+                popup_97f9e6b6ae58d0bfabddb6976accde5b.setContent(html_5ea756c7aef5a94991c7cd7f5ebf29ca);
+            
+        
+
+        marker_9c3d36e12dd292cbec75c9c5f99f860e.bindPopup(popup_97f9e6b6ae58d0bfabddb6976accde5b)
+        ;
+
+        
+    
+    
+            var marker_9b656b3ba28ad339208eccd7ccf9fcec = L.marker(
+                [39.740769, -104.8211076],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_dbf017a955daced8f0627ef605d0384b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b656b3ba28ad339208eccd7ccf9fcec.setIcon(icon_dbf017a955daced8f0627ef605d0384b);
+        
+    
+        var popup_67b87d81b4a60ffb82672b3cbe77a1b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd266be1af3c2dd3a8259c0c4deba39c = $(`<div id="html_bd266be1af3c2dd3a8259c0c4deba39c" style="width: 100.0%; height: 100.0%;">     <strong>The Green Solution</strong><br>     14301 E Colfax Ave<br>     Aurora, CO 80011<br>     Type: Undisclosed     </div>`)[0];
+                popup_67b87d81b4a60ffb82672b3cbe77a1b6.setContent(html_bd266be1af3c2dd3a8259c0c4deba39c);
+            
+        
+
+        marker_9b656b3ba28ad339208eccd7ccf9fcec.bindPopup(popup_67b87d81b4a60ffb82672b3cbe77a1b6)
+        ;
+
+        
+    
+    
+            var marker_e39373400592a0f03e81953311c074c5 = L.marker(
+                [39.7477214, -104.869564],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_5cb9c64b726fd958af3ef5c65c8625b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e39373400592a0f03e81953311c074c5.setIcon(icon_5cb9c64b726fd958af3ef5c65c8625b0);
+        
+    
+        var popup_d5876702773bbf8fee3f1d1e53f3ea04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3338bcd3c4c93f4361660781cdadc1b7 = $(`<div id="html_3338bcd3c4c93f4361660781cdadc1b7" style="width: 100.0%; height: 100.0%;">     <strong>The Green Solution</strong><br>     10195 Montview Blvd<br>     Aurora, CO 80010<br>     Type: Undisclosed     </div>`)[0];
+                popup_d5876702773bbf8fee3f1d1e53f3ea04.setContent(html_3338bcd3c4c93f4361660781cdadc1b7);
+            
+        
+
+        marker_e39373400592a0f03e81953311c074c5.bindPopup(popup_d5876702773bbf8fee3f1d1e53f3ea04)
+        ;
+
+        
+    
+    
+            var marker_704259afa54154897aa850d186d7419a = L.marker(
+                [39.6588024, -104.8482665],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_a5db39b2755b579bcaa2654c24ab5e6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_704259afa54154897aa850d186d7419a.setIcon(icon_a5db39b2755b579bcaa2654c24ab5e6d);
+        
+    
+        var popup_5370b9118e748404e262effe64bf44c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c96edd4051d13e525c3fb88ba1613a6a = $(`<div id="html_c96edd4051d13e525c3fb88ba1613a6a" style="width: 100.0%; height: 100.0%;">     <strong>The Green Solution</strong><br>     3179 S Peoria Ct<br>     Aurora, CO 80014<br>     Type: Undisclosed     </div>`)[0];
+                popup_5370b9118e748404e262effe64bf44c4.setContent(html_c96edd4051d13e525c3fb88ba1613a6a);
+            
+        
+
+        marker_704259afa54154897aa850d186d7419a.bindPopup(popup_5370b9118e748404e262effe64bf44c4)
+        ;
+
+        
+    
+    
+            var marker_6cdba0379d03a20b8b39d1c2320e4885 = L.marker(
+                [39.710117, -104.827872],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_fd4cbf12bf11107e149fd175150dd311 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cdba0379d03a20b8b39d1c2320e4885.setIcon(icon_fd4cbf12bf11107e149fd175150dd311);
+        
+    
+        var popup_765ee51b90cec2fbbfaa7ad57728c887 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b68be8e2597b3a07501dc9d0db1419f = $(`<div id="html_9b68be8e2597b3a07501dc9d0db1419f" style="width: 100.0%; height: 100.0%;">     <strong>The Green Solution</strong><br>     350 S Potomac St<br>     Aurora, CO 80012<br>     Type: Undisclosed     </div>`)[0];
+                popup_765ee51b90cec2fbbfaa7ad57728c887.setContent(html_9b68be8e2597b3a07501dc9d0db1419f);
+            
+        
+
+        marker_6cdba0379d03a20b8b39d1c2320e4885.bindPopup(popup_765ee51b90cec2fbbfaa7ad57728c887)
+        ;
+
+        
+    
+    
+            var marker_fa5974eba54449b2ff69005fcd4dccc5 = L.marker(
+                [39.6379956, -104.7614965],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_e8d6c350590ec2f21f00491979302738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa5974eba54449b2ff69005fcd4dccc5.setIcon(icon_e8d6c350590ec2f21f00491979302738);
+        
+    
+        var popup_4fd54c743caa06b96e33563c3d848a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d2895c83cecb25fdf737200d95e183 = $(`<div id="html_21d2895c83cecb25fdf737200d95e183" style="width: 100.0%; height: 100.0%;">     <strong>The Green Solution</strong><br>     19370 E Quincy Ave<br>     Aurora, CO 80015<br>     Type: Undisclosed     </div>`)[0];
+                popup_4fd54c743caa06b96e33563c3d848a51.setContent(html_21d2895c83cecb25fdf737200d95e183);
+            
+        
+
+        marker_fa5974eba54449b2ff69005fcd4dccc5.bindPopup(popup_4fd54c743caa06b96e33563c3d848a51)
+        ;
+
+        
+    
+    
+            var marker_37da74b9abcc92c12347b2389911c64f = L.marker(
+                [39.6737491, -104.7920714],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_462e26a06417709e7609244328e60755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37da74b9abcc92c12347b2389911c64f.setIcon(icon_462e26a06417709e7609244328e60755);
+        
+    
+        var popup_ac75600a013a37d7a0d6ebdb8aa6f2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14603c2dca64998b1ad06ae671046552 = $(`<div id="html_14603c2dca64998b1ad06ae671046552" style="width: 100.0%; height: 100.0%;">     <strong>Lightshade</strong><br>     16821 E Iliff Ave<br>     Aurora, CO 80013<br>     Type: Recreational     </div>`)[0];
+                popup_ac75600a013a37d7a0d6ebdb8aa6f2b7.setContent(html_14603c2dca64998b1ad06ae671046552);
+            
+        
+
+        marker_37da74b9abcc92c12347b2389911c64f.bindPopup(popup_ac75600a013a37d7a0d6ebdb8aa6f2b7)
+        ;
+
+        
+    
+    
+            var marker_f1214394d48ef880ac356581b3d1701d = L.marker(
+                [39.7234623, -104.8660225],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_31c6488d1922e4a946474e776eb7cc0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f1214394d48ef880ac356581b3d1701d.setIcon(icon_31c6488d1922e4a946474e776eb7cc0f);
+        
+    
+        var popup_c2ed4a38dd519ffb1ddb49783cb7a8b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4edce84bde92f77f5e27f8de3bf34d3a = $(`<div id="html_4edce84bde92f77f5e27f8de3bf34d3a" style="width: 100.0%; height: 100.0%;">     <strong>Lightshade</strong><br>     503 Havana St<br>     Aurora, CO 80010<br>     Type: Recreational     </div>`)[0];
+                popup_c2ed4a38dd519ffb1ddb49783cb7a8b6.setContent(html_4edce84bde92f77f5e27f8de3bf34d3a);
+            
+        
+
+        marker_f1214394d48ef880ac356581b3d1701d.bindPopup(popup_c2ed4a38dd519ffb1ddb49783cb7a8b6)
+        ;
+
+        
+    
+    
+            var marker_72c0e4aef92b7db78afb7fae8605715a = L.marker(
+                [39.7390625, -104.8474527],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_5805719f08e9b4de9fbfa889c5e76c9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_72c0e4aef92b7db78afb7fae8605715a.setIcon(icon_5805719f08e9b4de9fbfa889c5e76c9f);
+        
+    
+        var popup_a9b718f95ec5fbb90a9ab950c897540a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21c27cc4126390e2482fbc91b93d5a0d = $(`<div id="html_21c27cc4126390e2482fbc91b93d5a0d" style="width: 100.0%; height: 100.0%;">     <strong>LivWell Enlightened Health Marijuana Dispensary</strong><br>     1401 Peoria St<br>     Aurora, CO 80010<br>     Type: Recreational     </div>`)[0];
+                popup_a9b718f95ec5fbb90a9ab950c897540a.setContent(html_21c27cc4126390e2482fbc91b93d5a0d);
+            
+        
+
+        marker_72c0e4aef92b7db78afb7fae8605715a.bindPopup(popup_a9b718f95ec5fbb90a9ab950c897540a)
+        ;
+
+        
+    
+    
+            var marker_b056dd8636471a5906b9d050c0501d6e = L.marker(
+                [39.740333, -104.7669953],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_e348b676b2cb1cb066706175b4ebb09f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b056dd8636471a5906b9d050c0501d6e.setIcon(icon_e348b676b2cb1cb066706175b4ebb09f);
+        
+    
+        var popup_937b0ccad44a4e0fe4a5baab95603893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc11fdf02c4d3f458769469571db10cc = $(`<div id="html_fc11fdf02c4d3f458769469571db10cc" style="width: 100.0%; height: 100.0%;">     <strong>LivWell Enlightened Health Marijuana Dispensary</strong><br>     19201 E Colfax Ave<br>     Aurora, CO 80011<br>     Type: Recreational     </div>`)[0];
+                popup_937b0ccad44a4e0fe4a5baab95603893.setContent(html_fc11fdf02c4d3f458769469571db10cc);
+            
+        
+
+        marker_b056dd8636471a5906b9d050c0501d6e.bindPopup(popup_937b0ccad44a4e0fe4a5baab95603893)
+        ;
+
+        
+    
+    
+            var marker_64eda3a56cdc3f89b5089ef2816222f7 = L.marker(
+                [39.6389644, -104.7664399],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_4186585945a4fb266fff8b7674bbe152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_64eda3a56cdc3f89b5089ef2816222f7.setIcon(icon_4186585945a4fb266fff8b7674bbe152);
+        
+    
+        var popup_9c3fdbe24f477f61b92461fed3360609 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42c29e514aa2e3044e40704e0ecd3d4a = $(`<div id="html_42c29e514aa2e3044e40704e0ecd3d4a" style="width: 100.0%; height: 100.0%;">     <strong>LOVA Aurora</strong><br>     19005 E Quincy Ave<br>     Aurora, CO 80015<br>     Type: Undisclosed     </div>`)[0];
+                popup_9c3fdbe24f477f61b92461fed3360609.setContent(html_42c29e514aa2e3044e40704e0ecd3d4a);
+            
+        
+
+        marker_64eda3a56cdc3f89b5089ef2816222f7.bindPopup(popup_9c3fdbe24f477f61b92461fed3360609)
+        ;
+
+        
+    
+    
+            var marker_edb0bb39300030da024b1bf840215f49 = L.marker(
+                [39.6811056, -104.8660541],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_c9983d5293301e70853c321ad6b63dc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_edb0bb39300030da024b1bf840215f49.setIcon(icon_c9983d5293301e70853c321ad6b63dc6);
+        
+    
+        var popup_a47a4fcf58d0c92917c994f6f33dc7ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86dbc0bebe78e16d648b05b507320b22 = $(`<div id="html_86dbc0bebe78e16d648b05b507320b22" style="width: 100.0%; height: 100.0%;">     <strong>Medicine Man</strong><br>     1901 S Havana St<br>     Aurora, CO 80014<br>     Type: Undisclosed     </div>`)[0];
+                popup_a47a4fcf58d0c92917c994f6f33dc7ea.setContent(html_86dbc0bebe78e16d648b05b507320b22);
+            
+        
+
+        marker_edb0bb39300030da024b1bf840215f49.bindPopup(popup_a47a4fcf58d0c92917c994f6f33dc7ea)
+        ;
+
+        
+    
+    
+            var marker_e347eca274d4e7bfc01c23553013dc85 = L.marker(
+                [39.6853654, -104.8097885],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_ff0fd67ac78665a4a6b32096ee699921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e347eca274d4e7bfc01c23553013dc85.setIcon(icon_ff0fd67ac78665a4a6b32096ee699921);
+        
+    
+        var popup_8f8b62444812f64e4cf8beb69e4eb98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2f4ab2376278860daf1f0fc7b5101ef = $(`<div id="html_b2f4ab2376278860daf1f0fc7b5101ef" style="width: 100.0%; height: 100.0%;">     <strong>Rocky Road Remedies</strong><br>     1712 S Chambers Rd<br>     Aurora, CO 80017<br>     Type: Undisclosed     </div>`)[0];
+                popup_8f8b62444812f64e4cf8beb69e4eb98f.setContent(html_b2f4ab2376278860daf1f0fc7b5101ef);
+            
+        
+
+        marker_e347eca274d4e7bfc01c23553013dc85.bindPopup(popup_8f8b62444812f64e4cf8beb69e4eb98f)
+        ;
+
+        
+    
+    
+            var marker_ef9131dc77f475fe67a04f8962d1c670 = L.marker(
+                [39.595637, -104.8185486],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_4d1d7d16e027b2cfd6d7f905b2b176eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ef9131dc77f475fe67a04f8962d1c670.setIcon(icon_4d1d7d16e027b2cfd6d7f905b2b176eb);
+        
+    
+        var popup_a41dcba7cc68718efa0ca9530b0dc7c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a9d7aff0de390e0f839938f5fab5e7 = $(`<div id="html_a9a9d7aff0de390e0f839938f5fab5e7" style="width: 100.0%; height: 100.0%;">     <strong>Star Buds Recreational Marijuana Dispensary</strong><br>     14655 E Arapahoe Rd<br>     Aurora, CO 80016<br>     Type: Undisclosed     </div>`)[0];
+                popup_a41dcba7cc68718efa0ca9530b0dc7c6.setContent(html_a9a9d7aff0de390e0f839938f5fab5e7);
+            
+        
+
+        marker_ef9131dc77f475fe67a04f8962d1c670.bindPopup(popup_a41dcba7cc68718efa0ca9530b0dc7c6)
+        ;
+
+        
+    
+    
+            var marker_c4ce7dbd7e75b85113057c9930836e42 = L.marker(
+                [39.7471232, -104.8701981],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_d2d4a22a2c016c48711b51ec3a1be472 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c4ce7dbd7e75b85113057c9930836e42.setIcon(icon_d2d4a22a2c016c48711b51ec3a1be472);
+        
+    
+        var popup_f0e648178022912a3546d3f693a293ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b763cdecbb8e5cd29b2686e42d08454 = $(`<div id="html_7b763cdecbb8e5cd29b2686e42d08454" style="width: 100.0%; height: 100.0%;">     <strong>Star Buds Recreational Marijuana Dispensary</strong><br>     10100 E Montview Blvd<br>     Aurora, CO 80010<br>     Type: Undisclosed     </div>`)[0];
+                popup_f0e648178022912a3546d3f693a293ad.setContent(html_7b763cdecbb8e5cd29b2686e42d08454);
+            
+        
+
+        marker_c4ce7dbd7e75b85113057c9930836e42.bindPopup(popup_f0e648178022912a3546d3f693a293ad)
+        ;
+
+        
+    
+    
+            var marker_6692ebb2c070b239a4f02211b548cf22 = L.marker(
+                [39.6970926, -104.8595499],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_55fdc418b9f7484a22a0caa7e6f5e0db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6692ebb2c070b239a4f02211b548cf22.setIcon(icon_55fdc418b9f7484a22a0caa7e6f5e0db);
+        
+    
+        var popup_ee6c2abb4c26b56b5b0bfd82a2cd293e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9838b3f7c924105800973ecc95446336 = $(`<div id="html_9838b3f7c924105800973ecc95446336" style="width: 100.0%; height: 100.0%;">     <strong>Terrapin Care Station</strong><br>     11091 E Mississippi Ave<br>     Aurora, CO 80012<br>     Type: Recreational     </div>`)[0];
+                popup_ee6c2abb4c26b56b5b0bfd82a2cd293e.setContent(html_9838b3f7c924105800973ecc95446336);
+            
+        
+
+        marker_6692ebb2c070b239a4f02211b548cf22.bindPopup(popup_ee6c2abb4c26b56b5b0bfd82a2cd293e)
+        ;
+
+        
+    
+    
+            var marker_695ed80a8f4f439dbb70a44b37044e9a = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_19405145460574c0e1b2ca5e8f1e0e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_695ed80a8f4f439dbb70a44b37044e9a.setIcon(icon_19405145460574c0e1b2ca5e8f1e0e08);
+        
+    
+        var popup_841be3adc8da7999dedd1f2339d68bec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_262397096f114aa4c7f07c60dc8da1b4 = $(`<div id="html_262397096f114aa4c7f07c60dc8da1b4" style="width: 100.0%; height: 100.0%;">     <strong>Terrapin Care Station</strong><br>     11900 E 33rd Ave<br>     Aurora, CO 80010<br>     Type: Recreational     </div>`)[0];
+                popup_841be3adc8da7999dedd1f2339d68bec.setContent(html_262397096f114aa4c7f07c60dc8da1b4);
+            
+        
+
+        marker_695ed80a8f4f439dbb70a44b37044e9a.bindPopup(popup_841be3adc8da7999dedd1f2339d68bec)
+        ;
+
+        
+    
+    
+            var marker_83c9041c1fb411979f2f2954921ce817 = L.marker(
+                [39.6379956, -104.7614965],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_920c4957b9a6697cdb5837d531a38f44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83c9041c1fb411979f2f2954921ce817.setIcon(icon_920c4957b9a6697cdb5837d531a38f44);
+        
+    
+        var popup_2af7da8dfcea13fa2cdba2e6ef5106c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be39fa68278a2a1430ba3ce5f3065b29 = $(`<div id="html_be39fa68278a2a1430ba3ce5f3065b29" style="width: 100.0%; height: 100.0%;">     <strong>US Marijuana Dispensaries</strong><br>     19370 E Quincy Ave<br>     Aurora, CO 80015<br>     Type: Undisclosed     </div>`)[0];
+                popup_2af7da8dfcea13fa2cdba2e6ef5106c0.setContent(html_be39fa68278a2a1430ba3ce5f3065b29);
+            
+        
+
+        marker_83c9041c1fb411979f2f2954921ce817.bindPopup(popup_2af7da8dfcea13fa2cdba2e6ef5106c0)
+        ;
+
+        
+    
+    
+            var marker_c8d9cab631ebbd7df0f4e4cc9872e768 = L.marker(
+                [39.7250311, -104.8124222],
+                {}
+            ).addTo(map_94c12be44745f1228a79ebc715dd5049);
+        
+    
+            var icon_d8b7535b106e96bca8118fd3b5bdfe2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8d9cab631ebbd7df0f4e4cc9872e768.setIcon(icon_d8b7535b106e96bca8118fd3b5bdfe2a);
+        
+    
+        var popup_2e767fac3a80deba63c700f3271ccdf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f1ef0e60d8a26e909b765eefbd93e8b = $(`<div id="html_5f1ef0e60d8a26e909b765eefbd93e8b" style="width: 100.0%; height: 100.0%;">     <strong>Xclusive Cannabis</strong><br>     15200 E 6th Ave<br>     Aurora, CO 80011<br>     Type: Recreational     </div>`)[0];
+                popup_2e767fac3a80deba63c700f3271ccdf8.setContent(html_5f1ef0e60d8a26e909b765eefbd93e8b);
+            
+        
+
+        marker_c8d9cab631ebbd7df0f4e4cc9872e768.bindPopup(popup_2e767fac3a80deba63c700f3271ccdf8)
+        ;
+
+        
+    
+</script>
+</html>

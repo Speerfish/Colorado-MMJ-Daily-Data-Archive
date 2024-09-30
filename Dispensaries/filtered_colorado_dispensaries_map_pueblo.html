@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_34691e00a3377b40396e615b72e1034c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_34691e00a3377b40396e615b72e1034c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_34691e00a3377b40396e615b72e1034c = L.map(
+                "map_34691e00a3377b40396e615b72e1034c",
+                {
+                    center: [38.2765, -104.6046],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65fbf581dd86887774c707939c726024 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_65fbf581dd86887774c707939c726024.addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var marker_8639e0de811aa837ced57572f1eec549 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_84ca567fda78ee644e8298e4e64b42c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8639e0de811aa837ced57572f1eec549.setIcon(icon_84ca567fda78ee644e8298e4e64b42c3);
+        
+    
+        var popup_0d5cf6772b3a5cbeee5a3eef63ba3395 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86015e25687bf89693ddd5b1844b8e41 = $(`<div id="html_86015e25687bf89693ddd5b1844b8e41" style="width: 100.0%; height: 100.0%;">     <strong>Apothecary Farms</strong><br>     1917 Santa Fe Dr<br>     Pueblo, CO 81006<br>     Type: Undisclosed     </div>`)[0];
+                popup_0d5cf6772b3a5cbeee5a3eef63ba3395.setContent(html_86015e25687bf89693ddd5b1844b8e41);
+            
+        
+
+        marker_8639e0de811aa837ced57572f1eec549.bindPopup(popup_0d5cf6772b3a5cbeee5a3eef63ba3395)
+        ;
+
+        
+    
+    
+            var marker_2d5949db8dca6fa9482961344eb5093b = L.marker(
+                [38.2188076, -104.6415403],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_bc5b475b44e49a0af0bf3831f6ca6d41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d5949db8dca6fa9482961344eb5093b.setIcon(icon_bc5b475b44e49a0af0bf3831f6ca6d41);
+        
+    
+        var popup_2e073e65e5fbb386f55d0a10c7a22c38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46487381a2e9ea626efdf9789a8913d9 = $(`<div id="html_46487381a2e9ea626efdf9789a8913d9" style="width: 100.0%; height: 100.0%;">     <strong>Canna Cabinet</strong><br>     2630 W Pueblo Blvd Unit E<br>     Pueblo, CO 81004<br>     Type: Undisclosed     </div>`)[0];
+                popup_2e073e65e5fbb386f55d0a10c7a22c38.setContent(html_46487381a2e9ea626efdf9789a8913d9);
+            
+        
+
+        marker_2d5949db8dca6fa9482961344eb5093b.bindPopup(popup_2e073e65e5fbb386f55d0a10c7a22c38)
+        ;
+
+        
+    
+    
+            var marker_6b49c39d5725285a361e04560291d9d1 = L.marker(
+                [38.3380009, -104.6201045],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_b634dbd6be9a6e8a0003875e35b8c1cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b49c39d5725285a361e04560291d9d1.setIcon(icon_b634dbd6be9a6e8a0003875e35b8c1cc);
+        
+    
+        var popup_994049c4663f36af7525dd43b3ae59fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_793a657772e55267addc2fad50c41a9d = $(`<div id="html_793a657772e55267addc2fad50c41a9d" style="width: 100.0%; height: 100.0%;">     <strong>The Cannabis Depot</strong><br>     2440 N Interstate 25<br>     Pueblo, CO 81008<br>     Type: Recreational     </div>`)[0];
+                popup_994049c4663f36af7525dd43b3ae59fc.setContent(html_793a657772e55267addc2fad50c41a9d);
+            
+        
+
+        marker_6b49c39d5725285a361e04560291d9d1.bindPopup(popup_994049c4663f36af7525dd43b3ae59fc)
+        ;
+
+        
+    
+    
+            var marker_e58684460fe7827ff978a1b48ca436a9 = L.marker(
+                [38.333847, -104.727828],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_3bf098010f88073846d90ae56cc6b41f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e58684460fe7827ff978a1b48ca436a9.setIcon(icon_3bf098010f88073846d90ae56cc6b41f);
+        
+    
+        var popup_6db2e3448bbe95437181a253812ad59a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6287aca09f742575b194fc759ca8dc5f = $(`<div id="html_6287aca09f742575b194fc759ca8dc5f" style="width: 100.0%; height: 100.0%;">     <strong>Cannasseur</strong><br>     41 Precision Dr<br>     Pueblo West, CO 81007<br>     Type: Recreational     </div>`)[0];
+                popup_6db2e3448bbe95437181a253812ad59a.setContent(html_6287aca09f742575b194fc759ca8dc5f);
+            
+        
+
+        marker_e58684460fe7827ff978a1b48ca436a9.bindPopup(popup_6db2e3448bbe95437181a253812ad59a)
+        ;
+
+        
+    
+    
+            var marker_13d3da2391b72338f747e422a336565c = L.marker(
+                [38.2440938, -104.6461217],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_d6e8bd82f6959e733ffbb2722a0acce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_13d3da2391b72338f747e422a336565c.setIcon(icon_d6e8bd82f6959e733ffbb2722a0acce5);
+        
+    
+        var popup_2d19783f96a84df958fabbdc63b10ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fd36a13fbd9883ce6a463416e981d08 = $(`<div id="html_9fd36a13fbd9883ce6a463416e981d08" style="width: 100.0%; height: 100.0%;">     <strong>Cookies</strong><br>     3003 W Northern Ave<br>     Pueblo, CO 81005<br>     Type: Recreational     </div>`)[0];
+                popup_2d19783f96a84df958fabbdc63b10ac8.setContent(html_9fd36a13fbd9883ce6a463416e981d08);
+            
+        
+
+        marker_13d3da2391b72338f747e422a336565c.bindPopup(popup_2d19783f96a84df958fabbdc63b10ac8)
+        ;
+
+        
+    
+    
+            var marker_4cb2fee3289dcec3e81e6a7f9421aa5a = L.marker(
+                [37.770987, -104.801748],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_6870978128069b57657cef889f891e3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4cb2fee3289dcec3e81e6a7f9421aa5a.setIcon(icon_6870978128069b57657cef889f891e3f);
+        
+    
+        var popup_9303ef2e572ebdb63ad5295f7c6ca49d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_803112fa63cfaf28ee656d46013f78a3 = $(`<div id="html_803112fa63cfaf28ee656d46013f78a3" style="width: 100.0%; height: 100.0%;">     <strong>LivWell Marijuana Dispensary</strong><br>     2565 N I-25 Exit 104<br>     Pueblo, CO 81008<br>     Type: Recreational     </div>`)[0];
+                popup_9303ef2e572ebdb63ad5295f7c6ca49d.setContent(html_803112fa63cfaf28ee656d46013f78a3);
+            
+        
+
+        marker_4cb2fee3289dcec3e81e6a7f9421aa5a.bindPopup(popup_9303ef2e572ebdb63ad5295f7c6ca49d)
+        ;
+
+        
+    
+    
+            var marker_f21961a585a7a39f22e830b60afc2c55 = L.marker(
+                [38.217382, -104.623381],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_1cbb54f68fe1efcd3a055d947b8cf5ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f21961a585a7a39f22e830b60afc2c55.setIcon(icon_1cbb54f68fe1efcd3a055d947b8cf5ea);
+        
+    
+        var popup_9a46381af0ced2388d3ec0da924daa56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b1f07324bc5116679bb176c496489e = $(`<div id="html_14b1f07324bc5116679bb176c496489e" style="width: 100.0%; height: 100.0%;">     <strong>LivWell Marijuana Dispensary</strong><br>     1239 Southgate Pl<br>     Pueblo, CO 81004<br>     Type: Recreational     </div>`)[0];
+                popup_9a46381af0ced2388d3ec0da924daa56.setContent(html_14b1f07324bc5116679bb176c496489e);
+            
+        
+
+        marker_f21961a585a7a39f22e830b60afc2c55.bindPopup(popup_9a46381af0ced2388d3ec0da924daa56)
+        ;
+
+        
+    
+    
+            var marker_4c2e750da191511341114dadb26d35b6 = L.marker(
+                [38.245592, -104.583711],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_78c9a6560c0a3a9fca292d1d6a0ad35c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c2e750da191511341114dadb26d35b6.setIcon(icon_78c9a6560c0a3a9fca292d1d6a0ad35c);
+        
+    
+        var popup_2377a1a3bc178bd16863243405050cd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_121bf078d48bf23decd5114a1009d6c0 = $(`<div id="html_121bf078d48bf23decd5114a1009d6c0" style="width: 100.0%; height: 100.0%;">     <strong>Maggie’s Farm</strong><br>     1400 Santa Fe Dr<br>     Pueblo, CO 81006<br>     Type: Undisclosed     </div>`)[0];
+                popup_2377a1a3bc178bd16863243405050cd0.setContent(html_121bf078d48bf23decd5114a1009d6c0);
+            
+        
+
+        marker_4c2e750da191511341114dadb26d35b6.bindPopup(popup_2377a1a3bc178bd16863243405050cd0)
+        ;
+
+        
+    
+    
+            var marker_1414303c8c9655a4106080f43a7ddf73 = L.marker(
+                [37.059855, -104.523207],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_1681895c880440c376fdb57abb8dc975 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1414303c8c9655a4106080f43a7ddf73.setIcon(icon_1681895c880440c376fdb57abb8dc975);
+        
+    
+        var popup_9665528d1eff48434d2b6fc3cda18a5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d0c2e3db992b4be32fa3b0c714ce823 = $(`<div id="html_9d0c2e3db992b4be32fa3b0c714ce823" style="width: 100.0%; height: 100.0%;">     <strong>Maggie’s Farm</strong><br>     4803 North I-25<br>     Pueblo, CO 81008<br>     Type: Undisclosed     </div>`)[0];
+                popup_9665528d1eff48434d2b6fc3cda18a5a.setContent(html_9d0c2e3db992b4be32fa3b0c714ce823);
+            
+        
+
+        marker_1414303c8c9655a4106080f43a7ddf73.bindPopup(popup_9665528d1eff48434d2b6fc3cda18a5a)
+        ;
+
+        
+    
+    
+            var marker_6dd3f5d742f9dd647d434cb6364416d8 = L.marker(
+                [38.350002, -104.722755],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_8a7e5b4fa96a3e7a70541c75240ecb76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6dd3f5d742f9dd647d434cb6364416d8.setIcon(icon_8a7e5b4fa96a3e7a70541c75240ecb76);
+        
+    
+        var popup_36a530cf1cdd92d5a441c72a772f6c8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f99e4cc1543eb3b27a5c321a1db4789 = $(`<div id="html_6f99e4cc1543eb3b27a5c321a1db4789" style="width: 100.0%; height: 100.0%;">     <strong>Maggie’s Farm</strong><br>     74 N Component Dr Suite 170<br>     Pueblo West, CO 81007<br>     Type: Undisclosed     </div>`)[0];
+                popup_36a530cf1cdd92d5a441c72a772f6c8a.setContent(html_6f99e4cc1543eb3b27a5c321a1db4789);
+            
+        
+
+        marker_6dd3f5d742f9dd647d434cb6364416d8.bindPopup(popup_36a530cf1cdd92d5a441c72a772f6c8a)
+        ;
+
+        
+    
+    
+            var marker_a0ca8912d1db3203ccf1b4bea2a90c3a = L.marker(
+                [38.340488, -104.736804],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_edbde4d8375a9692c51e3cc1db115b35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0ca8912d1db3203ccf1b4bea2a90c3a.setIcon(icon_edbde4d8375a9692c51e3cc1db115b35);
+        
+    
+        var popup_808a0336a45d56d1a2c723143fa62632 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee476383914c2f34efc2570ebb5e61b = $(`<div id="html_eee476383914c2f34efc2570ebb5e61b" style="width: 100.0%; height: 100.0%;">     <strong>Nature’s Gift Shop</strong><br>     148 E Assembly Dr<br>     Pueblo, CO 81007<br>     Type: Undisclosed     </div>`)[0];
+                popup_808a0336a45d56d1a2c723143fa62632.setContent(html_eee476383914c2f34efc2570ebb5e61b);
+            
+        
+
+        marker_a0ca8912d1db3203ccf1b4bea2a90c3a.bindPopup(popup_808a0336a45d56d1a2c723143fa62632)
+        ;
+
+        
+    
+    
+            var marker_f09f49cd6978c6624b2f8619c60cc8cf = L.marker(
+                [38.317696, -104.6118152],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_c7de65454847eec1c66c8c53f02f5ae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f09f49cd6978c6624b2f8619c60cc8cf.setIcon(icon_c7de65454847eec1c66c8c53f02f5ae9);
+        
+    
+        var popup_5d7916a16249e4ea37b92869df448b43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1d07b951339bbd2503c029ffb812ba1 = $(`<div id="html_b1d07b951339bbd2503c029ffb812ba1" style="width: 100.0%; height: 100.0%;">     <strong>NuVue Pharma</strong><br>     4740 Dillon Dr<br>     Pueblo, CO 81008<br>     Type: Undisclosed     </div>`)[0];
+                popup_5d7916a16249e4ea37b92869df448b43.setContent(html_b1d07b951339bbd2503c029ffb812ba1);
+            
+        
+
+        marker_f09f49cd6978c6624b2f8619c60cc8cf.bindPopup(popup_5d7916a16249e4ea37b92869df448b43)
+        ;
+
+        
+    
+    
+            var marker_4f395b47e8d447cb8fa2c78f382e2814 = L.marker(
+                [38.3289224, -104.7178382],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_a923784a20a4dd33efb40b865fe30559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f395b47e8d447cb8fa2c78f382e2814.setIcon(icon_a923784a20a4dd33efb40b865fe30559);
+        
+    
+        var popup_d4206417360d022392ed2608c0a7667d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fe005c9d2916bbe2719ff0cdb99eb2c = $(`<div id="html_1fe005c9d2916bbe2719ff0cdb99eb2c" style="width: 100.0%; height: 100.0%;">     <strong>Pueblo West Organics</strong><br>     609 E Enterprise Dr<br>     Pueblo, CO 81007<br>     Type: Recreational     </div>`)[0];
+                popup_d4206417360d022392ed2608c0a7667d.setContent(html_1fe005c9d2916bbe2719ff0cdb99eb2c);
+            
+        
+
+        marker_4f395b47e8d447cb8fa2c78f382e2814.bindPopup(popup_d4206417360d022392ed2608c0a7667d)
+        ;
+
+        
+    
+    
+            var marker_bf9373b6b4123a76dfe2fe4d288c494f = L.marker(
+                [38.335732, -104.727007],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_2f680dd3d258ca2bb903c20bec799f51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf9373b6b4123a76dfe2fe4d288c494f.setIcon(icon_2f680dd3d258ca2bb903c20bec799f51);
+        
+    
+        var popup_afde1fbb8897be7f339a5f38a56b826d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ee0dbef44a1c933be367e09ae42cd22 = $(`<div id="html_9ee0dbef44a1c933be367e09ae42cd22" style="width: 100.0%; height: 100.0%;">     <strong>Rocky Mountain Blaze</strong><br>     78 Precision Dr<br>     Pueblo West, CO 81007<br>     Type: Undisclosed     </div>`)[0];
+                popup_afde1fbb8897be7f339a5f38a56b826d.setContent(html_9ee0dbef44a1c933be367e09ae42cd22);
+            
+        
+
+        marker_bf9373b6b4123a76dfe2fe4d288c494f.bindPopup(popup_afde1fbb8897be7f339a5f38a56b826d)
+        ;
+
+        
+    
+    
+            var marker_2a37769f3b79855f526f30d4d791e9b1 = L.marker(
+                [38.2449139, -104.4977873],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_c2fa8b0935959c6b132237f4882cefb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a37769f3b79855f526f30d4d791e9b1.setIcon(icon_c2fa8b0935959c6b132237f4882cefb9);
+        
+    
+        var popup_62b1f1721e4fec006034e4b9bfc1d3c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a72e8cc63245d1d4d49c10e3ab807127 = $(`<div id="html_a72e8cc63245d1d4d49c10e3ab807127" style="width: 100.0%; height: 100.0%;">     <strong>Star Buds Recreational Marijuana Dispensary</strong><br>     30899 US 50 Business<br>     Pueblo, CO 81006<br>     Type: Undisclosed     </div>`)[0];
+                popup_62b1f1721e4fec006034e4b9bfc1d3c1.setContent(html_a72e8cc63245d1d4d49c10e3ab807127);
+            
+        
+
+        marker_2a37769f3b79855f526f30d4d791e9b1.bindPopup(popup_62b1f1721e4fec006034e4b9bfc1d3c1)
+        ;
+
+        
+    
+    
+            var marker_42e661f51196ec0fb63d7012f5f3f29c = L.marker(
+                [38.258452, -104.665912],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_f7c295625c23dd44c9c90bf9c8f107ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_42e661f51196ec0fb63d7012f5f3f29c.setIcon(icon_f7c295625c23dd44c9c90bf9c8f107ed);
+        
+    
+        var popup_69573495712268aa75ad6dc196481719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a314d6660730b363931a11b3e3bd76fe = $(`<div id="html_a314d6660730b363931a11b3e3bd76fe" style="width: 100.0%; height: 100.0%;">     <strong>Star Buds Recreational Marijuana Dispensary</strong><br>     4305 Thatcher Ave<br>     Pueblo, CO 81005<br>     Type: Undisclosed     </div>`)[0];
+                popup_69573495712268aa75ad6dc196481719.setContent(html_a314d6660730b363931a11b3e3bd76fe);
+            
+        
+
+        marker_42e661f51196ec0fb63d7012f5f3f29c.bindPopup(popup_69573495712268aa75ad6dc196481719)
+        ;
+
+        
+    
+    
+            var marker_6eb5a353d4bc8d0f413fa1b51b073326 = L.marker(
+                [38.31907, -104.7488765],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_749ff1a0115625c7e8c6799f29dcffd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6eb5a353d4bc8d0f413fa1b51b073326.setIcon(icon_749ff1a0115625c7e8c6799f29dcffd2);
+        
+    
+        var popup_55eaf25c2d292f197c06544d307eb565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7f5996abe46c1d7b6a9cbbc23a9d5bc = $(`<div id="html_a7f5996abe46c1d7b6a9cbbc23a9d5bc" style="width: 100.0%; height: 100.0%;">     <strong>Star Buds Recreational Marijuana Dispensary</strong><br>     428 S McCulloch Blvd<br>     Pueblo West, CO 81007<br>     Type: Undisclosed     </div>`)[0];
+                popup_55eaf25c2d292f197c06544d307eb565.setContent(html_a7f5996abe46c1d7b6a9cbbc23a9d5bc);
+            
+        
+
+        marker_6eb5a353d4bc8d0f413fa1b51b073326.bindPopup(popup_55eaf25c2d292f197c06544d307eb565)
+        ;
+
+        
+    
+    
+            var marker_19736e6aac347ed43185399c74a357b1 = L.marker(
+                [38.3380009, -104.6201045],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_93a6efdad14581976eacf3886f0e48e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19736e6aac347ed43185399c74a357b1.setIcon(icon_93a6efdad14581976eacf3886f0e48e7);
+        
+    
+        var popup_e8465518a5f7ed81912b73bf500f29d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71c5c59bbaca072eefa34084931d6e90 = $(`<div id="html_71c5c59bbaca072eefa34084931d6e90" style="width: 100.0%; height: 100.0%;">     <strong>Strawberry Fields Cannabis</strong><br>     2285 N Interstate 25<br>     Pueblo, CO 81008<br>     Type: Recreational     </div>`)[0];
+                popup_e8465518a5f7ed81912b73bf500f29d7.setContent(html_71c5c59bbaca072eefa34084931d6e90);
+            
+        
+
+        marker_19736e6aac347ed43185399c74a357b1.bindPopup(popup_e8465518a5f7ed81912b73bf500f29d7)
+        ;
+
+        
+    
+    
+            var marker_87008da7400ae8b366066cc70554ed56 = L.marker(
+                [38.2733858, -104.6648238],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_2615a8fc3a1540846826b4b9991ef7e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87008da7400ae8b366066cc70554ed56.setIcon(icon_2615a8fc3a1540846826b4b9991ef7e7);
+        
+    
+        var popup_050fab3b1b34bc2afcd63149ab0caf9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_283dfe1557d9ff0c3a4572ec2da52bcd = $(`<div id="html_283dfe1557d9ff0c3a4572ec2da52bcd" style="width: 100.0%; height: 100.0%;">     <strong>Strawberry Fields Cannabis</strong><br>     4116 Nature Center Rd<br>     Pueblo, CO 81003<br>     Type: Recreational     </div>`)[0];
+                popup_050fab3b1b34bc2afcd63149ab0caf9e.setContent(html_283dfe1557d9ff0c3a4572ec2da52bcd);
+            
+        
+
+        marker_87008da7400ae8b366066cc70554ed56.bindPopup(popup_050fab3b1b34bc2afcd63149ab0caf9e)
+        ;
+
+        
+    
+    
+            var marker_ea91eea06f8b770b86b34eeb9909268c = L.marker(
+                [38.330512, -104.716068],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_64f3b749c734efba3247a12b92f21ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea91eea06f8b770b86b34eeb9909268c.setIcon(icon_64f3b749c734efba3247a12b92f21ddf);
+        
+    
+        var popup_413fbb7b991f811718dad2b886e5b79e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a9d3759302e2cf813ddf637513fdb21 = $(`<div id="html_3a9d3759302e2cf813ddf637513fdb21" style="width: 100.0%; height: 100.0%;">     <strong>Terps Dispensary</strong><br>     38 N Silicon Dr<br>     Pueblo, CO 81007<br>     Type: Recreational     </div>`)[0];
+                popup_413fbb7b991f811718dad2b886e5b79e.setContent(html_3a9d3759302e2cf813ddf637513fdb21);
+            
+        
+
+        marker_ea91eea06f8b770b86b34eeb9909268c.bindPopup(popup_413fbb7b991f811718dad2b886e5b79e)
+        ;
+
+        
+    
+    
+            var marker_14453cca25a89144fa1ef3f08a2157d3 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_236e9388c20a00bb2279bb148326ae2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_14453cca25a89144fa1ef3f08a2157d3.setIcon(icon_236e9388c20a00bb2279bb148326ae2a);
+        
+    
+        var popup_5e70e7ac0eecaf2610226edee3ca9ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39d24c89379f5eef3e1e2f4896c28bc5 = $(`<div id="html_39d24c89379f5eef3e1e2f4896c28bc5" style="width: 100.0%; height: 100.0%;">     <strong>Three Rivers</strong><br>     1714 Santa Fe Dr<br>     Pueblo, CO 81006<br>     Type: Undisclosed     </div>`)[0];
+                popup_5e70e7ac0eecaf2610226edee3ca9ea3.setContent(html_39d24c89379f5eef3e1e2f4896c28bc5);
+            
+        
+
+        marker_14453cca25a89144fa1ef3f08a2157d3.bindPopup(popup_5e70e7ac0eecaf2610226edee3ca9ea3)
+        ;
+
+        
+    
+    
+            var marker_b082cb88a799344551fe4d2d2e3f58c3 = L.marker(
+                [38.335297, -104.724494],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_0d26fb511d7cb3b42664c1eeb82005ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b082cb88a799344551fe4d2d2e3f58c3.setIcon(icon_0d26fb511d7cb3b42664c1eeb82005ae);
+        
+    
+        var popup_d7b3c1500d76fd47745e24212cc8a1be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d610d27a79bdc9949cc9773654900edc = $(`<div id="html_d610d27a79bdc9949cc9773654900edc" style="width: 100.0%; height: 100.0%;">     <strong>Three Rivers</strong><br>     83 N Magneto Dr<br>     Pueblo, CO 81007<br>     Type: Undisclosed     </div>`)[0];
+                popup_d7b3c1500d76fd47745e24212cc8a1be.setContent(html_d610d27a79bdc9949cc9773654900edc);
+            
+        
+
+        marker_b082cb88a799344551fe4d2d2e3f58c3.bindPopup(popup_d7b3c1500d76fd47745e24212cc8a1be)
+        ;
+
+        
+    
+    
+            var marker_3a53f8056f50623bd814d7e30eeb2583 = L.marker(
+                [38.3276058, -104.7120965],
+                {}
+            ).addTo(map_34691e00a3377b40396e615b72e1034c);
+        
+    
+            var icon_89cc1fc5612c14c4b07f18f7c124f840 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a53f8056f50623bd814d7e30eeb2583.setIcon(icon_89cc1fc5612c14c4b07f18f7c124f840);
+        
+    
+        var popup_b076c15dfb115a3069a96a0d90015f30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374afaedab7f7c8584ed3d1666a639ae = $(`<div id="html_374afaedab7f7c8584ed3d1666a639ae" style="width: 100.0%; height: 100.0%;">     <strong>Wolfpac Cannabis</strong><br>     749 E Enterprise Drive<br>     Pueblo, CO 81007<br>     Type: Recreational     </div>`)[0];
+                popup_b076c15dfb115a3069a96a0d90015f30.setContent(html_374afaedab7f7c8584ed3d1666a639ae);
+            
+        
+
+        marker_3a53f8056f50623bd814d7e30eeb2583.bindPopup(popup_b076c15dfb115a3069a96a0d90015f30)
+        ;
+
+        
+    
+</script>
+</html>

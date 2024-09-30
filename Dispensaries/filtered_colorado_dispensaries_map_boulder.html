@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7dbc30c6ab5b719ae282cf09e15a0e86 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7dbc30c6ab5b719ae282cf09e15a0e86" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7dbc30c6ab5b719ae282cf09e15a0e86 = L.map(
+                "map_7dbc30c6ab5b719ae282cf09e15a0e86",
+                {
+                    center: [40.015, -105.2705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_06d14e25f0cd281066f37964b26e140b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_06d14e25f0cd281066f37964b26e140b.addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var marker_4ac9b0805962bd164328e435fe41f348 = L.marker(
+                [40.0141938, -105.227272],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_33595b11d33070a60073d63c910cf222 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ac9b0805962bd164328e435fe41f348.setIcon(icon_33595b11d33070a60073d63c910cf222);
+        
+    
+        var popup_b0b4b28bcec79a30b53bd10fabe87103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b80010330a789e8d72365ef8d09b4308 = $(`<div id="html_b80010330a789e8d72365ef8d09b4308" style="width: 100.0%; height: 100.0%;">     <strong>Boulder Wellness Center</strong><br>     5420 Arapahoe Ave Unit F<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_b0b4b28bcec79a30b53bd10fabe87103.setContent(html_b80010330a789e8d72365ef8d09b4308);
+            
+        
+
+        marker_4ac9b0805962bd164328e435fe41f348.bindPopup(popup_b0b4b28bcec79a30b53bd10fabe87103)
+        ;
+
+        
+    
+    
+            var marker_c05b16040ddbc2543011d259e4b41c18 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_36bc49aa05dc3842e782c49656a85691 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c05b16040ddbc2543011d259e4b41c18.setIcon(icon_36bc49aa05dc3842e782c49656a85691);
+        
+    
+        var popup_89947d371391e36afde77bf814a993e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b57a298f09c906210c5b0d6ffad8fa4 = $(`<div id="html_0b57a298f09c906210c5b0d6ffad8fa4" style="width: 100.0%; height: 100.0%;">     <strong>Drift</strong><br>     1750 30th St Unit 12<br>     Boulder, CO 80301<br>     Type: Undisclosed     </div>`)[0];
+                popup_89947d371391e36afde77bf814a993e6.setContent(html_0b57a298f09c906210c5b0d6ffad8fa4);
+            
+        
+
+        marker_c05b16040ddbc2543011d259e4b41c18.bindPopup(popup_89947d371391e36afde77bf814a993e6)
+        ;
+
+        
+    
+    
+            var marker_19986a0f06b3876b4f1495ba2568206d = L.marker(
+                [39.9856087, -105.2294495],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_aad563aa7f6c73c6fc7dbff7345be4b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19986a0f06b3876b4f1495ba2568206d.setIcon(icon_aad563aa7f6c73c6fc7dbff7345be4b7);
+        
+    
+        var popup_2955d128f1885ed19ae49e0a05e247b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7820e9899fe54f894ba21d52e3fc5aa = $(`<div id="html_a7820e9899fe54f894ba21d52e3fc5aa" style="width: 100.0%; height: 100.0%;">     <strong>Drift</strong><br>     5190 S Boulder Rd<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_2955d128f1885ed19ae49e0a05e247b7.setContent(html_a7820e9899fe54f894ba21d52e3fc5aa);
+            
+        
+
+        marker_19986a0f06b3876b4f1495ba2568206d.bindPopup(popup_2955d128f1885ed19ae49e0a05e247b7)
+        ;
+
+        
+    
+    
+            var marker_9becd0e510cf29c73a5051d83d8ade9b = L.marker(
+                [40.0258738, -105.2848987],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_fe323ec2c3a9ad3615456e2adf0f5943 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9becd0e510cf29c73a5051d83d8ade9b.setIcon(icon_fe323ec2c3a9ad3615456e2adf0f5943);
+        
+    
+        var popup_ea5d5e29f2eb50feb6c1363cdbd69c99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05c4c8c723be9006d0934ca0b61bf240 = $(`<div id="html_05c4c8c723be9006d0934ca0b61bf240" style="width: 100.0%; height: 100.0%;">     <strong>Eclipse Cannabis Company</strong><br>     933 Alpine Ave Unit 2<br>     Boulder, CO 80304<br>     Type: Recreational     </div>`)[0];
+                popup_ea5d5e29f2eb50feb6c1363cdbd69c99.setContent(html_05c4c8c723be9006d0934ca0b61bf240);
+            
+        
+
+        marker_9becd0e510cf29c73a5051d83d8ade9b.bindPopup(popup_ea5d5e29f2eb50feb6c1363cdbd69c99)
+        ;
+
+        
+    
+    
+            var marker_d668bd8e637d39402de56f07c0c017dd = L.marker(
+                [40.0138182, -105.2248919],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_6489fcd79425280dd1306038bdbfb742 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d668bd8e637d39402de56f07c0c017dd.setIcon(icon_6489fcd79425280dd1306038bdbfb742);
+        
+    
+        var popup_4e02b1e622e0ddcac1bdcdfa890bf4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40ac0f5a8a5538f26c7e2086c69eaec5 = $(`<div id="html_40ac0f5a8a5538f26c7e2086c69eaec5" style="width: 100.0%; height: 100.0%;">     <strong>Elements Boulder</strong><br>     1534 55th St Boulder<br>     Boulder, CO 80303<br>     Type: Recreational     </div>`)[0];
+                popup_4e02b1e622e0ddcac1bdcdfa890bf4c5.setContent(html_40ac0f5a8a5538f26c7e2086c69eaec5);
+            
+        
+
+        marker_d668bd8e637d39402de56f07c0c017dd.bindPopup(popup_4e02b1e622e0ddcac1bdcdfa890bf4c5)
+        ;
+
+        
+    
+    
+            var marker_e9312b9a654215e3fb5900ccff24c581 = L.marker(
+                [40.036542, -105.257038],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_ba37400697d855f569899a21e9f7e238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9312b9a654215e3fb5900ccff24c581.setIcon(icon_ba37400697d855f569899a21e9f7e238);
+        
+    
+        var popup_9259edd362685c1485d501a074f3fb35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_511824d59f7fa53bba079fd21aaeb82e = $(`<div id="html_511824d59f7fa53bba079fd21aaeb82e" style="width: 100.0%; height: 100.0%;">     <strong>The Farm</strong><br>     2801 Iris Ave<br>     Boulder, CO 80301<br>     Type: Recreational     </div>`)[0];
+                popup_9259edd362685c1485d501a074f3fb35.setContent(html_511824d59f7fa53bba079fd21aaeb82e);
+            
+        
+
+        marker_e9312b9a654215e3fb5900ccff24c581.bindPopup(popup_9259edd362685c1485d501a074f3fb35)
+        ;
+
+        
+    
+    
+            var marker_652d84bf53f9fc833c241c9d347c3667 = L.marker(
+                [40.0141938, -105.227272],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_d61a6b797194b2a693f4adc6f252c6ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_652d84bf53f9fc833c241c9d347c3667.setIcon(icon_d61a6b797194b2a693f4adc6f252c6ba);
+        
+    
+        var popup_dc0eb389b6851f7c21cd92be66830f35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ae488287ef7e2c466e64a3aa45721c2 = $(`<div id="html_0ae488287ef7e2c466e64a3aa45721c2" style="width: 100.0%; height: 100.0%;">     <strong>The Farm Express</strong><br>     5420 Arapahoe Ave Unit D<br>     Boulder, CO 80303<br>     Type: Recreational     </div>`)[0];
+                popup_dc0eb389b6851f7c21cd92be66830f35.setContent(html_0ae488287ef7e2c466e64a3aa45721c2);
+            
+        
+
+        marker_652d84bf53f9fc833c241c9d347c3667.bindPopup(popup_dc0eb389b6851f7c21cd92be66830f35)
+        ;
+
+        
+    
+    
+            var marker_632f78bab893337885f7e7e015290f83 = L.marker(
+                [40.021576, -105.2623036],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_66ca307ed7c46d3cdcb3d43fe67badfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_632f78bab893337885f7e7e015290f83.setIcon(icon_66ca307ed7c46d3cdcb3d43fe67badfb);
+        
+    
+        var popup_a79049e53dea4ac8c4549f96e07dcda2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b883ece932df73f1c25f843e25a06a = $(`<div id="html_13b883ece932df73f1c25f843e25a06a" style="width: 100.0%; height: 100.0%;">     <strong>Fresh Baked</strong><br>     2539 Pearl St<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_a79049e53dea4ac8c4549f96e07dcda2.setContent(html_13b883ece932df73f1c25f843e25a06a);
+            
+        
+
+        marker_632f78bab893337885f7e7e015290f83.bindPopup(popup_a79049e53dea4ac8c4549f96e07dcda2)
+        ;
+
+        
+    
+    
+            var marker_17cf2b91f05280a7d2a3feb7c08117b7 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_7ee6b45a864cfcc54bd84b67312a5d2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17cf2b91f05280a7d2a3feb7c08117b7.setIcon(icon_7ee6b45a864cfcc54bd84b67312a5d2f);
+        
+    
+        var popup_aa48b734c652e7d944e3c65bfdef2901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bab504a0492f9b9dc3665b436517c1f0 = $(`<div id="html_bab504a0492f9b9dc3665b436517c1f0" style="width: 100.0%; height: 100.0%;">     <strong>Green Dragon</strong><br>     1750 30th Street Unit 7<br>     Boulder, CO 80301<br>     Type: Undisclosed     </div>`)[0];
+                popup_aa48b734c652e7d944e3c65bfdef2901.setContent(html_bab504a0492f9b9dc3665b436517c1f0);
+            
+        
+
+        marker_17cf2b91f05280a7d2a3feb7c08117b7.bindPopup(popup_aa48b734c652e7d944e3c65bfdef2901)
+        ;
+
+        
+    
+    
+            var marker_448ed7a5f1e646b43d50262051f5919a = L.marker(
+                [40.0151539, -105.2236498],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_c6f568b947dead0833bb9f46d5592570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_448ed7a5f1e646b43d50262051f5919a.setIcon(icon_c6f568b947dead0833bb9f46d5592570);
+        
+    
+        var popup_7d8d485ab34d61114d0d00121eb8ce2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4f0e09cf27e51e08e4b665a439b191 = $(`<div id="html_cf4f0e09cf27e51e08e4b665a439b191" style="width: 100.0%; height: 100.0%;">     <strong>Green Tree Medicinals</strong><br>     5565 Arapahoe Ave Ste G<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_7d8d485ab34d61114d0d00121eb8ce2f.setContent(html_cf4f0e09cf27e51e08e4b665a439b191);
+            
+        
+
+        marker_448ed7a5f1e646b43d50262051f5919a.bindPopup(popup_7d8d485ab34d61114d0d00121eb8ce2f)
+        ;
+
+        
+    
+    
+            var marker_3e261102c7483e0c8bdde475b1333fc3 = L.marker(
+                [40.015472, -105.2880107],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_3c4e451f212af67e6dcf5360afb9275b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e261102c7483e0c8bdde475b1333fc3.setIcon(icon_3c4e451f212af67e6dcf5360afb9275b);
+        
+    
+        var popup_4a3b1657562705544bef392c02b217de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6442459eaecf72bc00e203e13f31c048 = $(`<div id="html_6442459eaecf72bc00e203e13f31c048" style="width: 100.0%; height: 100.0%;">     <strong>The Health Center</strong><br>     537 Canyon Blvd<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_4a3b1657562705544bef392c02b217de.setContent(html_6442459eaecf72bc00e203e13f31c048);
+            
+        
+
+        marker_3e261102c7483e0c8bdde475b1333fc3.bindPopup(popup_4a3b1657562705544bef392c02b217de)
+        ;
+
+        
+    
+    
+            var marker_a3175d4fb1853c69fe0962d033844c18 = L.marker(
+                [40.0175992, -105.282086],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_1ae70965e38b1bb870d6f6032c32e8c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3175d4fb1853c69fe0962d033844c18.setIcon(icon_1ae70965e38b1bb870d6f6032c32e8c4);
+        
+    
+        var popup_0d86565db72aa6630c4a5a2b4e50845a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8fe53f349d1090fa07c414d0123e15 = $(`<div id="html_fe8fe53f349d1090fa07c414d0123e15" style="width: 100.0%; height: 100.0%;">     <strong>Helping Hands Cannabis</strong><br>     1021 Pearl St Boulder<br>     Boulder, CO 80302<br>     Type: Undisclosed     </div>`)[0];
+                popup_0d86565db72aa6630c4a5a2b4e50845a.setContent(html_fe8fe53f349d1090fa07c414d0123e15);
+            
+        
+
+        marker_a3175d4fb1853c69fe0962d033844c18.bindPopup(popup_0d86565db72aa6630c4a5a2b4e50845a)
+        ;
+
+        
+    
+    
+            var marker_5e529ef981a188d295fbe1c337176f00 = L.marker(
+                [41.66704, -72.66648],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_ef36875f2d1d6826d6f634cef8abd58f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e529ef981a188d295fbe1c337176f00.setIcon(icon_ef36875f2d1d6826d6f634cef8abd58f);
+        
+    
+        var popup_009ddaa9640771a7766d2a5a26652dee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e72eb75c38bddfe1e3d4283e8bed05cd = $(`<div id="html_e72eb75c38bddfe1e3d4283e8bed05cd" style="width: 100.0%; height: 100.0%;">     <strong>Karing Kind</strong><br>     5854 Rawhide Ct<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_009ddaa9640771a7766d2a5a26652dee.setContent(html_e72eb75c38bddfe1e3d4283e8bed05cd);
+            
+        
+
+        marker_5e529ef981a188d295fbe1c337176f00.bindPopup(popup_009ddaa9640771a7766d2a5a26652dee)
+        ;
+
+        
+    
+    
+            var marker_00ce3797949a3e4e16e53aa756359977 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_fd9b47cacb667f7429b84593fea6808c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00ce3797949a3e4e16e53aa756359977.setIcon(icon_fd9b47cacb667f7429b84593fea6808c);
+        
+    
+        var popup_479ede1ee1ca91bb245e7ddac3347032 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2669eaa99a5ba554faab45db3e50ce6d = $(`<div id="html_2669eaa99a5ba554faab45db3e50ce6d" style="width: 100.0%; height: 100.0%;">     <strong>Magnolia Road Cannabis</strong><br>     1750 30th St<br>     Boulder, CO 80301<br>     Type: Undisclosed     </div>`)[0];
+                popup_479ede1ee1ca91bb245e7ddac3347032.setContent(html_2669eaa99a5ba554faab45db3e50ce6d);
+            
+        
+
+        marker_00ce3797949a3e4e16e53aa756359977.bindPopup(popup_479ede1ee1ca91bb245e7ddac3347032)
+        ;
+
+        
+    
+    
+            var marker_ef267ab795ccc9eb5b9b1648a66fe3f1 = L.marker(
+                [40.0323665, -105.2597227],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_4eb46bb5871b6a63633fc6273717229f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ef267ab795ccc9eb5b9b1648a66fe3f1.setIcon(icon_4eb46bb5871b6a63633fc6273717229f);
+        
+    
+        var popup_7b5094c8ef5051710d3194a932abeab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4996d4e8d79bfaccca2cb9a7607139 = $(`<div id="html_ca4996d4e8d79bfaccca2cb9a7607139" style="width: 100.0%; height: 100.0%;">     <strong>Maikoh Holistics</strong><br>     2750 Glenwood Dr Unit 8<br>     Boulder, CO 80304<br>     Type: Recreational     </div>`)[0];
+                popup_7b5094c8ef5051710d3194a932abeab9.setContent(html_ca4996d4e8d79bfaccca2cb9a7607139);
+            
+        
+
+        marker_ef267ab795ccc9eb5b9b1648a66fe3f1.bindPopup(popup_7b5094c8ef5051710d3194a932abeab9)
+        ;
+
+        
+    
+    
+            var marker_af74b8d27fc4df646f1f4bcd480fc244 = L.marker(
+                [40.0173803, -105.2798138],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_e7c0368bb3f3286fb89b5f4e65d19618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af74b8d27fc4df646f1f4bcd480fc244.setIcon(icon_e7c0368bb3f3286fb89b5f4e65d19618);
+        
+    
+        var popup_b8e291dd78ffbd4d4a63aa2276937099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37f735773a9dff779ea64b486bdaedcb = $(`<div id="html_37f735773a9dff779ea64b486bdaedcb" style="width: 100.0%; height: 100.0%;">     <strong>Marquis Cannabis</strong><br>     1909 Broadway St<br>     Boulder, CO 80302<br>     Type: Undisclosed     </div>`)[0];
+                popup_b8e291dd78ffbd4d4a63aa2276937099.setContent(html_37f735773a9dff779ea64b486bdaedcb);
+            
+        
+
+        marker_af74b8d27fc4df646f1f4bcd480fc244.bindPopup(popup_b8e291dd78ffbd4d4a63aa2276937099)
+        ;
+
+        
+    
+    
+            var marker_aa19f78b1484251966054200aff39f34 = L.marker(
+                [40.0177033, -105.280149],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_5599085996b3748af8252e4b887c4a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa19f78b1484251966054200aff39f34.setIcon(icon_5599085996b3748af8252e4b887c4a92);
+        
+    
+        var popup_4ac8b50828a9c2c20509671ea267ccde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afdfffd262746244c08fee1dff910aab = $(`<div id="html_afdfffd262746244c08fee1dff910aab" style="width: 100.0%; height: 100.0%;">     <strong>Native Roots Dispensary</strong><br>     1146 Pearl St<br>     Boulder, CO 80302<br>     Type: Undisclosed     </div>`)[0];
+                popup_4ac8b50828a9c2c20509671ea267ccde.setContent(html_afdfffd262746244c08fee1dff910aab);
+            
+        
+
+        marker_aa19f78b1484251966054200aff39f34.bindPopup(popup_4ac8b50828a9c2c20509671ea267ccde)
+        ;
+
+        
+    
+    
+            var marker_921a7b79c5c76a7b17a36857d42ccdea = L.marker(
+                [40.0141266, -105.2296323],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_5a5e014d79bad5237662df62d53841d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_921a7b79c5c76a7b17a36857d42ccdea.setIcon(icon_5a5e014d79bad5237662df62d53841d8);
+        
+    
+        var popup_b848aa18725089867c80f6ddbc54fc67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51a034aeacea1a555bb0b00a87b00d2d = $(`<div id="html_51a034aeacea1a555bb0b00a87b00d2d" style="width: 100.0%; height: 100.0%;">     <strong>Options Recreational Dispensary</strong><br>     5290 Arapahoe Ave Unit J<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_b848aa18725089867c80f6ddbc54fc67.setContent(html_51a034aeacea1a555bb0b00a87b00d2d);
+            
+        
+
+        marker_921a7b79c5c76a7b17a36857d42ccdea.bindPopup(popup_b848aa18725089867c80f6ddbc54fc67)
+        ;
+
+        
+    
+    
+            var marker_1a2d82213a1a1ba9a6ae924365cde9c9 = L.marker(
+                [40.0145433, -105.1788976],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_44e8fe5dd4f0fb6e3ffd0c11d31acb2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a2d82213a1a1ba9a6ae924365cde9c9.setIcon(icon_44e8fe5dd4f0fb6e3ffd0c11d31acb2d);
+        
+    
+        var popup_089a9a7188f94e9ed436e23b6d0ea5fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67b5294bd0ad69724a35dc25488d2c53 = $(`<div id="html_67b5294bd0ad69724a35dc25488d2c53" style="width: 100.0%; height: 100.0%;">     <strong>The Peaceful Choice</strong><br>     7464 Arapahoe Rd<br>     Boulder, CO 80303<br>     Type: Medical     </div>`)[0];
+                popup_089a9a7188f94e9ed436e23b6d0ea5fe.setContent(html_67b5294bd0ad69724a35dc25488d2c53);
+            
+        
+
+        marker_1a2d82213a1a1ba9a6ae924365cde9c9.bindPopup(popup_089a9a7188f94e9ed436e23b6d0ea5fe)
+        ;
+
+        
+    
+    
+            var marker_3d81c915abe6ceefdb279f7f1dbeb85c = L.marker(
+                [40.0171972, -105.2630855],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_037d127ebe01266ff2236b2d17740abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d81c915abe6ceefdb279f7f1dbeb85c.setIcon(icon_037d127ebe01266ff2236b2d17740abd);
+        
+    
+        var popup_dccc362fb9586ff1f05839c4b4d23497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_677c15de644a5db60583c7120aea8f1f = $(`<div id="html_677c15de644a5db60583c7120aea8f1f" style="width: 100.0%; height: 100.0%;">     <strong>Terrapin Care Station</strong><br>     1795 Folsom St<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_dccc362fb9586ff1f05839c4b4d23497.setContent(html_677c15de644a5db60583c7120aea8f1f);
+            
+        
+
+        marker_3d81c915abe6ceefdb279f7f1dbeb85c.bindPopup(popup_dccc362fb9586ff1f05839c4b4d23497)
+        ;
+
+        
+    
+    
+            var marker_2834510a7a1d50a6fd53e82307073127 = L.marker(
+                [39.9848551, -105.2274969],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_5901c152a0d54a9f01c48fa7244f0c59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2834510a7a1d50a6fd53e82307073127.setIcon(icon_5901c152a0d54a9f01c48fa7244f0c59);
+        
+    
+        var popup_b8badd2df1bc63f1ecbead7dadd4d515 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_193349e821d436cfb52eb465f6c452fc = $(`<div id="html_193349e821d436cfb52eb465f6c452fc" style="width: 100.0%; height: 100.0%;">     <strong>Terrapin Care Station</strong><br>     5370 Manhattan Cir #104<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_b8badd2df1bc63f1ecbead7dadd4d515.setContent(html_193349e821d436cfb52eb465f6c452fc);
+            
+        
+
+        marker_2834510a7a1d50a6fd53e82307073127.bindPopup(popup_b8badd2df1bc63f1ecbead7dadd4d515)
+        ;
+
+        
+    
+    
+            var marker_0328bfef93133ed98226e3ece4893ea9 = L.marker(
+                [40.0190262, -105.275154],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_b2146ba301b71afc48bff41d79ed0869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0328bfef93133ed98226e3ece4893ea9.setIcon(icon_b2146ba301b71afc48bff41d79ed0869);
+        
+    
+        var popup_8389134b82123e181661e614428fc3c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c14577be06987e242a1be3c5cc989702 = $(`<div id="html_c14577be06987e242a1be3c5cc989702" style="width: 100.0%; height: 100.0%;">     <strong>Trill Alternatives</strong><br>     1537 Pearl St Unit B<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_8389134b82123e181661e614428fc3c6.setContent(html_c14577be06987e242a1be3c5cc989702);
+            
+        
+
+        marker_0328bfef93133ed98226e3ece4893ea9.bindPopup(popup_8389134b82123e181661e614428fc3c6)
+        ;
+
+        
+    
+    
+            var marker_1e7d840b58840ad6d2137b3974d99441 = L.marker(
+                [40.0151539, -105.2236498],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_ba8a78b6014fa34663de86a7f283b104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1e7d840b58840ad6d2137b3974d99441.setIcon(icon_ba8a78b6014fa34663de86a7f283b104);
+        
+    
+        var popup_ea0346cb96e955fd6b9ec973874d676c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_860bf6a05302f2f82bddcd33d0c86a19 = $(`<div id="html_860bf6a05302f2f82bddcd33d0c86a19" style="width: 100.0%; height: 100.0%;">     <strong>TweedLeaf</strong><br>     5565 Arapahoe Ave<br>     Boulder, CO 80303<br>     Type: Undisclosed     </div>`)[0];
+                popup_ea0346cb96e955fd6b9ec973874d676c.setContent(html_860bf6a05302f2f82bddcd33d0c86a19);
+            
+        
+
+        marker_1e7d840b58840ad6d2137b3974d99441.bindPopup(popup_ea0346cb96e955fd6b9ec973874d676c)
+        ;
+
+        
+    
+    
+            var marker_18f65edc107c2bacb71e2bd16db6f1af = L.marker(
+                [40.0151476, -105.2913816],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_35cbab01ab44e8e4655bf5e43de5e0c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18f65edc107c2bacb71e2bd16db6f1af.setIcon(icon_35cbab01ab44e8e4655bf5e43de5e0c8);
+        
+    
+        var popup_b9648af1b00be5c5bf8b6a0172f3ee19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5668f014890bd255ebce29156ec9954 = $(`<div id="html_a5668f014890bd255ebce29156ec9954" style="width: 100.0%; height: 100.0%;">     <strong>Verde Natural Marijuana Dispensary</strong><br>     302 Pearl St<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_b9648af1b00be5c5bf8b6a0172f3ee19.setContent(html_a5668f014890bd255ebce29156ec9954);
+            
+        
+
+        marker_18f65edc107c2bacb71e2bd16db6f1af.bindPopup(popup_b9648af1b00be5c5bf8b6a0172f3ee19)
+        ;
+
+        
+    
+    
+            var marker_6a91c2c1016c446bfe3073fdc78b549f = L.marker(
+                [40.0151476, -105.2913816],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_faf901c50ffb13f120be182b6a00d213 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a91c2c1016c446bfe3073fdc78b549f.setIcon(icon_faf901c50ffb13f120be182b6a00d213);
+        
+    
+        var popup_ad3ec2b7a30c9d2f8b8eade016025f0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12d4f6d95b6b7e2a781d8d7aeba277c8 = $(`<div id="html_12d4f6d95b6b7e2a781d8d7aeba277c8" style="width: 100.0%; height: 100.0%;">     <strong>Verde Natural Marijuana Dispensary</strong><br>     302 Pearl St<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_ad3ec2b7a30c9d2f8b8eade016025f0e.setContent(html_12d4f6d95b6b7e2a781d8d7aeba277c8);
+            
+        
+
+        marker_6a91c2c1016c446bfe3073fdc78b549f.bindPopup(popup_ad3ec2b7a30c9d2f8b8eade016025f0e)
+        ;
+
+        
+    
+    
+            var marker_2af386928d574b863018f914db8de344 = L.marker(
+                [40.0197699, -105.2753688],
+                {}
+            ).addTo(map_7dbc30c6ab5b719ae282cf09e15a0e86);
+        
+    
+            var icon_9ff06d611a6e6398a3b5702635070934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2af386928d574b863018f914db8de344.setIcon(icon_9ff06d611a6e6398a3b5702635070934);
+        
+    
+        var popup_c0c13aa7c91309a94e065836aca243c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9488157ac2fef6fd2570582c2b78fcea = $(`<div id="html_9488157ac2fef6fd2570582c2b78fcea" style="width: 100.0%; height: 100.0%;">     <strong>The Village Green Society</strong><br>     2043 16th St<br>     Boulder, CO 80302<br>     Type: Recreational     </div>`)[0];
+                popup_c0c13aa7c91309a94e065836aca243c5.setContent(html_9488157ac2fef6fd2570582c2b78fcea);
+            
+        
+
+        marker_2af386928d574b863018f914db8de344.bindPopup(popup_c0c13aa7c91309a94e065836aca243c5)
+        ;
+
+        
+    
+</script>
+</html>

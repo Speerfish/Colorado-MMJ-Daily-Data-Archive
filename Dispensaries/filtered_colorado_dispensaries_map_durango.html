@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e668f36e132c798680c159e01ad6792e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e668f36e132c798680c159e01ad6792e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e668f36e132c798680c159e01ad6792e = L.map(
+                "map_e668f36e132c798680c159e01ad6792e",
+                {
+                    center: [39.0714, -108.5497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc44bdc66d469c099b675b458e81e0be = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fc44bdc66d469c099b675b458e81e0be.addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var marker_84cf64e46745130a80e5e4c846696e23 = L.marker(
+                [37.3219931, -107.8517289],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_a43ef60e94a3cb922f01ede79691ba59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84cf64e46745130a80e5e4c846696e23.setIcon(icon_a43ef60e94a3cb922f01ede79691ba59);
+        
+    
+        var popup_c9f55914a13cfb42a13e0dd6ecb15139 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6f8f92bef63f61ae346aa8d3980a464 = $(`<div id="html_d6f8f92bef63f61ae346aa8d3980a464" style="width: 100.0%; height: 100.0%;">     <strong>Acme Healing Center</strong><br>     1644 County Road 203<br>     Durango, CO 81301<br>     Type: Undisclosed     </div>`)[0];
+                popup_c9f55914a13cfb42a13e0dd6ecb15139.setContent(html_d6f8f92bef63f61ae346aa8d3980a464);
+            
+        
+
+        marker_84cf64e46745130a80e5e4c846696e23.bindPopup(popup_c9f55914a13cfb42a13e0dd6ecb15139)
+        ;
+
+        
+    
+    
+            var marker_91c2594dd8c3b7d75527c5e0b43baa61 = L.marker(
+                [37.264992, -107.879],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_43285f60142330e8d58e9343d51fe346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91c2594dd8c3b7d75527c5e0b43baa61.setIcon(icon_43285f60142330e8d58e9343d51fe346);
+        
+    
+        var popup_560b03e9f57c40bbc81a85581478cfa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7feceb8c44f564349a8424254afed7e = $(`<div id="html_a7feceb8c44f564349a8424254afed7e" style="width: 100.0%; height: 100.0%;">     <strong>Colorado Grow Company</strong><br>     965 1/2 Main Ave<br>     Durango, CO 81301<br>     Type: Undisclosed     </div>`)[0];
+                popup_560b03e9f57c40bbc81a85581478cfa0.setContent(html_a7feceb8c44f564349a8424254afed7e);
+            
+        
+
+        marker_91c2594dd8c3b7d75527c5e0b43baa61.bindPopup(popup_560b03e9f57c40bbc81a85581478cfa0)
+        ;
+
+        
+    
+    
+            var marker_2951932278e8496eaaa12f6272572236 = L.marker(
+                [37.318364, -107.880367],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_91a7d8018765e0dcb8c7754d6e6372cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2951932278e8496eaaa12f6272572236.setIcon(icon_91a7d8018765e0dcb8c7754d6e6372cf);
+        
+    
+        var popup_f1f72e8d3bbafb520806ec09c5c7792d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da082440c20a955d29a5ffaab52703b0 = $(`<div id="html_da082440c20a955d29a5ffaab52703b0" style="width: 100.0%; height: 100.0%;">     <strong>Durango Cannabis Company</strong><br>     28753 US160<br>     Durango, CO 81301<br>     Type: Recreational     </div>`)[0];
+                popup_f1f72e8d3bbafb520806ec09c5c7792d.setContent(html_da082440c20a955d29a5ffaab52703b0);
+            
+        
+
+        marker_2951932278e8496eaaa12f6272572236.bindPopup(popup_f1f72e8d3bbafb520806ec09c5c7792d)
+        ;
+
+        
+    
+    
+            var marker_59c312bd4bab454c2c6e0e757752366a = L.marker(
+                [37.2475386, -107.8764614],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_de3776399b13a3e95340ab1c1532ac19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59c312bd4bab454c2c6e0e757752366a.setIcon(icon_de3776399b13a3e95340ab1c1532ac19);
+        
+    
+        var popup_4127e2f1f622211e0ca42ceb5619cade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52f6ebc8a7838d9120144ba0d7851a40 = $(`<div id="html_52f6ebc8a7838d9120144ba0d7851a40" style="width: 100.0%; height: 100.0%;">     <strong>Durango Organics</strong><br>     72 Suttle St<br>     Durango, CO 81303<br>     Type: Recreational     </div>`)[0];
+                popup_4127e2f1f622211e0ca42ceb5619cade.setContent(html_52f6ebc8a7838d9120144ba0d7851a40);
+            
+        
+
+        marker_59c312bd4bab454c2c6e0e757752366a.bindPopup(popup_4127e2f1f622211e0ca42ceb5619cade)
+        ;
+
+        
+    
+    
+            var marker_252373874adb95acfe5bbb76204fda00 = L.marker(
+                [37.12149, -107.885499],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_a7e182e82197b6940a50a541d1e8f67e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_252373874adb95acfe5bbb76204fda00.setIcon(icon_a7e182e82197b6940a50a541d1e8f67e);
+        
+    
+        var popup_13a3d0a61f558fb76a98705c189e5f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65c6eec3240715b78437953a2e7e4921 = $(`<div id="html_65c6eec3240715b78437953a2e7e4921" style="width: 100.0%; height: 100.0%;">     <strong>Durango Organics</strong><br>     37 CR-232<br>     Durango, CO 81303<br>     Type: Recreational     </div>`)[0];
+                popup_13a3d0a61f558fb76a98705c189e5f01.setContent(html_65c6eec3240715b78437953a2e7e4921);
+            
+        
+
+        marker_252373874adb95acfe5bbb76204fda00.bindPopup(popup_13a3d0a61f558fb76a98705c189e5f01)
+        ;
+
+        
+    
+    
+            var marker_ab0ecbabdc0650e249cc10b679679dd9 = L.marker(
+                [37.2348502, -107.8715943],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_7677306d75977645b1a880b247ac727c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab0ecbabdc0650e249cc10b679679dd9.setIcon(icon_7677306d75977645b1a880b247ac727c);
+        
+    
+        var popup_7673053bff98271cbb84652aae705304 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d799534d72a334493a026fff3b8dbec0 = $(`<div id="html_d799534d72a334493a026fff3b8dbec0" style="width: 100.0%; height: 100.0%;">     <strong>The Greenery</strong><br>     208 Parker Ave Unit E<br>     Durango, CO 81303<br>     Type: Recreational     </div>`)[0];
+                popup_7673053bff98271cbb84652aae705304.setContent(html_d799534d72a334493a026fff3b8dbec0);
+            
+        
+
+        marker_ab0ecbabdc0650e249cc10b679679dd9.bindPopup(popup_7673053bff98271cbb84652aae705304)
+        ;
+
+        
+    
+    
+            var marker_20be4325ae2950cb385fd800ecf93cf1 = L.marker(
+                [37.244357, -107.872261],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_4e9a2468ef5f8abe19eb4c3f59c9fe02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20be4325ae2950cb385fd800ecf93cf1.setIcon(icon_4e9a2468ef5f8abe19eb4c3f59c9fe02);
+        
+    
+        var popup_89028041f40a149f4f7af23698bc63a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_305aed6634305eb903c98a7cecaad75b = $(`<div id="html_305aed6634305eb903c98a7cecaad75b" style="width: 100.0%; height: 100.0%;">     <strong>The Green House</strong><br>     730 S Camino Del Rio<br>     Durango, CO 81301<br>     Type: Undisclosed     </div>`)[0];
+                popup_89028041f40a149f4f7af23698bc63a4.setContent(html_305aed6634305eb903c98a7cecaad75b);
+            
+        
+
+        marker_20be4325ae2950cb385fd800ecf93cf1.bindPopup(popup_89028041f40a149f4f7af23698bc63a4)
+        ;
+
+        
+    
+    
+            var marker_c2f66e2288a941b1cd410a3bb2ff30ae = L.marker(
+                [37.250981, -107.8700051],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_360da554bddcb23809756838a9242563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c2f66e2288a941b1cd410a3bb2ff30ae.setIcon(icon_360da554bddcb23809756838a9242563);
+        
+    
+        var popup_f33ff00edd15351b3a71bb151d8dd564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_888fa0852ba90b83ee9a691ab9a130e6 = $(`<div id="html_888fa0852ba90b83ee9a691ab9a130e6" style="width: 100.0%; height: 100.0%;">     <strong>The Homestead</strong><br>     927 SH-3<br>     Durango, CO 81301<br>     Type: Undisclosed     </div>`)[0];
+                popup_f33ff00edd15351b3a71bb151d8dd564.setContent(html_888fa0852ba90b83ee9a691ab9a130e6);
+            
+        
+
+        marker_c2f66e2288a941b1cd410a3bb2ff30ae.bindPopup(popup_f33ff00edd15351b3a71bb151d8dd564)
+        ;
+
+        
+    
+    
+            var marker_47a5d6870de8e74b3095f0160a4eccf6 = L.marker(
+                [37.2292436, -107.8254408],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_a09cb9f2a28f70babe44d89b81eb13d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_47a5d6870de8e74b3095f0160a4eccf6.setIcon(icon_a09cb9f2a28f70babe44d89b81eb13d8);
+        
+    
+        var popup_92c5ab1c734951e601461bee48a5e3f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a760b39da3e595d80c492075af9929ce = $(`<div id="html_a760b39da3e595d80c492075af9929ce" style="width: 100.0%; height: 100.0%;">     <strong>Kinfolk Farms</strong><br>     83 Davidson Creek Rd<br>     Durango, CO 81301<br>     Type: Recreational     </div>`)[0];
+                popup_92c5ab1c734951e601461bee48a5e3f6.setContent(html_a760b39da3e595d80c492075af9929ce);
+            
+        
+
+        marker_47a5d6870de8e74b3095f0160a4eccf6.bindPopup(popup_92c5ab1c734951e601461bee48a5e3f6)
+        ;
+
+        
+    
+    
+            var marker_3cbdbfcc9158067e7108d1631bed56bd = L.marker(
+                [37.276761, -107.881718],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_84290dfbb52a07ebd49c21ec6171b207 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cbdbfcc9158067e7108d1631bed56bd.setIcon(icon_84290dfbb52a07ebd49c21ec6171b207);
+        
+    
+        var popup_a719645f087f6f4cf07f7a9bca3c3ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5342f8816b8c0596e06264dd0b4a2ca0 = $(`<div id="html_5342f8816b8c0596e06264dd0b4a2ca0" style="width: 100.0%; height: 100.0%;">     <strong>Prohibition Herb</strong><br>     1185 Camino del Rio<br>     Durango, CO 81301<br>     Type: Recreational     </div>`)[0];
+                popup_a719645f087f6f4cf07f7a9bca3c3ef7.setContent(html_5342f8816b8c0596e06264dd0b4a2ca0);
+            
+        
+
+        marker_3cbdbfcc9158067e7108d1631bed56bd.bindPopup(popup_a719645f087f6f4cf07f7a9bca3c3ef7)
+        ;
+
+        
+    
+    
+            var marker_1f9a2e0dd349bea0ff5a638550282d60 = L.marker(
+                [37.3047649, -107.8670278],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_1d1d9a34667d932a8e52e1bcc5372db1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f9a2e0dd349bea0ff5a638550282d60.setIcon(icon_1d1d9a34667d932a8e52e1bcc5372db1);
+        
+    
+        var popup_cab5881f965c17fed0695e8826f5f5db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3d59301a07b7d586d13d8c72eba9b99 = $(`<div id="html_c3d59301a07b7d586d13d8c72eba9b99" style="width: 100.0%; height: 100.0%;">     <strong>Rocky Mountain High Dispensary</strong><br>     120 East 36th Street<br>     Durango, CO 81301<br>     Type: Recreational     </div>`)[0];
+                popup_cab5881f965c17fed0695e8826f5f5db.setContent(html_c3d59301a07b7d586d13d8c72eba9b99);
+            
+        
+
+        marker_1f9a2e0dd349bea0ff5a638550282d60.bindPopup(popup_cab5881f965c17fed0695e8826f5f5db)
+        ;
+
+        
+    
+    
+            var marker_9d4d721cbdaa16450058fa009aaaad06 = L.marker(
+                [37.3035885, -107.8692269],
+                {}
+            ).addTo(map_e668f36e132c798680c159e01ad6792e);
+        
+    
+            var icon_7415533b6aa89ccff23f1f4ecb4dc8b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d4d721cbdaa16450058fa009aaaad06.setIcon(icon_7415533b6aa89ccff23f1f4ecb4dc8b0);
+        
+    
+        var popup_03e47276a8981523db6ee34b835deba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c3163f35a66f114dd00bf473cd2965a = $(`<div id="html_1c3163f35a66f114dd00bf473cd2965a" style="width: 100.0%; height: 100.0%;">     <strong>Telluride Bud Company</strong><br>     3473 Main Avenue<br>     Durango, CO 81301<br>     Type: Recreational     </div>`)[0];
+                popup_03e47276a8981523db6ee34b835deba7.setContent(html_1c3163f35a66f114dd00bf473cd2965a);
+            
+        
+
+        marker_9d4d721cbdaa16450058fa009aaaad06.bindPopup(popup_03e47276a8981523db6ee34b835deba7)
+        ;
+
+        
+    
+</script>
+</html>
