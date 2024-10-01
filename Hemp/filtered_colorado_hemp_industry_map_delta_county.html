@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f3db66902033d9248d7d65263984c49 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f3db66902033d9248d7d65263984c49" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f3db66902033d9248d7d65263984c49 = L.map(
+                "map_0f3db66902033d9248d7d65263984c49",
+                {
+                    center: [39.0714, -108.5497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c2797532f91a05835711dd027e8a0f9f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c2797532f91a05835711dd027e8a0f9f.addTo(map_0f3db66902033d9248d7d65263984c49);
+        
+    
+            var marker_15113f6362b9c431abbbeef1b5141608 = L.marker(
+                [38.9419, -107.804],
+                {}
+            ).addTo(map_0f3db66902033d9248d7d65263984c49);
+        
+    
+        var popup_642e78e534c12d8ae056a66de2399b32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471ee9de05b4bd9ef383a687223d9f8a = $(`<div id="html_471ee9de05b4bd9ef383a687223d9f8a" style="width: 100.0%; height: 100.0%;">     <strong>Delta AG</strong><br>     Delta County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://deltaag.com/">Delta AG</a><br>     </div>`)[0];
+                popup_642e78e534c12d8ae056a66de2399b32.setContent(html_471ee9de05b4bd9ef383a687223d9f8a);
+            
+        
+
+        marker_15113f6362b9c431abbbeef1b5141608.bindPopup(popup_642e78e534c12d8ae056a66de2399b32)
+        ;
+
+        
+    
+    
+            var marker_136eec41040ea45eee660b0aa3bd226f = L.marker(
+                [38.9419111, -107.804],
+                {}
+            ).addTo(map_0f3db66902033d9248d7d65263984c49);
+        
+    
+        var popup_06ebeb50cd89619e0b7b21e0fdfb5d65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3f4c9bf3f7d5109d7651370ec679ff4 = $(`<div id="html_b3f4c9bf3f7d5109d7651370ec679ff4" style="width: 100.0%; height: 100.0%;">     <strong>Fields of Glory Organic Farm</strong><br>     Delta County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="FieldsofGlory.org">Fields of Glory Organic Farm</a><br>     </div>`)[0];
+                popup_06ebeb50cd89619e0b7b21e0fdfb5d65.setContent(html_b3f4c9bf3f7d5109d7651370ec679ff4);
+            
+        
+
+        marker_136eec41040ea45eee660b0aa3bd226f.bindPopup(popup_06ebeb50cd89619e0b7b21e0fdfb5d65)
+        ;
+
+        
+    
+</script>
+</html>

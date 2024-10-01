@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_be86013dd7c1c0c85276d981f3b8c097 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_be86013dd7c1c0c85276d981f3b8c097" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_be86013dd7c1c0c85276d981f3b8c097 = L.map(
+                "map_be86013dd7c1c0c85276d981f3b8c097",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d186e9f7fcf95a4105631b98e2627cc4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d186e9f7fcf95a4105631b98e2627cc4.addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+            var marker_39786fbed5018db5db393156c2dfcf2e = L.marker(
+                [37.6147, -106.3753],
+                {}
+            ).addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+        var popup_d1062323a82ba50331821b120ee8a71c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bd5cc1b6746bd349185403ffe7474bc = $(`<div id="html_1bd5cc1b6746bd349185403ffe7474bc" style="width: 100.0%; height: 100.0%;">     <strong>Formation Ag</strong><br>     Rio Grande County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://formation-ag.com/">Formation Ag</a><br>     </div>`)[0];
+                popup_d1062323a82ba50331821b120ee8a71c.setContent(html_1bd5cc1b6746bd349185403ffe7474bc);
+            
+        
+
+        marker_39786fbed5018db5db393156c2dfcf2e.bindPopup(popup_d1062323a82ba50331821b120ee8a71c)
+        ;
+
+        
+    
+    
+            var marker_fd6a16941b5bee3952674ed13f88b659 = L.marker(
+                [37.6147111, -106.3753],
+                {}
+            ).addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+        var popup_75e87775755f4c250d75fa7989551c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d91c4af80d379a51d3f862ad847eebf5 = $(`<div id="html_d91c4af80d379a51d3f862ad847eebf5" style="width: 100.0%; height: 100.0%;">     <strong>Global Fiber Processing Monte Vista</strong><br>     Rio Grande County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://www.globalfiberprocessing.com">Global Fiber Processing Monte Vista</a><br>     </div>`)[0];
+                popup_75e87775755f4c250d75fa7989551c53.setContent(html_d91c4af80d379a51d3f862ad847eebf5);
+            
+        
+
+        marker_fd6a16941b5bee3952674ed13f88b659.bindPopup(popup_75e87775755f4c250d75fa7989551c53)
+        ;
+
+        
+    
+    
+            var marker_5c1986903e44a60ca8fb1d00e6c270d5 = L.marker(
+                [37.6147222, -106.3753],
+                {}
+            ).addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+        var popup_3e54514c38c7439956bf6836f43f80c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc16c95ac892356c5622ffde5e8f9d53 = $(`<div id="html_cc16c95ac892356c5622ffde5e8f9d53" style="width: 100.0%; height: 100.0%;">     <strong>SLV Hemp</strong><br>     Rio Grande County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://slvhemp.com/">SLV Hemp</a><br>     </div>`)[0];
+                popup_3e54514c38c7439956bf6836f43f80c1.setContent(html_cc16c95ac892356c5622ffde5e8f9d53);
+            
+        
+
+        marker_5c1986903e44a60ca8fb1d00e6c270d5.bindPopup(popup_3e54514c38c7439956bf6836f43f80c1)
+        ;
+
+        
+    
+    
+            var marker_e74f2ec60ece07490ab4c24292f05457 = L.marker(
+                [37.6147333, -106.3753],
+                {}
+            ).addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+        var popup_ead35a6079e5315390ff56e8e813c918 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd08b51b5f9b2dacbaf59a0243ee0daf = $(`<div id="html_bd08b51b5f9b2dacbaf59a0243ee0daf" style="width: 100.0%; height: 100.0%;">     <strong>Wright-Oakes LLC</strong><br>     Rio Grande County, CO<br>     Industry: Food & Drink<br>     Category: Food<br>     Website: <a href="https://himtp.com/">Wright-Oakes LLC</a><br>     </div>`)[0];
+                popup_ead35a6079e5315390ff56e8e813c918.setContent(html_bd08b51b5f9b2dacbaf59a0243ee0daf);
+            
+        
+
+        marker_e74f2ec60ece07490ab4c24292f05457.bindPopup(popup_ead35a6079e5315390ff56e8e813c918)
+        ;
+
+        
+    
+    
+            var marker_1b3a163d642aff9867fa8f4d7c61248e = L.marker(
+                [37.6147444, -106.3753],
+                {}
+            ).addTo(map_be86013dd7c1c0c85276d981f3b8c097);
+        
+    
+        var popup_748492449ab509a28cba232ffb8c7739 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e530e42a64debae927b1f50cef9204cc = $(`<div id="html_e530e42a64debae927b1f50cef9204cc" style="width: 100.0%; height: 100.0%;">     <strong>Wright-Oakes LLC</strong><br>     Rio Grande County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://himtp.com/">Wright-Oakes LLC</a><br>     </div>`)[0];
+                popup_748492449ab509a28cba232ffb8c7739.setContent(html_e530e42a64debae927b1f50cef9204cc);
+            
+        
+
+        marker_1b3a163d642aff9867fa8f4d7c61248e.bindPopup(popup_748492449ab509a28cba232ffb8c7739)
+        ;
+
+        
+    
+</script>
+</html>

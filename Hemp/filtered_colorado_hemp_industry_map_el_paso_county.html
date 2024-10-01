@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38 = L.map(
+                "map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38",
+                {
+                    center: [38.8591, -104.8135],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87c60733ed2e7ca85256a921ab447260 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_87c60733ed2e7ca85256a921ab447260.addTo(map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38);
+        
+    
+            var marker_10983b5c002cf22cdadc94c4da7d600a = L.marker(
+                [38.8296, -104.5628],
+                {}
+            ).addTo(map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38);
+        
+    
+        var popup_fa8d1c8865ea8c8a37a76318365a7658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99ee9b25df15a200f44df9f90b313d37 = $(`<div id="html_99ee9b25df15a200f44df9f90b313d37" style="width: 100.0%; height: 100.0%;">     <strong>Colorado Hemp Genetics</strong><br>     El Paso County, CO<br>     Industry: Genetics & Testing<br>     Category: Seeds and Genetics<br>     Website: <a href="https://cohempgenetics.com/">Colorado Hemp Genetics</a><br>     </div>`)[0];
+                popup_fa8d1c8865ea8c8a37a76318365a7658.setContent(html_99ee9b25df15a200f44df9f90b313d37);
+            
+        
+
+        marker_10983b5c002cf22cdadc94c4da7d600a.bindPopup(popup_fa8d1c8865ea8c8a37a76318365a7658)
+        ;
+
+        
+    
+    
+            var marker_fcf6c40bb6bdab8fffcaeb0e55e2936b = L.marker(
+                [38.8296111, -104.5628],
+                {}
+            ).addTo(map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38);
+        
+    
+        var popup_6a55f769650fadad6351e7d5e2bdee16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a74caed8b812f1e5013d89f25970a85 = $(`<div id="html_8a74caed8b812f1e5013d89f25970a85" style="width: 100.0%; height: 100.0%;">     <strong>NanoLabs CBD</strong><br>     El Paso County, CO<br>     Industry: Industrial Processing<br>     Category: Other End Products<br>     Website: <a href="www.nanolabshemp.com">NanoLabs CBD</a><br>     </div>`)[0];
+                popup_6a55f769650fadad6351e7d5e2bdee16.setContent(html_8a74caed8b812f1e5013d89f25970a85);
+            
+        
+
+        marker_fcf6c40bb6bdab8fffcaeb0e55e2936b.bindPopup(popup_6a55f769650fadad6351e7d5e2bdee16)
+        ;
+
+        
+    
+    
+            var marker_0d7e8fd1b9dfd0980e64b73f531dc9f4 = L.marker(
+                [38.8296222, -104.5628],
+                {}
+            ).addTo(map_4996b9a8e6b1bc2e2d33fd6ed5d5bc38);
+        
+    
+        var popup_5d60efd623318e63b5fde31965e86332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_607a362be5892df50ff5c0b022c2b6e3 = $(`<div id="html_607a362be5892df50ff5c0b022c2b6e3" style="width: 100.0%; height: 100.0%;">     <strong>Noble Soul Farm</strong><br>     El Paso County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="https://noblesoulfarm.com/">Noble Soul Farm</a><br>     </div>`)[0];
+                popup_5d60efd623318e63b5fde31965e86332.setContent(html_607a362be5892df50ff5c0b022c2b6e3);
+            
+        
+
+        marker_0d7e8fd1b9dfd0980e64b73f531dc9f4.bindPopup(popup_5d60efd623318e63b5fde31965e86332)
+        ;
+
+        
+    
+</script>
+</html>

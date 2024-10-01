@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d9e7a7c7a522a9d7ea5acf393dd6b61a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d9e7a7c7a522a9d7ea5acf393dd6b61a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d9e7a7c7a522a9d7ea5acf393dd6b61a = L.map(
+                "map_d9e7a7c7a522a9d7ea5acf393dd6b61a",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8159ec39b2bfa2c5be59c60a627e64cf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8159ec39b2bfa2c5be59c60a627e64cf.addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+            var marker_2582d2be585dc158db2e1c646b0de0e4 = L.marker(
+                [39.7644, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_ce37eb3d7c66f095efcc68b995417f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_011f012384f89cab54fe999622efd377 = $(`<div id="html_011f012384f89cab54fe999622efd377" style="width: 100.0%; height: 100.0%;">     <strong>Apex Herbology LLC</strong><br>     Denver County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="apexherbology.com">Apex Herbology LLC</a><br>     </div>`)[0];
+                popup_ce37eb3d7c66f095efcc68b995417f99.setContent(html_011f012384f89cab54fe999622efd377);
+            
+        
+
+        marker_2582d2be585dc158db2e1c646b0de0e4.bindPopup(popup_ce37eb3d7c66f095efcc68b995417f99)
+        ;
+
+        
+    
+    
+            var marker_e828eae2aac2d62d06729fd139510647 = L.marker(
+                [39.7644111, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_162738ffd8413f58bd828d51aeb0d7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d45ead251e38a84e2ff6ed1465d5fcc0 = $(`<div id="html_d45ead251e38a84e2ff6ed1465d5fcc0" style="width: 100.0%; height: 100.0%;">     <strong>Colorado Hemp Procesing Cooporative</strong><br>     Denver County, CO<br>     Industry: Industrial Processing<br>     Category: CBD Extraction<br>     Website: <a href="https://cohpc.org/">Colorado Hemp Procesing Cooporative</a><br>     </div>`)[0];
+                popup_162738ffd8413f58bd828d51aeb0d7a1.setContent(html_d45ead251e38a84e2ff6ed1465d5fcc0);
+            
+        
+
+        marker_e828eae2aac2d62d06729fd139510647.bindPopup(popup_162738ffd8413f58bd828d51aeb0d7a1)
+        ;
+
+        
+    
+    
+            var marker_ebba2e8f1b496e31aa58142f4f88fac5 = L.marker(
+                [39.7644222, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_8444beca4fdd52164d60a1ca865fda4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bad587ba5330d5c540aabec408e2bf7 = $(`<div id="html_6bad587ba5330d5c540aabec408e2bf7" style="width: 100.0%; height: 100.0%;">     <strong>FarmMax</strong><br>     Denver County, CO<br>     Industry: Industrial Processing<br>     Category: Decortication<br>     Website: <a href="www.farmmax.us">FarmMax</a><br>     </div>`)[0];
+                popup_8444beca4fdd52164d60a1ca865fda4f.setContent(html_6bad587ba5330d5c540aabec408e2bf7);
+            
+        
+
+        marker_ebba2e8f1b496e31aa58142f4f88fac5.bindPopup(popup_8444beca4fdd52164d60a1ca865fda4f)
+        ;
+
+        
+    
+    
+            var marker_48f949cc55939d008b34e532f6dd61c6 = L.marker(
+                [39.7644333, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_994d712a48d9db510674fad57a5c61c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_212c0295dbe52716c43c29a62c14830f = $(`<div id="html_212c0295dbe52716c43c29a62c14830f" style="width: 100.0%; height: 100.0%;">     <strong>Healthy Hemp Homes</strong><br>     Denver County, CO<br>     Industry: Construction<br>     Category: Insulation<br>     Website: <a href="https://www.healthyhemphomes.org/">Healthy Hemp Homes</a><br>     </div>`)[0];
+                popup_994d712a48d9db510674fad57a5c61c5.setContent(html_212c0295dbe52716c43c29a62c14830f);
+            
+        
+
+        marker_48f949cc55939d008b34e532f6dd61c6.bindPopup(popup_994d712a48d9db510674fad57a5c61c5)
+        ;
+
+        
+    
+    
+            var marker_6fd210ffa2e29bb6cf1c8796159c5ed5 = L.marker(
+                [39.7644444, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_78afb66ed09f8b021f2646aee40f89de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1adf439a40fec350361c784863ca66d = $(`<div id="html_e1adf439a40fec350361c784863ca66d" style="width: 100.0%; height: 100.0%;">     <strong>Hemp Wolf LLC</strong><br>     Denver County, CO<br>     Industry: Food & Drink<br>     Category: Beverage<br>     Website: <a href="HempWolf.com">Hemp Wolf LLC</a><br>     </div>`)[0];
+                popup_78afb66ed09f8b021f2646aee40f89de.setContent(html_e1adf439a40fec350361c784863ca66d);
+            
+        
+
+        marker_6fd210ffa2e29bb6cf1c8796159c5ed5.bindPopup(popup_78afb66ed09f8b021f2646aee40f89de)
+        ;
+
+        
+    
+    
+            var marker_745f209e553695a8fbe36e9fe48056f5 = L.marker(
+                [39.7644555, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_de6effccfd291a3f86f387ed09f9311e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1fee1bc484cc4032c19183d8651f8b = $(`<div id="html_da1fee1bc484cc4032c19183d8651f8b" style="width: 100.0%; height: 100.0%;">     <strong>Kaycha Labs</strong><br>     Denver County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="https://www.kaychalabs.com/">Kaycha Labs</a><br>     </div>`)[0];
+                popup_de6effccfd291a3f86f387ed09f9311e.setContent(html_da1fee1bc484cc4032c19183d8651f8b);
+            
+        
+
+        marker_745f209e553695a8fbe36e9fe48056f5.bindPopup(popup_de6effccfd291a3f86f387ed09f9311e)
+        ;
+
+        
+    
+    
+            var marker_c9782e3a1acaa89204d14294534b5149 = L.marker(
+                [39.7644666, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_d5b2a97baa343c6a8a2bf0816215298c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a50456b289560c7c4febeb256aeae6e3 = $(`<div id="html_a50456b289560c7c4febeb256aeae6e3" style="width: 100.0%; height: 100.0%;">     <strong>Result Group</strong><br>     Denver County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="www.certifiedhemptesting.com">Result Group</a><br>     </div>`)[0];
+                popup_d5b2a97baa343c6a8a2bf0816215298c.setContent(html_a50456b289560c7c4febeb256aeae6e3);
+            
+        
+
+        marker_c9782e3a1acaa89204d14294534b5149.bindPopup(popup_d5b2a97baa343c6a8a2bf0816215298c)
+        ;
+
+        
+    
+    
+            var marker_ba764e5a86e867f455d92651744b1f4a = L.marker(
+                [39.7644777, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_db260b795c54dfe8c03a53ea0b3ef1bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a176b87429f7ffe2a54adfbf9796223 = $(`<div id="html_8a176b87429f7ffe2a54adfbf9796223" style="width: 100.0%; height: 100.0%;">     <strong>SC Laboratories</strong><br>     Denver County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="https://sclabs.com">SC Laboratories</a><br>     </div>`)[0];
+                popup_db260b795c54dfe8c03a53ea0b3ef1bb.setContent(html_8a176b87429f7ffe2a54adfbf9796223);
+            
+        
+
+        marker_ba764e5a86e867f455d92651744b1f4a.bindPopup(popup_db260b795c54dfe8c03a53ea0b3ef1bb)
+        ;
+
+        
+    
+    
+            var marker_135f6d633cd1bebdc49555504767bfed = L.marker(
+                [39.7644888, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_78eaabdd083f4fc3ff119cbadbbb8c43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6874b21037182e6c916cbf3101d53eb = $(`<div id="html_b6874b21037182e6c916cbf3101d53eb" style="width: 100.0%; height: 100.0%;">     <strong>The Community College of Denver</strong><br>     Denver County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="www.ccd.edu/cannabis">The Community College of Denver</a><br>     </div>`)[0];
+                popup_78eaabdd083f4fc3ff119cbadbbb8c43.setContent(html_b6874b21037182e6c916cbf3101d53eb);
+            
+        
+
+        marker_135f6d633cd1bebdc49555504767bfed.bindPopup(popup_78eaabdd083f4fc3ff119cbadbbb8c43)
+        ;
+
+        
+    
+    
+            var marker_18cecc49838c3d0440c1e8662bf561e4 = L.marker(
+                [39.7644999, -104.9549],
+                {}
+            ).addTo(map_d9e7a7c7a522a9d7ea5acf393dd6b61a);
+        
+    
+        var popup_4fefccf69abac73c03d2a6edeb9be3be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c14108943ed9da8c6ccf0862995b5b1 = $(`<div id="html_8c14108943ed9da8c6ccf0862995b5b1" style="width: 100.0%; height: 100.0%;">     <strong>Viobin</strong><br>     Denver County, CO<br>     Industry: Food & Drink<br>     Category: Food<br>     Website: <a href="www.viobin.com/">Viobin</a><br>     </div>`)[0];
+                popup_4fefccf69abac73c03d2a6edeb9be3be.setContent(html_8c14108943ed9da8c6ccf0862995b5b1);
+            
+        
+
+        marker_18cecc49838c3d0440c1e8662bf561e4.bindPopup(popup_4fefccf69abac73c03d2a6edeb9be3be)
+        ;
+
+        
+    
+</script>
+</html>

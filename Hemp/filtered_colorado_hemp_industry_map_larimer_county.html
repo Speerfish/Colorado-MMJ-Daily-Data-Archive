@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9b83ecf9adac157e7e28d1aaf5a65f74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9b83ecf9adac157e7e28d1aaf5a65f74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9b83ecf9adac157e7e28d1aaf5a65f74 = L.map(
+                "map_9b83ecf9adac157e7e28d1aaf5a65f74",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_641ea7d992e73218cc159bbbee5d75fb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_641ea7d992e73218cc159bbbee5d75fb.addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+            var marker_385950d38cc155a4f97f7381839be409 = L.marker(
+                [40.6291, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_eed9fe240d61584e628d724871ba27e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01a533bcbb62083d65775171bcdbd867 = $(`<div id="html_01a533bcbb62083d65775171bcdbd867" style="width: 100.0%; height: 100.0%;">     <strong>Agriculture Policy Solutions</strong><br>     Larimer County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="www.agpolicysolutions.com">Agriculture Policy Solutions</a><br>     </div>`)[0];
+                popup_eed9fe240d61584e628d724871ba27e0.setContent(html_01a533bcbb62083d65775171bcdbd867);
+            
+        
+
+        marker_385950d38cc155a4f97f7381839be409.bindPopup(popup_eed9fe240d61584e628d724871ba27e0)
+        ;
+
+        
+    
+    
+            var marker_f594f628c788b8593901de177904d407 = L.marker(
+                [40.6291111, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_96f809c7e493d76abd44b8a381ff0b12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8852a7adfac49eb4d3879f620c23bcdb = $(`<div id="html_8852a7adfac49eb4d3879f620c23bcdb" style="width: 100.0%; height: 100.0%;">     <strong>Fat Pig Society</strong><br>     Larimer County, CO<br>     Industry: Industrial Processing<br>     Category: CBD Extraction<br>     Website: <a href="https://fatpigsociety.com/">Fat Pig Society</a><br>     </div>`)[0];
+                popup_96f809c7e493d76abd44b8a381ff0b12.setContent(html_8852a7adfac49eb4d3879f620c23bcdb);
+            
+        
+
+        marker_f594f628c788b8593901de177904d407.bindPopup(popup_96f809c7e493d76abd44b8a381ff0b12)
+        ;
+
+        
+    
+    
+            var marker_1781aa852e60ea57fe06bf241248c68e = L.marker(
+                [40.6291222, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_541beed9cb9d435d20c02811817c56f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f46e783613d97d4e38f0ba46286ae03b = $(`<div id="html_f46e783613d97d4e38f0ba46286ae03b" style="width: 100.0%; height: 100.0%;">     <strong>Globex Extraction Services</strong><br>     Larimer County, CO<br>     Industry: Industrial Processing<br>     Category: CBD Extraction<br>     Website: <a href="https://globexextraction.com/">Globex Extraction Services</a><br>     </div>`)[0];
+                popup_541beed9cb9d435d20c02811817c56f0.setContent(html_f46e783613d97d4e38f0ba46286ae03b);
+            
+        
+
+        marker_1781aa852e60ea57fe06bf241248c68e.bindPopup(popup_541beed9cb9d435d20c02811817c56f0)
+        ;
+
+        
+    
+    
+            var marker_ba2e2e79c86feb5336bec0101ee383b0 = L.marker(
+                [40.6291333, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_0c16417237392cbcd35ff4dec714f4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e3fa6171c876e86f5ba42777e376e08 = $(`<div id="html_3e3fa6171c876e86f5ba42777e376e08" style="width: 100.0%; height: 100.0%;">     <strong>New West Genetics</strong><br>     Larimer County, CO<br>     Industry: Genetics & Testing<br>     Category: Seeds and Genetics<br>     Website: <a href="https://newwestgenetics.com/">New West Genetics</a><br>     </div>`)[0];
+                popup_0c16417237392cbcd35ff4dec714f4f1.setContent(html_3e3fa6171c876e86f5ba42777e376e08);
+            
+        
+
+        marker_ba2e2e79c86feb5336bec0101ee383b0.bindPopup(popup_0c16417237392cbcd35ff4dec714f4f1)
+        ;
+
+        
+    
+    
+            var marker_d17cc87f8afb0d54684209dd59b0c105 = L.marker(
+                [40.6291444, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_23b4b06615d338b27033161f777be684 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e2ee7ceed9e3ad30eca7c13eba10621 = $(`<div id="html_3e2ee7ceed9e3ad30eca7c13eba10621" style="width: 100.0%; height: 100.0%;">     <strong>Proper Rhino Packaging</strong><br>     Larimer County, CO<br>     Industry: Industrial Processing<br>     Category: Other End Products<br>     Website: <a href="properrhino.com">Proper Rhino Packaging</a><br>     </div>`)[0];
+                popup_23b4b06615d338b27033161f777be684.setContent(html_3e2ee7ceed9e3ad30eca7c13eba10621);
+            
+        
+
+        marker_d17cc87f8afb0d54684209dd59b0c105.bindPopup(popup_23b4b06615d338b27033161f777be684)
+        ;
+
+        
+    
+    
+            var marker_c5876eddb35cfdf0165a9c531f8dbd74 = L.marker(
+                [40.6291555, -105.4465],
+                {}
+            ).addTo(map_9b83ecf9adac157e7e28d1aaf5a65f74);
+        
+    
+        var popup_50397c2176a5449ff8b42faf7a824a46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71115c4eef3021ba1ef35ffaca1d42f8 = $(`<div id="html_71115c4eef3021ba1ef35ffaca1d42f8" style="width: 100.0%; height: 100.0%;">     <strong>Triverity Labs</strong><br>     Larimer County, CO<br>     Industry: Genetics & Testing<br>     Category: Lab Testing<br>     Website: <a href="https://www.triveritylabs.com/">Triverity Labs</a><br>     </div>`)[0];
+                popup_50397c2176a5449ff8b42faf7a824a46.setContent(html_71115c4eef3021ba1ef35ffaca1d42f8);
+            
+        
+
+        marker_c5876eddb35cfdf0165a9c531f8dbd74.bindPopup(popup_50397c2176a5449ff8b42faf7a824a46)
+        ;
+
+        
+    
+</script>
+</html>
