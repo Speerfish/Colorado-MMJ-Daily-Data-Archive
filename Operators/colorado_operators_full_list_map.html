@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e69bc834723d6740df7f1c68dd29818b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e69bc834723d6740df7f1c68dd29818b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e69bc834723d6740df7f1c68dd29818b = L.map(
+                "map_e69bc834723d6740df7f1c68dd29818b",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_56a7e6dfc365c231da81d6126450bf02 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_56a7e6dfc365c231da81d6126450bf02.addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var marker_f199eb6e221018a56e5c8ab9487a9ee7 = L.marker(
+                [39.849142, -104.9822123],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_ce74444417ced15bdaff52150e73572a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f199eb6e221018a56e5c8ab9487a9ee7.setIcon(icon_ce74444417ced15bdaff52150e73572a);
+        
+    
+        var popup_f19c4b01e3e59f880865c0ac13eac823 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b12e37a3cca3f3c3e93e8959ad29f8 = $(`<div id="html_87b12e37a3cca3f3c3e93e8959ad29f8" style="width: 100.0%; height: 100.0%;">     <strong>BEYOND BROADWAY LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: MMJ Operator<br>     400 East 84th  Avenue, Suite W-5<br>     Thornton, CO 80229     </div>`)[0];
+                popup_f19c4b01e3e59f880865c0ac13eac823.setContent(html_87b12e37a3cca3f3c3e93e8959ad29f8);
+            
+        
+
+        marker_f199eb6e221018a56e5c8ab9487a9ee7.bindPopup(popup_f19c4b01e3e59f880865c0ac13eac823)
+        ;
+
+        
+    
+    
+            var marker_8bfb0e2fa193905a9d5055acd56af6a7 = L.marker(
+                [39.5775442, -104.6972905],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_6d1cd482acac40eb740c4cce1d0fbdbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8bfb0e2fa193905a9d5055acd56af6a7.setIcon(icon_6d1cd482acac40eb740c4cce1d0fbdbf);
+        
+    
+        var popup_4c46a3fa3e8b01009fd03ae9a36908c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d16beee9ae3c2bb376ef94d731716ca6 = $(`<div id="html_d16beee9ae3c2bb376ef94d731716ca6" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER CONSULTING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     27066 East Irish Drive<br>     Aurora, CO 80016     </div>`)[0];
+                popup_4c46a3fa3e8b01009fd03ae9a36908c1.setContent(html_d16beee9ae3c2bb376ef94d731716ca6);
+            
+        
+
+        marker_8bfb0e2fa193905a9d5055acd56af6a7.bindPopup(popup_4c46a3fa3e8b01009fd03ae9a36908c1)
+        ;
+
+        
+    
+    
+            var marker_3534c11dd9626cabd9504a41ea596b0c = L.marker(
+                [39.3773837, -104.8159957],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_0f21979210ce0161236bf3fe58883bad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3534c11dd9626cabd9504a41ea596b0c.setIcon(icon_0f21979210ce0161236bf3fe58883bad);
+        
+    
+        var popup_1e1ca2e47df7a54bcb245d2bb3748309 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fd4bbd5375d4f89dd8b6982f0b37b0 = $(`<div id="html_59fd4bbd5375d4f89dd8b6982f0b37b0" style="width: 100.0%; height: 100.0%;">     <strong>LAMA HOLDINGS LLC</strong><br>     <strong>Lama Brand Cannabis</strong><br>     Facility Type: MMJ Operator<br>     1015 McMurdo Circle<br>     Castle Rock, CO 80108     </div>`)[0];
+                popup_1e1ca2e47df7a54bcb245d2bb3748309.setContent(html_59fd4bbd5375d4f89dd8b6982f0b37b0);
+            
+        
+
+        marker_3534c11dd9626cabd9504a41ea596b0c.bindPopup(popup_1e1ca2e47df7a54bcb245d2bb3748309)
+        ;
+
+        
+    
+    
+            var marker_efa1e16e1b709c6f2dcf7e1e4047841a = L.marker(
+                [39.7862876, -104.8656645],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_c30dbf35bc0b4f1e2562f172f837dd94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_efa1e16e1b709c6f2dcf7e1e4047841a.setIcon(icon_c30dbf35bc0b4f1e2562f172f837dd94);
+        
+    
+        var popup_e53042d2aa58f1ff462c7418b274a740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002ffaef01ed368227803213e80260b2 = $(`<div id="html_002ffaef01ed368227803213e80260b2" style="width: 100.0%; height: 100.0%;">     <strong>MIH MANAGER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     4880 Havana Street Suite 201<br>     Denver, CO 80239     </div>`)[0];
+                popup_e53042d2aa58f1ff462c7418b274a740.setContent(html_002ffaef01ed368227803213e80260b2);
+            
+        
+
+        marker_efa1e16e1b709c6f2dcf7e1e4047841a.bindPopup(popup_e53042d2aa58f1ff462c7418b274a740)
+        ;
+
+        
+    
+    
+            var marker_57965a63ec260c4dc5162c4f230eca7a = L.marker(
+                [40.059663, -105.2815328],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_6cf387a834135035f64397349fbd80f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57965a63ec260c4dc5162c4f230eca7a.setIcon(icon_6cf387a834135035f64397349fbd80f4);
+        
+    
+        var popup_2cfce69c49f19a2ae9e48931cdf82ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eadc5bb8cda3a2d73b1bdb5c8122988d = $(`<div id="html_eadc5bb8cda3a2d73b1bdb5c8122988d" style="width: 100.0%; height: 100.0%;">     <strong>NOBO DENVER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     1265 Yellow Pine Avenue<br>     Boulder, CO 80304     </div>`)[0];
+                popup_2cfce69c49f19a2ae9e48931cdf82ae5.setContent(html_eadc5bb8cda3a2d73b1bdb5c8122988d);
+            
+        
+
+        marker_57965a63ec260c4dc5162c4f230eca7a.bindPopup(popup_2cfce69c49f19a2ae9e48931cdf82ae5)
+        ;
+
+        
+    
+    
+            var marker_b0285885045f75e3c7eb70f9262338c8 = L.marker(
+                [40.1485882, -104.9656052],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_720248a6a1c3775023235dd56786c966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0285885045f75e3c7eb70f9262338c8.setIcon(icon_720248a6a1c3775023235dd56786c966);
+        
+    
+        var popup_9c55b4ef67120dbbfce194c4b1d26653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfe4743b797080e79436f98837fd1ff4 = $(`<div id="html_cfe4743b797080e79436f98837fd1ff4" style="width: 100.0%; height: 100.0%;">     <strong>SILVERPEAK CORP</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     10192 Audrey Street<br>     Firestone, CO 80504     </div>`)[0];
+                popup_9c55b4ef67120dbbfce194c4b1d26653.setContent(html_cfe4743b797080e79436f98837fd1ff4);
+            
+        
+
+        marker_b0285885045f75e3c7eb70f9262338c8.bindPopup(popup_9c55b4ef67120dbbfce194c4b1d26653)
+        ;
+
+        
+    
+    
+            var marker_194c5f95afba5b5bc4ee476a7e741650 = L.marker(
+                [39.7950754, -104.8476993],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_f7f3008f33b6aa5eb746856720097161 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_194c5f95afba5b5bc4ee476a7e741650.setIcon(icon_f7f3008f33b6aa5eb746856720097161);
+        
+    
+        var popup_1c714c5da9f7e72e22fa42382a77b0aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70b349f5c5d006a69c3d0e26f66a6efe = $(`<div id="html_70b349f5c5d006a69c3d0e26f66a6efe" style="width: 100.0%; height: 100.0%;">     <strong>THE COMMISSION CARTEL LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     5475 Peoria Street Unit 4-109<br>     Denver, CO 80239     </div>`)[0];
+                popup_1c714c5da9f7e72e22fa42382a77b0aa.setContent(html_70b349f5c5d006a69c3d0e26f66a6efe);
+            
+        
+
+        marker_194c5f95afba5b5bc4ee476a7e741650.bindPopup(popup_1c714c5da9f7e72e22fa42382a77b0aa)
+        ;
+
+        
+    
+    
+            var marker_82890c51c284cc2d347001448058b9d9 = L.marker(
+                [39.849142, -104.9822123],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_7cda00e437cefaff77fcb3f23912ae41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_82890c51c284cc2d347001448058b9d9.setIcon(icon_7cda00e437cefaff77fcb3f23912ae41);
+        
+    
+        var popup_218ce75bfbb6a08345b6b5d8b6220741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357b973bfa260d9bdfd62b688f8a7260 = $(`<div id="html_357b973bfa260d9bdfd62b688f8a7260" style="width: 100.0%; height: 100.0%;">     <strong>BEYOND BROADWAY LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: RMJ Operator<br>     400 East 84th  Avenue, Suite W-5<br>     Thornton, CO 80229     </div>`)[0];
+                popup_218ce75bfbb6a08345b6b5d8b6220741.setContent(html_357b973bfa260d9bdfd62b688f8a7260);
+            
+        
+
+        marker_82890c51c284cc2d347001448058b9d9.bindPopup(popup_218ce75bfbb6a08345b6b5d8b6220741)
+        ;
+
+        
+    
+    
+            var marker_57d5c10a7ece7d7e0a02f9db415b7ce1 = L.marker(
+                [39.7576154, -105.008103],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_fbd2a095d150074ec53d9f25f15e280d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57d5c10a7ece7d7e0a02f9db415b7ce1.setIcon(icon_fbd2a095d150074ec53d9f25f15e280d);
+        
+    
+        var popup_79f15c60654aa57225f96870ae1fa563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7c4077ea2d8620f3c2df94bb624da4b = $(`<div id="html_f7c4077ea2d8620f3c2df94bb624da4b" style="width: 100.0%; height: 100.0%;">     <strong>BUFFALO BIOTECH LLC</strong><br>     <strong>Dalwhinnie Farms</strong><br>     Facility Type: RMJ Operator<br>     1615 Platte Street Suite 200<br>     Denver, CO 80202     </div>`)[0];
+                popup_79f15c60654aa57225f96870ae1fa563.setContent(html_f7c4077ea2d8620f3c2df94bb624da4b);
+            
+        
+
+        marker_57d5c10a7ece7d7e0a02f9db415b7ce1.bindPopup(popup_79f15c60654aa57225f96870ae1fa563)
+        ;
+
+        
+    
+    
+            var marker_a207e78e1166b2e01162103578324356 = L.marker(
+                [40.0009304, -105.132333],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_7f3215704707b7295db1cc195fe47fd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a207e78e1166b2e01162103578324356.setIcon(icon_7f3215704707b7295db1cc195fe47fd0);
+        
+    
+        var popup_68604ac95de452d0f6ed39e3d1f38432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41ba3bcf94f7be7b2c3d575a320b4436 = $(`<div id="html_41ba3bcf94f7be7b2c3d575a320b4436" style="width: 100.0%; height: 100.0%;">     <strong>CCS OF BROOMFIELD LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     328 Caribou Pass Circle<br>     Lafayette, CO 80026     </div>`)[0];
+                popup_68604ac95de452d0f6ed39e3d1f38432.setContent(html_41ba3bcf94f7be7b2c3d575a320b4436);
+            
+        
+
+        marker_a207e78e1166b2e01162103578324356.bindPopup(popup_68604ac95de452d0f6ed39e3d1f38432)
+        ;
+
+        
+    
+    
+            var marker_4c91599734779b46ab6719b448e4d293 = L.marker(
+                [39.5775442, -104.6972905],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_3195907c4c322cac2807a77129dceaa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c91599734779b46ab6719b448e4d293.setIcon(icon_3195907c4c322cac2807a77129dceaa5);
+        
+    
+        var popup_c324fdec674dee696add864ab527f35c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6db98d7210c722e5451c8b3488b01fcd = $(`<div id="html_6db98d7210c722e5451c8b3488b01fcd" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER CONSULTING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     27066 East Irish Drive<br>     Aurora, CO 80016     </div>`)[0];
+                popup_c324fdec674dee696add864ab527f35c.setContent(html_6db98d7210c722e5451c8b3488b01fcd);
+            
+        
+
+        marker_4c91599734779b46ab6719b448e4d293.bindPopup(popup_c324fdec674dee696add864ab527f35c)
+        ;
+
+        
+    
+    
+            var marker_c3d6fee0d5dab7a25356a3971e78ee75 = L.marker(
+                [39.3773837, -104.8159957],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_732fa497eb1c0b1d134b743a20d17360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3d6fee0d5dab7a25356a3971e78ee75.setIcon(icon_732fa497eb1c0b1d134b743a20d17360);
+        
+    
+        var popup_bca95bbb349cf8fc257d2115a5451c3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b8673efc70cd4a1af6cb144ce16468b = $(`<div id="html_6b8673efc70cd4a1af6cb144ce16468b" style="width: 100.0%; height: 100.0%;">     <strong>LAMA HOLDINGS LLC</strong><br>     <strong>Lama Brand Cannabis</strong><br>     Facility Type: RMJ Operator<br>     1015 McMurdo Circle<br>     Castle Rock, CO 80108     </div>`)[0];
+                popup_bca95bbb349cf8fc257d2115a5451c3f.setContent(html_6b8673efc70cd4a1af6cb144ce16468b);
+            
+        
+
+        marker_c3d6fee0d5dab7a25356a3971e78ee75.bindPopup(popup_bca95bbb349cf8fc257d2115a5451c3f)
+        ;
+
+        
+    
+    
+            var marker_c53b3d342686f28c3006d47443e1a597 = L.marker(
+                [39.7671522, -104.8801265],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_bcab9990348a4f4d5f2ff73247172c1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c53b3d342686f28c3006d47443e1a597.setIcon(icon_bcab9990348a4f4d5f2ff73247172c1a);
+        
+    
+        var popup_25717fbfb67592e9960be9bef080027a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da265a27bd47cc2a7058960b9b937fd = $(`<div id="html_5da265a27bd47cc2a7058960b9b937fd" style="width: 100.0%; height: 100.0%;">     <strong>MAMMOTH MANAGEMENT LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     9154 East 37th Avenue<br>     Denver, CO 80238     </div>`)[0];
+                popup_25717fbfb67592e9960be9bef080027a.setContent(html_5da265a27bd47cc2a7058960b9b937fd);
+            
+        
+
+        marker_c53b3d342686f28c3006d47443e1a597.bindPopup(popup_25717fbfb67592e9960be9bef080027a)
+        ;
+
+        
+    
+    
+            var marker_0dacd244f45e7c3ecc6c9d7ba731dd14 = L.marker(
+                [39.7862876, -104.8656645],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_0e4a8cf1094590c136ebd415e4e2d152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0dacd244f45e7c3ecc6c9d7ba731dd14.setIcon(icon_0e4a8cf1094590c136ebd415e4e2d152);
+        
+    
+        var popup_933a5ef7b7b7e6e4eac82a6c7ce4ebec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e6a2986fb0a73cc83ac9deae8787b4 = $(`<div id="html_00e6a2986fb0a73cc83ac9deae8787b4" style="width: 100.0%; height: 100.0%;">     <strong>MIH MANAGER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     4880 Havana Street Suite 201<br>     Denver, CO 80239     </div>`)[0];
+                popup_933a5ef7b7b7e6e4eac82a6c7ce4ebec.setContent(html_00e6a2986fb0a73cc83ac9deae8787b4);
+            
+        
+
+        marker_0dacd244f45e7c3ecc6c9d7ba731dd14.bindPopup(popup_933a5ef7b7b7e6e4eac82a6c7ce4ebec)
+        ;
+
+        
+    
+    
+            var marker_17db883e566637747a3d19e80350ae96 = L.marker(
+                [39.7511228, -104.9933543],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_89d160aeebff1a0279014ef77a5f3031 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_17db883e566637747a3d19e80350ae96.setIcon(icon_89d160aeebff1a0279014ef77a5f3031);
+        
+    
+        var popup_6989c0d28b1ba6e2d08c6eb62c75c7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e59665f2464f0f88835842b1095bc540 = $(`<div id="html_e59665f2464f0f88835842b1095bc540" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL WAREHOUSE MANAGEMENT LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     1875 Lawrence Street Suite 730<br>     Denver, CO 80202     </div>`)[0];
+                popup_6989c0d28b1ba6e2d08c6eb62c75c7da.setContent(html_e59665f2464f0f88835842b1095bc540);
+            
+        
+
+        marker_17db883e566637747a3d19e80350ae96.bindPopup(popup_6989c0d28b1ba6e2d08c6eb62c75c7da)
+        ;
+
+        
+    
+    
+            var marker_1a1ee1f38221ee6da6acf53b6526ec66 = L.marker(
+                [40.059663, -105.2815328],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_04179fd073a63cc734a38d54fe8de880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a1ee1f38221ee6da6acf53b6526ec66.setIcon(icon_04179fd073a63cc734a38d54fe8de880);
+        
+    
+        var popup_4b99b302a816f49f588da110737d4980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c9f0f58bd434dffdd2abe3ef7b50f65 = $(`<div id="html_6c9f0f58bd434dffdd2abe3ef7b50f65" style="width: 100.0%; height: 100.0%;">     <strong>NOBO DENVER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     1265 Yellow Pine Avenue<br>     Boulder, CO 80304     </div>`)[0];
+                popup_4b99b302a816f49f588da110737d4980.setContent(html_6c9f0f58bd434dffdd2abe3ef7b50f65);
+            
+        
+
+        marker_1a1ee1f38221ee6da6acf53b6526ec66.bindPopup(popup_4b99b302a816f49f588da110737d4980)
+        ;
+
+        
+    
+    
+            var marker_aa6f23e3ccb93a5b7ec47186ac6aacfe = L.marker(
+                [38.5178334, -107.9195019],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_fe16d483658bee085adb7b025cfa71c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa6f23e3ccb93a5b7ec47186ac6aacfe.setIcon(icon_fe16d483658bee085adb7b025cfa71c0);
+        
+    
+        var popup_913fa6590cd82dc62bc658111fa336eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_016a566b7951d43e37e5d9e04d6583a7 = $(`<div id="html_016a566b7951d43e37e5d9e04d6583a7" style="width: 100.0%; height: 100.0%;">     <strong>ROCKY MOUNTAIN CANNABIS CORPORATION </strong><br>     <strong>ROCKY MOUNTAIN CANNABIS</strong><br>     Facility Type: RMJ Operator<br>     425 Kristen Court Unit 3<br>     Montrose, CO 81401     </div>`)[0];
+                popup_913fa6590cd82dc62bc658111fa336eb.setContent(html_016a566b7951d43e37e5d9e04d6583a7);
+            
+        
+
+        marker_aa6f23e3ccb93a5b7ec47186ac6aacfe.bindPopup(popup_913fa6590cd82dc62bc658111fa336eb)
+        ;
+
+        
+    
+    
+            var marker_9785e3d2a08867ae331dc0e9e43d43d1 = L.marker(
+                [40.1485882, -104.9656052],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_1a964895b72c230efbf82f4142daf0ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9785e3d2a08867ae331dc0e9e43d43d1.setIcon(icon_1a964895b72c230efbf82f4142daf0ed);
+        
+    
+        var popup_f6712d3ab5e5dbf15c29a4f279a84611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4af16ac189070dbcb85875b7558de8ba = $(`<div id="html_4af16ac189070dbcb85875b7558de8ba" style="width: 100.0%; height: 100.0%;">     <strong>SILVERPEAK CORP</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     10192 Audrey Street<br>     Firestone, CO 80504     </div>`)[0];
+                popup_f6712d3ab5e5dbf15c29a4f279a84611.setContent(html_4af16ac189070dbcb85875b7558de8ba);
+            
+        
+
+        marker_9785e3d2a08867ae331dc0e9e43d43d1.bindPopup(popup_f6712d3ab5e5dbf15c29a4f279a84611)
+        ;
+
+        
+    
+    
+            var marker_112f6bef24e5e675e094ad3b3bcea05a = L.marker(
+                [39.7950754, -104.8476993],
+                {}
+            ).addTo(map_e69bc834723d6740df7f1c68dd29818b);
+        
+    
+            var icon_9a1b65a1c4f30817e33a9ddb2bff7453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_112f6bef24e5e675e094ad3b3bcea05a.setIcon(icon_9a1b65a1c4f30817e33a9ddb2bff7453);
+        
+    
+        var popup_9b7a8c63ec70b81e03dc78027b77cf65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_886531b34e20c79802d252e05f0d11b9 = $(`<div id="html_886531b34e20c79802d252e05f0d11b9" style="width: 100.0%; height: 100.0%;">     <strong>THE COMMISSION CARTEL LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     5475 Peoria Street Unit 4-109<br>     Denver, CO 80239     </div>`)[0];
+                popup_9b7a8c63ec70b81e03dc78027b77cf65.setContent(html_886531b34e20c79802d252e05f0d11b9);
+            
+        
+
+        marker_112f6bef24e5e675e094ad3b3bcea05a.bindPopup(popup_9b7a8c63ec70b81e03dc78027b77cf65)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c62a76068c7e484dc7043eaa22038e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c62a76068c7e484dc7043eaa22038e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c62a76068c7e484dc7043eaa22038e7 = L.map(
+                "map_7c62a76068c7e484dc7043eaa22038e7",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88fcf25579c50fd088b1f7506a0c876f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_88fcf25579c50fd088b1f7506a0c876f.addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var marker_8cebfd68efe48608c1af67288c1b9294 = L.marker(
+                [39.7684311, -104.8147025],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_f888215be91560844a3e5665a7168926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8cebfd68efe48608c1af67288c1b9294.setIcon(icon_f888215be91560844a3e5665a7168926);
+        
+    
+        var popup_f067d625dbed1fcf8c7db89df86edc4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_236cc75f419ad5ab7ee5cdc321512379 = $(`<div id="html_236cc75f419ad5ab7ee5cdc321512379" style="width: 100.0%; height: 100.0%;">     <strong>BUD FOX ENTERPRISES LLC</strong><br>     <strong>Bud Fox Enterprises</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     14896 East 38th Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_f067d625dbed1fcf8c7db89df86edc4c.setContent(html_236cc75f419ad5ab7ee5cdc321512379);
+            
+        
+
+        marker_8cebfd68efe48608c1af67288c1b9294.bindPopup(popup_f067d625dbed1fcf8c7db89df86edc4c)
+        ;
+
+        
+    
+    
+            var marker_48b29e4fec09233f89a1fc72d1c21112 = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_5550715840df31bad5f74dda0787c283 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48b29e4fec09233f89a1fc72d1c21112.setIcon(icon_5550715840df31bad5f74dda0787c283);
+        
+    
+        var popup_1787517d432f6d55249d24cf47e72f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_245107c3c4a29aac65e3b93d7d849eab = $(`<div id="html_245107c3c4a29aac65e3b93d7d849eab" style="width: 100.0%; height: 100.0%;">     <strong>CANNA CLUB LLC</strong><br>     <strong>Best Buds</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     11900 East 33rd Avenue, Suite 2<br>     Aurora, CO 80010     </div>`)[0];
+                popup_1787517d432f6d55249d24cf47e72f10.setContent(html_245107c3c4a29aac65e3b93d7d849eab);
+            
+        
+
+        marker_48b29e4fec09233f89a1fc72d1c21112.bindPopup(popup_1787517d432f6d55249d24cf47e72f10)
+        ;
+
+        
+    
+    
+            var marker_34d74a4dc2def8102367e9ae289d83da = L.marker(
+                [39.7039672, -104.7828795],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_1fafbbc9eaa00169392a7a7d3164b666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34d74a4dc2def8102367e9ae289d83da.setIcon(icon_1fafbbc9eaa00169392a7a7d3164b666);
+        
+    
+        var popup_548a1eb05166825baa1db70fa5e60752 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6770e90fa148fb9e19e11724a2c701c3 = $(`<div id="html_6770e90fa148fb9e19e11724a2c701c3" style="width: 100.0%; height: 100.0%;">     <strong>DUTCH BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     17600 East Exposition Drive, Unit C-2<br>     Aurora, CO 80017     </div>`)[0];
+                popup_548a1eb05166825baa1db70fa5e60752.setContent(html_6770e90fa148fb9e19e11724a2c701c3);
+            
+        
+
+        marker_34d74a4dc2def8102367e9ae289d83da.bindPopup(popup_548a1eb05166825baa1db70fa5e60752)
+        ;
+
+        
+    
+    
+            var marker_284f656345ab4e7889620eff6e33c30f = L.marker(
+                [39.7655611, -104.8262752],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_7894f7f63f31ffd5c5af64736f0a838f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_284f656345ab4e7889620eff6e33c30f.setIcon(icon_7894f7f63f31ffd5c5af64736f0a838f);
+        
+    
+        var popup_6c5cff0547db8503fd030dacf9f06b55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ea6f8264adc04dcb60f45a5df83b67b = $(`<div id="html_5ea6f8264adc04dcb60f45a5df83b67b" style="width: 100.0%; height: 100.0%;">     <strong>GHT FARMS LLC</strong><br>     <strong>GHT LLC</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     13800 East Moncrieff Place, Unit A,<br>     Aurora, CO 80011     </div>`)[0];
+                popup_6c5cff0547db8503fd030dacf9f06b55.setContent(html_5ea6f8264adc04dcb60f45a5df83b67b);
+            
+        
+
+        marker_284f656345ab4e7889620eff6e33c30f.bindPopup(popup_6c5cff0547db8503fd030dacf9f06b55)
+        ;
+
+        
+    
+    
+            var marker_61bcd683400ea823437f3cb4ab5fea28 = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_6ea95523d01268d95242ffd877a03905 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61bcd683400ea823437f3cb4ab5fea28.setIcon(icon_6ea95523d01268d95242ffd877a03905);
+        
+    
+        var popup_e1ae6dd75cc522a4cad9b91224955f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a724f369e34088be06deb0ca7e5a1a18 = $(`<div id="html_a724f369e34088be06deb0ca7e5a1a18" style="width: 100.0%; height: 100.0%;">     <strong>GUARANTEED GREEN LTD</strong><br>     <strong>Olio</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     462 Laredo Street Unit C<br>     Aurora, CO 80011     </div>`)[0];
+                popup_e1ae6dd75cc522a4cad9b91224955f1a.setContent(html_a724f369e34088be06deb0ca7e5a1a18);
+            
+        
+
+        marker_61bcd683400ea823437f3cb4ab5fea28.bindPopup(popup_e1ae6dd75cc522a4cad9b91224955f1a)
+        ;
+
+        
+    
+    
+            var marker_cc2005244062bd4356a1a46cdd91d9b9 = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_74fb2902c105dd091ead77da8265def8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc2005244062bd4356a1a46cdd91d9b9.setIcon(icon_74fb2902c105dd091ead77da8265def8);
+        
+    
+        var popup_a5cc4ef71fcd104cb1c6f96045aab107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7561ea4b0311afb1764129376c8136 = $(`<div id="html_3b7561ea4b0311afb1764129376c8136" style="width: 100.0%; height: 100.0%;">     <strong>KIND GOODS LLC</strong><br>     <strong>Rebel Edibles</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     462 Laredo Street Suite F<br>     Aurora, CO 80011     </div>`)[0];
+                popup_a5cc4ef71fcd104cb1c6f96045aab107.setContent(html_3b7561ea4b0311afb1764129376c8136);
+            
+        
+
+        marker_cc2005244062bd4356a1a46cdd91d9b9.bindPopup(popup_a5cc4ef71fcd104cb1c6f96045aab107)
+        ;
+
+        
+    
+    
+            var marker_91df799c8708671b412715ee319423a5 = L.marker(
+                [39.7233443, -104.7994953],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_b94fc472ed117c98e3a9b77b70f7228f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91df799c8708671b412715ee319423a5.setIcon(icon_b94fc472ed117c98e3a9b77b70f7228f);
+        
+    
+        var popup_de42d5a5fbc704d861fc04ddae4bd0f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16490b3010afa8244662958e80f6d68f = $(`<div id="html_16490b3010afa8244662958e80f6d68f" style="width: 100.0%; height: 100.0%;">     <strong>MSC EXTRACTS LLC</strong><br>     <strong>Mountain Select</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     472 Laredo Street Unit K<br>     Aurora, CO 80011     </div>`)[0];
+                popup_de42d5a5fbc704d861fc04ddae4bd0f1.setContent(html_16490b3010afa8244662958e80f6d68f);
+            
+        
+
+        marker_91df799c8708671b412715ee319423a5.bindPopup(popup_de42d5a5fbc704d861fc04ddae4bd0f1)
+        ;
+
+        
+    
+    
+            var marker_b552ad6a0eefcd67b040dab0b58c4b7e = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_6a0e0ddd5c0e118b25282def3f7a935e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b552ad6a0eefcd67b040dab0b58c4b7e.setIcon(icon_6a0e0ddd5c0e118b25282def3f7a935e);
+        
+    
+        var popup_019db113b9c3ede83eebca4aee91d659 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b636bc0172670218ca07d236a4b17e0 = $(`<div id="html_0b636bc0172670218ca07d236a4b17e0" style="width: 100.0%; height: 100.0%;">     <strong>RM CONCEPTS LLC</strong><br>     <strong>Tabernash Cannabis</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     462 Laredo Street Unit G<br>     Aurora, CO 80011     </div>`)[0];
+                popup_019db113b9c3ede83eebca4aee91d659.setContent(html_0b636bc0172670218ca07d236a4b17e0);
+            
+        
+
+        marker_b552ad6a0eefcd67b040dab0b58c4b7e.bindPopup(popup_019db113b9c3ede83eebca4aee91d659)
+        ;
+
+        
+    
+    
+            var marker_69e2237b6632d358909e8d366878f568 = L.marker(
+                [39.7196956, -104.8193177],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_815afb9cc19d3acf2f4aab52971eda87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69e2237b6632d358909e8d366878f568.setIcon(icon_815afb9cc19d3acf2f4aab52971eda87);
+        
+    
+        var popup_327391fd97957cbf67c0495c4a5e8297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d3c96e6565c7464a33a29e519e5b175 = $(`<div id="html_4d3c96e6565c7464a33a29e519e5b175" style="width: 100.0%; height: 100.0%;">     <strong>SPHEREX LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     16506 East 2nd Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_327391fd97957cbf67c0495c4a5e8297.setContent(html_4d3c96e6565c7464a33a29e519e5b175);
+            
+        
+
+        marker_69e2237b6632d358909e8d366878f568.bindPopup(popup_327391fd97957cbf67c0495c4a5e8297)
+        ;
+
+        
+    
+    
+            var marker_f598e79c4163098d4a19887caf31ef59 = L.marker(
+                [39.7647608, -104.8483447],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_a1ed4557d959ca3c37bd4acb515cbe60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f598e79c4163098d4a19887caf31ef59.setIcon(icon_a1ed4557d959ca3c37bd4acb515cbe60);
+        
+    
+        var popup_649fd87fb3bb4150fbe2cb77fb2b3c63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_becc7a6219ab2fab85eb536cd6f1bfe1 = $(`<div id="html_becc7a6219ab2fab85eb536cd6f1bfe1" style="width: 100.0%; height: 100.0%;">     <strong>THE CANNABIS PIONEERS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     12001 East 33rd Avenue Unit J <br>     Aurora, CO 80010     </div>`)[0];
+                popup_649fd87fb3bb4150fbe2cb77fb2b3c63.setContent(html_becc7a6219ab2fab85eb536cd6f1bfe1);
+            
+        
+
+        marker_f598e79c4163098d4a19887caf31ef59.bindPopup(popup_649fd87fb3bb4150fbe2cb77fb2b3c63)
+        ;
+
+        
+    
+    
+            var marker_a66bacbee36b2b202454611b4ebe6231 = L.marker(
+                [39.723496, -104.800498],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_47ce06b1f0840a627d580c8e69fd88c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a66bacbee36b2b202454611b4ebe6231.setIcon(icon_47ce06b1f0840a627d580c8e69fd88c9);
+        
+    
+        var popup_5f0193ee08759ac6a5e37829cb002fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_941622a1baee6a2d7cbafd70216cc190 = $(`<div id="html_941622a1baee6a2d7cbafd70216cc190" style="width: 100.0%; height: 100.0%;">     <strong>WEST EDISON INC</strong><br>     <strong>West Edison Cannabis Concentrates</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     462 Laredo Street Unit D&E<br>     Aurora, CO 80011     </div>`)[0];
+                popup_5f0193ee08759ac6a5e37829cb002fe1.setContent(html_941622a1baee6a2d7cbafd70216cc190);
+            
+        
+
+        marker_a66bacbee36b2b202454611b4ebe6231.bindPopup(popup_5f0193ee08759ac6a5e37829cb002fe1)
+        ;
+
+        
+    
+    
+            var marker_a99d66697e8587fcfa27b67e85e9b6c1 = L.marker(
+                [39.7233443, -104.7994953],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_09a56b3bf9809da45f299fec99a66e97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a99d66697e8587fcfa27b67e85e9b6c1.setIcon(icon_09a56b3bf9809da45f299fec99a66e97);
+        
+    
+        var popup_cefffa68004293d2f5d4225f1cf63dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0091dfecede9b9eaf76cd87e178c0a4 = $(`<div id="html_f0091dfecede9b9eaf76cd87e178c0a4" style="width: 100.0%; height: 100.0%;">     <strong>ARSENAL OILS & EXTRACTS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     472 Laredo Street, Unit H<br>     Aurora, CO 80011     </div>`)[0];
+                popup_cefffa68004293d2f5d4225f1cf63dd4.setContent(html_f0091dfecede9b9eaf76cd87e178c0a4);
+            
+        
+
+        marker_a99d66697e8587fcfa27b67e85e9b6c1.bindPopup(popup_cefffa68004293d2f5d4225f1cf63dd4)
+        ;
+
+        
+    
+    
+            var marker_1534753913f67db098df48b68180363f = L.marker(
+                [39.723808, -104.800498],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_30f1d30f88109cf8041e938be574c854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1534753913f67db098df48b68180363f.setIcon(icon_30f1d30f88109cf8041e938be574c854);
+        
+    
+        var popup_e24fe6afd34a8a20c538b9e993937c52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80fb6b758cde8d2a43c031f1a95915ab = $(`<div id="html_80fb6b758cde8d2a43c031f1a95915ab" style="width: 100.0%; height: 100.0%;">     <strong>BEDDOR CLAUDE LLC</strong><br>     <strong>Chronic Creations</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     482 Laredo Street, Units P, Q, R, S, and T<br>     Aurora, CO 80011     </div>`)[0];
+                popup_e24fe6afd34a8a20c538b9e993937c52.setContent(html_80fb6b758cde8d2a43c031f1a95915ab);
+            
+        
+
+        marker_1534753913f67db098df48b68180363f.bindPopup(popup_e24fe6afd34a8a20c538b9e993937c52)
+        ;
+
+        
+    
+    
+            var marker_c59bc9d18f5d5be6ebf8ce3181b00743 = L.marker(
+                [39.7647608, -104.8483447],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_166744a0cd7673c79811e8bc23e62fe2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c59bc9d18f5d5be6ebf8ce3181b00743.setIcon(icon_166744a0cd7673c79811e8bc23e62fe2);
+        
+    
+        var popup_362d8c3013e9042fb29198a59587349c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_724dca4d3eabb6dbfe1a40fbf2c90e04 = $(`<div id="html_724dca4d3eabb6dbfe1a40fbf2c90e04" style="width: 100.0%; height: 100.0%;">     <strong>BESPOKE EXTRACTS COLORADO LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     12001 East 33rd Avenue, Unit O<br>     Aurora, CO 80010     </div>`)[0];
+                popup_362d8c3013e9042fb29198a59587349c.setContent(html_724dca4d3eabb6dbfe1a40fbf2c90e04);
+            
+        
+
+        marker_c59bc9d18f5d5be6ebf8ce3181b00743.bindPopup(popup_362d8c3013e9042fb29198a59587349c)
+        ;
+
+        
+    
+    
+            var marker_0d0c8e39886b2ec91bd52cff2bf2f06b = L.marker(
+                [39.7684311, -104.8147025],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_480b3c578a0a74cd3232128cf865af03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d0c8e39886b2ec91bd52cff2bf2f06b.setIcon(icon_480b3c578a0a74cd3232128cf865af03);
+        
+    
+        var popup_71c9e6ec49339f1e0de85f5ec49b3e8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63aec97c866f98fc6e3fcaf9db4ae26b = $(`<div id="html_63aec97c866f98fc6e3fcaf9db4ae26b" style="width: 100.0%; height: 100.0%;">     <strong>BUD FOX ENTERPRISES LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     14896 East 38th Avenue, Unit B<br>     Aurora, CO 80011     </div>`)[0];
+                popup_71c9e6ec49339f1e0de85f5ec49b3e8b.setContent(html_63aec97c866f98fc6e3fcaf9db4ae26b);
+            
+        
+
+        marker_0d0c8e39886b2ec91bd52cff2bf2f06b.bindPopup(popup_71c9e6ec49339f1e0de85f5ec49b3e8b)
+        ;
+
+        
+    
+    
+            var marker_69ff92e07251a8ee9060a0b85ae31c01 = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_c2243409c7e492daec6dbad5430e4eeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_69ff92e07251a8ee9060a0b85ae31c01.setIcon(icon_c2243409c7e492daec6dbad5430e4eeb);
+        
+    
+        var popup_489971b7497ca71199b93727435f9053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b600ca8cabcd01154672546a9eaa339 = $(`<div id="html_3b600ca8cabcd01154672546a9eaa339" style="width: 100.0%; height: 100.0%;">     <strong>CANNA CLUB LLC</strong><br>     <strong>Best Buds</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     11900 East 33rd Avenue, Suite 2<br>     Aurora, CO 80010     </div>`)[0];
+                popup_489971b7497ca71199b93727435f9053.setContent(html_3b600ca8cabcd01154672546a9eaa339);
+            
+        
+
+        marker_69ff92e07251a8ee9060a0b85ae31c01.bindPopup(popup_489971b7497ca71199b93727435f9053)
+        ;
+
+        
+    
+    
+            var marker_b0239845f961a327be2f7835bcbe4186 = L.marker(
+                [39.7039672, -104.7828795],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_922444a40ce946fa35a758ccb10e404b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0239845f961a327be2f7835bcbe4186.setIcon(icon_922444a40ce946fa35a758ccb10e404b);
+        
+    
+        var popup_4dd447543c820e21ede9bd8e923ed4a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5550a0dc017f78b721463f73ee4f1e3d = $(`<div id="html_5550a0dc017f78b721463f73ee4f1e3d" style="width: 100.0%; height: 100.0%;">     <strong>DUTCH BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     17600 East Exposition Drive, Unit C-2<br>     Aurora, CO 80017     </div>`)[0];
+                popup_4dd447543c820e21ede9bd8e923ed4a1.setContent(html_5550a0dc017f78b721463f73ee4f1e3d);
+            
+        
+
+        marker_b0239845f961a327be2f7835bcbe4186.bindPopup(popup_4dd447543c820e21ede9bd8e923ed4a1)
+        ;
+
+        
+    
+    
+            var marker_db0448f6dd45088c44cdf11142b21cd0 = L.marker(
+                [39.7655611, -104.8262752],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_0046c233fb275e68eb05cac8d6e46cc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db0448f6dd45088c44cdf11142b21cd0.setIcon(icon_0046c233fb275e68eb05cac8d6e46cc5);
+        
+    
+        var popup_bda8d55e57bd5f2a75c2ce17ace3b9d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b1594e26e3ad20099809e8b0004e9a1 = $(`<div id="html_6b1594e26e3ad20099809e8b0004e9a1" style="width: 100.0%; height: 100.0%;">     <strong>GHT FARMS LLC</strong><br>     <strong>GHT LLC</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     13800 East Moncrieff Place, Unit B<br>     Aurora, CO 80011     </div>`)[0];
+                popup_bda8d55e57bd5f2a75c2ce17ace3b9d4.setContent(html_6b1594e26e3ad20099809e8b0004e9a1);
+            
+        
+
+        marker_db0448f6dd45088c44cdf11142b21cd0.bindPopup(popup_bda8d55e57bd5f2a75c2ce17ace3b9d4)
+        ;
+
+        
+    
+    
+            var marker_bf9ba32cdecd72a5ff93c6f0dcf93735 = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_10897ab7a1cbe899e9b40ea03da81eb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf9ba32cdecd72a5ff93c6f0dcf93735.setIcon(icon_10897ab7a1cbe899e9b40ea03da81eb7);
+        
+    
+        var popup_0c690e8ec1d97f9b88a2ec9293bf89dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_018bc014f86c9209e7f1437f8b8c9695 = $(`<div id="html_018bc014f86c9209e7f1437f8b8c9695" style="width: 100.0%; height: 100.0%;">     <strong>GUARANTEED GREEN LTD</strong><br>     <strong>Olio</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     462 Laredo Street, Unit C<br>     Aurora, CO 80011     </div>`)[0];
+                popup_0c690e8ec1d97f9b88a2ec9293bf89dc.setContent(html_018bc014f86c9209e7f1437f8b8c9695);
+            
+        
+
+        marker_bf9ba32cdecd72a5ff93c6f0dcf93735.bindPopup(popup_0c690e8ec1d97f9b88a2ec9293bf89dc)
+        ;
+
+        
+    
+    
+            var marker_53ce514c9777e880df707bb7e57cbec3 = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_65bc3a28617b981d89fef93a64e91c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_53ce514c9777e880df707bb7e57cbec3.setIcon(icon_65bc3a28617b981d89fef93a64e91c56);
+        
+    
+        var popup_931925546fc0158561da714cbe1dd139 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_962ddead7d6457d4587e54aa94438cb0 = $(`<div id="html_962ddead7d6457d4587e54aa94438cb0" style="width: 100.0%; height: 100.0%;">     <strong>KIND GOODS LLC</strong><br>     <strong>Rebel Edibles</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     462 Laredo Street, Unit F<br>     Aurora, CO 80011     </div>`)[0];
+                popup_931925546fc0158561da714cbe1dd139.setContent(html_962ddead7d6457d4587e54aa94438cb0);
+            
+        
+
+        marker_53ce514c9777e880df707bb7e57cbec3.bindPopup(popup_931925546fc0158561da714cbe1dd139)
+        ;
+
+        
+    
+    
+            var marker_469f585abbbdfabda7d62346c47fcccb = L.marker(
+                [39.7233443, -104.7994953],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_97539a5abe27211d3a594f84e67bd871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_469f585abbbdfabda7d62346c47fcccb.setIcon(icon_97539a5abe27211d3a594f84e67bd871);
+        
+    
+        var popup_b417a38d5ae89cbf506c3ee7b403ab09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90528218485566e6b11b2b8945572228 = $(`<div id="html_90528218485566e6b11b2b8945572228" style="width: 100.0%; height: 100.0%;">     <strong>MSC EXTRACTS LLC </strong><br>     <strong>Mountain Select</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     472 Laredo Street, Unit K<br>     Aurora, CO 80011     </div>`)[0];
+                popup_b417a38d5ae89cbf506c3ee7b403ab09.setContent(html_90528218485566e6b11b2b8945572228);
+            
+        
+
+        marker_469f585abbbdfabda7d62346c47fcccb.bindPopup(popup_b417a38d5ae89cbf506c3ee7b403ab09)
+        ;
+
+        
+    
+    
+            var marker_68163bfc0d8a7321493ffebcc0803a99 = L.marker(
+                [39.7233244, -104.8000558],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_13a511c432a0aacc757fb12b6d4ede8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_68163bfc0d8a7321493ffebcc0803a99.setIcon(icon_13a511c432a0aacc757fb12b6d4ede8d);
+        
+    
+        var popup_d5d02026b4a60c7d433f5d1b4eff055b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc96697d7c90c43793a7b4b6e776acff = $(`<div id="html_bc96697d7c90c43793a7b4b6e776acff" style="width: 100.0%; height: 100.0%;">     <strong>RM CONCEPTS LLC</strong><br>     <strong>Tabernash Cannabis</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     462 Laredo Street, Unit G<br>     Aurora, CO 80011     </div>`)[0];
+                popup_d5d02026b4a60c7d433f5d1b4eff055b.setContent(html_bc96697d7c90c43793a7b4b6e776acff);
+            
+        
+
+        marker_68163bfc0d8a7321493ffebcc0803a99.bindPopup(popup_d5d02026b4a60c7d433f5d1b4eff055b)
+        ;
+
+        
+    
+    
+            var marker_5092b6bae559cdf8ad5c2747d4f1686b = L.marker(
+                [39.7196956, -104.8193177],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_df54cb83b556653dc366d736efe5a4f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5092b6bae559cdf8ad5c2747d4f1686b.setIcon(icon_df54cb83b556653dc366d736efe5a4f0);
+        
+    
+        var popup_b66368ad013e016c88e6689f07cbcfbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13116cf797e48d35d35c76c872901c0c = $(`<div id="html_13116cf797e48d35d35c76c872901c0c" style="width: 100.0%; height: 100.0%;">     <strong>SPHEREX LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     16506 East 2nd Avenue<br>     Aurora, CO 80011     </div>`)[0];
+                popup_b66368ad013e016c88e6689f07cbcfbe.setContent(html_13116cf797e48d35d35c76c872901c0c);
+            
+        
+
+        marker_5092b6bae559cdf8ad5c2747d4f1686b.bindPopup(popup_b66368ad013e016c88e6689f07cbcfbe)
+        ;
+
+        
+    
+    
+            var marker_7f827ea459bacf273002e1b1cd14b85f = L.marker(
+                [39.7233443, -104.7994953],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_3c3bb96c782d2c470495bdf173f73ee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f827ea459bacf273002e1b1cd14b85f.setIcon(icon_3c3bb96c782d2c470495bdf173f73ee9);
+        
+    
+        var popup_4314fc91b2b621b5addfb1a5f5cbc2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ffd441b89b1a509510d92378bc54bbd = $(`<div id="html_8ffd441b89b1a509510d92378bc54bbd" style="width: 100.0%; height: 100.0%;">     <strong>TERRAPIN SEPARATIONS INC</strong><br>     <strong>Lucky Turtle Extracts</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     472 Laredo Street, Unit J<br>     Aurora, CO 80011     </div>`)[0];
+                popup_4314fc91b2b621b5addfb1a5f5cbc2c0.setContent(html_8ffd441b89b1a509510d92378bc54bbd);
+            
+        
+
+        marker_7f827ea459bacf273002e1b1cd14b85f.bindPopup(popup_4314fc91b2b621b5addfb1a5f5cbc2c0)
+        ;
+
+        
+    
+    
+            var marker_f2aeb7b4419bcbe476a9e1b52bcec81d = L.marker(
+                [39.7647608, -104.8483447],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_3c12775a6c8c0aac54b1098d717a56a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2aeb7b4419bcbe476a9e1b52bcec81d.setIcon(icon_3c12775a6c8c0aac54b1098d717a56a9);
+        
+    
+        var popup_2c310d4251d0d7f574f3ffde86d0d84b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09def3db67f2e6396fd3b16795d7e36c = $(`<div id="html_09def3db67f2e6396fd3b16795d7e36c" style="width: 100.0%; height: 100.0%;">     <strong>THE CANNABIS PIONEERS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     12001 East 33rd Avenue Unit J<br>     Aurora, CO 80010     </div>`)[0];
+                popup_2c310d4251d0d7f574f3ffde86d0d84b.setContent(html_09def3db67f2e6396fd3b16795d7e36c);
+            
+        
+
+        marker_f2aeb7b4419bcbe476a9e1b52bcec81d.bindPopup(popup_2c310d4251d0d7f574f3ffde86d0d84b)
+        ;
+
+        
+    
+    
+            var marker_37d4ccc75a354e0fb1bfef5ba6c35aec = L.marker(
+                [39.723496, -104.800498],
+                {}
+            ).addTo(map_7c62a76068c7e484dc7043eaa22038e7);
+        
+    
+            var icon_cc829b3b74fddb56e89414506a44606a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37d4ccc75a354e0fb1bfef5ba6c35aec.setIcon(icon_cc829b3b74fddb56e89414506a44606a);
+        
+    
+        var popup_e1d414fa1699eb6b75d54edf082b199a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab54beef9175498f7e7c025b2e8b1750 = $(`<div id="html_ab54beef9175498f7e7c025b2e8b1750" style="width: 100.0%; height: 100.0%;">     <strong>WEST EDISON INC</strong><br>     <strong>West Edison Cannabis Concentrates</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     462 North Laredo Street, Unit D and E<br>     Aurora, CO 80011     </div>`)[0];
+                popup_e1d414fa1699eb6b75d54edf082b199a.setContent(html_ab54beef9175498f7e7c025b2e8b1750);
+            
+        
+
+        marker_37d4ccc75a354e0fb1bfef5ba6c35aec.bindPopup(popup_e1d414fa1699eb6b75d54edf082b199a)
+        ;
+
+        
+    
+</script>
+</html>

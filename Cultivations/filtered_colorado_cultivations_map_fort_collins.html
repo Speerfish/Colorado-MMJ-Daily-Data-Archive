@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56bb00ac09449eb1263a2118c2c0c79f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_56bb00ac09449eb1263a2118c2c0c79f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_56bb00ac09449eb1263a2118c2c0c79f = L.map(
+                "map_56bb00ac09449eb1263a2118c2c0c79f",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ed4ccee162dcaf8f3ff651a39d163cbf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ed4ccee162dcaf8f3ff651a39d163cbf.addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var marker_67a0f9ffd1e1c09df9d27159f93d8201 = L.marker(
+                [40.5912784, -105.0547251],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_057617997866f01e7e600acdc829f4b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67a0f9ffd1e1c09df9d27159f93d8201.setIcon(icon_057617997866f01e7e600acdc829f4b4);
+        
+    
+        var popup_ff71ecf4e211ebbb7093a12a04ae158b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c2fb2577a8648c1964c5ecee43fa0b7 = $(`<div id="html_9c2fb2577a8648c1964c5ecee43fa0b7" style="width: 100.0%; height: 100.0%;">     <strong>FLOWER POWER BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1308 - 1310 Duff Drive<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_ff71ecf4e211ebbb7093a12a04ae158b.setContent(html_9c2fb2577a8648c1964c5ecee43fa0b7);
+            
+        
+
+        marker_67a0f9ffd1e1c09df9d27159f93d8201.bindPopup(popup_ff71ecf4e211ebbb7093a12a04ae158b)
+        ;
+
+        
+    
+    
+            var marker_75981bbc4341b171ff4db2ad7d0b9479 = L.marker(
+                [40.494268, -105.0774983],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_9774b6dbf0db290e58dc269c3720568a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75981bbc4341b171ff4db2ad7d0b9479.setIcon(icon_9774b6dbf0db290e58dc269c3720568a);
+        
+    
+        var popup_26c6d189f1cd0dd1f373e7224c4ee729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9dd304b584564e7eef1f3097670c09d = $(`<div id="html_e9dd304b584564e7eef1f3097670c09d" style="width: 100.0%; height: 100.0%;">     <strong>KIND CARE OF COLORADO LLC</strong><br>     <strong>Kind Care of Colorado</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     6629 South College Avenue<br>     Fort Collins, CO 80525     </div>`)[0];
+                popup_26c6d189f1cd0dd1f373e7224c4ee729.setContent(html_e9dd304b584564e7eef1f3097670c09d);
+            
+        
+
+        marker_75981bbc4341b171ff4db2ad7d0b9479.bindPopup(popup_26c6d189f1cd0dd1f373e7224c4ee729)
+        ;
+
+        
+    
+    
+            var marker_e8b5c877ea2403e73a8cf4af82a37219 = L.marker(
+                [40.606051, -105.071691],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_68e120393e5cdb336fc31e3f5273f9a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e8b5c877ea2403e73a8cf4af82a37219.setIcon(icon_68e120393e5cdb336fc31e3f5273f9a2);
+        
+    
+        var popup_bb3561e80bedb870212ce6e8385f0803 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac6e5cbbd4df02a7f72211eea7f25637 = $(`<div id="html_ac6e5cbbd4df02a7f72211eea7f25637" style="width: 100.0%; height: 100.0%;">     <strong>NATURAL ALTERNATIVES FOR HEALTH CORP</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1420 Blue Spruce Drive, Unit G&H<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_bb3561e80bedb870212ce6e8385f0803.setContent(html_ac6e5cbbd4df02a7f72211eea7f25637);
+            
+        
+
+        marker_e8b5c877ea2403e73a8cf4af82a37219.bindPopup(popup_bb3561e80bedb870212ce6e8385f0803)
+        ;
+
+        
+    
+    
+            var marker_21a3fbd029dc2a3dcd07161794a19e89 = L.marker(
+                [40.6106044, -105.0782308],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_6d6503975d5b8982222cba92a85c77f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21a3fbd029dc2a3dcd07161794a19e89.setIcon(icon_6d6503975d5b8982222cba92a85c77f0);
+        
+    
+        var popup_fa379c504fe9081353877a51af4b2520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ac52621d7f5b8747e170980cf24911 = $(`<div id="html_79ac52621d7f5b8747e170980cf24911" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1736-1740 Willox Court<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_fa379c504fe9081353877a51af4b2520.setContent(html_79ac52621d7f5b8747e170980cf24911);
+            
+        
+
+        marker_21a3fbd029dc2a3dcd07161794a19e89.bindPopup(popup_fa379c504fe9081353877a51af4b2520)
+        ;
+
+        
+    
+    
+            var marker_4a6d87d7ee50a7ea26f2df4f3e6362a1 = L.marker(
+                [40.506536, -105.075529],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_9747d8c612a4c7e3606017d82250707b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a6d87d7ee50a7ea26f2df4f3e6362a1.setIcon(icon_9747d8c612a4c7e3606017d82250707b);
+        
+    
+        var popup_1539cf528b4baa19d839b11f0ebaaec2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef310825caaa316e6b98d6ed7d90fc4d = $(`<div id="html_ef310825caaa316e6b98d6ed7d90fc4d" style="width: 100.0%; height: 100.0%;">     <strong>VERTS LLC</strong><br>     <strong>Verts Neighborhood Dispensary</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     5724 Bueno Drive, Unit B & C<br>     Fort Collins, CO 80521     </div>`)[0];
+                popup_1539cf528b4baa19d839b11f0ebaaec2.setContent(html_ef310825caaa316e6b98d6ed7d90fc4d);
+            
+        
+
+        marker_4a6d87d7ee50a7ea26f2df4f3e6362a1.bindPopup(popup_1539cf528b4baa19d839b11f0ebaaec2)
+        ;
+
+        
+    
+    
+            var marker_0a77b38e502ce497f197157d5851a33e = L.marker(
+                [40.5912784, -105.0547251],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_2cfbd58e0e497f86badcbe208732fdf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a77b38e502ce497f197157d5851a33e.setIcon(icon_2cfbd58e0e497f86badcbe208732fdf0);
+        
+    
+        var popup_1125c959a20b30f643bc27f70bbfd247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033db0c93dea10a64f0bd31be5c51e1f = $(`<div id="html_033db0c93dea10a64f0bd31be5c51e1f" style="width: 100.0%; height: 100.0%;">     <strong>FLOWER POWER BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1308 -1310 Duff Drive<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_1125c959a20b30f643bc27f70bbfd247.setContent(html_033db0c93dea10a64f0bd31be5c51e1f);
+            
+        
+
+        marker_0a77b38e502ce497f197157d5851a33e.bindPopup(popup_1125c959a20b30f643bc27f70bbfd247)
+        ;
+
+        
+    
+    
+            var marker_03cbd5476fe921116a3a2efae7e6a948 = L.marker(
+                [40.494268, -105.0774983],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_26e1a36774e38931acc8dee5beb7250a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03cbd5476fe921116a3a2efae7e6a948.setIcon(icon_26e1a36774e38931acc8dee5beb7250a);
+        
+    
+        var popup_99014a0e8420bd8dcf8e2189235d4566 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2883b4387c3d7765e396822eaef56b7 = $(`<div id="html_c2883b4387c3d7765e396822eaef56b7" style="width: 100.0%; height: 100.0%;">     <strong>KIND CARE OF COLORADO LLC</strong><br>     <strong>Kind Care of Colorado</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6629 South College Avenue<br>     Fort Collins, CO 80525     </div>`)[0];
+                popup_99014a0e8420bd8dcf8e2189235d4566.setContent(html_c2883b4387c3d7765e396822eaef56b7);
+            
+        
+
+        marker_03cbd5476fe921116a3a2efae7e6a948.bindPopup(popup_99014a0e8420bd8dcf8e2189235d4566)
+        ;
+
+        
+    
+    
+            var marker_1fa1c7527e4ac467f911840ab7d4db9d = L.marker(
+                [40.606051, -105.071691],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_d3bef2ed989fa5be8079e414b66b5614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1fa1c7527e4ac467f911840ab7d4db9d.setIcon(icon_d3bef2ed989fa5be8079e414b66b5614);
+        
+    
+        var popup_869c571fcd1f1cd5a87f727e7c5e29bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a06840916f42136a92af51206b2ce00 = $(`<div id="html_1a06840916f42136a92af51206b2ce00" style="width: 100.0%; height: 100.0%;">     <strong>NATURAL ALTERNATIVES FOR HEALTH CORP</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1420 Blue Spruce Drive, Unit G&H<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_869c571fcd1f1cd5a87f727e7c5e29bc.setContent(html_1a06840916f42136a92af51206b2ce00);
+            
+        
+
+        marker_1fa1c7527e4ac467f911840ab7d4db9d.bindPopup(popup_869c571fcd1f1cd5a87f727e7c5e29bc)
+        ;
+
+        
+    
+    
+            var marker_18507af079de7264463a62b6e630a48c = L.marker(
+                [40.508764, -105.0762267],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_b99372f5dd71676ed448ed354ea4fc29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18507af079de7264463a62b6e630a48c.setIcon(icon_b99372f5dd71676ed448ed354ea4fc29);
+        
+    
+        var popup_5c00e20d0e8687f18433de38b4ae9b78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8542ee50864617a7c677d8753ef6daff = $(`<div id="html_8542ee50864617a7c677d8753ef6daff" style="width: 100.0%; height: 100.0%;">     <strong>NATURAL ALTERNATIVES FOR HEALTH CORP</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     5720 Bueno Drive<br>     Fort Collins, CO 80525     </div>`)[0];
+                popup_5c00e20d0e8687f18433de38b4ae9b78.setContent(html_8542ee50864617a7c677d8753ef6daff);
+            
+        
+
+        marker_18507af079de7264463a62b6e630a48c.bindPopup(popup_5c00e20d0e8687f18433de38b4ae9b78)
+        ;
+
+        
+    
+    
+            var marker_fe5301147618683336b1c92cfc210978 = L.marker(
+                [40.5091913, -105.0768661],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_f226877f27072d285cff6b3028ae019c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe5301147618683336b1c92cfc210978.setIcon(icon_f226877f27072d285cff6b3028ae019c);
+        
+    
+        var popup_c553cae0d3425a717591bf1771c651fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3022ee2d151163b427e691bddceea889 = $(`<div id="html_3022ee2d151163b427e691bddceea889" style="width: 100.0%; height: 100.0%;">     <strong>NOCO CRAFT PRODUCTS LLC</strong><br>     <strong>Nokhu Labs</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     5608 South College Avenue <br>     Fort Collins, CO 80525     </div>`)[0];
+                popup_c553cae0d3425a717591bf1771c651fc.setContent(html_3022ee2d151163b427e691bddceea889);
+            
+        
+
+        marker_fe5301147618683336b1c92cfc210978.bindPopup(popup_c553cae0d3425a717591bf1771c651fc)
+        ;
+
+        
+    
+    
+            var marker_de58000ff1643a9f059db9ac24c20398 = L.marker(
+                [40.603415, -105.0827213],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_1fea0c80164ea359b570a90b89bd6181 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de58000ff1643a9f059db9ac24c20398.setIcon(icon_1fea0c80164ea359b570a90b89bd6181);
+        
+    
+        var popup_f0b16361e189c6935af5acd65a8c408e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca9a0d72676eb8135950aa523f86782a = $(`<div id="html_ca9a0d72676eb8135950aa523f86782a" style="width: 100.0%; height: 100.0%;">     <strong>ORGANIC ALTERNATIVES INC</strong><br>     <strong>Organic Alternatives</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     337 Hickory Street<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_f0b16361e189c6935af5acd65a8c408e.setContent(html_ca9a0d72676eb8135950aa523f86782a);
+            
+        
+
+        marker_de58000ff1643a9f059db9ac24c20398.bindPopup(popup_f0b16361e189c6935af5acd65a8c408e)
+        ;
+
+        
+    
+    
+            var marker_75577c862c7379b69a592600e9d8b9f9 = L.marker(
+                [40.6106044, -105.0782308],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_e3ed2d0835b75e16e5a7a9dcec01332e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75577c862c7379b69a592600e9d8b9f9.setIcon(icon_e3ed2d0835b75e16e5a7a9dcec01332e);
+        
+    
+        var popup_65df4d48e13a15aae72310a5788c614b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44dae725e6387df4cc883971ee1faef2 = $(`<div id="html_44dae725e6387df4cc883971ee1faef2" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1724-1732 Willox Court<br>     Fort Collins, CO 80524     </div>`)[0];
+                popup_65df4d48e13a15aae72310a5788c614b.setContent(html_44dae725e6387df4cc883971ee1faef2);
+            
+        
+
+        marker_75577c862c7379b69a592600e9d8b9f9.bindPopup(popup_65df4d48e13a15aae72310a5788c614b)
+        ;
+
+        
+    
+    
+            var marker_1eca13f96dea87269f4bfbae0ef85938 = L.marker(
+                [40.506536, -105.075529],
+                {}
+            ).addTo(map_56bb00ac09449eb1263a2118c2c0c79f);
+        
+    
+            var icon_bf27ac75484c3c428f07eafa226c601e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1eca13f96dea87269f4bfbae0ef85938.setIcon(icon_bf27ac75484c3c428f07eafa226c601e);
+        
+    
+        var popup_7bb2444b7b5405c49cae8a4c6d24261d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f35cf1fa656bbb785b42755b35bb172 = $(`<div id="html_5f35cf1fa656bbb785b42755b35bb172" style="width: 100.0%; height: 100.0%;">     <strong>VERTS LLC</strong><br>     <strong>Vertical </strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     5724 Bueno Drive Units B and C<br>     Fort Collins, CO 80525     </div>`)[0];
+                popup_7bb2444b7b5405c49cae8a4c6d24261d.setContent(html_5f35cf1fa656bbb785b42755b35bb172);
+            
+        
+
+        marker_1eca13f96dea87269f4bfbae0ef85938.bindPopup(popup_7bb2444b7b5405c49cae8a4c6d24261d)
+        ;
+
+        
+    
+</script>
+</html>

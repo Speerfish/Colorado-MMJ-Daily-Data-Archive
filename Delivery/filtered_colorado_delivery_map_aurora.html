@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_12914c302843894189e40858f68c1465 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_12914c302843894189e40858f68c1465" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_12914c302843894189e40858f68c1465 = L.map(
+                "map_12914c302843894189e40858f68c1465",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4c4aaab7417158c58c96c33a1568c5f0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4c4aaab7417158c58c96c33a1568c5f0.addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var marker_fbacbdbb9507dbe035ef319f6abde714 = L.marker(
+                [39.7468712, -104.8590276],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_2713816edddb8a9aef4f16e439ba7628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fbacbdbb9507dbe035ef319f6abde714.setIcon(icon_2713816edddb8a9aef4f16e439ba7628);
+        
+    
+        var popup_75f08e6bf16727cf648e3d23ec8f83a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_733b706b3bbdebf8dc9b4265343551e5 = $(`<div id="html_733b706b3bbdebf8dc9b4265343551e5" style="width: 100.0%; height: 100.0%;">     <strong>ABCDELIVERY LLC</strong><br>     <strong>Better Days Delivery</strong><br>     Facility Type: MMJ Delivery Permit<br>     1965 Kingston Street<br>     Aurora, CO 80010     </div>`)[0];
+                popup_75f08e6bf16727cf648e3d23ec8f83a3.setContent(html_733b706b3bbdebf8dc9b4265343551e5);
+            
+        
+
+        marker_fbacbdbb9507dbe035ef319f6abde714.bindPopup(popup_75f08e6bf16727cf648e3d23ec8f83a3)
+        ;
+
+        
+    
+    
+            var marker_3c23e288e52b8ad96e873d2fbad49230 = L.marker(
+                [39.7468712, -104.8590276],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_3aaebe35abbeab32396053038ee348e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c23e288e52b8ad96e873d2fbad49230.setIcon(icon_3aaebe35abbeab32396053038ee348e8);
+        
+    
+        var popup_b631d3e865eaa5039e967f2a3b175bf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fc87685782cfdc85d67e465af8bdf9b = $(`<div id="html_8fc87685782cfdc85d67e465af8bdf9b" style="width: 100.0%; height: 100.0%;">     <strong>ABCDELIVERY LLC</strong><br>     <strong>Better Days Delivery</strong><br>     Facility Type: RMJ Delivery Permit<br>     1965 Kingston Street<br>     Aurora, CO 80010     </div>`)[0];
+                popup_b631d3e865eaa5039e967f2a3b175bf0.setContent(html_8fc87685782cfdc85d67e465af8bdf9b);
+            
+        
+
+        marker_3c23e288e52b8ad96e873d2fbad49230.bindPopup(popup_b631d3e865eaa5039e967f2a3b175bf0)
+        ;
+
+        
+    
+    
+            var marker_ca17394e13f00a68c797b3216f994e29 = L.marker(
+                [39.667444, -104.8605731],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_1f2e8544ff2b6cd71608134524746b37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca17394e13f00a68c797b3216f994e29.setIcon(icon_1f2e8544ff2b6cd71608134524746b37);
+        
+    
+        var popup_b94603d7c36b9e7f854105b0622fce3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38fdc099821f36543715ad7630576f8f = $(`<div id="html_38fdc099821f36543715ad7630576f8f" style="width: 100.0%; height: 100.0%;">     <strong>HIGH COUNTRY SUPPLY LLC</strong><br>     <strong>Colorado Harvest Company</strong><br>     Facility Type: RMJ Delivery Permit<br>     11002 East Yale Avenue<br>     Aurora, CO 80010     </div>`)[0];
+                popup_b94603d7c36b9e7f854105b0622fce3e.setContent(html_38fdc099821f36543715ad7630576f8f);
+            
+        
+
+        marker_ca17394e13f00a68c797b3216f994e29.bindPopup(popup_b94603d7c36b9e7f854105b0622fce3e)
+        ;
+
+        
+    
+    
+            var marker_1f0c048428968d74b07d36b56711971a = L.marker(
+                [39.6025572, -104.7156415],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_5a8007e7a8d08b48d34920792a23c2b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f0c048428968d74b07d36b56711971a.setIcon(icon_5a8007e7a8d08b48d34920792a23c2b2);
+        
+    
+        var popup_309fd84c95bbd9bbefb1a574c6061c04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7715bf8747aef0bf796a87d2bad40fe = $(`<div id="html_b7715bf8747aef0bf796a87d2bad40fe" style="width: 100.0%; height: 100.0%;">     <strong>JS INVESTMENTS AURORA LLC</strong><br>     <strong>JARS Cannabis</strong><br>     Facility Type: RMJ Delivery Permit<br>     6260 South Gun Club Road<br>     Aurora, CO 80016     </div>`)[0];
+                popup_309fd84c95bbd9bbefb1a574c6061c04.setContent(html_b7715bf8747aef0bf796a87d2bad40fe);
+            
+        
+
+        marker_1f0c048428968d74b07d36b56711971a.bindPopup(popup_309fd84c95bbd9bbefb1a574c6061c04)
+        ;
+
+        
+    
+    
+            var marker_b35b2b781ed8c0b84b8a0a77ebc3eba2 = L.marker(
+                [39.6389644, -104.7664399],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_d6056703ec73b63a6e0f721963ced584 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b35b2b781ed8c0b84b8a0a77ebc3eba2.setIcon(icon_d6056703ec73b63a6e0f721963ced584);
+        
+    
+        var popup_eddd4ea1b7df3bbae986f17af344e704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2affff7f744dd9c73f4299961d0335c1 = $(`<div id="html_2affff7f744dd9c73f4299961d0335c1" style="width: 100.0%; height: 100.0%;">     <strong>PI AURORA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     19005 East Quincy Avenue<br>     Aurora, CO 80015     </div>`)[0];
+                popup_eddd4ea1b7df3bbae986f17af344e704.setContent(html_2affff7f744dd9c73f4299961d0335c1);
+            
+        
+
+        marker_b35b2b781ed8c0b84b8a0a77ebc3eba2.bindPopup(popup_eddd4ea1b7df3bbae986f17af344e704)
+        ;
+
+        
+    
+    
+            var marker_c575fbe77e8ca00dc3012c88274bba97 = L.marker(
+                [39.639036, -104.755332],
+                {}
+            ).addTo(map_12914c302843894189e40858f68c1465);
+        
+    
+            var icon_378ef8417c8b8a5aad49deacca0eb4c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c575fbe77e8ca00dc3012c88274bba97.setIcon(icon_378ef8417c8b8a5aad49deacca0eb4c3);
+        
+    
+        var popup_9c94924315563b4c6109423a823dd6ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c7883acfee5d031f8e9df0153fb6ea = $(`<div id="html_d1c7883acfee5d031f8e9df0153fb6ea" style="width: 100.0%; height: 100.0%;">     <strong>SHW LOGISTICS LLC</strong><br>     <strong>High Demand Delivery</strong><br>     Facility Type: RMJ Delivery Permit<br>     4275 South Hailfax Way<br>     Aurora, CO 80013     </div>`)[0];
+                popup_9c94924315563b4c6109423a823dd6ea.setContent(html_d1c7883acfee5d031f8e9df0153fb6ea);
+            
+        
+
+        marker_c575fbe77e8ca00dc3012c88274bba97.bindPopup(popup_9c94924315563b4c6109423a823dd6ea)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d98818e2d63e23d81bfb1d14ed1e634b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d98818e2d63e23d81bfb1d14ed1e634b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d98818e2d63e23d81bfb1d14ed1e634b = L.map(
+                "map_d98818e2d63e23d81bfb1d14ed1e634b",
+                {
+                    center: [40.015, -105.2705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37615898f0a54ee6d0cb66abf7d93412 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_37615898f0a54ee6d0cb66abf7d93412.addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var marker_f49cb69cb5b5b1e6d67f5ad79890650e = L.marker(
+                [40.014776, -105.223357],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_282568322905d8e776d96c7d93689263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f49cb69cb5b5b1e6d67f5ad79890650e.setIcon(icon_282568322905d8e776d96c7d93689263);
+        
+    
+        var popup_bf40da22a6f87970a7a32c4d951a5d97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78592cc870d873238197017f55998df4 = $(`<div id="html_78592cc870d873238197017f55998df4" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER MANUFACTURING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     5575 Arapahoe Avenue, Units B & C, <br>     Boulder, CO 80303     </div>`)[0];
+                popup_bf40da22a6f87970a7a32c4d951a5d97.setContent(html_78592cc870d873238197017f55998df4);
+            
+        
+
+        marker_f49cb69cb5b5b1e6d67f5ad79890650e.bindPopup(popup_bf40da22a6f87970a7a32c4d951a5d97)
+        ;
+
+        
+    
+    
+            var marker_2fcf29e33d91d684d43c993ecf462bb2 = L.marker(
+                [40.0871197, -105.2337414],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_640442f762c19c597498186cbbf0153f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fcf29e33d91d684d43c993ecf462bb2.setIcon(icon_640442f762c19c597498186cbbf0153f);
+        
+    
+        var popup_83bfdec61e4c9ac569eaa9286754fc8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5508972e25011d536a0e83e03b9c7fb = $(`<div id="html_b5508972e25011d536a0e83e03b9c7fb" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER SWEET GRASS LLC</strong><br>     <strong>Sweet Mary Jane</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     1700 North 55th Street, Unit C<br>     Boulder, CO 80301     </div>`)[0];
+                popup_83bfdec61e4c9ac569eaa9286754fc8b.setContent(html_b5508972e25011d536a0e83e03b9c7fb);
+            
+        
+
+        marker_2fcf29e33d91d684d43c993ecf462bb2.bindPopup(popup_83bfdec61e4c9ac569eaa9286754fc8b)
+        ;
+
+        
+    
+    
+            var marker_ae0d1bb1de0954e4f66dc787aeb93c3d = L.marker(
+                [40.015524, -105.2092685],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_330c3e9b1fe33e8fbaa995a9904be9b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae0d1bb1de0954e4f66dc787aeb93c3d.setIcon(icon_330c3e9b1fe33e8fbaa995a9904be9b6);
+        
+    
+        var popup_170d317c6d1fbb681904d9b20c089313 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03593a8c2db8ac1060cdaf34434743e4 = $(`<div id="html_03593a8c2db8ac1060cdaf34434743e4" style="width: 100.0%; height: 100.0%;">     <strong>CANNXTRACTS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     6185 Arapahoe Road Unit D<br>     Boulder, CO 80303     </div>`)[0];
+                popup_170d317c6d1fbb681904d9b20c089313.setContent(html_03593a8c2db8ac1060cdaf34434743e4);
+            
+        
+
+        marker_ae0d1bb1de0954e4f66dc787aeb93c3d.bindPopup(popup_170d317c6d1fbb681904d9b20c089313)
+        ;
+
+        
+    
+    
+            var marker_2e0b15f07df64c16945fac290ad9dba5 = L.marker(
+                [40.0983218, -105.2821961],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_2e300ddff112f2e614c5be8e8120be49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e0b15f07df64c16945fac290ad9dba5.setIcon(icon_2e300ddff112f2e614c5be8e8120be49);
+        
+    
+        var popup_113bf2cd3f62edb798bd6a0688096e90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53c30e40adbe2ca312554ba4df6842dd = $(`<div id="html_53c30e40adbe2ca312554ba4df6842dd" style="width: 100.0%; height: 100.0%;">     <strong>GT INFUSIONS LLC</strong><br>     <strong>Green Treets</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     6859 North Foothills Highway, Unit E-200<br>     Boulder, CO 80302     </div>`)[0];
+                popup_113bf2cd3f62edb798bd6a0688096e90.setContent(html_53c30e40adbe2ca312554ba4df6842dd);
+            
+        
+
+        marker_2e0b15f07df64c16945fac290ad9dba5.bindPopup(popup_113bf2cd3f62edb798bd6a0688096e90)
+        ;
+
+        
+    
+    
+            var marker_bae0904ca4cb8d668655afcd2b540859 = L.marker(
+                [40.079111, -105.18887],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_25aa784e762c8602607435306794aab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bae0904ca4cb8d668655afcd2b540859.setIcon(icon_25aa784e762c8602607435306794aab9);
+        
+    
+        var popup_f7278438aba46e54ab0e5b8ab363e1ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b0f8a4415014fecf231ba00444d4bb1 = $(`<div id="html_9b0f8a4415014fecf231ba00444d4bb1" style="width: 100.0%; height: 100.0%;">     <strong>ISM2 INC</strong><br>     <strong>Green Dot Labs</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     7077 Winchester Circle, Units C and D<br>     Boulder, CO 80301     </div>`)[0];
+                popup_f7278438aba46e54ab0e5b8ab363e1ac.setContent(html_9b0f8a4415014fecf231ba00444d4bb1);
+            
+        
+
+        marker_bae0904ca4cb8d668655afcd2b540859.bindPopup(popup_f7278438aba46e54ab0e5b8ab363e1ac)
+        ;
+
+        
+    
+    
+            var marker_410ad040195d3c95c9e4f01c1dd1d10f = L.marker(
+                [40.01595, -105.186479],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_d571a03e8ba2e9e8c605a8e462da2d0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_410ad040195d3c95c9e4f01c1dd1d10f.setIcon(icon_d571a03e8ba2e9e8c605a8e462da2d0c);
+        
+    
+        var popup_21d1c74eb68f9fc29a49a00fb99bcf92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21fd2cc0bc243a6bdfed02ce1d03bbd = $(`<div id="html_e21fd2cc0bc243a6bdfed02ce1d03bbd" style="width: 100.0%; height: 100.0%;">     <strong>MOUNTAIN HIGH PRODUCTS LLC</strong><br>     <strong>Wana</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     7161 Valtec Court, Units A, D & E<br>     Boulder, CO 80301     </div>`)[0];
+                popup_21d1c74eb68f9fc29a49a00fb99bcf92.setContent(html_e21fd2cc0bc243a6bdfed02ce1d03bbd);
+            
+        
+
+        marker_410ad040195d3c95c9e4f01c1dd1d10f.bindPopup(popup_21d1c74eb68f9fc29a49a00fb99bcf92)
+        ;
+
+        
+    
+    
+            var marker_bb55992f86a55ca0f4712ad8581e86bb = L.marker(
+                [40.040917, -105.282079],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_7494e4500d8c2e96571d1dba6c99edd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb55992f86a55ca0f4712ad8581e86bb.setIcon(icon_7494e4500d8c2e96571d1dba6c99edd8);
+        
+    
+        var popup_58014375f76e4114200b883e027ecb2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6acb092399ff211eb13419ff15c92fc = $(`<div id="html_f6acb092399ff211eb13419ff15c92fc" style="width: 100.0%; height: 100.0%;">     <strong>R & B CONSULTING INC</strong><br>     <strong>Iion Cannabis</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     4727 North Broadway, Unit H<br>     Boulder, CO 80304     </div>`)[0];
+                popup_58014375f76e4114200b883e027ecb2b.setContent(html_f6acb092399ff211eb13419ff15c92fc);
+            
+        
+
+        marker_bb55992f86a55ca0f4712ad8581e86bb.bindPopup(popup_58014375f76e4114200b883e027ecb2b)
+        ;
+
+        
+    
+    
+            var marker_3c08e9001563802254317a63c334d892 = L.marker(
+                [40.0983218, -105.2821961],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_5d8daac84375dac7eb9b3e2d7e2066f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c08e9001563802254317a63c334d892.setIcon(icon_5d8daac84375dac7eb9b3e2d7e2066f2);
+        
+    
+        var popup_c03453f035099be760c116f9e9e020d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c1b038b9fae177e454496324c4d9c18 = $(`<div id="html_7c1b038b9fae177e454496324c4d9c18" style="width: 100.0%; height: 100.0%;">     <strong>RUBII LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     6859 North Foothills Highway Unit C-400<br>     Boulder, CO 80302     </div>`)[0];
+                popup_c03453f035099be760c116f9e9e020d6.setContent(html_7c1b038b9fae177e454496324c4d9c18);
+            
+        
+
+        marker_3c08e9001563802254317a63c334d892.bindPopup(popup_c03453f035099be760c116f9e9e020d6)
+        ;
+
+        
+    
+    
+            var marker_0a736feb5e8e3dac98cb357f9ba0f842 = L.marker(
+                [40.0148418, -105.1865304],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_9dbd269795a52f9a68ebbf50d0d44b93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a736feb5e8e3dac98cb357f9ba0f842.setIcon(icon_9dbd269795a52f9a68ebbf50d0d44b93);
+        
+    
+        var popup_fd9ec79277c7e423ff180996439f0342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31289f44b22becbd0f857727d403bb14 = $(`<div id="html_31289f44b22becbd0f857727d403bb14" style="width: 100.0%; height: 100.0%;">     <strong>SUNSHINE EXTRACTS LLC</strong><br>     <strong>Sunshine</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     7183 Arapahoe Road Unit A<br>     Boulder, CO 80303     </div>`)[0];
+                popup_fd9ec79277c7e423ff180996439f0342.setContent(html_31289f44b22becbd0f857727d403bb14);
+            
+        
+
+        marker_0a736feb5e8e3dac98cb357f9ba0f842.bindPopup(popup_fd9ec79277c7e423ff180996439f0342)
+        ;
+
+        
+    
+    
+            var marker_b6209e456e6d4af11d4180cca03897ef = L.marker(
+                [40.0186072, -105.231459],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_908f2ea042a20652e373e9de9df683c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6209e456e6d4af11d4180cca03897ef.setIcon(icon_908f2ea042a20652e373e9de9df683c5);
+        
+    
+        var popup_0ed8a8040b17ce1f75410ebd6094a50d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_188cb390fd42adbc0d873effab75b1d6 = $(`<div id="html_188cb390fd42adbc0d873effab75b1d6" style="width: 100.0%; height: 100.0%;">     <strong>SUSTAINABLE HEALTH LLC</strong><br>     <strong>14er Gardens</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     1840 Commerce Street Unit F<br>     Boulder, CO 80301     </div>`)[0];
+                popup_0ed8a8040b17ce1f75410ebd6094a50d.setContent(html_188cb390fd42adbc0d873effab75b1d6);
+            
+        
+
+        marker_b6209e456e6d4af11d4180cca03897ef.bindPopup(popup_0ed8a8040b17ce1f75410ebd6094a50d)
+        ;
+
+        
+    
+    
+            var marker_003cea599a9c3598eb9f5e73e6c9b78d = L.marker(
+                [40.060621, -105.205228],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_e37bf52982818295c414e51ad1620c25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_003cea599a9c3598eb9f5e73e6c9b78d.setIcon(icon_e37bf52982818295c414e51ad1620c25);
+        
+    
+        var popup_caae89a74ca17898b6e8d69b60946309 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3262ff8c8df8d2bb5e1a6bdebee9bab2 = $(`<div id="html_3262ff8c8df8d2bb5e1a6bdebee9bab2" style="width: 100.0%; height: 100.0%;">     <strong>ALL GOOD COLLECTIVE LLC</strong><br>     <strong>All Good Collective</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     4725 South Nautilus Court Unit 4<br>     Boulder, CO 80301     </div>`)[0];
+                popup_caae89a74ca17898b6e8d69b60946309.setContent(html_3262ff8c8df8d2bb5e1a6bdebee9bab2);
+            
+        
+
+        marker_003cea599a9c3598eb9f5e73e6c9b78d.bindPopup(popup_caae89a74ca17898b6e8d69b60946309)
+        ;
+
+        
+    
+    
+            var marker_1cd0cf7e1e0ad8416d8601c7729cd2af = L.marker(
+                [40.0796152, -105.2781847],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_e46fa41eea5909e7c909118ac907c21f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1cd0cf7e1e0ad8416d8601c7729cd2af.setIcon(icon_e46fa41eea5909e7c909118ac907c21f);
+        
+    
+        var popup_b4373deda015df5166686a69c57888c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004f94a3b498f3fff2920cd948c5463b = $(`<div id="html_004f94a3b498f3fff2920cd948c5463b" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER LH HOLDINGS LLC</strong><br>     <strong>Stardust Concentrates</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     3386 Longhorn Road<br>     Boulder, CO 80302     </div>`)[0];
+                popup_b4373deda015df5166686a69c57888c5.setContent(html_004f94a3b498f3fff2920cd948c5463b);
+            
+        
+
+        marker_1cd0cf7e1e0ad8416d8601c7729cd2af.bindPopup(popup_b4373deda015df5166686a69c57888c5)
+        ;
+
+        
+    
+    
+            var marker_fab625350593f6237e73dbe533cac72f = L.marker(
+                [40.014776, -105.223357],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_8f97aba5c2c5d5623c544eb8de4f614b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fab625350593f6237e73dbe533cac72f.setIcon(icon_8f97aba5c2c5d5623c544eb8de4f614b);
+        
+    
+        var popup_0530879245503a5c6b1c636c5e1069cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c31cd10e2dda73f5b0c435a7852e069 = $(`<div id="html_9c31cd10e2dda73f5b0c435a7852e069" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER MANUFACTURING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     5575 Arapahoe Avenue  Units B & C<br>     Boulder, CO 80303     </div>`)[0];
+                popup_0530879245503a5c6b1c636c5e1069cb.setContent(html_9c31cd10e2dda73f5b0c435a7852e069);
+            
+        
+
+        marker_fab625350593f6237e73dbe533cac72f.bindPopup(popup_0530879245503a5c6b1c636c5e1069cb)
+        ;
+
+        
+    
+    
+            var marker_8a0814a179aa1b9c265a7c726768a456 = L.marker(
+                [40.0871197, -105.2337414],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_489021e5f7ad876bed0b0ab7e76ab2ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a0814a179aa1b9c265a7c726768a456.setIcon(icon_489021e5f7ad876bed0b0ab7e76ab2ad);
+        
+    
+        var popup_d39b82049f1c92935ffc19a7fe9b6bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0777926839e4b4beb4d00238df19a3 = $(`<div id="html_db0777926839e4b4beb4d00238df19a3" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER SWEET GRASS LLC</strong><br>     <strong>Sweet Mary Jane</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     1700 North 55th Street, Suite C<br>     Boulder, CO 80301     </div>`)[0];
+                popup_d39b82049f1c92935ffc19a7fe9b6bf9.setContent(html_db0777926839e4b4beb4d00238df19a3);
+            
+        
+
+        marker_8a0814a179aa1b9c265a7c726768a456.bindPopup(popup_d39b82049f1c92935ffc19a7fe9b6bf9)
+        ;
+
+        
+    
+    
+            var marker_ad89aec35f7b436adf6bc9e1efe0a34e = L.marker(
+                [40.015524, -105.2092685],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_bc3dfcb4eeae2640edbbd16a5259f110 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad89aec35f7b436adf6bc9e1efe0a34e.setIcon(icon_bc3dfcb4eeae2640edbbd16a5259f110);
+        
+    
+        var popup_5c082c349db34ac34bf5f7b1299c0f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e092259e413ad283e103a3a7d096823 = $(`<div id="html_6e092259e413ad283e103a3a7d096823" style="width: 100.0%; height: 100.0%;">     <strong>CANNXTRACTS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     6185 Arapahoe Road Unit D<br>     Boulder, CO 80303     </div>`)[0];
+                popup_5c082c349db34ac34bf5f7b1299c0f17.setContent(html_6e092259e413ad283e103a3a7d096823);
+            
+        
+
+        marker_ad89aec35f7b436adf6bc9e1efe0a34e.bindPopup(popup_5c082c349db34ac34bf5f7b1299c0f17)
+        ;
+
+        
+    
+    
+            var marker_c6c45a680a4581c777eb75dc92f7021c = L.marker(
+                [40.098832, -105.282145],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_88212f3c849f090dbf60fa6a110faba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6c45a680a4581c777eb75dc92f7021c.setIcon(icon_88212f3c849f090dbf60fa6a110faba8);
+        
+    
+        var popup_a36c5b517c47d5bff878a719b1018cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f5efb772e7fb6de292d5865ab66fdfb = $(`<div id="html_1f5efb772e7fb6de292d5865ab66fdfb" style="width: 100.0%; height: 100.0%;">     <strong>CLONATI LIMITED</strong><br>     <strong>Left Hands</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     6859 North Foothills Highway, Building C-600<br>     Boulder, CO 80302     </div>`)[0];
+                popup_a36c5b517c47d5bff878a719b1018cfa.setContent(html_1f5efb772e7fb6de292d5865ab66fdfb);
+            
+        
+
+        marker_c6c45a680a4581c777eb75dc92f7021c.bindPopup(popup_a36c5b517c47d5bff878a719b1018cfa)
+        ;
+
+        
+    
+    
+            var marker_b058ac6d1c4b43349207b8392b487e13 = L.marker(
+                [40.0983218, -105.2821961],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_f93510297238e9e33bd48ba1c670a9ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b058ac6d1c4b43349207b8392b487e13.setIcon(icon_f93510297238e9e33bd48ba1c670a9ec);
+        
+    
+        var popup_3fbf89a0fe002468dbb61d7673294f8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fb460c32bc33aa58d2ff447053a06f9 = $(`<div id="html_5fb460c32bc33aa58d2ff447053a06f9" style="width: 100.0%; height: 100.0%;">     <strong>GT INFUSIONS LLC</strong><br>     <strong>Green Treets</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     6859 North Foothills Highway, Unit E-200<br>     Boulder, CO 80302     </div>`)[0];
+                popup_3fbf89a0fe002468dbb61d7673294f8e.setContent(html_5fb460c32bc33aa58d2ff447053a06f9);
+            
+        
+
+        marker_b058ac6d1c4b43349207b8392b487e13.bindPopup(popup_3fbf89a0fe002468dbb61d7673294f8e)
+        ;
+
+        
+    
+    
+            var marker_7049b49d4bb190e982b0a4b285ff9ce1 = L.marker(
+                [40.079111, -105.18887],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_7befcbd6980b0adcb3d67e4c4e02fab5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7049b49d4bb190e982b0a4b285ff9ce1.setIcon(icon_7befcbd6980b0adcb3d67e4c4e02fab5);
+        
+    
+        var popup_ce3d5144678eef48620b7161cc7cdb5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e1affb72b031bdff201e2685c1c3973 = $(`<div id="html_5e1affb72b031bdff201e2685c1c3973" style="width: 100.0%; height: 100.0%;">     <strong>ISM2 INC</strong><br>     <strong>Green Dot Labs</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     7077 Winchester Circle, Units C and D<br>     Boulder, CO 80301     </div>`)[0];
+                popup_ce3d5144678eef48620b7161cc7cdb5b.setContent(html_5e1affb72b031bdff201e2685c1c3973);
+            
+        
+
+        marker_7049b49d4bb190e982b0a4b285ff9ce1.bindPopup(popup_ce3d5144678eef48620b7161cc7cdb5b)
+        ;
+
+        
+    
+    
+            var marker_90d4517ac8e8947d3dbef429a1b82d08 = L.marker(
+                [40.0807789, -105.2810285],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_a29802f4b4f90e5e597baf236b610b88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90d4517ac8e8947d3dbef429a1b82d08.setIcon(icon_a29802f4b4f90e5e597baf236b610b88);
+        
+    
+        var popup_6a166e518cec795d09f440b06a0efea2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b8b53273f594a4b52e78c769e1c334d = $(`<div id="html_8b8b53273f594a4b52e78c769e1c334d" style="width: 100.0%; height: 100.0%;">     <strong>KARING KIND LLC</strong><br>     <strong>Karing Kind</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     5854 Rawhide Court<br>     Boulder, CO 80302     </div>`)[0];
+                popup_6a166e518cec795d09f440b06a0efea2.setContent(html_8b8b53273f594a4b52e78c769e1c334d);
+            
+        
+
+        marker_90d4517ac8e8947d3dbef429a1b82d08.bindPopup(popup_6a166e518cec795d09f440b06a0efea2)
+        ;
+
+        
+    
+    
+            var marker_ee16b80ea9696886fb0f2170d436a9e1 = L.marker(
+                [40.0157898, -105.1859378],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_ddf93cf0ab12af5ed9eae92deb1e162d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee16b80ea9696886fb0f2170d436a9e1.setIcon(icon_ddf93cf0ab12af5ed9eae92deb1e162d);
+        
+    
+        var popup_dc75287ef51d76ef27b2f0e4f8c0aaf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81077d561e95336641639c3ac1d1afd4 = $(`<div id="html_81077d561e95336641639c3ac1d1afd4" style="width: 100.0%; height: 100.0%;">     <strong>KUSH MASTERS LLC</strong><br>     <strong>Kush Masters</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     7210 Valtec Court<br>     Boulder, CO 80301     </div>`)[0];
+                popup_dc75287ef51d76ef27b2f0e4f8c0aaf4.setContent(html_81077d561e95336641639c3ac1d1afd4);
+            
+        
+
+        marker_ee16b80ea9696886fb0f2170d436a9e1.bindPopup(popup_dc75287ef51d76ef27b2f0e4f8c0aaf4)
+        ;
+
+        
+    
+    
+            var marker_599c966308bde9d5382aefdbb7324fd8 = L.marker(
+                [40.01595, -105.186479],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_7175b148dfe94bd8a17abeacc10d6a73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_599c966308bde9d5382aefdbb7324fd8.setIcon(icon_7175b148dfe94bd8a17abeacc10d6a73);
+        
+    
+        var popup_20f290b234c178908f43571898a93614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffffb5e7ff0502bbb8516eb931de42fd = $(`<div id="html_ffffb5e7ff0502bbb8516eb931de42fd" style="width: 100.0%; height: 100.0%;">     <strong>MOUNTAIN HIGH PRODUCTS LLC</strong><br>     <strong>Wana</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     7161 Valtec Court, Units A, D & E<br>     Boulder, CO 80301     </div>`)[0];
+                popup_20f290b234c178908f43571898a93614.setContent(html_ffffb5e7ff0502bbb8516eb931de42fd);
+            
+        
+
+        marker_599c966308bde9d5382aefdbb7324fd8.bindPopup(popup_20f290b234c178908f43571898a93614)
+        ;
+
+        
+    
+    
+            var marker_c50c0161b217da57d5143d1fb9223129 = L.marker(
+                [40.040917, -105.282079],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_5f3edab95ca92fc7ac4ee7bec3558459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c50c0161b217da57d5143d1fb9223129.setIcon(icon_5f3edab95ca92fc7ac4ee7bec3558459);
+        
+    
+        var popup_e20aedbb9cb6a2f6034a1ccc030bb963 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16a2319e0f5e7d3bcc46bfd9953ceec = $(`<div id="html_c16a2319e0f5e7d3bcc46bfd9953ceec" style="width: 100.0%; height: 100.0%;">     <strong>R & B CONSULTING INC</strong><br>     <strong>Iion Cannabis</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     4727 North Broadway, Unit H<br>     Boulder, CO 80304     </div>`)[0];
+                popup_e20aedbb9cb6a2f6034a1ccc030bb963.setContent(html_c16a2319e0f5e7d3bcc46bfd9953ceec);
+            
+        
+
+        marker_c50c0161b217da57d5143d1fb9223129.bindPopup(popup_e20aedbb9cb6a2f6034a1ccc030bb963)
+        ;
+
+        
+    
+    
+            var marker_90483f86c00382f5d4046b4d07d6084d = L.marker(
+                [40.0983218, -105.2821961],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_cfd7b0b13eae76c1cd0ba663b4be6aeb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90483f86c00382f5d4046b4d07d6084d.setIcon(icon_cfd7b0b13eae76c1cd0ba663b4be6aeb);
+        
+    
+        var popup_23b108b090dd4cc6b5ae08e35084576c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebf4477196f139cb52d29a19ade98cd5 = $(`<div id="html_ebf4477196f139cb52d29a19ade98cd5" style="width: 100.0%; height: 100.0%;">     <strong>RUBII LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     6859 North Foothills Highway, Unit C-400<br>     Boulder, CO 80302     </div>`)[0];
+                popup_23b108b090dd4cc6b5ae08e35084576c.setContent(html_ebf4477196f139cb52d29a19ade98cd5);
+            
+        
+
+        marker_90483f86c00382f5d4046b4d07d6084d.bindPopup(popup_23b108b090dd4cc6b5ae08e35084576c)
+        ;
+
+        
+    
+    
+            var marker_ed9469c3840f8df63a68b74f9dfd8404 = L.marker(
+                [40.0231799, -105.2376916],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_e02880940b9b1e48b11b939de5485163 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed9469c3840f8df63a68b74f9dfd8404.setIcon(icon_e02880940b9b1e48b11b939de5485163);
+        
+    
+        var popup_1a9fddd29d932276cba92fef0df386e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00dd95aa52284481f117bee6cb77689c = $(`<div id="html_00dd95aa52284481f117bee6cb77689c" style="width: 100.0%; height: 100.0%;">     <strong>SIXTY-SIX MANAGEMENT LLC</strong><br>     <strong>PURPLEMED</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     2480 49th Street Unit F<br>     Boulder, CO 80301     </div>`)[0];
+                popup_1a9fddd29d932276cba92fef0df386e2.setContent(html_00dd95aa52284481f117bee6cb77689c);
+            
+        
+
+        marker_ed9469c3840f8df63a68b74f9dfd8404.bindPopup(popup_1a9fddd29d932276cba92fef0df386e2)
+        ;
+
+        
+    
+    
+            var marker_fe66c6ce07187642994b4da91623ee54 = L.marker(
+                [40.0148418, -105.1865304],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_c8bd418d4a34b315f1954d5a16f8c24a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe66c6ce07187642994b4da91623ee54.setIcon(icon_c8bd418d4a34b315f1954d5a16f8c24a);
+        
+    
+        var popup_4410cf082821257d2c7740d95c3a4ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a623471d4583b62985bf28ed1787480 = $(`<div id="html_2a623471d4583b62985bf28ed1787480" style="width: 100.0%; height: 100.0%;">     <strong>SUNSHINE EXTRACTS LLC</strong><br>     <strong>Sunshine</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     7183 Arapahoe Road Unit A<br>     Boulder, CO 80303     </div>`)[0];
+                popup_4410cf082821257d2c7740d95c3a4ed9.setContent(html_2a623471d4583b62985bf28ed1787480);
+            
+        
+
+        marker_fe66c6ce07187642994b4da91623ee54.bindPopup(popup_4410cf082821257d2c7740d95c3a4ed9)
+        ;
+
+        
+    
+    
+            var marker_961bb0734563786e514a380d34dd8fdf = L.marker(
+                [40.0186072, -105.231459],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_e2eb1c9150406e59c973b21f08acc753 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_961bb0734563786e514a380d34dd8fdf.setIcon(icon_e2eb1c9150406e59c973b21f08acc753);
+        
+    
+        var popup_1187db2a9f710e46df3b9d59e6f50775 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc691ab95533d2e8487df88853205826 = $(`<div id="html_bc691ab95533d2e8487df88853205826" style="width: 100.0%; height: 100.0%;">     <strong>SUSTAINABLE HEALTH LLC</strong><br>     <strong>14er Infusions</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     1840 Commerce Street, Unit F<br>     Boulder, CO 80301     </div>`)[0];
+                popup_1187db2a9f710e46df3b9d59e6f50775.setContent(html_bc691ab95533d2e8487df88853205826);
+            
+        
+
+        marker_961bb0734563786e514a380d34dd8fdf.bindPopup(popup_1187db2a9f710e46df3b9d59e6f50775)
+        ;
+
+        
+    
+    
+            var marker_c565249735f538c899b7d1d979b8531d = L.marker(
+                [40.0011404, -105.1570366],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_d579a8e78272fb02a4f427cd0d38c3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c565249735f538c899b7d1d979b8531d.setIcon(icon_d579a8e78272fb02a4f427cd0d38c3db);
+        
+    
+        var popup_00ce85fa47ca031054eeb3644b3a7b0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ad922e955a624ff6caa94ab2e28c52d = $(`<div id="html_5ad922e955a624ff6caa94ab2e28c52d" style="width: 100.0%; height: 100.0%;">     <strong>WLCO LLC</strong><br>     <strong>WHT LBL</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     8401 Baseline Road<br>     Boulder, CO 80303     </div>`)[0];
+                popup_00ce85fa47ca031054eeb3644b3a7b0c.setContent(html_5ad922e955a624ff6caa94ab2e28c52d);
+            
+        
+
+        marker_c565249735f538c899b7d1d979b8531d.bindPopup(popup_00ce85fa47ca031054eeb3644b3a7b0c)
+        ;
+
+        
+    
+    
+            var marker_a11e2e6481c89b83d495a2c05dc8805a = L.marker(
+                [40.0983218, -105.2821961],
+                {}
+            ).addTo(map_d98818e2d63e23d81bfb1d14ed1e634b);
+        
+    
+            var icon_792cc765c0902c137f0f82c2df779b9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a11e2e6481c89b83d495a2c05dc8805a.setIcon(icon_792cc765c0902c137f0f82c2df779b9c);
+        
+    
+        var popup_b1e29b409b294a112bf3ea39c35b0fab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19919ab7daf051f9124d148aee86d0e1 = $(`<div id="html_19919ab7daf051f9124d148aee86d0e1" style="width: 100.0%; height: 100.0%;">     <strong>ZEKES QUALITY LLC</strong><br>     <strong>Zeke's Quality Cannabis</strong><br>     Facility Type: Retail Marijuana Products Mfg<br>     6859 North Foothills Highway, Unit C-500<br>     Boulder, CO 80302     </div>`)[0];
+                popup_b1e29b409b294a112bf3ea39c35b0fab.setContent(html_19919ab7daf051f9124d148aee86d0e1);
+            
+        
+
+        marker_a11e2e6481c89b83d495a2c05dc8805a.bindPopup(popup_b1e29b409b294a112bf3ea39c35b0fab)
+        ;
+
+        
+    
+</script>
+</html>

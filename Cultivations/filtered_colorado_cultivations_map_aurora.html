@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2a416387516274ea92daf35d808b26ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2a416387516274ea92daf35d808b26ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2a416387516274ea92daf35d808b26ce = L.map(
+                "map_2a416387516274ea92daf35d808b26ce",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_df76eda3771e68df66ec4ba0ded32960 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_df76eda3771e68df66ec4ba0ded32960.addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var marker_2cdf5bbcff051dfcf31006f72ae20812 = L.marker(
+                [39.725483, -104.797924],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_417b0e513834f8e40eaca7ee566eedf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2cdf5bbcff051dfcf31006f72ae20812.setIcon(icon_417b0e513834f8e40eaca7ee566eedf3);
+        
+    
+        var popup_ff1daa7489c3cee2a3618b0fca18f2d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d77aaea250e2ad672c129de36af8a9b8 = $(`<div id="html_d77aaea250e2ad672c129de36af8a9b8" style="width: 100.0%; height: 100.0%;">     <strong>132 ENTERPRISES LLC</strong><br>     <strong>KLONE</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     322 North Norfolk Street Unit I<br>     Aurora, CO 80011     </div>`)[0];
+                popup_ff1daa7489c3cee2a3618b0fca18f2d9.setContent(html_d77aaea250e2ad672c129de36af8a9b8);
+            
+        
+
+        marker_2cdf5bbcff051dfcf31006f72ae20812.bindPopup(popup_ff1daa7489c3cee2a3618b0fca18f2d9)
+        ;
+
+        
+    
+    
+            var marker_637cb4698b9166206508d10190d67ab6 = L.marker(
+                [39.7684311, -104.8147025],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_30d7b8f25261c2a182760f4760aa811f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_637cb4698b9166206508d10190d67ab6.setIcon(icon_30d7b8f25261c2a182760f4760aa811f);
+        
+    
+        var popup_847c87fc3413277add9aa73e742f7faa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_178902fba375b685f5e9bf2260500d4a = $(`<div id="html_178902fba375b685f5e9bf2260500d4a" style="width: 100.0%; height: 100.0%;">     <strong>BUD FOX ENTERPRISES LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     14896 East 38th Avenue, Unit C<br>     Aurora, CO 80011     </div>`)[0];
+                popup_847c87fc3413277add9aa73e742f7faa.setContent(html_178902fba375b685f5e9bf2260500d4a);
+            
+        
+
+        marker_637cb4698b9166206508d10190d67ab6.bindPopup(popup_847c87fc3413277add9aa73e742f7faa)
+        ;
+
+        
+    
+    
+            var marker_6daab95e09b5ba913fe0e42750dfea22 = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_2228bed639d8147f1098069c89e505ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6daab95e09b5ba913fe0e42750dfea22.setIcon(icon_2228bed639d8147f1098069c89e505ad);
+        
+    
+        var popup_3c0c2d23e3584ad3a90e57abba4a7f92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_105753d624ab9b07f38a994baf3761e2 = $(`<div id="html_105753d624ab9b07f38a994baf3761e2" style="width: 100.0%; height: 100.0%;">     <strong>CANNA CLUB LLC</strong><br>     <strong>Best Buds</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     11900 East 33rd Avenue, Suite 2<br>     Aurora, CO 80010     </div>`)[0];
+                popup_3c0c2d23e3584ad3a90e57abba4a7f92.setContent(html_105753d624ab9b07f38a994baf3761e2);
+            
+        
+
+        marker_6daab95e09b5ba913fe0e42750dfea22.bindPopup(popup_3c0c2d23e3584ad3a90e57abba4a7f92)
+        ;
+
+        
+    
+    
+            var marker_fd5eea6ee1c4e3df8f32085a43fd3a64 = L.marker(
+                [39.7655611, -104.8262752],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_b671a924084dc7d54e0af89304c1d48e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fd5eea6ee1c4e3df8f32085a43fd3a64.setIcon(icon_b671a924084dc7d54e0af89304c1d48e);
+        
+    
+        var popup_575fa7a27f1f8e739b38c3d17ede0cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07db44bab4a0980fd97c8e140503d7df = $(`<div id="html_07db44bab4a0980fd97c8e140503d7df" style="width: 100.0%; height: 100.0%;">     <strong>GHT FARMS LLC</strong><br>     <strong>GHT LLC</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     13800 East Moncrieff Place Unit A<br>     Aurora, CO 80011     </div>`)[0];
+                popup_575fa7a27f1f8e739b38c3d17ede0cb8.setContent(html_07db44bab4a0980fd97c8e140503d7df);
+            
+        
+
+        marker_fd5eea6ee1c4e3df8f32085a43fd3a64.bindPopup(popup_575fa7a27f1f8e739b38c3d17ede0cb8)
+        ;
+
+        
+    
+    
+            var marker_e5382d14a45dc260446a77d13a79522f = L.marker(
+                [39.725483, -104.797924],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_9ebbf4d5b878e8cb5ed4ffd05702cc31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5382d14a45dc260446a77d13a79522f.setIcon(icon_9ebbf4d5b878e8cb5ed4ffd05702cc31);
+        
+    
+        var popup_4e96ccf6879d134a7d07abc447ac58b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8364801c3b3ba4b81f64e0b0777ed27 = $(`<div id="html_b8364801c3b3ba4b81f64e0b0777ed27" style="width: 100.0%; height: 100.0%;">     <strong>132 ENTERPRISES LLC</strong><br>     <strong>KLONE</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     322 North Norfolk Street, Unit I<br>     Aurora, CO 80011     </div>`)[0];
+                popup_4e96ccf6879d134a7d07abc447ac58b8.setContent(html_b8364801c3b3ba4b81f64e0b0777ed27);
+            
+        
+
+        marker_e5382d14a45dc260446a77d13a79522f.bindPopup(popup_4e96ccf6879d134a7d07abc447ac58b8)
+        ;
+
+        
+    
+    
+            var marker_23d1e3dfd2434c177ba4477acf7a1abe = L.marker(
+                [39.7684311, -104.8147025],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_7a4d0c11bb96d90cf311ac2a51fab0c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_23d1e3dfd2434c177ba4477acf7a1abe.setIcon(icon_7a4d0c11bb96d90cf311ac2a51fab0c3);
+        
+    
+        var popup_c9a449d839be9d2822b3c9d903a0609b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_844edfbc99cbc88d067e0bfc88a0311c = $(`<div id="html_844edfbc99cbc88d067e0bfc88a0311c" style="width: 100.0%; height: 100.0%;">     <strong>BUD FOX ENTERPRISES LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     14896 East 38th Avenue, Unit C<br>     Aurora, CO 80011     </div>`)[0];
+                popup_c9a449d839be9d2822b3c9d903a0609b.setContent(html_844edfbc99cbc88d067e0bfc88a0311c);
+            
+        
+
+        marker_23d1e3dfd2434c177ba4477acf7a1abe.bindPopup(popup_c9a449d839be9d2822b3c9d903a0609b)
+        ;
+
+        
+    
+    
+            var marker_3a24546c50af443946cfc5dd5de40679 = L.marker(
+                [39.7632007, -104.8495745],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_82b86c0e1dc39d6811342b0181e98669 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a24546c50af443946cfc5dd5de40679.setIcon(icon_82b86c0e1dc39d6811342b0181e98669);
+        
+    
+        var popup_c56fa2dbc0f888b0cd0aeb0e35a0a2ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_612c9bd32cb6be840f316ea55ff19854 = $(`<div id="html_612c9bd32cb6be840f316ea55ff19854" style="width: 100.0%; height: 100.0%;">     <strong>CANNA CLUB LLC</strong><br>     <strong>Best Buds</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     11900 East 33rd Avenue, Suite 2<br>     Aurora, CO 80010     </div>`)[0];
+                popup_c56fa2dbc0f888b0cd0aeb0e35a0a2ef.setContent(html_612c9bd32cb6be840f316ea55ff19854);
+            
+        
+
+        marker_3a24546c50af443946cfc5dd5de40679.bindPopup(popup_c56fa2dbc0f888b0cd0aeb0e35a0a2ef)
+        ;
+
+        
+    
+    
+            var marker_8ee21a24542615fd014162f2164b9863 = L.marker(
+                [39.7153585, -104.8562328],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_b11ae6bb6875983d1947a115845618ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ee21a24542615fd014162f2164b9863.setIcon(icon_b11ae6bb6875983d1947a115845618ca);
+        
+    
+        var popup_77d02e96856e92e3d36a2e15862d4b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e969aed5eb6f1702a433dee874a31c17 = $(`<div id="html_e969aed5eb6f1702a433dee874a31c17" style="width: 100.0%; height: 100.0%;">     <strong>CO DEVELOPMENT HOLDINGS INC</strong><br>     <strong>Host Cannabis Company</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3555 North Moline Street, Unit A<br>     Aurora, CO 80010     </div>`)[0];
+                popup_77d02e96856e92e3d36a2e15862d4b71.setContent(html_e969aed5eb6f1702a433dee874a31c17);
+            
+        
+
+        marker_8ee21a24542615fd014162f2164b9863.bindPopup(popup_77d02e96856e92e3d36a2e15862d4b71)
+        ;
+
+        
+    
+    
+            var marker_6a756d82f4fbb48bf711b8906b07a178 = L.marker(
+                [39.7039672, -104.7828795],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_59480925892134b476ec66b82416af2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a756d82f4fbb48bf711b8906b07a178.setIcon(icon_59480925892134b476ec66b82416af2e);
+        
+    
+        var popup_14ed4abb67ccd9613abf11bc8737785f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_573351fbf1bd2e08c95112bae028c997 = $(`<div id="html_573351fbf1bd2e08c95112bae028c997" style="width: 100.0%; height: 100.0%;">     <strong>DUTCH BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     17600 East Exposition Drive, Unit C-1<br>     Aurora, CO 80017     </div>`)[0];
+                popup_14ed4abb67ccd9613abf11bc8737785f.setContent(html_573351fbf1bd2e08c95112bae028c997);
+            
+        
+
+        marker_6a756d82f4fbb48bf711b8906b07a178.bindPopup(popup_14ed4abb67ccd9613abf11bc8737785f)
+        ;
+
+        
+    
+    
+            var marker_3e375af16e0b032ab31e817e1ea94b71 = L.marker(
+                [39.7655611, -104.8262752],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_63ef33d1ac04fc3fd1d84f2c47e29620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e375af16e0b032ab31e817e1ea94b71.setIcon(icon_63ef33d1ac04fc3fd1d84f2c47e29620);
+        
+    
+        var popup_6e577f7655491af58fb42d70d34014db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90ec704c190b8133a7cdfcf6060c8d69 = $(`<div id="html_90ec704c190b8133a7cdfcf6060c8d69" style="width: 100.0%; height: 100.0%;">     <strong>GHT FARMS LLC</strong><br>     <strong>GHT LLC</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     13800 East Moncrieff Place, Unit A<br>     Aurora, CO 80011     </div>`)[0];
+                popup_6e577f7655491af58fb42d70d34014db.setContent(html_90ec704c190b8133a7cdfcf6060c8d69);
+            
+        
+
+        marker_3e375af16e0b032ab31e817e1ea94b71.bindPopup(popup_6e577f7655491af58fb42d70d34014db)
+        ;
+
+        
+    
+    
+            var marker_b5b7d162f93e70253e7590c621588b38 = L.marker(
+                [39.723652, -104.800498],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_f3004cd641b556a40c58b6420f1d5e26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5b7d162f93e70253e7590c621588b38.setIcon(icon_f3004cd641b556a40c58b6420f1d5e26);
+        
+    
+        var popup_82e33e9ddf6743357c6c014598b2d509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba7d5bc2069a24c56db287065b03cf8 = $(`<div id="html_eba7d5bc2069a24c56db287065b03cf8" style="width: 100.0%; height: 100.0%;">     <strong>IGADI LTD</strong><br>     <strong>IgadI</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     472 North Laredo Street, Units A-E & P-T<br>     Aurora, CO 80011     </div>`)[0];
+                popup_82e33e9ddf6743357c6c014598b2d509.setContent(html_eba7d5bc2069a24c56db287065b03cf8);
+            
+        
+
+        marker_b5b7d162f93e70253e7590c621588b38.bindPopup(popup_82e33e9ddf6743357c6c014598b2d509)
+        ;
+
+        
+    
+    
+            var marker_65f0145351e8585a595d6ca625542238 = L.marker(
+                [39.7661034, -104.8548226],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_f73e183f9fdc8c0f08dfcdaf66e80ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_65f0145351e8585a595d6ca625542238.setIcon(icon_f73e183f9fdc8c0f08dfcdaf66e80ec6);
+        
+    
+        var popup_7ff41c5d924fee02b389845ae7d21baf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0b85b3f825af9d518b3cf3309f32b6a = $(`<div id="html_e0b85b3f825af9d518b3cf3309f32b6a" style="width: 100.0%; height: 100.0%;">     <strong>MISSION HOLDINGS US INC</strong><br>     <strong>Level10</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3555 Moline Street, Unit B<br>     Aurora, CO 80010     </div>`)[0];
+                popup_7ff41c5d924fee02b389845ae7d21baf.setContent(html_e0b85b3f825af9d518b3cf3309f32b6a);
+            
+        
+
+        marker_65f0145351e8585a595d6ca625542238.bindPopup(popup_7ff41c5d924fee02b389845ae7d21baf)
+        ;
+
+        
+    
+    
+            var marker_f80b96c4055310eaa388310ccdda7549 = L.marker(
+                [39.7153585, -104.8562328],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_537b6f9fd6bdda95384b17ef57aca8d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f80b96c4055310eaa388310ccdda7549.setIcon(icon_537b6f9fd6bdda95384b17ef57aca8d7);
+        
+    
+        var popup_3b20b4050bbacf9226586583657686ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_901a48f6e4ad0dcd8d9f49bde3e6a748 = $(`<div id="html_901a48f6e4ad0dcd8d9f49bde3e6a748" style="width: 100.0%; height: 100.0%;">     <strong>MISSION HOLDINGS US INC</strong><br>     <strong>Level 10 </strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3555 North Moline Street Unit D<br>     Aurora, CO 80010     </div>`)[0];
+                popup_3b20b4050bbacf9226586583657686ba.setContent(html_901a48f6e4ad0dcd8d9f49bde3e6a748);
+            
+        
+
+        marker_f80b96c4055310eaa388310ccdda7549.bindPopup(popup_3b20b4050bbacf9226586583657686ba)
+        ;
+
+        
+    
+    
+            var marker_221416f2a0e9f56a262e514c2ea416ff = L.marker(
+                [39.7153585, -104.8562328],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_79452b69d0ee789dfa41906ae88bca3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_221416f2a0e9f56a262e514c2ea416ff.setIcon(icon_79452b69d0ee789dfa41906ae88bca3d);
+        
+    
+        var popup_4efb56c8803bfc9143287cabb20c061d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c778894ecef25e6dd2f4d2dda6ebb80 = $(`<div id="html_5c778894ecef25e6dd2f4d2dda6ebb80" style="width: 100.0%; height: 100.0%;">     <strong>MISSION HOLDINGS US INC</strong><br>     <strong>Level 10 </strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3555 North Moline Street, Unit C<br>     Aurora, CO 80010     </div>`)[0];
+                popup_4efb56c8803bfc9143287cabb20c061d.setContent(html_5c778894ecef25e6dd2f4d2dda6ebb80);
+            
+        
+
+        marker_221416f2a0e9f56a262e514c2ea416ff.bindPopup(popup_4efb56c8803bfc9143287cabb20c061d)
+        ;
+
+        
+    
+    
+            var marker_e02317afaea4b2e39a213c07359c3fd5 = L.marker(
+                [39.723808, -104.800498],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_685ee565f8d89d501884f137e43151b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e02317afaea4b2e39a213c07359c3fd5.setIcon(icon_685ee565f8d89d501884f137e43151b4);
+        
+    
+        var popup_b661920e9014a7a47753125ea355f1da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0336c89a4a5731c760b335af82641a73 = $(`<div id="html_0336c89a4a5731c760b335af82641a73" style="width: 100.0%; height: 100.0%;">     <strong>MORTON CAPITAL LLC</strong><br>     <strong>Artsy Colorado</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     482 Laredo Street, Units A-O<br>     Aurora, CO 80011     </div>`)[0];
+                popup_b661920e9014a7a47753125ea355f1da.setContent(html_0336c89a4a5731c760b335af82641a73);
+            
+        
+
+        marker_e02317afaea4b2e39a213c07359c3fd5.bindPopup(popup_b661920e9014a7a47753125ea355f1da)
+        ;
+
+        
+    
+    
+            var marker_75fd41e696f278d981f1c8e8ff5c4a1b = L.marker(
+                [39.723652, -104.800498],
+                {}
+            ).addTo(map_2a416387516274ea92daf35d808b26ce);
+        
+    
+            var icon_63ab8e1eb59bd591c0ec055a9aefb7e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75fd41e696f278d981f1c8e8ff5c4a1b.setIcon(icon_63ab8e1eb59bd591c0ec055a9aefb7e8);
+        
+    
+        var popup_674a0eacdbba8ccda08b41e47f73fbf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1d5d169f18f891f33c8595148f777d = $(`<div id="html_bc1d5d169f18f891f33c8595148f777d" style="width: 100.0%; height: 100.0%;">     <strong>MSC EXTRACTS LLC</strong><br>     <strong>Mountain Select</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     472 Laredo Street, Unit L,M,N,O<br>     Aurora, CO 80011     </div>`)[0];
+                popup_674a0eacdbba8ccda08b41e47f73fbf5.setContent(html_bc1d5d169f18f891f33c8595148f777d);
+            
+        
+
+        marker_75fd41e696f278d981f1c8e8ff5c4a1b.bindPopup(popup_674a0eacdbba8ccda08b41e47f73fbf5)
+        ;
+
+        
+    
+</script>
+</html>

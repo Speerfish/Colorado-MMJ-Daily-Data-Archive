@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_295ad6183f95f64305dec20f9ad4df76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_295ad6183f95f64305dec20f9ad4df76" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_295ad6183f95f64305dec20f9ad4df76 = L.map(
+                "map_295ad6183f95f64305dec20f9ad4df76",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d5fbaa8c9c822c371198d4f21974800e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d5fbaa8c9c822c371198d4f21974800e.addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var marker_0a2f3918defc84c711cbc458dc7d080b = L.marker(
+                [39.7862876, -104.8656645],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_95b8cb30b7720567f0e757d5094b4d3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0a2f3918defc84c711cbc458dc7d080b.setIcon(icon_95b8cb30b7720567f0e757d5094b4d3c);
+        
+    
+        var popup_e21603e85a69960625a00287f7b1ce8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27ef8aa678241b1146bcb14d153c4324 = $(`<div id="html_27ef8aa678241b1146bcb14d153c4324" style="width: 100.0%; height: 100.0%;">     <strong>MIH MANAGER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     4880 Havana Street Suite 201<br>     Denver, CO 80239     </div>`)[0];
+                popup_e21603e85a69960625a00287f7b1ce8b.setContent(html_27ef8aa678241b1146bcb14d153c4324);
+            
+        
+
+        marker_0a2f3918defc84c711cbc458dc7d080b.bindPopup(popup_e21603e85a69960625a00287f7b1ce8b)
+        ;
+
+        
+    
+    
+            var marker_7826d4761d52d583e809eaf762bcd6d0 = L.marker(
+                [39.7950754, -104.8476993],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_9bc12c9979df8b716b3c7d64ae2f4001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7826d4761d52d583e809eaf762bcd6d0.setIcon(icon_9bc12c9979df8b716b3c7d64ae2f4001);
+        
+    
+        var popup_b922c8aafa75b257b1c2b7a9d87f8fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0b96b1167d41b93e053af3dbfca10fb = $(`<div id="html_c0b96b1167d41b93e053af3dbfca10fb" style="width: 100.0%; height: 100.0%;">     <strong>THE COMMISSION CARTEL LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     5475 Peoria Street Unit 4-109<br>     Denver, CO 80239     </div>`)[0];
+                popup_b922c8aafa75b257b1c2b7a9d87f8fe4.setContent(html_c0b96b1167d41b93e053af3dbfca10fb);
+            
+        
+
+        marker_7826d4761d52d583e809eaf762bcd6d0.bindPopup(popup_b922c8aafa75b257b1c2b7a9d87f8fe4)
+        ;
+
+        
+    
+    
+            var marker_d3c1da9e4988c3ce689ce34de3934fbd = L.marker(
+                [39.7576154, -105.008103],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_883b71cd237f13822bf8dd714aea6442 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3c1da9e4988c3ce689ce34de3934fbd.setIcon(icon_883b71cd237f13822bf8dd714aea6442);
+        
+    
+        var popup_bf2a734af8f5ccb49235146d061665f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfb89d3ea6f92f538dc1d12d47394132 = $(`<div id="html_bfb89d3ea6f92f538dc1d12d47394132" style="width: 100.0%; height: 100.0%;">     <strong>BUFFALO BIOTECH LLC</strong><br>     <strong>Dalwhinnie Farms</strong><br>     Facility Type: RMJ Operator<br>     1615 Platte Street Suite 200<br>     Denver, CO 80202     </div>`)[0];
+                popup_bf2a734af8f5ccb49235146d061665f6.setContent(html_bfb89d3ea6f92f538dc1d12d47394132);
+            
+        
+
+        marker_d3c1da9e4988c3ce689ce34de3934fbd.bindPopup(popup_bf2a734af8f5ccb49235146d061665f6)
+        ;
+
+        
+    
+    
+            var marker_c032a4d3a2b27150d02878ecb4838ea0 = L.marker(
+                [39.7671522, -104.8801265],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_0b3529d61e6a1126c1ac8019a1ffdbd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c032a4d3a2b27150d02878ecb4838ea0.setIcon(icon_0b3529d61e6a1126c1ac8019a1ffdbd0);
+        
+    
+        var popup_b38b247e8ae165987e68874ca1435ecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fe37d58350d01f9e14db3a3e2f5c479 = $(`<div id="html_9fe37d58350d01f9e14db3a3e2f5c479" style="width: 100.0%; height: 100.0%;">     <strong>MAMMOTH MANAGEMENT LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     9154 East 37th Avenue<br>     Denver, CO 80238     </div>`)[0];
+                popup_b38b247e8ae165987e68874ca1435ecb.setContent(html_9fe37d58350d01f9e14db3a3e2f5c479);
+            
+        
+
+        marker_c032a4d3a2b27150d02878ecb4838ea0.bindPopup(popup_b38b247e8ae165987e68874ca1435ecb)
+        ;
+
+        
+    
+    
+            var marker_c7f7b392b4bd14215446074304fe761c = L.marker(
+                [39.7862876, -104.8656645],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_df826d2081cac7356e98b2c669b01fde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7f7b392b4bd14215446074304fe761c.setIcon(icon_df826d2081cac7356e98b2c669b01fde);
+        
+    
+        var popup_83f26d3c38975d7eb2d6f8cc0ec2259a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31168dd33e81d759186d6f04526c29d6 = $(`<div id="html_31168dd33e81d759186d6f04526c29d6" style="width: 100.0%; height: 100.0%;">     <strong>MIH MANAGER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     4880 Havana Street Suite 201<br>     Denver, CO 80239     </div>`)[0];
+                popup_83f26d3c38975d7eb2d6f8cc0ec2259a.setContent(html_31168dd33e81d759186d6f04526c29d6);
+            
+        
+
+        marker_c7f7b392b4bd14215446074304fe761c.bindPopup(popup_83f26d3c38975d7eb2d6f8cc0ec2259a)
+        ;
+
+        
+    
+    
+            var marker_873191a5b3198432a055e69018788d30 = L.marker(
+                [39.7511228, -104.9933543],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_f63ac01dbac276754d1fb0384c5bba29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_873191a5b3198432a055e69018788d30.setIcon(icon_f63ac01dbac276754d1fb0384c5bba29);
+        
+    
+        var popup_96a54a8199b127e07280071115ed6c51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c71b087b8bf5c92db9f8858804163bcd = $(`<div id="html_c71b087b8bf5c92db9f8858804163bcd" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL WAREHOUSE MANAGEMENT LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     1875 Lawrence Street Suite 730<br>     Denver, CO 80202     </div>`)[0];
+                popup_96a54a8199b127e07280071115ed6c51.setContent(html_c71b087b8bf5c92db9f8858804163bcd);
+            
+        
+
+        marker_873191a5b3198432a055e69018788d30.bindPopup(popup_96a54a8199b127e07280071115ed6c51)
+        ;
+
+        
+    
+    
+            var marker_6f19f1a2ce4cf1c3645a29c2c9808a80 = L.marker(
+                [39.7950754, -104.8476993],
+                {}
+            ).addTo(map_295ad6183f95f64305dec20f9ad4df76);
+        
+    
+            var icon_b30f808c9284b2d93b9d9777f697840f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f19f1a2ce4cf1c3645a29c2c9808a80.setIcon(icon_b30f808c9284b2d93b9d9777f697840f);
+        
+    
+        var popup_fcc1f236261c0cccb5ab767b4868b2af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a36dca657142d9eabbdecc225880f4b6 = $(`<div id="html_a36dca657142d9eabbdecc225880f4b6" style="width: 100.0%; height: 100.0%;">     <strong>THE COMMISSION CARTEL LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     5475 Peoria Street Unit 4-109<br>     Denver, CO 80239     </div>`)[0];
+                popup_fcc1f236261c0cccb5ab767b4868b2af.setContent(html_a36dca657142d9eabbdecc225880f4b6);
+            
+        
+
+        marker_6f19f1a2ce4cf1c3645a29c2c9808a80.bindPopup(popup_fcc1f236261c0cccb5ab767b4868b2af)
+        ;
+
+        
+    
+</script>
+</html>

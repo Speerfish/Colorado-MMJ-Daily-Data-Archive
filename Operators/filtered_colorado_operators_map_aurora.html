@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_020273390c1bcf8f562a8d9bb6583814 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_020273390c1bcf8f562a8d9bb6583814" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_020273390c1bcf8f562a8d9bb6583814 = L.map(
+                "map_020273390c1bcf8f562a8d9bb6583814",
+                {
+                    center: [39.7108, -104.8125],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ba6b61cf7bfa9b4b7e0531d28e56ee9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9ba6b61cf7bfa9b4b7e0531d28e56ee9.addTo(map_020273390c1bcf8f562a8d9bb6583814);
+        
+    
+            var marker_7c8453f2f415b48a82f96a304817081d = L.marker(
+                [39.5775442, -104.6972905],
+                {}
+            ).addTo(map_020273390c1bcf8f562a8d9bb6583814);
+        
+    
+            var icon_2b15f033f5e77bb4c211aa4569daf842 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c8453f2f415b48a82f96a304817081d.setIcon(icon_2b15f033f5e77bb4c211aa4569daf842);
+        
+    
+        var popup_9140b813bac2641b47f1d9a7a0d28ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f95859370987687f9dd299772c8c46 = $(`<div id="html_a1f95859370987687f9dd299772c8c46" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER CONSULTING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: MMJ Operator<br>     27066 East Irish Drive<br>     Aurora, CO 80016     </div>`)[0];
+                popup_9140b813bac2641b47f1d9a7a0d28ed9.setContent(html_a1f95859370987687f9dd299772c8c46);
+            
+        
+
+        marker_7c8453f2f415b48a82f96a304817081d.bindPopup(popup_9140b813bac2641b47f1d9a7a0d28ed9)
+        ;
+
+        
+    
+    
+            var marker_774068d81c1bd9bab289fc6338891743 = L.marker(
+                [39.5775442, -104.6972905],
+                {}
+            ).addTo(map_020273390c1bcf8f562a8d9bb6583814);
+        
+    
+            var icon_c32df5e234684008d5fea91aeb0729c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_774068d81c1bd9bab289fc6338891743.setIcon(icon_c32df5e234684008d5fea91aeb0729c9);
+        
+    
+        var popup_6580cf4ba9fa40e8d323a631f5b6523c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a285bf41282cac71608dac8e8492a4 = $(`<div id="html_08a285bf41282cac71608dac8e8492a4" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER CONSULTING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Operator<br>     27066 East Irish Drive<br>     Aurora, CO 80016     </div>`)[0];
+                popup_6580cf4ba9fa40e8d323a631f5b6523c.setContent(html_08a285bf41282cac71608dac8e8492a4);
+            
+        
+
+        marker_774068d81c1bd9bab289fc6338891743.bindPopup(popup_6580cf4ba9fa40e8d323a631f5b6523c)
+        ;
+
+        
+    
+</script>
+</html>

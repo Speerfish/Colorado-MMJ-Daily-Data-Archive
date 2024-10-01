@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_638c1e99da542b47133aded1d5691e85 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_638c1e99da542b47133aded1d5691e85" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_638c1e99da542b47133aded1d5691e85 = L.map(
+                "map_638c1e99da542b47133aded1d5691e85",
+                {
+                    center: [38.2765, -104.6046],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_761653da0e62d6c5996681f7e3ab8c1d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_761653da0e62d6c5996681f7e3ab8c1d.addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var marker_0aa16dd8bc8f515d134b90cb2a0fb263 = L.marker(
+                [38.255533, -104.65062],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_e79b1f8fee92af3896a8a3b48691435d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0aa16dd8bc8f515d134b90cb2a0fb263.setIcon(icon_e79b1f8fee92af3896a8a3b48691435d);
+        
+    
+        var popup_b0f4a2277ca4c1036f2c4a00947e810f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7c5ca9d973109bb0df9b95c0f00ac24 = $(`<div id="html_f7c5ca9d973109bb0df9b95c0f00ac24" style="width: 100.0%; height: 100.0%;">     <strong>7415 LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     7415 Rex Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_b0f4a2277ca4c1036f2c4a00947e810f.setContent(html_f7c5ca9d973109bb0df9b95c0f00ac24);
+            
+        
+
+        marker_0aa16dd8bc8f515d134b90cb2a0fb263.bindPopup(popup_b0f4a2277ca4c1036f2c4a00947e810f)
+        ;
+
+        
+    
+    
+            var marker_a02f036206f7cbdc917f6157aab9a9c2 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a2b6360d82ce716f42a1363cc56dcafe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a02f036206f7cbdc917f6157aab9a9c2.setIcon(icon_a2b6360d82ce716f42a1363cc56dcafe);
+        
+    
+        var popup_6236edc8d6f582c4d8721b98789c8e52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5dbdc232953742275527cae78399e61 = $(`<div id="html_b5dbdc232953742275527cae78399e61" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>Apothecary Farms</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1917 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_6236edc8d6f582c4d8721b98789c8e52.setContent(html_b5dbdc232953742275527cae78399e61);
+            
+        
+
+        marker_a02f036206f7cbdc917f6157aab9a9c2.bindPopup(popup_6236edc8d6f582c4d8721b98789c8e52)
+        ;
+
+        
+    
+    
+            var marker_fa3a59de5d4bd18376834e98a4e0947a = L.marker(
+                [38.3260135, -104.705327],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_5138890dc959859507fdc3a2e0ffee81 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa3a59de5d4bd18376834e98a4e0947a.setIcon(icon_5138890dc959859507fdc3a2e0ffee81);
+        
+    
+        var popup_01cde8832dc57f5a2bc5fdee163a8e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0189449dab13a560a28d0c01056cb7d2 = $(`<div id="html_0189449dab13a560a28d0c01056cb7d2" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO DISTRIBUTING INC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     893 East Enterprise Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_01cde8832dc57f5a2bc5fdee163a8e3d.setContent(html_0189449dab13a560a28d0c01056cb7d2);
+            
+        
+
+        marker_fa3a59de5d4bd18376834e98a4e0947a.bindPopup(popup_01cde8832dc57f5a2bc5fdee163a8e3d)
+        ;
+
+        
+    
+    
+            var marker_0612a469d75d5b7e1ef61e8ee813c138 = L.marker(
+                [38.335639, -104.731861],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_2fa9205e334fe07713893496dab92f82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0612a469d75d5b7e1ef61e8ee813c138.setIcon(icon_2fa9205e334fe07713893496dab92f82);
+        
+    
+        var popup_b530736aaa773e819932001d338b9447 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f40f1a7378dcabc445bc45b016db051 = $(`<div id="html_7f40f1a7378dcabc445bc45b016db051" style="width: 100.0%; height: 100.0%;">     <strong>FRESH FAB LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     59 North Fabrication Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_b530736aaa773e819932001d338b9447.setContent(html_7f40f1a7378dcabc445bc45b016db051);
+            
+        
+
+        marker_0612a469d75d5b7e1ef61e8ee813c138.bindPopup(popup_b530736aaa773e819932001d338b9447)
+        ;
+
+        
+    
+    
+            var marker_dedbd5da9967dc1a5fa45bc766aa61ae = L.marker(
+                [38.279003, -104.6681267],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_66d20a71b3920a8ccbd55f25e2edab6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dedbd5da9967dc1a5fa45bc766aa61ae.setIcon(icon_66d20a71b3920a8ccbd55f25e2edab6c);
+        
+    
+        var popup_57610a1de5820fb122d7a9522ac0640c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8964632732ee3052ce0764285a0f994b = $(`<div id="html_8964632732ee3052ce0764285a0f994b" style="width: 100.0%; height: 100.0%;">     <strong>GROW DISPENSARY INC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     4245 West 13th Street<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_57610a1de5820fb122d7a9522ac0640c.setContent(html_8964632732ee3052ce0764285a0f994b);
+            
+        
+
+        marker_dedbd5da9967dc1a5fa45bc766aa61ae.bindPopup(popup_57610a1de5820fb122d7a9522ac0640c)
+        ;
+
+        
+    
+    
+            var marker_b44fee61e63ac92e69da2670b5f34a09 = L.marker(
+                [38.255533, -104.65062],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_780daf8bfee1935e7ef71230ec5a6419 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b44fee61e63ac92e69da2670b5f34a09.setIcon(icon_780daf8bfee1935e7ef71230ec5a6419);
+        
+    
+        var popup_98f823fa5d14493af6d2c5f024c01ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_423dcb19f13c1c7c379505bb0197392d = $(`<div id="html_423dcb19f13c1c7c379505bb0197392d" style="width: 100.0%; height: 100.0%;">     <strong>HEALING HOUSE LAKEWOOD LLC</strong><br>     <strong>Ascend Cannabis CO.</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     7420 Rex Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_98f823fa5d14493af6d2c5f024c01ce8.setContent(html_423dcb19f13c1c7c379505bb0197392d);
+            
+        
+
+        marker_b44fee61e63ac92e69da2670b5f34a09.bindPopup(popup_98f823fa5d14493af6d2c5f024c01ce8)
+        ;
+
+        
+    
+    
+            var marker_c4f8602dc75f0a3c78eda8b01db92d83 = L.marker(
+                [38.337742, -104.733501],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_063cb841fb39789d416a093097d65f3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c4f8602dc75f0a3c78eda8b01db92d83.setIcon(icon_063cb841fb39789d416a093097d65f3d);
+        
+    
+        var popup_952e0979297f32c815d18cae31d43377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fb06b5de4759bf05a4e36c1bb5d5211 = $(`<div id="html_1fb06b5de4759bf05a4e36c1bb5d5211" style="width: 100.0%; height: 100.0%;">     <strong>JKC MANUFACTURING LLC</strong><br>     <strong>Stratos</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     73 North Research Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_952e0979297f32c815d18cae31d43377.setContent(html_1fb06b5de4759bf05a4e36c1bb5d5211);
+            
+        
+
+        marker_c4f8602dc75f0a3c78eda8b01db92d83.bindPopup(popup_952e0979297f32c815d18cae31d43377)
+        ;
+
+        
+    
+    
+            var marker_413867caef222f5b7a8459c5a50c89ad = L.marker(
+                [38.3241609, -104.6886055],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_4347a455ef76e8614c290c79d78742be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_413867caef222f5b7a8459c5a50c89ad.setIcon(icon_4347a455ef76e8614c290c79d78742be);
+        
+    
+        var popup_cc0de9eacb20adf9e0593076096dc311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ee2f75f1826fedf8a90faa79cd309e = $(`<div id="html_43ee2f75f1826fedf8a90faa79cd309e" style="width: 100.0%; height: 100.0%;">     <strong>LONG GONE FARMS LLC</strong><br>     <strong>Steel City Meds Medical Dispensary</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     152 East Industrial Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_cc0de9eacb20adf9e0593076096dc311.setContent(html_43ee2f75f1826fedf8a90faa79cd309e);
+            
+        
+
+        marker_413867caef222f5b7a8459c5a50c89ad.bindPopup(popup_cc0de9eacb20adf9e0593076096dc311)
+        ;
+
+        
+    
+    
+            var marker_110ee982db4dfae5aef2df17860920bf = L.marker(
+                [38.234103, -104.6120899],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_5eb7cf9202975566150620e75ce1d9c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_110ee982db4dfae5aef2df17860920bf.setIcon(icon_5eb7cf9202975566150620e75ce1d9c4);
+        
+    
+        var popup_bf93e06227d4b19a84296d9508b37271 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b77d6ffa61ac851d67561aa267dd0780 = $(`<div id="html_b77d6ffa61ac851d67561aa267dd0780" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL GREEN SOURCE LLC</strong><br>     <strong>The Green Source</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1900 South Freeway<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_bf93e06227d4b19a84296d9508b37271.setContent(html_b77d6ffa61ac851d67561aa267dd0780);
+            
+        
+
+        marker_110ee982db4dfae5aef2df17860920bf.bindPopup(popup_bf93e06227d4b19a84296d9508b37271)
+        ;
+
+        
+    
+    
+            var marker_55c329ef7ce12abf7feeadfac95a5843 = L.marker(
+                [38.2261709, -104.9759944],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_4d043d3725e5500771a2e864fa9da4ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55c329ef7ce12abf7feeadfac95a5843.setIcon(icon_4d043d3725e5500771a2e864fa9da4ed);
+        
+    
+        var popup_b28bdc02d2af07175348ea556e776d82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1614aa38dc5b82f16bbda159c115bf1c = $(`<div id="html_1614aa38dc5b82f16bbda159c115bf1c" style="width: 100.0%; height: 100.0%;">     <strong>NEXT1 LABS LLC</strong><br>     <strong>Next1 Labs</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1660 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_b28bdc02d2af07175348ea556e776d82.setContent(html_1614aa38dc5b82f16bbda159c115bf1c);
+            
+        
+
+        marker_55c329ef7ce12abf7feeadfac95a5843.bindPopup(popup_b28bdc02d2af07175348ea556e776d82)
+        ;
+
+        
+    
+    
+            var marker_7ce71fb144b5dde1ddd7d303d8e03320 = L.marker(
+                [38.317696, -104.6118152],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_3f81816908f6ddf92cb56563a4a80a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ce71fb144b5dde1ddd7d303d8e03320.setIcon(icon_3f81816908f6ddf92cb56563a4a80a5f);
+        
+    
+        var popup_5a966d37e76490441ce2acc94051ea5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac087613af2ce076fd12e6064e001451 = $(`<div id="html_ac087613af2ce076fd12e6064e001451" style="width: 100.0%; height: 100.0%;">     <strong>NUVUE PHARMA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     4740 Dillon Drive<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_5a966d37e76490441ce2acc94051ea5b.setContent(html_ac087613af2ce076fd12e6064e001451);
+            
+        
+
+        marker_7ce71fb144b5dde1ddd7d303d8e03320.bindPopup(popup_5a966d37e76490441ce2acc94051ea5b)
+        ;
+
+        
+    
+    
+            var marker_4c418346169427096ed98843812cce91 = L.marker(
+                [38.2271193, -104.975368],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_297e5d198327545dedd3a54881931928 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c418346169427096ed98843812cce91.setIcon(icon_297e5d198327545dedd3a54881931928);
+        
+    
+        var popup_c7220a2a30e71a811b178c2f8faa9bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_729ca5aa9f630755649ec22d4a0df27b = $(`<div id="html_729ca5aa9f630755649ec22d4a0df27b" style="width: 100.0%; height: 100.0%;">     <strong>POTCO LLC</strong><br>     <strong>PotCo</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1640 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_c7220a2a30e71a811b178c2f8faa9bf2.setContent(html_729ca5aa9f630755649ec22d4a0df27b);
+            
+        
+
+        marker_4c418346169427096ed98843812cce91.bindPopup(popup_c7220a2a30e71a811b178c2f8faa9bf2)
+        ;
+
+        
+    
+    
+            var marker_11e7ede3382bd3b411415745ecd51640 = L.marker(
+                [38.250102, -104.5889754],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_38cb1ea1f9c8e41904482345c9c6dd5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11e7ede3382bd3b411415745ecd51640.setIcon(icon_38cb1ea1f9c8e41904482345c9c6dd5d);
+        
+    
+        var popup_696d7f7746f2c88f465336700f77df58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03fa2bf0cac7e3e4a9bb64d4464ab55c = $(`<div id="html_03fa2bf0cac7e3e4a9bb64d4464ab55c" style="width: 100.0%; height: 100.0%;">     <strong>STAYCON LLC</strong><br>     <strong>Craft</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1812 La Crosse Avenue<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_696d7f7746f2c88f465336700f77df58.setContent(html_03fa2bf0cac7e3e4a9bb64d4464ab55c);
+            
+        
+
+        marker_11e7ede3382bd3b411415745ecd51640.bindPopup(popup_696d7f7746f2c88f465336700f77df58)
+        ;
+
+        
+    
+    
+            var marker_f39bcde70c7d6d58a9b708e809cc9c3b = L.marker(
+                [38.333847, -104.727828],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_41f864d39c74da8673ccec33fbbf30a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f39bcde70c7d6d58a9b708e809cc9c3b.setIcon(icon_41f864d39c74da8673ccec33fbbf30a2);
+        
+    
+        var popup_879d6b4997324c00757f2963240d4f67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6d53e7935d389e7c85cacd00072e658 = $(`<div id="html_a6d53e7935d389e7c85cacd00072e658" style="width: 100.0%; height: 100.0%;">     <strong>THE ORGANIC SEED LLC</strong><br>     <strong>FUMO</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     41 North Precision Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_879d6b4997324c00757f2963240d4f67.setContent(html_a6d53e7935d389e7c85cacd00072e658);
+            
+        
+
+        marker_f39bcde70c7d6d58a9b708e809cc9c3b.bindPopup(popup_879d6b4997324c00757f2963240d4f67)
+        ;
+
+        
+    
+    
+            var marker_e14cb4c199d4ebf0afdea118af4b5c5c = L.marker(
+                [38.335297, -104.724494],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_9bafa8dcad2b51c8b446ae93494f8763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e14cb4c199d4ebf0afdea118af4b5c5c.setIcon(icon_9bafa8dcad2b51c8b446ae93494f8763);
+        
+    
+        var popup_f762ed7ddf17d7757e4845ff358d2d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_102ed725020e60df9d3f3cef7951bfe2 = $(`<div id="html_102ed725020e60df9d3f3cef7951bfe2" style="width: 100.0%; height: 100.0%;">     <strong>THREE RIVERS DEVELOPMENT LLC</strong><br>     <strong>Three Rivers Dispensary</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     83 North Magneto Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_f762ed7ddf17d7757e4845ff358d2d9b.setContent(html_102ed725020e60df9d3f3cef7951bfe2);
+            
+        
+
+        marker_e14cb4c199d4ebf0afdea118af4b5c5c.bindPopup(popup_f762ed7ddf17d7757e4845ff358d2d9b)
+        ;
+
+        
+    
+    
+            var marker_a997cd8e5aeee7596eab84411ff25ab6 = L.marker(
+                [38.2264739, -104.975429],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_3b362c7b5f183f13289f4f1046c21232 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a997cd8e5aeee7596eab84411ff25ab6.setIcon(icon_3b362c7b5f183f13289f4f1046c21232);
+        
+    
+        var popup_33b0e3f2592455e9297e8c02ba7034ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_576321664069b78a9fd97a4f024806ae = $(`<div id="html_576321664069b78a9fd97a4f024806ae" style="width: 100.0%; height: 100.0%;">     <strong>YETI FARMS LLC</strong><br>     <strong>Yeti Farms LLC</strong><br>     Facility Type: Medical Marijuana Cultivation<br>     1650 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_33b0e3f2592455e9297e8c02ba7034ef.setContent(html_576321664069b78a9fd97a4f024806ae);
+            
+        
+
+        marker_a997cd8e5aeee7596eab84411ff25ab6.bindPopup(popup_33b0e3f2592455e9297e8c02ba7034ef)
+        ;
+
+        
+    
+    
+            var marker_5d0dec88d45cd3b42cb97584e5f1240d = L.marker(
+                [38.261126, -104.646285],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_f05ea17e24f2bbed69e2b016e59481c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d0dec88d45cd3b42cb97584e5f1240d.setIcon(icon_f05ea17e24f2bbed69e2b016e59481c2);
+        
+    
+        var popup_f7ad74c337a94d328c41d7f85073fbcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34fd4dcf283a493a722d9ab0d1d675a5 = $(`<div id="html_34fd4dcf283a493a722d9ab0d1d675a5" style="width: 100.0%; height: 100.0%;">     <strong>1790 POPE VALLEY LLC</strong><br>     <strong>Canna Tek</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1790 Pope Valley Ranch Road <br>     Pueblo, CO 81005     </div>`)[0];
+                popup_f7ad74c337a94d328c41d7f85073fbcf.setContent(html_34fd4dcf283a493a722d9ab0d1d675a5);
+            
+        
+
+        marker_5d0dec88d45cd3b42cb97584e5f1240d.bindPopup(popup_f7ad74c337a94d328c41d7f85073fbcf)
+        ;
+
+        
+    
+    
+            var marker_09801868c9fc84bd41162a93e7e97cb9 = L.marker(
+                [38.261126, -104.646285],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a1c0e5229f0efc31524de96e0f708a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_09801868c9fc84bd41162a93e7e97cb9.setIcon(icon_a1c0e5229f0efc31524de96e0f708a90);
+        
+    
+        var popup_47d18a0803d427258e8f49a32c0fec90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bebf751afa8d2c974190bbf9256a00f0 = $(`<div id="html_bebf751afa8d2c974190bbf9256a00f0" style="width: 100.0%; height: 100.0%;">     <strong>2205 POPE VALLEY LLC</strong><br>     <strong>Canna Tek</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     2205 Pope Valley Ranch Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_47d18a0803d427258e8f49a32c0fec90.setContent(html_bebf751afa8d2c974190bbf9256a00f0);
+            
+        
+
+        marker_09801868c9fc84bd41162a93e7e97cb9.bindPopup(popup_47d18a0803d427258e8f49a32c0fec90)
+        ;
+
+        
+    
+    
+            var marker_3bf8841e737d837123c9bcebeadca1fc = L.marker(
+                [38.255533, -104.65062],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6ca162c8b3408216c1893d01a1b43f77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bf8841e737d837123c9bcebeadca1fc.setIcon(icon_6ca162c8b3408216c1893d01a1b43f77);
+        
+    
+        var popup_3612161598f47a4bd2d037772e49daff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99e93558cfd09f657f0a638a6f5444d0 = $(`<div id="html_99e93558cfd09f657f0a638a6f5444d0" style="width: 100.0%; height: 100.0%;">     <strong>7415 LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     7415 Rex Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_3612161598f47a4bd2d037772e49daff.setContent(html_99e93558cfd09f657f0a638a6f5444d0);
+            
+        
+
+        marker_3bf8841e737d837123c9bcebeadca1fc.bindPopup(popup_3612161598f47a4bd2d037772e49daff)
+        ;
+
+        
+    
+    
+            var marker_c55adc2a1ad1ff483044ce4108fe5b21 = L.marker(
+                [38.1708684, -104.7795805],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_69c7c210a510db7ba160bd968e8f8ddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c55adc2a1ad1ff483044ce4108fe5b21.setIcon(icon_69c7c210a510db7ba160bd968e8f8ddc);
+        
+    
+        var popup_b9b059a4daf1c693cf36754a5eab4969 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abe53d29b9d8be441d12e8d6758e2763 = $(`<div id="html_abe53d29b9d8be441d12e8d6758e2763" style="width: 100.0%; height: 100.0%;">     <strong>AD FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6473 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_b9b059a4daf1c693cf36754a5eab4969.setContent(html_abe53d29b9d8be441d12e8d6758e2763);
+            
+        
+
+        marker_c55adc2a1ad1ff483044ce4108fe5b21.bindPopup(popup_b9b059a4daf1c693cf36754a5eab4969)
+        ;
+
+        
+    
+    
+            var marker_ead1e8e7a44f08a633de36c931197553 = L.marker(
+                [38.2499983, -104.6012742],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a6e37219d71205b781853bd1fed4a8d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ead1e8e7a44f08a633de36c931197553.setIcon(icon_a6e37219d71205b781853bd1fed4a8d4);
+        
+    
+        var popup_c45fc597ef73d292371c2db0e4f07c3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aeaf252cd09eb04913de9e88629e8d0d = $(`<div id="html_aeaf252cd09eb04913de9e88629e8d0d" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>Apothecary Farms</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1917 Santa Fe Drive<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_c45fc597ef73d292371c2db0e4f07c3b.setContent(html_aeaf252cd09eb04913de9e88629e8d0d);
+            
+        
+
+        marker_ead1e8e7a44f08a633de36c931197553.bindPopup(popup_c45fc597ef73d292371c2db0e4f07c3b)
+        ;
+
+        
+    
+    
+            var marker_389088bb54f970dd3fed3a2d8c3d94d1 = L.marker(
+                [38.1706866, -104.7775843],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_b6eb86eb680cf5a4c2f62dfa2c98983f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_389088bb54f970dd3fed3a2d8c3d94d1.setIcon(icon_b6eb86eb680cf5a4c2f62dfa2c98983f);
+        
+    
+        var popup_94c07ce7f920d8a4ed07d0de6896cf6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d7308585599c642a4bdfd7d664b3e8e = $(`<div id="html_5d7308585599c642a4bdfd7d664b3e8e" style="width: 100.0%; height: 100.0%;">     <strong>ANCIENT FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6468 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_94c07ce7f920d8a4ed07d0de6896cf6f.setContent(html_5d7308585599c642a4bdfd7d664b3e8e);
+            
+        
+
+        marker_389088bb54f970dd3fed3a2d8c3d94d1.bindPopup(popup_94c07ce7f920d8a4ed07d0de6896cf6f)
+        ;
+
+        
+    
+    
+            var marker_22d2a1f843e1eb861f033d15726f13eb = L.marker(
+                [38.1706273, -104.7725075],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_9c87ac5ac72fad3a371978ad0fb3e888 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22d2a1f843e1eb861f033d15726f13eb.setIcon(icon_9c87ac5ac72fad3a371978ad0fb3e888);
+        
+    
+        var popup_d054fc4eb4436b899c263422d58f4122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f31cabfe54dd316cc0f1925f5c4fe2c = $(`<div id="html_5f31cabfe54dd316cc0f1925f5c4fe2c" style="width: 100.0%; height: 100.0%;">     <strong>BEAR WITH US LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6401 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_d054fc4eb4436b899c263422d58f4122.setContent(html_5f31cabfe54dd316cc0f1925f5c4fe2c);
+            
+        
+
+        marker_22d2a1f843e1eb861f033d15726f13eb.bindPopup(popup_d054fc4eb4436b899c263422d58f4122)
+        ;
+
+        
+    
+    
+            var marker_f6be4df78181abb4084f7a71325ffcde = L.marker(
+                [38.330347, -104.711427],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_fc5ec85384f3101431600414de475fc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6be4df78181abb4084f7a71325ffcde.setIcon(icon_fc5ec85384f3101431600414de475fc2);
+        
+    
+        var popup_62f755f47d060f3ed413bd4bfc91bd71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4738512774ca86fd330e36502e40cc8b = $(`<div id="html_4738512774ca86fd330e36502e40cc8b" style="width: 100.0%; height: 100.0%;">     <strong>BENNETT HOLDINGS LLC</strong><br>     <strong>FUMO</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     59 North Laser Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_62f755f47d060f3ed413bd4bfc91bd71.setContent(html_4738512774ca86fd330e36502e40cc8b);
+            
+        
+
+        marker_f6be4df78181abb4084f7a71325ffcde.bindPopup(popup_62f755f47d060f3ed413bd4bfc91bd71)
+        ;
+
+        
+    
+    
+            var marker_2940b854edefc9464056e2f50e9f47a2 = L.marker(
+                [38.1706236, -104.7724082],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_fbff5db7d6e20cd3361ba758882d486b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2940b854edefc9464056e2f50e9f47a2.setIcon(icon_fbff5db7d6e20cd3361ba758882d486b);
+        
+    
+        var popup_3a304de597e07d84b7299ea2d33df9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3967e11205f3ee52bc2cc79b13d46522 = $(`<div id="html_3967e11205f3ee52bc2cc79b13d46522" style="width: 100.0%; height: 100.0%;">     <strong>BULLYS FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6395 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_3a304de597e07d84b7299ea2d33df9f8.setContent(html_3967e11205f3ee52bc2cc79b13d46522);
+            
+        
+
+        marker_2940b854edefc9464056e2f50e9f47a2.bindPopup(popup_3a304de597e07d84b7299ea2d33df9f8)
+        ;
+
+        
+    
+    
+            var marker_8538a79591b85369718baff716b52e58 = L.marker(
+                [38.1707013, -104.7794886],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6da56e73c6797314726fa843bfa717f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8538a79591b85369718baff716b52e58.setIcon(icon_6da56e73c6797314726fa843bfa717f5);
+        
+    
+        var popup_8516bca0d7b016ed47219b126ca46a81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f748cbc01a93492b218e08c54f96a315 = $(`<div id="html_f748cbc01a93492b218e08c54f96a315" style="width: 100.0%; height: 100.0%;">     <strong>CANNA STIX LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6480 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_8516bca0d7b016ed47219b126ca46a81.setContent(html_f748cbc01a93492b218e08c54f96a315);
+            
+        
+
+        marker_8538a79591b85369718baff716b52e58.bindPopup(popup_8516bca0d7b016ed47219b126ca46a81)
+        ;
+
+        
+    
+    
+            var marker_38be0920d61625f383575e32810f0a26 = L.marker(
+                [38.331276, -104.710791],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_16334c2b98aab8623660808e34d4104c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38be0920d61625f383575e32810f0a26.setIcon(icon_16334c2b98aab8623660808e34d4104c);
+        
+    
+        var popup_f23b756fe3955ee923157e0fb6f31438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1627c273334efc60c483eba59f32f9c = $(`<div id="html_c1627c273334efc60c483eba59f32f9c" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER BUDS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     77 North Laser Drive Suite H<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_f23b756fe3955ee923157e0fb6f31438.setContent(html_c1627c273334efc60c483eba59f32f9c);
+            
+        
+
+        marker_38be0920d61625f383575e32810f0a26.bindPopup(popup_f23b756fe3955ee923157e0fb6f31438)
+        ;
+
+        
+    
+    
+            var marker_811f5a8440ba15f1d32a021188a7363b = L.marker(
+                [38.334956, -104.734832],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_719ae20fe0b7e900e2c6a00c3e2aea97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_811f5a8440ba15f1d32a021188a7363b.setIcon(icon_719ae20fe0b7e900e2c6a00c3e2aea97);
+        
+    
+        var popup_8d35b3c44b4657abf17ef668e4fdc7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a4e91d989e574065ff1dd89d5e46285 = $(`<div id="html_2a4e91d989e574065ff1dd89d5e46285" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER CAMPUS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     24 North Research Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_8d35b3c44b4657abf17ef668e4fdc7b6.setContent(html_2a4e91d989e574065ff1dd89d5e46285);
+            
+        
+
+        marker_811f5a8440ba15f1d32a021188a7363b.bindPopup(popup_8d35b3c44b4657abf17ef668e4fdc7b6)
+        ;
+
+        
+    
+    
+            var marker_a7c2c9affa0cdc0c0da818cdcdc601e8 = L.marker(
+                [38.340479, -104.736777],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_af93f18b6baa0be37b421c53cc5061fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7c2c9affa0cdc0c0da818cdcdc601e8.setIcon(icon_af93f18b6baa0be37b421c53cc5061fb);
+        
+    
+        var popup_46fbdfbe6194777e50abd965d9a25b5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_885cdbfe2fb52d87f6753b5fc15137ef = $(`<div id="html_885cdbfe2fb52d87f6753b5fc15137ef" style="width: 100.0%; height: 100.0%;">     <strong>CLEARWATER EXOTICS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     168 East Assembly Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_46fbdfbe6194777e50abd965d9a25b5a.setContent(html_885cdbfe2fb52d87f6753b5fc15137ef);
+            
+        
+
+        marker_a7c2c9affa0cdc0c0da818cdcdc601e8.bindPopup(popup_46fbdfbe6194777e50abd965d9a25b5a)
+        ;
+
+        
+    
+    
+            var marker_ec35c0e852774a8b99e24da06162d349 = L.marker(
+                [38.331276, -104.710791],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6ac91c36a16fda207667aa5dcc67bc35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec35c0e852774a8b99e24da06162d349.setIcon(icon_6ac91c36a16fda207667aa5dcc67bc35);
+        
+    
+        var popup_70f786486d18131d1928e97f7d5892b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f509997cfda5aaf5f3e73c61951bd773 = $(`<div id="html_f509997cfda5aaf5f3e73c61951bd773" style="width: 100.0%; height: 100.0%;">     <strong>CLUTCHX LLC</strong><br>     <strong>Clutch Extracts</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     77 North Laser Drive, Suite A<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_70f786486d18131d1928e97f7d5892b1.setContent(html_f509997cfda5aaf5f3e73c61951bd773);
+            
+        
+
+        marker_ec35c0e852774a8b99e24da06162d349.bindPopup(popup_70f786486d18131d1928e97f7d5892b1)
+        ;
+
+        
+    
+    
+            var marker_95c617b9a614cb15f7e3310036b1071b = L.marker(
+                [38.2210967, -104.7555884],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_32e384360a9b6f858c5eac80620b85b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_95c617b9a614cb15f7e3310036b1071b.setIcon(icon_32e384360a9b6f858c5eac80620b85b3);
+        
+    
+        var popup_8c995e2ee41032adbe7e34119c60901b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9203e527da38a1902d6d21626e4bf4b = $(`<div id="html_d9203e527da38a1902d6d21626e4bf4b" style="width: 100.0%; height: 100.0%;">     <strong>COLLECTED SUN LLC</strong><br>     <strong>Collected Sun</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6183 Red Creek Springs Road West<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_8c995e2ee41032adbe7e34119c60901b.setContent(html_d9203e527da38a1902d6d21626e4bf4b);
+            
+        
+
+        marker_95c617b9a614cb15f7e3310036b1071b.bindPopup(popup_8c995e2ee41032adbe7e34119c60901b)
+        ;
+
+        
+    
+    
+            var marker_582093e783d543006c76b03aa055ff17 = L.marker(
+                [38.3241609, -104.6886055],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a905a5463d321efbed40cc688ccbc2f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_582093e783d543006c76b03aa055ff17.setIcon(icon_a905a5463d321efbed40cc688ccbc2f0);
+        
+    
+        var popup_cc124c189755b9737d2982054e8e42b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_babd4a410370a1c86880e0b97b160aa4 = $(`<div id="html_babd4a410370a1c86880e0b97b160aa4" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO CANNABIS ASSOCIATES LLC</strong><br>     <strong>The Spot</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     748 East Industrial Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_cc124c189755b9737d2982054e8e42b4.setContent(html_babd4a410370a1c86880e0b97b160aa4);
+            
+        
+
+        marker_582093e783d543006c76b03aa055ff17.bindPopup(popup_cc124c189755b9737d2982054e8e42b4)
+        ;
+
+        
+    
+    
+            var marker_780adcd5bdf291a3d26b372f7b796bbf = L.marker(
+                [38.3260135, -104.705327],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_8a8af363e3f8fb3bd7bdd65c3f6a39a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_780adcd5bdf291a3d26b372f7b796bbf.setIcon(icon_8a8af363e3f8fb3bd7bdd65c3f6a39a3);
+        
+    
+        var popup_600efe11c88364aa365de9419e5f21fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac195e3d2fa7c0ccff44e4a5b7b55758 = $(`<div id="html_ac195e3d2fa7c0ccff44e4a5b7b55758" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO DISTRIBUTING INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     893 East Enterprise Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_600efe11c88364aa365de9419e5f21fc.setContent(html_ac195e3d2fa7c0ccff44e4a5b7b55758);
+            
+        
+
+        marker_780adcd5bdf291a3d26b372f7b796bbf.bindPopup(popup_600efe11c88364aa365de9419e5f21fc)
+        ;
+
+        
+    
+    
+            var marker_937dbb540063ac1fff4a23a456891780 = L.marker(
+                [38.247385, -104.673007],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_062b1e8d0fbd40832755e4a66f9bae6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_937dbb540063ac1fff4a23a456891780.setIcon(icon_062b1e8d0fbd40832755e4a66f9bae6c);
+        
+    
+        var popup_910374e774eba25cc92efc53abee5207 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16bdc455c1fc68655555535b0e2b574d = $(`<div id="html_16bdc455c1fc68655555535b0e2b574d" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO LEAF LLC</strong><br>     <strong>Colorado Leaf</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     8217 Red Creek Springs Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_910374e774eba25cc92efc53abee5207.setContent(html_16bdc455c1fc68655555535b0e2b574d);
+            
+        
+
+        marker_937dbb540063ac1fff4a23a456891780.bindPopup(popup_910374e774eba25cc92efc53abee5207)
+        ;
+
+        
+    
+    
+            var marker_fe5c9eb9925c0dd4b8320846196b8e26 = L.marker(
+                [38.1706248, -104.7724413],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_cb840bb20d2b265a4ca1bce378894fd1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe5c9eb9925c0dd4b8320846196b8e26.setIcon(icon_cb840bb20d2b265a4ca1bce378894fd1);
+        
+    
+        var popup_6875cb29eaa172b8498af2ae73eb2178 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dba7fa844db5d18b2460f18179124d8 = $(`<div id="html_3dba7fa844db5d18b2460f18179124d8" style="width: 100.0%; height: 100.0%;">     <strong>DD FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6397 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_6875cb29eaa172b8498af2ae73eb2178.setContent(html_3dba7fa844db5d18b2460f18179124d8);
+            
+        
+
+        marker_fe5c9eb9925c0dd4b8320846196b8e26.bindPopup(popup_6875cb29eaa172b8498af2ae73eb2178)
+        ;
+
+        
+    
+    
+            var marker_0d9e438abd4e8f08aba8ff2408414ad4 = L.marker(
+                [38.2689031, -104.5587971],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_37bf90dd52f5784f826709baf7b4ae82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d9e438abd4e8f08aba8ff2408414ad4.setIcon(icon_37bf90dd52f5784f826709baf7b4ae82);
+        
+    
+        var popup_13559adfd9a15275aa78a7aedc44ce2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77c95337c0f60c587b57f86f9d5eae5c = $(`<div id="html_77c95337c0f60c587b57f86f9d5eae5c" style="width: 100.0%; height: 100.0%;">     <strong>DR JEKYLL FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     127 South Neilson Avenue<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_13559adfd9a15275aa78a7aedc44ce2f.setContent(html_77c95337c0f60c587b57f86f9d5eae5c);
+            
+        
+
+        marker_0d9e438abd4e8f08aba8ff2408414ad4.bindPopup(popup_13559adfd9a15275aa78a7aedc44ce2f)
+        ;
+
+        
+    
+    
+            var marker_90625dc9411265c7027ec525b7f29c56 = L.marker(
+                [38.3265, -104.706879],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_c1d468dfb9d017566b8538e2231839c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90625dc9411265c7027ec525b7f29c56.setIcon(icon_c1d468dfb9d017566b8538e2231839c4);
+        
+    
+        var popup_10aa93c222c44d5a50623eb95ef7c23d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47118f1f12b57ab01e0c1fbc09dd9b35 = $(`<div id="html_47118f1f12b57ab01e0c1fbc09dd9b35" style="width: 100.0%; height: 100.0%;">     <strong>EARTH ENERGY UNLIMITED LLC</strong><br>     <strong>Earth Energy Extracts</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     24 North Electronic Drive Suite B<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_10aa93c222c44d5a50623eb95ef7c23d.setContent(html_47118f1f12b57ab01e0c1fbc09dd9b35);
+            
+        
+
+        marker_90625dc9411265c7027ec525b7f29c56.bindPopup(popup_10aa93c222c44d5a50623eb95ef7c23d)
+        ;
+
+        
+    
+    
+            var marker_79a574daf76de0d130abb21a7179102f = L.marker(
+                [38.1933231, -104.6664912],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_647c61891b84063a154c2737f4e8dbd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79a574daf76de0d130abb21a7179102f.setIcon(icon_647c61891b84063a154c2737f4e8dbd8);
+        
+    
+        var popup_1faf29a5328b40292fc28232b0dbaea7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2685df41f4e7d3b4b110ec82a9137621 = $(`<div id="html_2685df41f4e7d3b4b110ec82a9137621" style="width: 100.0%; height: 100.0%;">     <strong>EVERGREEN NURSERY FARMS LLC</strong><br>     <strong>Motavation Farms LLC</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     2367 Little Burnt Mill Road<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_1faf29a5328b40292fc28232b0dbaea7.setContent(html_2685df41f4e7d3b4b110ec82a9137621);
+            
+        
+
+        marker_79a574daf76de0d130abb21a7179102f.bindPopup(popup_1faf29a5328b40292fc28232b0dbaea7)
+        ;
+
+        
+    
+    
+            var marker_b9a756fe813de66560ab932f3f300527 = L.marker(
+                [38.26893, -104.395327],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6ce08cd37198d6422040cc71030f3375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9a756fe813de66560ab932f3f300527.setIcon(icon_6ce08cd37198d6422040cc71030f3375);
+        
+    
+        var popup_26c93ff8292397027ab1c2d08a5eb520 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa987e88a89b35ba476b06c1b77a0e4 = $(`<div id="html_3aa987e88a89b35ba476b06c1b77a0e4" style="width: 100.0%; height: 100.0%;">     <strong>FAMILY FARM GROWERS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     43801 East State Highway 96<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_26c93ff8292397027ab1c2d08a5eb520.setContent(html_3aa987e88a89b35ba476b06c1b77a0e4);
+            
+        
+
+        marker_b9a756fe813de66560ab932f3f300527.bindPopup(popup_26c93ff8292397027ab1c2d08a5eb520)
+        ;
+
+        
+    
+    
+            var marker_1526f26fba7b4db8179e51c823206fa0 = L.marker(
+                [38.328732, -104.707223],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_51e82c4a03150c19008ef3de3a549407 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1526f26fba7b4db8179e51c823206fa0.setIcon(icon_51e82c4a03150c19008ef3de3a549407);
+        
+    
+        var popup_8a7e3c3694a78b5e407d25d00ea813c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22abbac2edfb50d6ffacef43a1ca12c8 = $(`<div id="html_22abbac2edfb50d6ffacef43a1ca12c8" style="width: 100.0%; height: 100.0%;">     <strong>FLYING J INC</strong><br>     <strong>Kushmas</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     843 East Chemical Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_8a7e3c3694a78b5e407d25d00ea813c7.setContent(html_22abbac2edfb50d6ffacef43a1ca12c8);
+            
+        
+
+        marker_1526f26fba7b4db8179e51c823206fa0.bindPopup(popup_8a7e3c3694a78b5e407d25d00ea813c7)
+        ;
+
+        
+    
+    
+            var marker_c04d9d1a129cb71881d7c4e629ebed1e = L.marker(
+                [38.335639, -104.731861],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_fb4e1182f06c952d4925658c65bfe614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c04d9d1a129cb71881d7c4e629ebed1e.setIcon(icon_fb4e1182f06c952d4925658c65bfe614);
+        
+    
+        var popup_291abc2e98fdc839a4d6567ca76106ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f227f1544cfbfa878b48707a4bc5f5c = $(`<div id="html_7f227f1544cfbfa878b48707a4bc5f5c" style="width: 100.0%; height: 100.0%;">     <strong>FRESH FAB LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     59 North Fabrication Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_291abc2e98fdc839a4d6567ca76106ec.setContent(html_7f227f1544cfbfa878b48707a4bc5f5c);
+            
+        
+
+        marker_c04d9d1a129cb71881d7c4e629ebed1e.bindPopup(popup_291abc2e98fdc839a4d6567ca76106ec)
+        ;
+
+        
+    
+    
+            var marker_dbff89a397b037a27149f889cffbe5fc = L.marker(
+                [38.251495, -105.01249],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_68bb9f9dad0c1e5edc94f42a9718b980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dbff89a397b037a27149f889cffbe5fc.setIcon(icon_68bb9f9dad0c1e5edc94f42a9718b980);
+        
+    
+        var popup_e9d3ca2bf4cfdb4ad3169430444a6435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b66f6467c0a438e24a46689dc58b5c = $(`<div id="html_11b66f6467c0a438e24a46689dc58b5c" style="width: 100.0%; height: 100.0%;">     <strong>GRASSHOPPER FARMS CO LLC</strong><br>     <strong>Grasshopper Farms</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     9135 State Highway 96 West<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_e9d3ca2bf4cfdb4ad3169430444a6435.setContent(html_11b66f6467c0a438e24a46689dc58b5c);
+            
+        
+
+        marker_dbff89a397b037a27149f889cffbe5fc.bindPopup(popup_e9d3ca2bf4cfdb4ad3169430444a6435)
+        ;
+
+        
+    
+    
+            var marker_7c623a03ea2dd058f346e89649bbe1be = L.marker(
+                [38.2445969, -104.8788441],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_77be089c8adcb590019935488fc71f34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c623a03ea2dd058f346e89649bbe1be.setIcon(icon_77be089c8adcb590019935488fc71f34);
+        
+    
+        var popup_88325ef24688ca31576e53e1170c8677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_857d16f17f27dbd2e1775c16024acbe5 = $(`<div id="html_857d16f17f27dbd2e1775c16024acbe5" style="width: 100.0%; height: 100.0%;">     <strong>GREEN FARMERS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     7571 Vanessa Drive<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_88325ef24688ca31576e53e1170c8677.setContent(html_857d16f17f27dbd2e1775c16024acbe5);
+            
+        
+
+        marker_7c623a03ea2dd058f346e89649bbe1be.bindPopup(popup_88325ef24688ca31576e53e1170c8677)
+        ;
+
+        
+    
+    
+            var marker_aa670518e1c5ad4b3d474a741f200003 = L.marker(
+                [38.261126, -104.646285],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6be562d8d561086995d57b08e60dca4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa670518e1c5ad4b3d474a741f200003.setIcon(icon_6be562d8d561086995d57b08e60dca4e);
+        
+    
+        var popup_f005ce22ece5a311a7d24cac1354c4e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ef8950ffdb1d34ed51e2f64cc1f6ec = $(`<div id="html_d7ef8950ffdb1d34ed51e2f64cc1f6ec" style="width: 100.0%; height: 100.0%;">     <strong>GREENER HEIGHTS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1850 Pope Valley Ranch Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_f005ce22ece5a311a7d24cac1354c4e0.setContent(html_d7ef8950ffdb1d34ed51e2f64cc1f6ec);
+            
+        
+
+        marker_aa670518e1c5ad4b3d474a741f200003.bindPopup(popup_f005ce22ece5a311a7d24cac1354c4e0)
+        ;
+
+        
+    
+    
+            var marker_94bba54ec963f5a82ba4fb1b4a9f4700 = L.marker(
+                [38.330669, -104.711474],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_32294a000f2843fc6948a69bab134bc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94bba54ec963f5a82ba4fb1b4a9f4700.setIcon(icon_32294a000f2843fc6948a69bab134bc1);
+        
+    
+        var popup_9e9c935e90b1229f5acdd19400a9a9f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54298ebcbb02fa3df473cc6b2484639f = $(`<div id="html_54298ebcbb02fa3df473cc6b2484639f" style="width: 100.0%; height: 100.0%;">     <strong>GREENHOUSE WORKZ INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     65 North Laser Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_9e9c935e90b1229f5acdd19400a9a9f3.setContent(html_54298ebcbb02fa3df473cc6b2484639f);
+            
+        
+
+        marker_94bba54ec963f5a82ba4fb1b4a9f4700.bindPopup(popup_9e9c935e90b1229f5acdd19400a9a9f3)
+        ;
+
+        
+    
+    
+            var marker_5cb1917c54381b86b6187d1b1458bda6 = L.marker(
+                [38.279003, -104.6681267],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_1a2eed92fe9e27dcb0cf99f238e37c47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5cb1917c54381b86b6187d1b1458bda6.setIcon(icon_1a2eed92fe9e27dcb0cf99f238e37c47);
+        
+    
+        var popup_9d08ec753a1a45c03a42644850cfdc88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab6aff4a548f012b03535fc3f9b234ab = $(`<div id="html_ab6aff4a548f012b03535fc3f9b234ab" style="width: 100.0%; height: 100.0%;">     <strong>GROW INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     4245 West 13th Street<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_9d08ec753a1a45c03a42644850cfdc88.setContent(html_ab6aff4a548f012b03535fc3f9b234ab);
+            
+        
+
+        marker_5cb1917c54381b86b6187d1b1458bda6.bindPopup(popup_9d08ec753a1a45c03a42644850cfdc88)
+        ;
+
+        
+    
+    
+            var marker_4a4f4bc89d00b89cb6448f1e7121b0d3 = L.marker(
+                [38.1880897, -104.7408161],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_7820fb9d23375057a80e7ed2cc6d9736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a4f4bc89d00b89cb6448f1e7121b0d3.setIcon(icon_7820fb9d23375057a80e7ed2cc6d9736);
+        
+    
+        var popup_925ac55db425d071dad868562b6b7b6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_557dd4bf1c7a4b058b74742d1a11b095 = $(`<div id="html_557dd4bf1c7a4b058b74742d1a11b095" style="width: 100.0%; height: 100.0%;">     <strong>GROW INC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6033 State Highway 78 West<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_925ac55db425d071dad868562b6b7b6a.setContent(html_557dd4bf1c7a4b058b74742d1a11b095);
+            
+        
+
+        marker_4a4f4bc89d00b89cb6448f1e7121b0d3.bindPopup(popup_925ac55db425d071dad868562b6b7b6a)
+        ;
+
+        
+    
+    
+            var marker_9ec46120fdce3bf835708bfc5744d62e = L.marker(
+                [38.255533, -104.65062],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_8bd05f7c738766f82d48b66176b83d52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ec46120fdce3bf835708bfc5744d62e.setIcon(icon_8bd05f7c738766f82d48b66176b83d52);
+        
+    
+        var popup_289c867a2c6dbb95d25097de817d340d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee4867b793298248bcb88684de662501 = $(`<div id="html_ee4867b793298248bcb88684de662501" style="width: 100.0%; height: 100.0%;">     <strong>HEALING HOUSE LAKEWOOD LLC</strong><br>     <strong>Ascend Cannabis Co.</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     7420 Rex Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_289c867a2c6dbb95d25097de817d340d.setContent(html_ee4867b793298248bcb88684de662501);
+            
+        
+
+        marker_9ec46120fdce3bf835708bfc5744d62e.bindPopup(popup_289c867a2c6dbb95d25097de817d340d)
+        ;
+
+        
+    
+    
+            var marker_a3630d517cc566813c056d7d913e89e4 = L.marker(
+                [37.144853, -104.501234],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_26653fedc359a91fc98217cac4b5ca3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3630d517cc566813c056d7d913e89e4.setIcon(icon_26653fedc359a91fc98217cac4b5ca3e);
+        
+    
+        var popup_c20e96e212b800fa85fd5b11bfea496c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_852411861d111731fad1909a1c342ed8 = $(`<div id="html_852411861d111731fad1909a1c342ed8" style="width: 100.0%; height: 100.0%;">     <strong>HIGH CANYON LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     4780 Farasita Boulevard<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_c20e96e212b800fa85fd5b11bfea496c.setContent(html_852411861d111731fad1909a1c342ed8);
+            
+        
+
+        marker_a3630d517cc566813c056d7d913e89e4.bindPopup(popup_c20e96e212b800fa85fd5b11bfea496c)
+        ;
+
+        
+    
+    
+            var marker_daba1f63bc42325aa698fb517e13b080 = L.marker(
+                [38.3301, -104.71621],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_361cdf4f79461c7b6e225f06d3a94a20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_daba1f63bc42325aa698fb517e13b080.setIcon(icon_361cdf4f79461c7b6e225f06d3a94a20);
+        
+    
+        var popup_289134e0df432de12e9ec856ca1d58e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0e993e23705309bbe2bdd6a3bda7cc8 = $(`<div id="html_a0e993e23705309bbe2bdd6a3bda7cc8" style="width: 100.0%; height: 100.0%;">     <strong>HIGH DEMAND LLC</strong><br>     <strong>High Demand</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     31 North Silicon Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_289134e0df432de12e9ec856ca1d58e0.setContent(html_a0e993e23705309bbe2bdd6a3bda7cc8);
+            
+        
+
+        marker_daba1f63bc42325aa698fb517e13b080.bindPopup(popup_289134e0df432de12e9ec856ca1d58e0)
+        ;
+
+        
+    
+    
+            var marker_cc2a7d1cec2a727a584b72c505d6ddc4 = L.marker(
+                [38.330512, -104.716068],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_939087b8154218de79530654c89b43f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc2a7d1cec2a727a584b72c505d6ddc4.setIcon(icon_939087b8154218de79530654c89b43f3);
+        
+    
+        var popup_ad2d46cabd85d2c93c78cbaa2fb05be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efab472c89c683da41604eabf96337c4 = $(`<div id="html_efab472c89c683da41604eabf96337c4" style="width: 100.0%; height: 100.0%;">     <strong>HIGH DEMAND LLC </strong><br>     <strong>Terps</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     38 North Silicon Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_ad2d46cabd85d2c93c78cbaa2fb05be2.setContent(html_efab472c89c683da41604eabf96337c4);
+            
+        
+
+        marker_cc2a7d1cec2a727a584b72c505d6ddc4.bindPopup(popup_ad2d46cabd85d2c93c78cbaa2fb05be2)
+        ;
+
+        
+    
+    
+            var marker_209e134e165b1e951fbfa489b7f418ed = L.marker(
+                [38.328815, -104.709192],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_cd646c7a7a3446e716bfb5451072f3c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_209e134e165b1e951fbfa489b7f418ed.setIcon(icon_cd646c7a7a3446e716bfb5451072f3c4);
+        
+    
+        var popup_37cc3ece46ef451771feb258d47ae59e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d9c951e93dc3078d623d5d38f045944 = $(`<div id="html_6d9c951e93dc3078d623d5d38f045944" style="width: 100.0%; height: 100.0%;">     <strong>HIGH HORSE LLC</strong><br>     <strong>Snaxland</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     76 North Mission Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_37cc3ece46ef451771feb258d47ae59e.setContent(html_6d9c951e93dc3078d623d5d38f045944);
+            
+        
+
+        marker_209e134e165b1e951fbfa489b7f418ed.bindPopup(popup_37cc3ece46ef451771feb258d47ae59e)
+        ;
+
+        
+    
+    
+            var marker_bce849d5f4efc277001d852595d0ca24 = L.marker(
+                [38.261126, -104.646285],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_3017bb694b72e9bb6dd6223f9fd180d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bce849d5f4efc277001d852595d0ca24.setIcon(icon_3017bb694b72e9bb6dd6223f9fd180d2);
+        
+    
+        var popup_3231811d1f92893d0ce792498517dd1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3ab41c86f55e2ac061aca92b1c2587e = $(`<div id="html_c3ab41c86f55e2ac061aca92b1c2587e" style="width: 100.0%; height: 100.0%;">     <strong>INSITE COMMERCIAL & TRADING LIMITED GROUP LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     2310 Pope Valley Ranch Road, Unit B<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_3231811d1f92893d0ce792498517dd1a.setContent(html_c3ab41c86f55e2ac061aca92b1c2587e);
+            
+        
+
+        marker_bce849d5f4efc277001d852595d0ca24.bindPopup(popup_3231811d1f92893d0ce792498517dd1a)
+        ;
+
+        
+    
+    
+            var marker_cdd37bf5e4d32ff513ca2a2b82d6b6a2 = L.marker(
+                [38.261126, -104.646285],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_00fdbb8351a1ed612c38745d696dade9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cdd37bf5e4d32ff513ca2a2b82d6b6a2.setIcon(icon_00fdbb8351a1ed612c38745d696dade9);
+        
+    
+        var popup_642bd18684e3e6da73511ee94d71c3b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76cb59b05aa6ab99a583a20fcfdbc90d = $(`<div id="html_76cb59b05aa6ab99a583a20fcfdbc90d" style="width: 100.0%; height: 100.0%;">     <strong>ISLAND GROUP LLC</strong><br>     <strong>Limonene Farms</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1905 Pope Valley Ranch Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_642bd18684e3e6da73511ee94d71c3b5.setContent(html_76cb59b05aa6ab99a583a20fcfdbc90d);
+            
+        
+
+        marker_cdd37bf5e4d32ff513ca2a2b82d6b6a2.bindPopup(popup_642bd18684e3e6da73511ee94d71c3b5)
+        ;
+
+        
+    
+    
+            var marker_4f8290f89cabc60dfe9babbb37d2dc7f = L.marker(
+                [38.1706187, -104.7722758],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_e5598b6451f373b97b8797f88e23a55b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f8290f89cabc60dfe9babbb37d2dc7f.setIcon(icon_e5598b6451f373b97b8797f88e23a55b);
+        
+    
+        var popup_20ae4c4455f3c7dd3ca9c1123467e28f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_296a21782cf8b05a6b514d73b389d948 = $(`<div id="html_296a21782cf8b05a6b514d73b389d948" style="width: 100.0%; height: 100.0%;">     <strong>JDW FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6387 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_20ae4c4455f3c7dd3ca9c1123467e28f.setContent(html_296a21782cf8b05a6b514d73b389d948);
+            
+        
+
+        marker_4f8290f89cabc60dfe9babbb37d2dc7f.bindPopup(popup_20ae4c4455f3c7dd3ca9c1123467e28f)
+        ;
+
+        
+    
+    
+            var marker_ac12ce0d1690fade4c4ea27d35d02c99 = L.marker(
+                [38.337742, -104.733501],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6df0b45e7861f6a52829c90bf1a66580 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac12ce0d1690fade4c4ea27d35d02c99.setIcon(icon_6df0b45e7861f6a52829c90bf1a66580);
+        
+    
+        var popup_0bf4d55c88a43dcd9bd6dd4c53109112 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f8603c60af13a5ff0119b15c8d953bf = $(`<div id="html_1f8603c60af13a5ff0119b15c8d953bf" style="width: 100.0%; height: 100.0%;">     <strong>JKC MANUFACTURING LLC</strong><br>     <strong>Stratos</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     73 North Research Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_0bf4d55c88a43dcd9bd6dd4c53109112.setContent(html_1f8603c60af13a5ff0119b15c8d953bf);
+            
+        
+
+        marker_ac12ce0d1690fade4c4ea27d35d02c99.bindPopup(popup_0bf4d55c88a43dcd9bd6dd4c53109112)
+        ;
+
+        
+    
+    
+            var marker_5effc459aaa37783e0653c622689a48d = L.marker(
+                [38.1706906, -104.7785365],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_e66863781425af019d8592ca65d9d714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5effc459aaa37783e0653c622689a48d.setIcon(icon_e66863781425af019d8592ca65d9d714);
+        
+    
+        var popup_f01569190fd2258013f24ec593be2d88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a67ea9f22d12e318b475e976695ec6ee = $(`<div id="html_a67ea9f22d12e318b475e976695ec6ee" style="width: 100.0%; height: 100.0%;">     <strong>K.G. FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6474 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_f01569190fd2258013f24ec593be2d88.setContent(html_a67ea9f22d12e318b475e976695ec6ee);
+            
+        
+
+        marker_5effc459aaa37783e0653c622689a48d.bindPopup(popup_f01569190fd2258013f24ec593be2d88)
+        ;
+
+        
+    
+    
+            var marker_2c0e5b3de4cb5d1018c88ebc6e629228 = L.marker(
+                [38.1706868, -104.7779017],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_13003c11ac7abdb6f6079f2954643ac4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c0e5b3de4cb5d1018c88ebc6e629228.setIcon(icon_13003c11ac7abdb6f6079f2954643ac4);
+        
+    
+        var popup_f17548821fc69343dcd89cdbb23447a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea18464e058c8fefe8e60f8eca6887b = $(`<div id="html_3ea18464e058c8fefe8e60f8eca6887b" style="width: 100.0%; height: 100.0%;">     <strong>KINGPIN FARMS LLC</strong><br>     <strong>Colorado Rocky Mountain Farms</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6470 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_f17548821fc69343dcd89cdbb23447a7.setContent(html_3ea18464e058c8fefe8e60f8eca6887b);
+            
+        
+
+        marker_2c0e5b3de4cb5d1018c88ebc6e629228.bindPopup(popup_f17548821fc69343dcd89cdbb23447a7)
+        ;
+
+        
+    
+    
+            var marker_7b871bd92d74d6825f3be871460e0bf9 = L.marker(
+                [38.272869, -104.5582169],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_25fb867c194e730bc7827fe266f22bf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b871bd92d74d6825f3be871460e0bf9.setIcon(icon_25fb867c194e730bc7827fe266f22bf0);
+        
+    
+        var popup_59b25dbff3515d62b16558ca8db9fde8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52ceb11ddc5bf09ae41524dd3abcb16c = $(`<div id="html_52ceb11ddc5bf09ae41524dd3abcb16c" style="width: 100.0%; height: 100.0%;">     <strong>KKMWB LLC</strong><br>     <strong>Higher End</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3035 East 4th Street<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_59b25dbff3515d62b16558ca8db9fde8.setContent(html_52ceb11ddc5bf09ae41524dd3abcb16c);
+            
+        
+
+        marker_7b871bd92d74d6825f3be871460e0bf9.bindPopup(popup_59b25dbff3515d62b16558ca8db9fde8)
+        ;
+
+        
+    
+    
+            var marker_79856bc1ab6b65f71cd41e84262ba454 = L.marker(
+                [38.3241609, -104.6886055],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_069c4b43d402af9dffbf4a8898457982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79856bc1ab6b65f71cd41e84262ba454.setIcon(icon_069c4b43d402af9dffbf4a8898457982);
+        
+    
+        var popup_d1e8dea344b3e1e62a68804db19f6695 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40e8a91f287a71c9a741575d9d3f607e = $(`<div id="html_40e8a91f287a71c9a741575d9d3f607e" style="width: 100.0%; height: 100.0%;">     <strong>LONG GONE FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     152 East Industrial Boulevard <br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_d1e8dea344b3e1e62a68804db19f6695.setContent(html_40e8a91f287a71c9a741575d9d3f607e);
+            
+        
+
+        marker_79856bc1ab6b65f71cd41e84262ba454.bindPopup(popup_d1e8dea344b3e1e62a68804db19f6695)
+        ;
+
+        
+    
+    
+            var marker_2f8201676e5b3ad2f58a034207cd06b5 = L.marker(
+                [38.1706477, -104.7730039],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_5e54f4ab0abe2ce77a57fe95a4b09b52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f8201676e5b3ad2f58a034207cd06b5.setIcon(icon_5e54f4ab0abe2ce77a57fe95a4b09b52);
+        
+    
+        var popup_4dd98d992164b64818bab4f1a3bf275c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de93698dd5b09322034179a604faed3d = $(`<div id="html_de93698dd5b09322034179a604faed3d" style="width: 100.0%; height: 100.0%;">     <strong>MALIBU RDL LLC</strong><br>     <strong>Purgro</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6431 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_4dd98d992164b64818bab4f1a3bf275c.setContent(html_de93698dd5b09322034179a604faed3d);
+            
+        
+
+        marker_2f8201676e5b3ad2f58a034207cd06b5.bindPopup(popup_4dd98d992164b64818bab4f1a3bf275c)
+        ;
+
+        
+    
+    
+            var marker_74d33fdafdf47ed5fb737c1e5834977c = L.marker(
+                [38.2470592, -104.9757244],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_e11c6e99c1d596c6de67e05324520502 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_74d33fdafdf47ed5fb737c1e5834977c.setIcon(icon_e11c6e99c1d596c6de67e05324520502);
+        
+    
+        var popup_91362ff6747ccc2a9dfac486527faf6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5811ca653ffb42eb2598a6d7f38172ec = $(`<div id="html_5811ca653ffb42eb2598a6d7f38172ec" style="width: 100.0%; height: 100.0%;">     <strong>MASTERS FARM LLC</strong><br>     <strong>Lady Jane</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1201 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_91362ff6747ccc2a9dfac486527faf6b.setContent(html_5811ca653ffb42eb2598a6d7f38172ec);
+            
+        
+
+        marker_74d33fdafdf47ed5fb737c1e5834977c.bindPopup(popup_91362ff6747ccc2a9dfac486527faf6b)
+        ;
+
+        
+    
+    
+            var marker_38eb59523f2cb0436803434dca9a631f = L.marker(
+                [38.275301, -104.619456],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_8c6fad5caadd74fc640bd934234cb72c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38eb59523f2cb0436803434dca9a631f.setIcon(icon_8c6fad5caadd74fc640bd934234cb72c);
+        
+    
+        var popup_23128d3be9a2256ca50d5d2780c882ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c7b50c4d445a44e3b96e2e2aa3781da = $(`<div id="html_0c7b50c4d445a44e3b96e2e2aa3781da" style="width: 100.0%; height: 100.0%;">     <strong>MEDINA AND COMPANY LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     901 West 9th Street Unit 100<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_23128d3be9a2256ca50d5d2780c882ad.setContent(html_0c7b50c4d445a44e3b96e2e2aa3781da);
+            
+        
+
+        marker_38eb59523f2cb0436803434dca9a631f.bindPopup(popup_23128d3be9a2256ca50d5d2780c882ad)
+        ;
+
+        
+    
+    
+            var marker_634a3448245de227a880c088a33c2293 = L.marker(
+                [38.234103, -104.6120899],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a59bc72f62cbe164a8b263739ba19968 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_634a3448245de227a880c088a33c2293.setIcon(icon_a59bc72f62cbe164a8b263739ba19968);
+        
+    
+        var popup_9c2b8410565645cb1daf92ede7e88add = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3a8b8f85d2870639de68ce1fb1dc9df = $(`<div id="html_a3a8b8f85d2870639de68ce1fb1dc9df" style="width: 100.0%; height: 100.0%;">     <strong>NATIONAL GREEN SOURCE LLC</strong><br>     <strong>The Green Source</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1900 South Freeway<br>     Pueblo, CO 81004     </div>`)[0];
+                popup_9c2b8410565645cb1daf92ede7e88add.setContent(html_a3a8b8f85d2870639de68ce1fb1dc9df);
+            
+        
+
+        marker_634a3448245de227a880c088a33c2293.bindPopup(popup_9c2b8410565645cb1daf92ede7e88add)
+        ;
+
+        
+    
+    
+            var marker_f258fb1062e5dcbdba3b00c31ae54be6 = L.marker(
+                [38.251924, -104.9526597],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_d84b6937b85e520a8e00e33333b68976 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f258fb1062e5dcbdba3b00c31ae54be6.setIcon(icon_d84b6937b85e520a8e00e33333b68976);
+        
+    
+        var popup_665f8eb9f286e5701ee0ac35d6b5fc59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbc425cb1d16ea6bc0cd1e7c32453b7b = $(`<div id="html_fbc425cb1d16ea6bc0cd1e7c32453b7b" style="width: 100.0%; height: 100.0%;">     <strong>NEWCO VENTURES LLC</strong><br>     <strong>Southern Flower</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     8440 West State Highway 96<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_665f8eb9f286e5701ee0ac35d6b5fc59.setContent(html_fbc425cb1d16ea6bc0cd1e7c32453b7b);
+            
+        
+
+        marker_f258fb1062e5dcbdba3b00c31ae54be6.bindPopup(popup_665f8eb9f286e5701ee0ac35d6b5fc59)
+        ;
+
+        
+    
+    
+            var marker_49612e47e11b497879387470a92725f9 = L.marker(
+                [38.2261709, -104.9759944],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_18d9f090208100010dbddd45a9da7a47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49612e47e11b497879387470a92725f9.setIcon(icon_18d9f090208100010dbddd45a9da7a47);
+        
+    
+        var popup_c2ad282eec6ab4cebcde33ad96cffa06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b61c398e50c56f87b2179c1c96efed = $(`<div id="html_13b61c398e50c56f87b2179c1c96efed" style="width: 100.0%; height: 100.0%;">     <strong>NEXT1 LABS LLC</strong><br>     <strong>Next1 Labs</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1660 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_c2ad282eec6ab4cebcde33ad96cffa06.setContent(html_13b61c398e50c56f87b2179c1c96efed);
+            
+        
+
+        marker_49612e47e11b497879387470a92725f9.bindPopup(popup_c2ad282eec6ab4cebcde33ad96cffa06)
+        ;
+
+        
+    
+    
+            var marker_ae8a7b82218b8d51adfa676696d6ed74 = L.marker(
+                [38.317696, -104.6118152],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_35377cf65b1af65fe5d9d23e36863cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae8a7b82218b8d51adfa676696d6ed74.setIcon(icon_35377cf65b1af65fe5d9d23e36863cea);
+        
+    
+        var popup_8d472cbf6a5dd2d8ffc70246d484500d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dceaae2ae726cfe451efa5b26393f5c = $(`<div id="html_4dceaae2ae726cfe451efa5b26393f5c" style="width: 100.0%; height: 100.0%;">     <strong>NUVUE PHARMA LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     4740 Dillon Drive<br>     Pueblo, CO 81008     </div>`)[0];
+                popup_8d472cbf6a5dd2d8ffc70246d484500d.setContent(html_4dceaae2ae726cfe451efa5b26393f5c);
+            
+        
+
+        marker_ae8a7b82218b8d51adfa676696d6ed74.bindPopup(popup_8d472cbf6a5dd2d8ffc70246d484500d)
+        ;
+
+        
+    
+    
+            var marker_705b6593d48dfa8593cec1bd0182b3c5 = L.marker(
+                [38.1928692, -104.667094],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_b64c832d9bd05496b39c4cab215abaae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_705b6593d48dfa8593cec1bd0182b3c5.setIcon(icon_b64c832d9bd05496b39c4cab215abaae);
+        
+    
+        var popup_6b68d6948f2c0cdf406f3bee6c5a90dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eef1dce6d090cffa9b740043554047d6 = $(`<div id="html_eef1dce6d090cffa9b740043554047d6" style="width: 100.0%; height: 100.0%;">     <strong>OHANA MAUNA GARDENS LLC</strong><br>     <strong>Ohana Mauna Gardens LLC</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     2387 Little Burnt Mill Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_6b68d6948f2c0cdf406f3bee6c5a90dd.setContent(html_eef1dce6d090cffa9b740043554047d6);
+            
+        
+
+        marker_705b6593d48dfa8593cec1bd0182b3c5.bindPopup(popup_6b68d6948f2c0cdf406f3bee6c5a90dd)
+        ;
+
+        
+    
+    
+            var marker_d213aa2dba38123bd999bd40a41c18d5 = L.marker(
+                [38.3241609, -104.6886055],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_47edf40f49d6d61dcba90cb2caaa38c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d213aa2dba38123bd999bd40a41c18d5.setIcon(icon_47edf40f49d6d61dcba90cb2caaa38c6);
+        
+    
+        var popup_535e792c9ecff8f0effb501580f244d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ba6f593c07e61c75cc545701e48b396 = $(`<div id="html_1ba6f593c07e61c75cc545701e48b396" style="width: 100.0%; height: 100.0%;">     <strong>OIL WELL INDUSTRIES LLC</strong><br>     <strong>The Oil Well</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     157 East Industrial Boulevard<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_535e792c9ecff8f0effb501580f244d5.setContent(html_1ba6f593c07e61c75cc545701e48b396);
+            
+        
+
+        marker_d213aa2dba38123bd999bd40a41c18d5.bindPopup(popup_535e792c9ecff8f0effb501580f244d5)
+        ;
+
+        
+    
+    
+            var marker_0e8811242d6163c38197ad070d850b27 = L.marker(
+                [38.2271193, -104.975368],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_c341c12a0d0c8d7c687101b7b18ed4cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e8811242d6163c38197ad070d850b27.setIcon(icon_c341c12a0d0c8d7c687101b7b18ed4cb);
+        
+    
+        var popup_fcb67c6ff8e72ee422e24a4b421711e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3b75459a225ef9d4e0abb1d7ea0bfe = $(`<div id="html_3b3b75459a225ef9d4e0abb1d7ea0bfe" style="width: 100.0%; height: 100.0%;">     <strong>POTCO SOUTH LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1640 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_fcb67c6ff8e72ee422e24a4b421711e9.setContent(html_3b3b75459a225ef9d4e0abb1d7ea0bfe);
+            
+        
+
+        marker_0e8811242d6163c38197ad070d850b27.bindPopup(popup_fcb67c6ff8e72ee422e24a4b421711e9)
+        ;
+
+        
+    
+    
+            var marker_e5f3b0d5d3103afd2b7c57da97277266 = L.marker(
+                [38.1708689, -104.7796256],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_1a8f7308fdef118626f198804bdcea01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5f3b0d5d3103afd2b7c57da97277266.setIcon(icon_1a8f7308fdef118626f198804bdcea01);
+        
+    
+        var popup_e3b92d454baa16bec5799087416d1061 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f00e103553d8dbbbfcb7266d01673a13 = $(`<div id="html_f00e103553d8dbbbfcb7266d01673a13" style="width: 100.0%; height: 100.0%;">     <strong>PRIME FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6475 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_e3b92d454baa16bec5799087416d1061.setContent(html_f00e103553d8dbbbfcb7266d01673a13);
+            
+        
+
+        marker_e5f3b0d5d3103afd2b7c57da97277266.bindPopup(popup_e3b92d454baa16bec5799087416d1061)
+        ;
+
+        
+    
+    
+            var marker_f4c38b83f57c1e3c8a4ab8cf77e60b4a = L.marker(
+                [38.334576, -104.732223],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_284e257d022dfc5dd0992d279c8d7d09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4c38b83f57c1e3c8a4ab8cf77e60b4a.setIcon(icon_284e257d022dfc5dd0992d279c8d7d09);
+        
+    
+        var popup_9bcd4631bfe7f2719ae9fd0e8a5bc184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5f603c671234cd4f031da1b54550ed1 = $(`<div id="html_d5f603c671234cd4f031da1b54550ed1" style="width: 100.0%; height: 100.0%;">     <strong>RG CUSTOM GROW</strong><br>     <strong>RG Custom Grow</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     36 North Fabrication Drive, Unit B<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_9bcd4631bfe7f2719ae9fd0e8a5bc184.setContent(html_d5f603c671234cd4f031da1b54550ed1);
+            
+        
+
+        marker_f4c38b83f57c1e3c8a4ab8cf77e60b4a.bindPopup(popup_9bcd4631bfe7f2719ae9fd0e8a5bc184)
+        ;
+
+        
+    
+    
+            var marker_a1e34aead6d36127cc548765c9bbfa80 = L.marker(
+                [38.269603, -104.558415],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_82bbe185714d8dafe27e55b207a8d8af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1e34aead6d36127cc548765c9bbfa80.setIcon(icon_82bbe185714d8dafe27e55b207a8d8af);
+        
+    
+        var popup_73f7a77e01b7a48a9f565e8142ab0fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_895f3a466d77f35f20c4099fb0780104 = $(`<div id="html_895f3a466d77f35f20c4099fb0780104" style="width: 100.0%; height: 100.0%;">     <strong>RSCT SERVICES LLC</strong><br>     <strong>Bloom County</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     2656 McCormick Avenue<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_73f7a77e01b7a48a9f565e8142ab0fb5.setContent(html_895f3a466d77f35f20c4099fb0780104);
+            
+        
+
+        marker_a1e34aead6d36127cc548765c9bbfa80.bindPopup(popup_73f7a77e01b7a48a9f565e8142ab0fb5)
+        ;
+
+        
+    
+    
+            var marker_cbc22a34d726a8dc6147e71dadce2e5c = L.marker(
+                [38.328617, -104.70926],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_477014b96668f7cc500ded0d8fe41e37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cbc22a34d726a8dc6147e71dadce2e5c.setIcon(icon_477014b96668f7cc500ded0d8fe41e37);
+        
+    
+        var popup_249c3069dff361763a2be2165aa16116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8d4ccef7191d396d4244bcb12b3ecec = $(`<div id="html_c8d4ccef7191d396d4244bcb12b3ecec" style="width: 100.0%; height: 100.0%;">     <strong>SACCO SOLUTIONS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     69 North Mission Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_249c3069dff361763a2be2165aa16116.setContent(html_c8d4ccef7191d396d4244bcb12b3ecec);
+            
+        
+
+        marker_cbc22a34d726a8dc6147e71dadce2e5c.bindPopup(popup_249c3069dff361763a2be2165aa16116)
+        ;
+
+        
+    
+    
+            var marker_12e0030569e6903369521e3c7c477fd3 = L.marker(
+                [38.1706163, -104.7722096],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_64cb35dd483900d33a7bd057cd833ced = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12e0030569e6903369521e3c7c477fd3.setIcon(icon_64cb35dd483900d33a7bd057cd833ced);
+        
+    
+        var popup_1838ce57a74ec0103c6d263070225583 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e610816560a7eb0402ac148dae3304bb = $(`<div id="html_e610816560a7eb0402ac148dae3304bb" style="width: 100.0%; height: 100.0%;">     <strong>SEVEN LEAVES LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6383 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_1838ce57a74ec0103c6d263070225583.setContent(html_e610816560a7eb0402ac148dae3304bb);
+            
+        
+
+        marker_12e0030569e6903369521e3c7c477fd3.bindPopup(popup_1838ce57a74ec0103c6d263070225583)
+        ;
+
+        
+    
+    
+            var marker_1a8002b823df4f1b9ba7c8c62019be99 = L.marker(
+                [38.2772139, -104.4837042],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_df3270e8649593b5b43df8d05f621471 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a8002b823df4f1b9ba7c8c62019be99.setIcon(icon_df3270e8649593b5b43df8d05f621471);
+        
+    
+        var popup_f20a2db32075eb17964248988e11e72b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa0e64cd830698371c2a98624ed7e950 = $(`<div id="html_fa0e64cd830698371c2a98624ed7e950" style="width: 100.0%; height: 100.0%;">     <strong>SILVER LAKE HOLDINGS LLC</strong><br>     <strong>Rooted</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     33625 East United Avenue<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_f20a2db32075eb17964248988e11e72b.setContent(html_fa0e64cd830698371c2a98624ed7e950);
+            
+        
+
+        marker_1a8002b823df4f1b9ba7c8c62019be99.bindPopup(popup_f20a2db32075eb17964248988e11e72b)
+        ;
+
+        
+    
+    
+            var marker_5ca0dc2c43cc05ab2b24496b5a3714af = L.marker(
+                [38.254937, -104.588315],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_a239e5dd70161cc65e7c63ffff5b2b76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5ca0dc2c43cc05ab2b24496b5a3714af.setIcon(icon_a239e5dd70161cc65e7c63ffff5b2b76);
+        
+    
+        var popup_02507a9ee364cfeb02b8aa2d3ec1fa9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_019b3d686ea8f5144774ac7fc4bc883f = $(`<div id="html_019b3d686ea8f5144774ac7fc4bc883f" style="width: 100.0%; height: 100.0%;">     <strong>STATEWIDE SUPPLY </strong><br>     <strong>Statewide Supply</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1328 South La Crosse Avenue<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_02507a9ee364cfeb02b8aa2d3ec1fa9d.setContent(html_019b3d686ea8f5144774ac7fc4bc883f);
+            
+        
+
+        marker_5ca0dc2c43cc05ab2b24496b5a3714af.bindPopup(popup_02507a9ee364cfeb02b8aa2d3ec1fa9d)
+        ;
+
+        
+    
+    
+            var marker_bcb53fb1dc50623bed753fb373d38570 = L.marker(
+                [38.250102, -104.5889754],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_ddabba2c5320fd344f47e923a3b4a38b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcb53fb1dc50623bed753fb373d38570.setIcon(icon_ddabba2c5320fd344f47e923a3b4a38b);
+        
+    
+        var popup_835fa208b42070a9a3f0f1aefa0bf0bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_832d40c80793c4fc17571a48ec0a0fef = $(`<div id="html_832d40c80793c4fc17571a48ec0a0fef" style="width: 100.0%; height: 100.0%;">     <strong>STAYCON LLC</strong><br>     <strong>Craft</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1812 La Crosse Avenue<br>     Pueblo, CO 81006     </div>`)[0];
+                popup_835fa208b42070a9a3f0f1aefa0bf0bf.setContent(html_832d40c80793c4fc17571a48ec0a0fef);
+            
+        
+
+        marker_bcb53fb1dc50623bed753fb373d38570.bindPopup(popup_835fa208b42070a9a3f0f1aefa0bf0bf)
+        ;
+
+        
+    
+    
+            var marker_377eaf8bb119070868df755f76ee6c29 = L.marker(
+                [38.258254, -104.823433],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_8287c93f7fac1b5d0182ac221bbe7283 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_377eaf8bb119070868df755f76ee6c29.setIcon(icon_8287c93f7fac1b5d0182ac221bbe7283);
+        
+    
+        var popup_7c8b7d4e62075dba8b5ed8f155cc04a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c760075effe1d8443b47a45e343948e = $(`<div id="html_5c760075effe1d8443b47a45e343948e" style="width: 100.0%; height: 100.0%;">     <strong>SUNNY ACRES LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     7070 West State Highway 96<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_7c8b7d4e62075dba8b5ed8f155cc04a2.setContent(html_5c760075effe1d8443b47a45e343948e);
+            
+        
+
+        marker_377eaf8bb119070868df755f76ee6c29.bindPopup(popup_7c8b7d4e62075dba8b5ed8f155cc04a2)
+        ;
+
+        
+    
+    
+            var marker_5e7e79789036dd8a4d904e2fb2b15760 = L.marker(
+                [38.170626, -104.7724744],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_d55e8d567e0c928e21173e240ed52783 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e7e79789036dd8a4d904e2fb2b15760.setIcon(icon_d55e8d567e0c928e21173e240ed52783);
+        
+    
+        var popup_d42ac80a9f8f7b3087f7018b56dc4ea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1eff1c7995caf2527eb1a31c88c956d1 = $(`<div id="html_1eff1c7995caf2527eb1a31c88c956d1" style="width: 100.0%; height: 100.0%;">     <strong>Sun Grown Farms LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6399 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_d42ac80a9f8f7b3087f7018b56dc4ea6.setContent(html_1eff1c7995caf2527eb1a31c88c956d1);
+            
+        
+
+        marker_5e7e79789036dd8a4d904e2fb2b15760.bindPopup(popup_d42ac80a9f8f7b3087f7018b56dc4ea6)
+        ;
+
+        
+    
+    
+            var marker_75f93457edfb08e0c9c5cba3d7643455 = L.marker(
+                [38.264717, -104.6167109],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_f89c17eba9456fbc051651f31ebbbc6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75f93457edfb08e0c9c5cba3d7643455.setIcon(icon_f89c17eba9456fbc051651f31ebbbc6e);
+        
+    
+        var popup_a4813a09eb872fdf36b1354e0bc3c649 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1732e7ddbfbf90b96e5aec3080bcc42 = $(`<div id="html_e1732e7ddbfbf90b96e5aec3080bcc42" style="width: 100.0%; height: 100.0%;">     <strong>THE HERBAL GARDEN LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     302 Lamkin Street<br>     Pueblo, CO 81003     </div>`)[0];
+                popup_a4813a09eb872fdf36b1354e0bc3c649.setContent(html_e1732e7ddbfbf90b96e5aec3080bcc42);
+            
+        
+
+        marker_75f93457edfb08e0c9c5cba3d7643455.bindPopup(popup_a4813a09eb872fdf36b1354e0bc3c649)
+        ;
+
+        
+    
+    
+            var marker_c61211b00657b3c7271c732e202d4473 = L.marker(
+                [38.333847, -104.727828],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_bed949672347c16d713a4e4b708709f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c61211b00657b3c7271c732e202d4473.setIcon(icon_bed949672347c16d713a4e4b708709f2);
+        
+    
+        var popup_529a90358db0e84c33c5a26163b6bb19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_041d53be34934c8a9220fa2e233d8208 = $(`<div id="html_041d53be34934c8a9220fa2e233d8208" style="width: 100.0%; height: 100.0%;">     <strong>THE ORGANIC SEED LLC</strong><br>     <strong>FUMO</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     41 North Precision Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_529a90358db0e84c33c5a26163b6bb19.setContent(html_041d53be34934c8a9220fa2e233d8208);
+            
+        
+
+        marker_c61211b00657b3c7271c732e202d4473.bindPopup(popup_529a90358db0e84c33c5a26163b6bb19)
+        ;
+
+        
+    
+    
+            var marker_6f06edabc332d0a75376ca0fce95b598 = L.marker(
+                [38.334988, -104.724602],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_3d5b02280a388073bafa13541561997f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f06edabc332d0a75376ca0fce95b598.setIcon(icon_3d5b02280a388073bafa13541561997f);
+        
+    
+        var popup_0405d7b0412d95a837efb581bc04adad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_644dbafbdff3f4205f735fa4289050f4 = $(`<div id="html_644dbafbdff3f4205f735fa4289050f4" style="width: 100.0%; height: 100.0%;">     <strong>THREE RIVERS DEVELOPMENT LLC</strong><br>     <strong>Three Rivers Dispensary</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     77 North Magneto Drive<br>     Pueblo West, CO 81007     </div>`)[0];
+                popup_0405d7b0412d95a837efb581bc04adad.setContent(html_644dbafbdff3f4205f735fa4289050f4);
+            
+        
+
+        marker_6f06edabc332d0a75376ca0fce95b598.bindPopup(popup_0405d7b0412d95a837efb581bc04adad)
+        ;
+
+        
+    
+    
+            var marker_9b48e58052d51a9eec12f5875bc84b59 = L.marker(
+                [38.3063405, -104.5349471],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_6382b7a3cc273e99a1d655ec0fd23f0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b48e58052d51a9eec12f5875bc84b59.setIcon(icon_6382b7a3cc273e99a1d655ec0fd23f0c);
+        
+    
+        var popup_32db4f10e219067c6461577d41c36ea6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d9f975b6815c84721b79a717dbac00 = $(`<div id="html_d2d9f975b6815c84721b79a717dbac00" style="width: 100.0%; height: 100.0%;">     <strong>VIRTUAL MARKETING LLC</strong><br>     <strong>Maggie's Farm</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     3900 North 27th Lane<br>     Pueblo, CO 81001     </div>`)[0];
+                popup_32db4f10e219067c6461577d41c36ea6.setContent(html_d2d9f975b6815c84721b79a717dbac00);
+            
+        
+
+        marker_9b48e58052d51a9eec12f5875bc84b59.bindPopup(popup_32db4f10e219067c6461577d41c36ea6)
+        ;
+
+        
+    
+    
+            var marker_a6d0fa74ae486a9620f162eb94086069 = L.marker(
+                [38.2582513, -104.8231843],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_c28aed0f36193aa0acc808fc4fe44caa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6d0fa74ae486a9620f162eb94086069.setIcon(icon_c28aed0f36193aa0acc808fc4fe44caa);
+        
+    
+        var popup_c17170b71345b35d44abb0ccbd50611b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24131226c684bc8c5c5387026b96ad30 = $(`<div id="html_24131226c684bc8c5c5387026b96ad30" style="width: 100.0%; height: 100.0%;">     <strong>VOODOO STYLEE NATURAL FARM LLC</strong><br>     <strong>Voodoo Stylee Natural Farm</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     7064 West State Highway 96<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_c17170b71345b35d44abb0ccbd50611b.setContent(html_24131226c684bc8c5c5387026b96ad30);
+            
+        
+
+        marker_a6d0fa74ae486a9620f162eb94086069.bindPopup(popup_c17170b71345b35d44abb0ccbd50611b)
+        ;
+
+        
+    
+    
+            var marker_2f3f4065bff2c33b341a025620e603cb = L.marker(
+                [38.1706199, -104.7723089],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_0bf0a2d1dd3b4d6a682112e325b56372 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f3f4065bff2c33b341a025620e603cb.setIcon(icon_0bf0a2d1dd3b4d6a682112e325b56372);
+        
+    
+        var popup_71c577e58b57a3dfbe45d8defbfda4c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df12d41790d0ad6653cf67c0880cb006 = $(`<div id="html_df12d41790d0ad6653cf67c0880cb006" style="width: 100.0%; height: 100.0%;">     <strong>WHEELER FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6389 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_71c577e58b57a3dfbe45d8defbfda4c1.setContent(html_df12d41790d0ad6653cf67c0880cb006);
+            
+        
+
+        marker_2f3f4065bff2c33b341a025620e603cb.bindPopup(popup_71c577e58b57a3dfbe45d8defbfda4c1)
+        ;
+
+        
+    
+    
+            var marker_9aac9c457051d31ea9090e16a8ccc36a = L.marker(
+                [38.1706942, -104.7788539],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_395affdb65b7797b41a37018f6eab794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9aac9c457051d31ea9090e16a8ccc36a.setIcon(icon_395affdb65b7797b41a37018f6eab794);
+        
+    
+        var popup_d4a7acceef055d8bce5c8267b035e279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9be91654884c6813bcd9b3c58bb9d4dd = $(`<div id="html_9be91654884c6813bcd9b3c58bb9d4dd" style="width: 100.0%; height: 100.0%;">     <strong>WOODYS FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6476 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_d4a7acceef055d8bce5c8267b035e279.setContent(html_9be91654884c6813bcd9b3c58bb9d4dd);
+            
+        
+
+        marker_9aac9c457051d31ea9090e16a8ccc36a.bindPopup(popup_d4a7acceef055d8bce5c8267b035e279)
+        ;
+
+        
+    
+    
+            var marker_30dc78cec9694d93beaf45e0ea5f29ad = L.marker(
+                [38.2264739, -104.975429],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_45b5f01bb0fee7f691b5f52e656bc779 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30dc78cec9694d93beaf45e0ea5f29ad.setIcon(icon_45b5f01bb0fee7f691b5f52e656bc779);
+        
+    
+        var popup_0506e32f53e46d02a49fa6470fbea45b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f73374144ead2908143838b21e0008 = $(`<div id="html_e7f73374144ead2908143838b21e0008" style="width: 100.0%; height: 100.0%;">     <strong>YETI FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     1650 Siloam Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_0506e32f53e46d02a49fa6470fbea45b.setContent(html_e7f73374144ead2908143838b21e0008);
+            
+        
+
+        marker_30dc78cec9694d93beaf45e0ea5f29ad.bindPopup(popup_0506e32f53e46d02a49fa6470fbea45b)
+        ;
+
+        
+    
+    
+            var marker_c9b4bd2e4194a05079fe92fc02a3ecf4 = L.marker(
+                [38.1708674, -104.7794904],
+                {}
+            ).addTo(map_638c1e99da542b47133aded1d5691e85);
+        
+    
+            var icon_8ef453f89d428da7b8da53c52595e428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9b4bd2e4194a05079fe92fc02a3ecf4.setIcon(icon_8ef453f89d428da7b8da53c52595e428);
+        
+    
+        var popup_1c7a0fd60016172e5b789d45bca05247 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b98a73e6447f4b99c0019fc58ac8f0d = $(`<div id="html_1b98a73e6447f4b99c0019fc58ac8f0d" style="width: 100.0%; height: 100.0%;">     <strong>ZM FARMS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Cultivation Facility<br>     6469 Galbreth Road<br>     Pueblo, CO 81005     </div>`)[0];
+                popup_1c7a0fd60016172e5b789d45bca05247.setContent(html_1b98a73e6447f4b99c0019fc58ac8f0d);
+            
+        
+
+        marker_c9b4bd2e4194a05079fe92fc02a3ecf4.bindPopup(popup_1c7a0fd60016172e5b789d45bca05247)
+        ;
+
+        
+    
+</script>
+</html>

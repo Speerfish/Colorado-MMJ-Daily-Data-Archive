@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8321a573c9882959c6ccccab726e4c7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8321a573c9882959c6ccccab726e4c7c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8321a573c9882959c6ccccab726e4c7c = L.map(
+                "map_8321a573c9882959c6ccccab726e4c7c",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_217d03df3900690aa4a4e1070f3e93f3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_217d03df3900690aa4a4e1070f3e93f3.addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var marker_e49cb52d615705faa84fa464eed9ca7a = L.marker(
+                [39.6769774, -104.9993532],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_0f6f181d5330e95e615e837a9f5fe57b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e49cb52d615705faa84fa464eed9ca7a.setIcon(icon_0f6f181d5330e95e615e837a9f5fe57b);
+        
+    
+        var popup_cc083e7564881e3f0e0d092eb3cf021a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f54c30c80e55bc262ec885ded22cc40 = $(`<div id="html_7f54c30c80e55bc262ec885ded22cc40" style="width: 100.0%; height: 100.0%;">     <strong>GPS TRANSPORTATION LLC</strong><br>     <strong>Green Parcel Service</strong><br>     Facility Type: MMJ Transporter<br>     2186 South Jason Street<br>     Denver, CO 80223     </div>`)[0];
+                popup_cc083e7564881e3f0e0d092eb3cf021a.setContent(html_7f54c30c80e55bc262ec885ded22cc40);
+            
+        
+
+        marker_e49cb52d615705faa84fa464eed9ca7a.bindPopup(popup_cc083e7564881e3f0e0d092eb3cf021a)
+        ;
+
+        
+    
+    
+            var marker_cde0646bbd116ebcf178e223f7e6baca = L.marker(
+                [39.7038731, -104.9092277],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_c081211427dbb78a0cbce448cea4eff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cde0646bbd116ebcf178e223f7e6baca.setIcon(icon_c081211427dbb78a0cbce448cea4eff7);
+        
+    
+        var popup_cc564bf526e566dc7a616e8c165efce5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49a4f845d3d16296b356f237fac14266 = $(`<div id="html_49a4f845d3d16296b356f237fac14266" style="width: 100.0%; height: 100.0%;">     <strong>GREEN BIRD LLC</strong><br>     <strong>GREEN BIRD</strong><br>     Facility Type: MMJ Transporter- NP<br>     6757 East Exposition Avenue<br>     Denver, CO 80224     </div>`)[0];
+                popup_cc564bf526e566dc7a616e8c165efce5.setContent(html_49a4f845d3d16296b356f237fac14266);
+            
+        
+
+        marker_cde0646bbd116ebcf178e223f7e6baca.bindPopup(popup_cc564bf526e566dc7a616e8c165efce5)
+        ;
+
+        
+    
+    
+            var marker_bd296629af944c53cc69895557270c79 = L.marker(
+                [39.6922509, -104.9909014],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_3ed3d49b3ff144bf0a0149069f5e575e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd296629af944c53cc69895557270c79.setIcon(icon_3ed3d49b3ff144bf0a0149069f5e575e);
+        
+    
+        var popup_f29ae77f96a93a09d313a492d43b3d2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75701a1b828ef2a3af7150c7545893ac = $(`<div id="html_75701a1b828ef2a3af7150c7545893ac" style="width: 100.0%; height: 100.0%;">     <strong>INDYSPENSABLE WHOLESALE DISTRIBUTORS CORP</strong><br>     <strong>IDY Distributors</strong><br>     Facility Type: MMJ Transporter<br>     1332 South Cherokee Street <br>     Denver, CO 80223     </div>`)[0];
+                popup_f29ae77f96a93a09d313a492d43b3d2e.setContent(html_75701a1b828ef2a3af7150c7545893ac);
+            
+        
+
+        marker_bd296629af944c53cc69895557270c79.bindPopup(popup_f29ae77f96a93a09d313a492d43b3d2e)
+        ;
+
+        
+    
+    
+            var marker_c3686b3f942eb43cbaaa41f5d2e1060e = L.marker(
+                [39.7770107, -104.9638101],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_c2f4e4d826227e2a3d3ef8195438d708 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3686b3f942eb43cbaaa41f5d2e1060e.setIcon(icon_c2f4e4d826227e2a3d3ef8195438d708);
+        
+    
+        var popup_b2491339ea04a63c2fb592834e779ceb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b6b82fb2d925eb77e6b1f127f36a2ba = $(`<div id="html_1b6b82fb2d925eb77e6b1f127f36a2ba" style="width: 100.0%; height: 100.0%;">     <strong>SPECIALTY TRANSPORT SERVICES LLC</strong><br>     <strong>Cannabis Transport Services</strong><br>     Facility Type: MMJ Transporter<br>     4335 Race Street, Suite 100 & 101<br>     Denver, CO 80216     </div>`)[0];
+                popup_b2491339ea04a63c2fb592834e779ceb.setContent(html_1b6b82fb2d925eb77e6b1f127f36a2ba);
+            
+        
+
+        marker_c3686b3f942eb43cbaaa41f5d2e1060e.bindPopup(popup_b2491339ea04a63c2fb592834e779ceb)
+        ;
+
+        
+    
+    
+            var marker_d1d183ab954bbf0f1185afe2fcbd0b87 = L.marker(
+                [39.734011, -104.987338],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_d9a51a6ac466406f9a35bca9a63c86cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1d183ab954bbf0f1185afe2fcbd0b87.setIcon(icon_d9a51a6ac466406f9a35bca9a63c86cf);
+        
+    
+        var popup_83847afca1bfa291157ecefeb2f14201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1de02405061a1f70fc658d5f97e7c329 = $(`<div id="html_1de02405061a1f70fc658d5f97e7c329" style="width: 100.0%; height: 100.0%;">     <strong>BLAZE TO GO DELIVERY SERVICE LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Transporter- NP<br>     1111 North Broadway Street  Unit 303<br>     Denver, CO 80203     </div>`)[0];
+                popup_83847afca1bfa291157ecefeb2f14201.setContent(html_1de02405061a1f70fc658d5f97e7c329);
+            
+        
+
+        marker_d1d183ab954bbf0f1185afe2fcbd0b87.bindPopup(popup_83847afca1bfa291157ecefeb2f14201)
+        ;
+
+        
+    
+    
+            var marker_5be52735f1e2a3b1728a124a271aa921 = L.marker(
+                [39.6797315, -105.0508268],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_9d6eeb1c87ff03f0c52b770b5852f8cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5be52735f1e2a3b1728a124a271aa921.setIcon(icon_9d6eeb1c87ff03f0c52b770b5852f8cd);
+        
+    
+        var popup_5f757452920a126462401fb6cd6fe130 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e7abb0853eb3afcf5dd844d8e7118d6 = $(`<div id="html_0e7abb0853eb3afcf5dd844d8e7118d6" style="width: 100.0%; height: 100.0%;">     <strong>ELEVATION DELIVERY LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Transporter- NP<br>     2076 South Yates Street <br>     Denver , CO 80219     </div>`)[0];
+                popup_5f757452920a126462401fb6cd6fe130.setContent(html_0e7abb0853eb3afcf5dd844d8e7118d6);
+            
+        
+
+        marker_5be52735f1e2a3b1728a124a271aa921.bindPopup(popup_5f757452920a126462401fb6cd6fe130)
+        ;
+
+        
+    
+    
+            var marker_6ae8e9ee60071f4f141bc1fbdfd84f57 = L.marker(
+                [39.6953391, -105.0002192],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_868abf606c8807b5f02fef298f77072a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ae8e9ee60071f4f141bc1fbdfd84f57.setIcon(icon_868abf606c8807b5f02fef298f77072a);
+        
+    
+        var popup_176093a968b91b7ba3783132df446aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e7c90c552cbcdea20af7dade8c84f69 = $(`<div id="html_7e7c90c552cbcdea20af7dade8c84f69" style="width: 100.0%; height: 100.0%;">     <strong>GO HARVEST LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Transporter- NP<br>     1178 South Kalamath Street <br>     Denver, CO 80223     </div>`)[0];
+                popup_176093a968b91b7ba3783132df446aaf.setContent(html_7e7c90c552cbcdea20af7dade8c84f69);
+            
+        
+
+        marker_6ae8e9ee60071f4f141bc1fbdfd84f57.bindPopup(popup_176093a968b91b7ba3783132df446aaf)
+        ;
+
+        
+    
+    
+            var marker_5c296dd092c61666729de790ad267439 = L.marker(
+                [39.6769774, -104.9993532],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_09ea57995359da65ac660c8bcaa0cea7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c296dd092c61666729de790ad267439.setIcon(icon_09ea57995359da65ac660c8bcaa0cea7);
+        
+    
+        var popup_80ed435cde617f75c3932ff44f3d0b4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f4c5f4d994dbe3f563a8b502f2a4ed5 = $(`<div id="html_1f4c5f4d994dbe3f563a8b502f2a4ed5" style="width: 100.0%; height: 100.0%;">     <strong>GPS TRANSPORTATION LLC</strong><br>     <strong>Green Parcel Service</strong><br>     Facility Type: RMJ Transporter<br>     2186 South Jason Street<br>     Denver, CO 80223     </div>`)[0];
+                popup_80ed435cde617f75c3932ff44f3d0b4d.setContent(html_1f4c5f4d994dbe3f563a8b502f2a4ed5);
+            
+        
+
+        marker_5c296dd092c61666729de790ad267439.bindPopup(popup_80ed435cde617f75c3932ff44f3d0b4d)
+        ;
+
+        
+    
+    
+            var marker_52060471a471f58dbf23f434c8ce6167 = L.marker(
+                [39.7919821, -104.7752234],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_f6c75bf01f8b897e6cd008f455f57057 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52060471a471f58dbf23f434c8ce6167.setIcon(icon_f6c75bf01f8b897e6cd008f455f57057);
+        
+    
+        var popup_9695127be9b6b39934312f2fa2b1c479 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bb8d6ad04934da98ae6a3a8a33782f2 = $(`<div id="html_4bb8d6ad04934da98ae6a3a8a33782f2" style="width: 100.0%; height: 100.0%;">     <strong>HIGH POINT LTD</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Transporter- NP<br>     18275 East 52nd Place<br>     Denver, CO 80249     </div>`)[0];
+                popup_9695127be9b6b39934312f2fa2b1c479.setContent(html_4bb8d6ad04934da98ae6a3a8a33782f2);
+            
+        
+
+        marker_52060471a471f58dbf23f434c8ce6167.bindPopup(popup_9695127be9b6b39934312f2fa2b1c479)
+        ;
+
+        
+    
+    
+            var marker_a2239eae4381f631724cf9fe1f121138 = L.marker(
+                [39.6922509, -104.9909014],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_6f34a3a74b5046a288e25df11201ad3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2239eae4381f631724cf9fe1f121138.setIcon(icon_6f34a3a74b5046a288e25df11201ad3a);
+        
+    
+        var popup_52a906dbd81f84e47cf9806977626497 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a5e4491a52a243049babce398136251 = $(`<div id="html_5a5e4491a52a243049babce398136251" style="width: 100.0%; height: 100.0%;">     <strong>INDYSPENSABLE WHOLESALE DISTRIBUTORS CORP</strong><br>     <strong>IDY Distributors</strong><br>     Facility Type: RMJ Transporter<br>     1332 South Cherokee Street <br>     Denver, CO 80223     </div>`)[0];
+                popup_52a906dbd81f84e47cf9806977626497.setContent(html_5a5e4491a52a243049babce398136251);
+            
+        
+
+        marker_a2239eae4381f631724cf9fe1f121138.bindPopup(popup_52a906dbd81f84e47cf9806977626497)
+        ;
+
+        
+    
+    
+            var marker_2a36e364d5ee7bfd71baf24415cc8126 = L.marker(
+                [39.776908, -104.963554],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_26cf9a3e639da8b539e94e9eac47256a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2a36e364d5ee7bfd71baf24415cc8126.setIcon(icon_26cf9a3e639da8b539e94e9eac47256a);
+        
+    
+        var popup_cee87711faadd7b45c92e6df4ab05aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84131f0dae8a3811b45f9702663307b5 = $(`<div id="html_84131f0dae8a3811b45f9702663307b5" style="width: 100.0%; height: 100.0%;">     <strong>SPECIALTY TRANSPORT SERVICES LLC</strong><br>     <strong>Cannabis Transport Services</strong><br>     Facility Type: RMJ Transporter<br>     4335 Race Street, Suites 100 & 101<br>     Denver, CO 80216     </div>`)[0];
+                popup_cee87711faadd7b45c92e6df4ab05aa4.setContent(html_84131f0dae8a3811b45f9702663307b5);
+            
+        
+
+        marker_2a36e364d5ee7bfd71baf24415cc8126.bindPopup(popup_cee87711faadd7b45c92e6df4ab05aa4)
+        ;
+
+        
+    
+    
+            var marker_cb0860c40eb21f7e084d4f71d47e7d55 = L.marker(
+                [39.7560435, -104.8731603],
+                {}
+            ).addTo(map_8321a573c9882959c6ccccab726e4c7c);
+        
+    
+            var icon_ca92d5d64a081f22af789b48675bb9d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb0860c40eb21f7e084d4f71d47e7d55.setIcon(icon_ca92d5d64a081f22af789b48675bb9d6);
+        
+    
+        var popup_dc4b1833d126c54a83455f35c317aa49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_987cee6ec1b759835b1044faf31cc2e9 = $(`<div id="html_987cee6ec1b759835b1044faf31cc2e9" style="width: 100.0%; height: 100.0%;">     <strong>SPEEDY TRANSPORTER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Transporter- NP<br>     9856 East 27th Drive<br>     Denver, CO 80238     </div>`)[0];
+                popup_dc4b1833d126c54a83455f35c317aa49.setContent(html_987cee6ec1b759835b1044faf31cc2e9);
+            
+        
+
+        marker_cb0860c40eb21f7e084d4f71d47e7d55.bindPopup(popup_dc4b1833d126c54a83455f35c317aa49)
+        ;
+
+        
+    
+</script>
+</html>

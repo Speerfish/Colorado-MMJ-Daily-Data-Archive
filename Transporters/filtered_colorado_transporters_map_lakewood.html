@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a1901da94b6884ec40e7cf04fb82c8a8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a1901da94b6884ec40e7cf04fb82c8a8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a1901da94b6884ec40e7cf04fb82c8a8 = L.map(
+                "map_a1901da94b6884ec40e7cf04fb82c8a8",
+                {
+                    center: [39.7109, -105.0815],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_646cd0aa092eb0862012245c5d530e1a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_646cd0aa092eb0862012245c5d530e1a.addTo(map_a1901da94b6884ec40e7cf04fb82c8a8);
+        
+    
+            var marker_dae1e603fe4e463ec94cd427d52e2f55 = L.marker(
+                [39.7413599, -105.106391],
+                {}
+            ).addTo(map_a1901da94b6884ec40e7cf04fb82c8a8);
+        
+    
+            var icon_9be21704cfa1b25e0b392b41826ef33b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dae1e603fe4e463ec94cd427d52e2f55.setIcon(icon_9be21704cfa1b25e0b392b41826ef33b);
+        
+    
+        var popup_907c4fea781ee6665f262d5c9bab0353 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35ea4ea8a2542790c57b621113fba05f = $(`<div id="html_35ea4ea8a2542790c57b621113fba05f" style="width: 100.0%; height: 100.0%;">     <strong>GOGI CANNABIS DELIVERY LLC</strong><br>     <strong>GOGI</strong><br>     Facility Type: MMJ Transporter<br>     1520 Iris Street<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_907c4fea781ee6665f262d5c9bab0353.setContent(html_35ea4ea8a2542790c57b621113fba05f);
+            
+        
+
+        marker_dae1e603fe4e463ec94cd427d52e2f55.bindPopup(popup_907c4fea781ee6665f262d5c9bab0353)
+        ;
+
+        
+    
+    
+            var marker_9a46c2d507a85d5192077a33c321928b = L.marker(
+                [39.7413599, -105.106391],
+                {}
+            ).addTo(map_a1901da94b6884ec40e7cf04fb82c8a8);
+        
+    
+            var icon_adf43252a06e8164fde2f19f927e8096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9a46c2d507a85d5192077a33c321928b.setIcon(icon_adf43252a06e8164fde2f19f927e8096);
+        
+    
+        var popup_b92bbdbd0a8642477eb6489980af347e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_672620458dc20e53820399451580cc9d = $(`<div id="html_672620458dc20e53820399451580cc9d" style="width: 100.0%; height: 100.0%;">     <strong>GOGI CANNABIS DELIVERY LLC</strong><br>     <strong>GOGI</strong><br>     Facility Type: RMJ Transporter<br>     1520 Iris Street<br>     Lakewood, CO 80215     </div>`)[0];
+                popup_b92bbdbd0a8642477eb6489980af347e.setContent(html_672620458dc20e53820399451580cc9d);
+            
+        
+
+        marker_9a46c2d507a85d5192077a33c321928b.bindPopup(popup_b92bbdbd0a8642477eb6489980af347e)
+        ;
+
+        
+    
+</script>
+</html>

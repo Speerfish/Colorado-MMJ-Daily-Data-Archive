@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_19c460f8de0e669c7763911b59929bb4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_19c460f8de0e669c7763911b59929bb4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_19c460f8de0e669c7763911b59929bb4 = L.map(
+                "map_19c460f8de0e669c7763911b59929bb4",
+                {
+                    center: [39.5501, -105.7821],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d20529c084cf591f605494849d2f273a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d20529c084cf591f605494849d2f273a.addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var marker_e41e2d7270d4094e732505d5dd003318 = L.marker(
+                [39.7289875, -104.9836073],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_17cd72711a8811bc1ea8e1f867e84d59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e41e2d7270d4094e732505d5dd003318.setIcon(icon_17cd72711a8811bc1ea8e1f867e84d59);
+        
+    
+        var popup_0e727c5e5d36192a57270ba048edeabd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_960fd5f1519abcde1abddfed403f6f15 = $(`<div id="html_960fd5f1519abcde1abddfed403f6f15" style="width: 100.0%; height: 100.0%;">     <strong>ALTERNATIVE MEDICINE ON THE MALL LLC</strong><br>     <strong>Native Roots Speer</strong><br>     Facility Type: MMJ Delivery Permit<br>     500 North Grant Street<br>     Denver, CO 80203     </div>`)[0];
+                popup_0e727c5e5d36192a57270ba048edeabd.setContent(html_960fd5f1519abcde1abddfed403f6f15);
+            
+        
+
+        marker_e41e2d7270d4094e732505d5dd003318.bindPopup(popup_0e727c5e5d36192a57270ba048edeabd)
+        ;
+
+        
+    
+    
+            var marker_f71d580a40624d3005d27672da5a6d99 = L.marker(
+                [39.6347356, -105.1059793],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_9b87346eb0adb935ea6b3c34f3ded03b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f71d580a40624d3005d27672da5a6d99.setIcon(icon_9b87346eb0adb935ea6b3c34f3ded03b);
+        
+    
+        var popup_7b4945823d6ead88a4b816180a93a2f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24a8c0f15c0da80002e646a75a17804b = $(`<div id="html_24a8c0f15c0da80002e646a75a17804b" style="width: 100.0%; height: 100.0%;">     <strong>GOGI CANNABIS DELIVERY LLC</strong><br>     <strong>Gogi</strong><br>     Facility Type: MMJ Delivery Permit<br>     1520 Iris Street<br>     Denver, CO 80215     </div>`)[0];
+                popup_7b4945823d6ead88a4b816180a93a2f8.setContent(html_24a8c0f15c0da80002e646a75a17804b);
+            
+        
+
+        marker_f71d580a40624d3005d27672da5a6d99.bindPopup(popup_7b4945823d6ead88a4b816180a93a2f8)
+        ;
+
+        
+    
+    
+            var marker_7ebcedc2a1d42a2d9a7ae2ff4dcc518f = L.marker(
+                [39.6547608, -104.8851018],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_e72626e338866a5c7edfaa26facd8263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ebcedc2a1d42a2d9a7ae2ff4dcc518f.setIcon(icon_e72626e338866a5c7edfaa26facd8263);
+        
+    
+        var popup_593f13760efb0b979245c9c28fd88df4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b699eb84a3c3757f21acfe866edc2f2c = $(`<div id="html_b699eb84a3c3757f21acfe866edc2f2c" style="width: 100.0%; height: 100.0%;">     <strong>LGK LLC</strong><br>     <strong>Strawberry Fields</strong><br>     Facility Type: MMJ Delivery Permit<br>     3435 South Yosemite Street, Suite 200<br>     Denver, CO 80231     </div>`)[0];
+                popup_593f13760efb0b979245c9c28fd88df4.setContent(html_b699eb84a3c3757f21acfe866edc2f2c);
+            
+        
+
+        marker_7ebcedc2a1d42a2d9a7ae2ff4dcc518f.bindPopup(popup_593f13760efb0b979245c9c28fd88df4)
+        ;
+
+        
+    
+    
+            var marker_a0f4681a89d55a26fecd023187165b7a = L.marker(
+                [39.6784042, -104.9682384],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_88727c0a0270fe15ae35fecfcd68c573 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0f4681a89d55a26fecd023187165b7a.setIcon(icon_88727c0a0270fe15ae35fecfcd68c573);
+        
+    
+        var popup_3714693d38d64a7e421d0e39747c84a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adda2110c5bb174a4fea29e16dd6d594 = $(`<div id="html_adda2110c5bb174a4fea29e16dd6d594" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: MMJ Delivery Permit<br>     1640 East Evans Avenue<br>     Denver, CO 80210     </div>`)[0];
+                popup_3714693d38d64a7e421d0e39747c84a0.setContent(html_adda2110c5bb174a4fea29e16dd6d594);
+            
+        
+
+        marker_a0f4681a89d55a26fecd023187165b7a.bindPopup(popup_3714693d38d64a7e421d0e39747c84a0)
+        ;
+
+        
+    
+    
+            var marker_98a81426ce96af4fd96f5ed95a40ab6f = L.marker(
+                [39.7289875, -104.9836073],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_f9cb61cd44f126f11c33a824c1e9b162 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98a81426ce96af4fd96f5ed95a40ab6f.setIcon(icon_f9cb61cd44f126f11c33a824c1e9b162);
+        
+    
+        var popup_a9e8777cb37599f2307c0345157d22f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4e7166dc7c06e7eb92ba317837b0db9 = $(`<div id="html_e4e7166dc7c06e7eb92ba317837b0db9" style="width: 100.0%; height: 100.0%;">     <strong>ALTERNATIVE MEDICINE ON THE MALL LLC</strong><br>     <strong>Native Roots Speer</strong><br>     Facility Type: RMJ Delivery Permit<br>     500 North Grant Street<br>     Denver, CO 80203     </div>`)[0];
+                popup_a9e8777cb37599f2307c0345157d22f7.setContent(html_e4e7166dc7c06e7eb92ba317837b0db9);
+            
+        
+
+        marker_98a81426ce96af4fd96f5ed95a40ab6f.bindPopup(popup_a9e8777cb37599f2307c0345157d22f7)
+        ;
+
+        
+    
+    
+            var marker_df2b82647a670368058c8cb704d1a004 = L.marker(
+                [39.734011, -104.987338],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_c6ff93d766abe0640862bdc6b2bcffd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df2b82647a670368058c8cb704d1a004.setIcon(icon_c6ff93d766abe0640862bdc6b2bcffd6);
+        
+    
+        var popup_5acfd6a2159f3e38eea407135cd0d25f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4590d445891dcd73f2db9e078049c025 = $(`<div id="html_4590d445891dcd73f2db9e078049c025" style="width: 100.0%; height: 100.0%;">     <strong>BLAZE TO GO DELIVERY SERVICE LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     1111 North Broadway Street  Unit 303<br>     Denver, CO 80203     </div>`)[0];
+                popup_5acfd6a2159f3e38eea407135cd0d25f.setContent(html_4590d445891dcd73f2db9e078049c025);
+            
+        
+
+        marker_df2b82647a670368058c8cb704d1a004.bindPopup(popup_5acfd6a2159f3e38eea407135cd0d25f)
+        ;
+
+        
+    
+    
+            var marker_b02bfa477923d37a0d6f09ff642eee12 = L.marker(
+                [39.713346, -105.025007],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_d6249e4a117ea5990b5b6a0b2d3f3e8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b02bfa477923d37a0d6f09ff642eee12.setIcon(icon_d6249e4a117ea5990b5b6a0b2d3f3e8d);
+        
+    
+        var popup_626c96fa15d259da8277806ead36e11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_705b36f06ecbb5bc89caa01bcf4279e8 = $(`<div id="html_705b36f06ecbb5bc89caa01bcf4279e8" style="width: 100.0%; height: 100.0%;">     <strong>CANNABIS DEPOT DENVER NF LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     155 North Federal Boulevard<br>     Denver, CO 80219     </div>`)[0];
+                popup_626c96fa15d259da8277806ead36e11c.setContent(html_705b36f06ecbb5bc89caa01bcf4279e8);
+            
+        
+
+        marker_b02bfa477923d37a0d6f09ff642eee12.bindPopup(popup_626c96fa15d259da8277806ead36e11c)
+        ;
+
+        
+    
+    
+            var marker_c49841696c12e1a87fc40d0c9f54f4bc = L.marker(
+                [39.7543271, -104.9790339],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_09f226d979aef8cfdab64be3b3e0f5fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c49841696c12e1a87fc40d0c9f54f4bc.setIcon(icon_09f226d979aef8cfdab64be3b3e0f5fa);
+        
+    
+        var popup_6aa86fe348e23e65b2a69b540db9ba75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb809a133890aeb5cfc4a6eb2360f2a8 = $(`<div id="html_bb809a133890aeb5cfc4a6eb2360f2a8" style="width: 100.0%; height: 100.0%;">     <strong>DKC LLC</strong><br>     <strong>Denver Kush Club</strong><br>     Facility Type: RMJ Delivery Permit<br>     2615 Welton Street<br>     Denver, CO 80205     </div>`)[0];
+                popup_6aa86fe348e23e65b2a69b540db9ba75.setContent(html_bb809a133890aeb5cfc4a6eb2360f2a8);
+            
+        
+
+        marker_c49841696c12e1a87fc40d0c9f54f4bc.bindPopup(popup_6aa86fe348e23e65b2a69b540db9ba75)
+        ;
+
+        
+    
+    
+            var marker_7aa7c4b66dc18c6f248f064b9d929c21 = L.marker(
+                [39.740064, -104.9148789],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_b7ddf214cad13ff5849708d8b20523a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7aa7c4b66dc18c6f248f064b9d929c21.setIcon(icon_b7ddf214cad13ff5849708d8b20523a2);
+        
+    
+        var popup_49695aef26478db316b82242de3eaa03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f426004659a7253cd5c075c4a3a6c6 = $(`<div id="html_70f426004659a7253cd5c075c4a3a6c6" style="width: 100.0%; height: 100.0%;">     <strong>DOPE APOTHEOSIS INC</strong><br>     <strong>Police and Thieves</strong><br>     Facility Type: RMJ Delivery Permit<br>     6302 East Colfax Avenue<br>     Denver, CO 80220     </div>`)[0];
+                popup_49695aef26478db316b82242de3eaa03.setContent(html_70f426004659a7253cd5c075c4a3a6c6);
+            
+        
+
+        marker_7aa7c4b66dc18c6f248f064b9d929c21.bindPopup(popup_49695aef26478db316b82242de3eaa03)
+        ;
+
+        
+    
+    
+            var marker_279011d6c7300d1739fa4f2599adeb02 = L.marker(
+                [39.6792918, -104.9879816],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_48d497990347d403baf4cf6ba9263a3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_279011d6c7300d1739fa4f2599adeb02.setIcon(icon_48d497990347d403baf4cf6ba9263a3a);
+        
+    
+        var popup_6e61992bc7f4eb59ee45e018d8e38d40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83adfc3dd5060d6e55a8b13e43642608 = $(`<div id="html_83adfc3dd5060d6e55a8b13e43642608" style="width: 100.0%; height: 100.0%;">     <strong>E2T2 LLC</strong><br>     <strong>Cookies Broadway</strong><br>     Facility Type: RMJ Delivery Permit<br>     2057 South Broadway<br>     Denver, CO 80210     </div>`)[0];
+                popup_6e61992bc7f4eb59ee45e018d8e38d40.setContent(html_83adfc3dd5060d6e55a8b13e43642608);
+            
+        
+
+        marker_279011d6c7300d1739fa4f2599adeb02.bindPopup(popup_6e61992bc7f4eb59ee45e018d8e38d40)
+        ;
+
+        
+    
+    
+            var marker_c64d294473cdf4b7f34166b1c93c7339 = L.marker(
+                [39.6797315, -105.0508268],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_3ef49c4d464873a3df77892f824ff04c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c64d294473cdf4b7f34166b1c93c7339.setIcon(icon_3ef49c4d464873a3df77892f824ff04c);
+        
+    
+        var popup_f2139dde5dfc89760201d41d8a25ac57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7f35423a98d092ade2ceb7ca45caad7 = $(`<div id="html_a7f35423a98d092ade2ceb7ca45caad7" style="width: 100.0%; height: 100.0%;">     <strong>ELEVATION DELIVERY LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     2076 South Yates Street<br>     Denver, CO 80219     </div>`)[0];
+                popup_f2139dde5dfc89760201d41d8a25ac57.setContent(html_a7f35423a98d092ade2ceb7ca45caad7);
+            
+        
+
+        marker_c64d294473cdf4b7f34166b1c93c7339.bindPopup(popup_f2139dde5dfc89760201d41d8a25ac57)
+        ;
+
+        
+    
+    
+            var marker_f98b27bc6fadf24499a2242740649675 = L.marker(
+                [39.7786574, -104.9787511],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_c73990bd00017e07aa96109128eaa60a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f98b27bc6fadf24499a2242740649675.setIcon(icon_c73990bd00017e07aa96109128eaa60a);
+        
+    
+        var popup_756279bebd9f3729c7f366fe99faeedb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_124434e16eac4a81b06cc0467dd23a40 = $(`<div id="html_124434e16eac4a81b06cc0467dd23a40" style="width: 100.0%; height: 100.0%;">     <strong>GAS AND GRASS LLC</strong><br>     <strong>LEMONADE</strong><br>     Facility Type: RMJ Delivery Permit<br>     4500 Washington Street Unit B<br>     Denver, CO 80216     </div>`)[0];
+                popup_756279bebd9f3729c7f366fe99faeedb.setContent(html_124434e16eac4a81b06cc0467dd23a40);
+            
+        
+
+        marker_f98b27bc6fadf24499a2242740649675.bindPopup(popup_756279bebd9f3729c7f366fe99faeedb)
+        ;
+
+        
+    
+    
+            var marker_2d3bc29c5f52082f3551fc011e6ba679 = L.marker(
+                [39.6953391, -105.0002192],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_8b7040602e706d8e68f70dba71afa956 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2d3bc29c5f52082f3551fc011e6ba679.setIcon(icon_8b7040602e706d8e68f70dba71afa956);
+        
+    
+        var popup_bb1ab1c18da79d469defc60f7e92081e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aa0e87a3423ea7b7ea3af9e26fe9f33 = $(`<div id="html_4aa0e87a3423ea7b7ea3af9e26fe9f33" style="width: 100.0%; height: 100.0%;">     <strong>GO HARVEST LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     1178 South Kalamath Street <br>     Denver, CO 80223     </div>`)[0];
+                popup_bb1ab1c18da79d469defc60f7e92081e.setContent(html_4aa0e87a3423ea7b7ea3af9e26fe9f33);
+            
+        
+
+        marker_2d3bc29c5f52082f3551fc011e6ba679.bindPopup(popup_bb1ab1c18da79d469defc60f7e92081e)
+        ;
+
+        
+    
+    
+            var marker_a8fda61d6cf608ab032d175aeaddc54e = L.marker(
+                [39.6969625, -104.9036264],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_9abd0f9fd4d9608e59df2975a4f52b6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8fda61d6cf608ab032d175aeaddc54e.setIcon(icon_9abd0f9fd4d9608e59df2975a4f52b6c);
+        
+    
+        var popup_5b580dc36c6ee4905e30871691b945c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b7b7ea2b99ce9d7ff12b4bb9401c441 = $(`<div id="html_7b7b7ea2b99ce9d7ff12b4bb9401c441" style="width: 100.0%; height: 100.0%;">     <strong>GREEN REMEDY LLC</strong><br>     <strong>Green Remedy</strong><br>     Facility Type: RMJ Delivery Permit<br>     1052 South Quebec Street <br>     Denver, CO 80231     </div>`)[0];
+                popup_5b580dc36c6ee4905e30871691b945c4.setContent(html_7b7b7ea2b99ce9d7ff12b4bb9401c441);
+            
+        
+
+        marker_a8fda61d6cf608ab032d175aeaddc54e.bindPopup(popup_5b580dc36c6ee4905e30871691b945c4)
+        ;
+
+        
+    
+    
+            var marker_429ce31e707b3b2afb60fa1560f2dfea = L.marker(
+                [39.6953391, -105.0002192],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_501a5ef2c82d85f9ce720ca43581720f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_429ce31e707b3b2afb60fa1560f2dfea.setIcon(icon_501a5ef2c82d85f9ce720ca43581720f);
+        
+    
+        var popup_179e4d2b66b51db4bdd26fcf4acab4ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6417779baa512f15c0ae38dee7551424 = $(`<div id="html_6417779baa512f15c0ae38dee7551424" style="width: 100.0%; height: 100.0%;">     <strong>HIGH COUNTRY SUPPLY LLC</strong><br>     <strong>Colorado Harvest Company</strong><br>     Facility Type: RMJ Delivery Permit<br>     1178 South Kalamath Street<br>     Denver, CO 80223     </div>`)[0];
+                popup_179e4d2b66b51db4bdd26fcf4acab4ea.setContent(html_6417779baa512f15c0ae38dee7551424);
+            
+        
+
+        marker_429ce31e707b3b2afb60fa1560f2dfea.bindPopup(popup_179e4d2b66b51db4bdd26fcf4acab4ea)
+        ;
+
+        
+    
+    
+            var marker_01651fa0f52fce90b2889aff4b758bf9 = L.marker(
+                [39.7919821, -104.7752234],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_6923acc3604e0b7977e7c34992ddd10d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_01651fa0f52fce90b2889aff4b758bf9.setIcon(icon_6923acc3604e0b7977e7c34992ddd10d);
+        
+    
+        var popup_15830bdc7f0bf8e7349d5526c6be4dbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4864ae0f80a32805bef1396a0866a02 = $(`<div id="html_b4864ae0f80a32805bef1396a0866a02" style="width: 100.0%; height: 100.0%;">     <strong>HIGH POINT LTD</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     18275 East 52nd Place<br>     Denver, CO 80249     </div>`)[0];
+                popup_15830bdc7f0bf8e7349d5526c6be4dbd.setContent(html_b4864ae0f80a32805bef1396a0866a02);
+            
+        
+
+        marker_01651fa0f52fce90b2889aff4b758bf9.bindPopup(popup_15830bdc7f0bf8e7349d5526c6be4dbd)
+        ;
+
+        
+    
+    
+            var marker_75face0f00b8df16d7d927cf82326e59 = L.marker(
+                [39.707569, -105.007424],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_f72499daa867700a30a2a7f0296216e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75face0f00b8df16d7d927cf82326e59.setIcon(icon_f72499daa867700a30a2a7f0296216e0);
+        
+    
+        var popup_15fad61b15fc73b517a23939132b3477 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ab5c4278a9561ee99300c3ce9bc625d = $(`<div id="html_7ab5c4278a9561ee99300c3ce9bc625d" style="width: 100.0%; height: 100.0%;">     <strong>L'EAGLE SERVICES LLC  </strong><br>     <strong>L'Eagle</strong><br>     Facility Type: RMJ Delivery Permit<br>     380 North Quivas Street<br>     Denver, CO 80223     </div>`)[0];
+                popup_15fad61b15fc73b517a23939132b3477.setContent(html_7ab5c4278a9561ee99300c3ce9bc625d);
+            
+        
+
+        marker_75face0f00b8df16d7d927cf82326e59.bindPopup(popup_15fad61b15fc73b517a23939132b3477)
+        ;
+
+        
+    
+    
+            var marker_b6a2c1c80fe89232051e7592092aa8cf = L.marker(
+                [39.745699, -105.025286],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_e325a7e69eea38d83fd3ea8d867acfb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b6a2c1c80fe89232051e7592092aa8cf.setIcon(icon_e325a7e69eea38d83fd3ea8d867acfb9);
+        
+    
+        var popup_f6273b699a8b00d70414da1ed8075bbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1f735381b9b75066c22b8da5f383a91 = $(`<div id="html_c1f735381b9b75066c22b8da5f383a91" style="width: 100.0%; height: 100.0%;">     <strong>L3ASTOCKCOMPLEX LLC </strong><br>     <strong>JARS Cannabis </strong><br>     Facility Type: RMJ Delivery Permit<br>     1845 North Federal Boulevard Suite 120<br>     Denver, CO 80204     </div>`)[0];
+                popup_f6273b699a8b00d70414da1ed8075bbb.setContent(html_c1f735381b9b75066c22b8da5f383a91);
+            
+        
+
+        marker_b6a2c1c80fe89232051e7592092aa8cf.bindPopup(popup_f6273b699a8b00d70414da1ed8075bbb)
+        ;
+
+        
+    
+    
+            var marker_03bb7a10f71e272ebb6264d8c9920185 = L.marker(
+                [39.6547608, -104.8851018],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_2b80e78dd9cfd31fe7e3bb20ee3973c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_03bb7a10f71e272ebb6264d8c9920185.setIcon(icon_2b80e78dd9cfd31fe7e3bb20ee3973c1);
+        
+    
+        var popup_d2b3286f422946a54c960c1a2de65d52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c95343ab812049c752a3e5c150ae8d53 = $(`<div id="html_c95343ab812049c752a3e5c150ae8d53" style="width: 100.0%; height: 100.0%;">     <strong>LGK LLC</strong><br>     <strong>Strawberry Fields</strong><br>     Facility Type: RMJ Delivery Permit<br>     3435 South Yosemite Street, Suite 200<br>     Denver, CO 80231     </div>`)[0];
+                popup_d2b3286f422946a54c960c1a2de65d52.setContent(html_c95343ab812049c752a3e5c150ae8d53);
+            
+        
+
+        marker_03bb7a10f71e272ebb6264d8c9920185.bindPopup(popup_d2b3286f422946a54c960c1a2de65d52)
+        ;
+
+        
+    
+    
+            var marker_d80167bc01d6d1249c5b06a8acffaab2 = L.marker(
+                [39.711477, -105.0246068],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_a6b9c26cc434863df2400bcce98ecdb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d80167bc01d6d1249c5b06a8acffaab2.setIcon(icon_a6b9c26cc434863df2400bcce98ecdb5);
+        
+    
+        var popup_70218ed306b26a77cc899d5ae7c879d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00338deddd3013129de312ed1a96feca = $(`<div id="html_00338deddd3013129de312ed1a96feca" style="width: 100.0%; height: 100.0%;">     <strong>ROYAL ASSET MANAGEMENT LLC</strong><br>     <strong>Frost Exotic Cannabis</strong><br>     Facility Type: RMJ Delivery Permit<br>     2949 West Alameda Avenue<br>     Denver, CO 80219     </div>`)[0];
+                popup_70218ed306b26a77cc899d5ae7c879d1.setContent(html_00338deddd3013129de312ed1a96feca);
+            
+        
+
+        marker_d80167bc01d6d1249c5b06a8acffaab2.bindPopup(popup_70218ed306b26a77cc899d5ae7c879d1)
+        ;
+
+        
+    
+    
+            var marker_6fcac96e99b7ef5263cfe39c915b68df = L.marker(
+                [39.6784042, -104.9682384],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_ad155a081bde8768818b647c8c0784e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6fcac96e99b7ef5263cfe39c915b68df.setIcon(icon_ad155a081bde8768818b647c8c0784e3);
+        
+    
+        var popup_aea2945b2cd5bd8135117e2f351cbad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774938f6c0edd389a1d1dfe11a20cba5 = $(`<div id="html_774938f6c0edd389a1d1dfe11a20cba5" style="width: 100.0%; height: 100.0%;">     <strong>SBUD LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: RMJ Delivery Permit<br>     1640 East Evans Avenue<br>     Denver, CO 80210     </div>`)[0];
+                popup_aea2945b2cd5bd8135117e2f351cbad4.setContent(html_774938f6c0edd389a1d1dfe11a20cba5);
+            
+        
+
+        marker_6fcac96e99b7ef5263cfe39c915b68df.bindPopup(popup_aea2945b2cd5bd8135117e2f351cbad4)
+        ;
+
+        
+    
+    
+            var marker_12b27198e0d8e402b8b446c3cc96eb45 = L.marker(
+                [39.7618722, -105.0113943],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_5976e0253842a948205d863bab3dbcd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12b27198e0d8e402b8b446c3cc96eb45.setIcon(icon_5976e0253842a948205d863bab3dbcd8);
+        
+    
+        var popup_e6c9d6053552a4130bbba50d31dfc168 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b7551c05f6f2a82ff43d443ddb50dc = $(`<div id="html_69b7551c05f6f2a82ff43d443ddb50dc" style="width: 100.0%; height: 100.0%;">     <strong>SIMPLY PURE COLORADO LLC</strong><br>     <strong>Simply Pure</strong><br>     Facility Type: RMJ Delivery Permit<br>     2000 West 32nd Avenue<br>     Denver, CO 80211     </div>`)[0];
+                popup_e6c9d6053552a4130bbba50d31dfc168.setContent(html_69b7551c05f6f2a82ff43d443ddb50dc);
+            
+        
+
+        marker_12b27198e0d8e402b8b446c3cc96eb45.bindPopup(popup_e6c9d6053552a4130bbba50d31dfc168)
+        ;
+
+        
+    
+    
+            var marker_a044c6bec713afb1ba500b88f3304269 = L.marker(
+                [39.7560435, -104.8731603],
+                {}
+            ).addTo(map_19c460f8de0e669c7763911b59929bb4);
+        
+    
+            var icon_bd4a3f8f89bf3ec1845030304ea78371 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a044c6bec713afb1ba500b88f3304269.setIcon(icon_bd4a3f8f89bf3ec1845030304ea78371);
+        
+    
+        var popup_77c94d78b6edc5a887b30bb232ebe044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cf829d0446e3d4d2531d8b9997faf81 = $(`<div id="html_7cf829d0446e3d4d2531d8b9997faf81" style="width: 100.0%; height: 100.0%;">     <strong>SPEEDY TRANSPORTER LLC</strong><br>     <strong>nan</strong><br>     Facility Type: RMJ Delivery Permit<br>     9856 East 27th Drive<br>     Denver, CO 80238     </div>`)[0];
+                popup_77c94d78b6edc5a887b30bb232ebe044.setContent(html_7cf829d0446e3d4d2531d8b9997faf81);
+            
+        
+
+        marker_a044c6bec713afb1ba500b88f3304269.bindPopup(popup_77c94d78b6edc5a887b30bb232ebe044)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4de8f368c4d3801bd81a611b7ce3daaa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4de8f368c4d3801bd81a611b7ce3daaa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4de8f368c4d3801bd81a611b7ce3daaa = L.map(
+                "map_4de8f368c4d3801bd81a611b7ce3daaa",
+                {
+                    center: [38.8591, -104.8135],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8915221146a8329674c9e8d8a539403 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d8915221146a8329674c9e8d8a539403.addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var marker_3a2d2cfa626560e32ac3895de7f34c25 = L.marker(
+                [38.863467, -104.720079],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_4272baedf459930da5d84e274a7ab30d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a2d2cfa626560e32ac3895de7f34c25.setIcon(icon_4272baedf459930da5d84e274a7ab30d);
+        
+    
+        var popup_bc45cbd784bcacfa011f45f59e4ea1c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ecb32bd4ecf191c969e30524a067495 = $(`<div id="html_8ecb32bd4ecf191c969e30524a067495" style="width: 100.0%; height: 100.0%;">     <strong>2306 N POWERS LLC</strong><br>     <strong>Hightops</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2306 North Powers Frontage Road, Suite 100<br>     Colorado Springs, CO 80915     </div>`)[0];
+                popup_bc45cbd784bcacfa011f45f59e4ea1c6.setContent(html_8ecb32bd4ecf191c969e30524a067495);
+            
+        
+
+        marker_3a2d2cfa626560e32ac3895de7f34c25.bindPopup(popup_bc45cbd784bcacfa011f45f59e4ea1c6)
+        ;
+
+        
+    
+    
+            var marker_8e1a26f76d47e39bfd5656359afbb093 = L.marker(
+                [38.8534388, -104.7777338],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_c7b1a9720582000ddf10562cad779f99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e1a26f76d47e39bfd5656359afbb093.setIcon(icon_c7b1a9720582000ddf10562cad779f99);
+        
+    
+        var popup_8303fac28adc63bf559b3c023a698fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f4ee95c29a73da34c70ae4a2d9a926a = $(`<div id="html_2f4ee95c29a73da34c70ae4a2d9a926a" style="width: 100.0%; height: 100.0%;">     <strong>ADAMS GREEN CROSSING LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2727 Palmer Park Boulevard, Suite A<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_8303fac28adc63bf559b3c023a698fa2.setContent(html_2f4ee95c29a73da34c70ae4a2d9a926a);
+            
+        
+
+        marker_8e1a26f76d47e39bfd5656359afbb093.bindPopup(popup_8303fac28adc63bf559b3c023a698fa2)
+        ;
+
+        
+    
+    
+            var marker_cbb2f6e45427533338525a53d6cce78d = L.marker(
+                [38.7951601, -104.77684],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_d80255e184cce1efb583c28e964209a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cbb2f6e45427533338525a53d6cce78d.setIcon(icon_d80255e184cce1efb583c28e964209a0);
+        
+    
+        var popup_fcc46c2449d750ce6256ee122591c8f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883b211816c74930f41f8a2d69282a7e = $(`<div id="html_883b211816c74930f41f8a2d69282a7e" style="width: 100.0%; height: 100.0%;">     <strong>AF INC</strong><br>     <strong>Apothecary Extracts</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3049 Delta Drive<br>     Colorado Springs, CO 80910     </div>`)[0];
+                popup_fcc46c2449d750ce6256ee122591c8f9.setContent(html_883b211816c74930f41f8a2d69282a7e);
+            
+        
+
+        marker_cbb2f6e45427533338525a53d6cce78d.bindPopup(popup_fcc46c2449d750ce6256ee122591c8f9)
+        ;
+
+        
+    
+    
+            var marker_a0841c8bce015997daeda5e4e8eccc35 = L.marker(
+                [38.8723557, -104.8125986],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_b92704f35527c278a2b7ee9a4f3910a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0841c8bce015997daeda5e4e8eccc35.setIcon(icon_b92704f35527c278a2b7ee9a4f3910a7);
+        
+    
+        var popup_bf2511deee7448af40f6a122eb728ed3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6d92812ddc2110261f8113bac5ef218 = $(`<div id="html_d6d92812ddc2110261f8113bac5ef218" style="width: 100.0%; height: 100.0%;">     <strong>BIG MOUNTAIN ORGANICS LLC</strong><br>     <strong>Floraco</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2901 North El Paso Street<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_bf2511deee7448af40f6a122eb728ed3.setContent(html_d6d92812ddc2110261f8113bac5ef218);
+            
+        
+
+        marker_a0841c8bce015997daeda5e4e8eccc35.bindPopup(popup_bf2511deee7448af40f6a122eb728ed3)
+        ;
+
+        
+    
+    
+            var marker_5992b508a6183b704a28645a8fe8096a = L.marker(
+                [38.7993234, -104.8004959],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_2f85b6fd0a78c6b90f24bb6e6eb4ff77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5992b508a6183b704a28645a8fe8096a.setIcon(icon_2f85b6fd0a78c6b90f24bb6e6eb4ff77);
+        
+    
+        var popup_fdab6db678db026c2e4b46b1f2165577 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21d043193d14651825ce4acf5c80bd61 = $(`<div id="html_21d043193d14651825ce4acf5c80bd61" style="width: 100.0%; height: 100.0%;">     <strong>BLANK CHECK LLC</strong><br>     <strong>Blank Check LLC </strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     1507 Dustry Drive<br>     Colorado Springs, CO 80905     </div>`)[0];
+                popup_fdab6db678db026c2e4b46b1f2165577.setContent(html_21d043193d14651825ce4acf5c80bd61);
+            
+        
+
+        marker_5992b508a6183b704a28645a8fe8096a.bindPopup(popup_fdab6db678db026c2e4b46b1f2165577)
+        ;
+
+        
+    
+    
+            var marker_f43a9d00581d090900b90751e98769b2 = L.marker(
+                [38.7877016, -104.7547023],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_55314048ce6f1d6773097edc83e4b773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f43a9d00581d090900b90751e98769b2.setIcon(icon_55314048ce6f1d6773097edc83e4b773);
+        
+    
+        var popup_0d50bc8cbbf6345a187623eadaf60729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c85331d1d34c566a4a60d4f3e44dc31 = $(`<div id="html_9c85331d1d34c566a4a60d4f3e44dc31" style="width: 100.0%; height: 100.0%;">     <strong>BUKU LOUD LLC</strong><br>     <strong>Buku Loud</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3079 South Academy Boulevard<br>     Colorado Springs, CO 80916     </div>`)[0];
+                popup_0d50bc8cbbf6345a187623eadaf60729.setContent(html_9c85331d1d34c566a4a60d4f3e44dc31);
+            
+        
+
+        marker_f43a9d00581d090900b90751e98769b2.bindPopup(popup_0d50bc8cbbf6345a187623eadaf60729)
+        ;
+
+        
+    
+    
+            var marker_e226b0fe9f253e91f551de8b43e77782 = L.marker(
+                [38.840389, -104.7683213],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_d9be23db2b42d6ea690064235c73d7ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e226b0fe9f253e91f551de8b43e77782.setIcon(icon_d9be23db2b42d6ea690064235c73d7ec);
+        
+    
+        var popup_ee2f62e1623aacfe4d1d136a01a9f122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8083da25f3211a3943a0fa5f9b884aa7 = $(`<div id="html_8083da25f3211a3943a0fa5f9b884aa7" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO BLUEGRASS LLC</strong><br>     <strong>juxt.flora</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3228 East Platte Avenue<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_ee2f62e1623aacfe4d1d136a01a9f122.setContent(html_8083da25f3211a3943a0fa5f9b884aa7);
+            
+        
+
+        marker_e226b0fe9f253e91f551de8b43e77782.bindPopup(popup_ee2f62e1623aacfe4d1d136a01a9f122)
+        ;
+
+        
+    
+    
+            var marker_9f17df90a785aa513d4b8b149394593a = L.marker(
+                [38.837363, -104.7730585],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_5e6f5ed9066c03cd1071a76f0bb2ddf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f17df90a785aa513d4b8b149394593a.setIcon(icon_5e6f5ed9066c03cd1071a76f0bb2ddf7);
+        
+    
+        var popup_f88925c0e6bc2258ab37271eab0f6140 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06ab14e052b0865db469ccef63a87e56 = $(`<div id="html_06ab14e052b0865db469ccef63a87e56" style="width: 100.0%; height: 100.0%;">     <strong>GARDEN OF THE BUDZ LLC</strong><br>     <strong>GOB Extracts</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3002 Gunnison Street, Unit B<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_f88925c0e6bc2258ab37271eab0f6140.setContent(html_06ab14e052b0865db469ccef63a87e56);
+            
+        
+
+        marker_9f17df90a785aa513d4b8b149394593a.bindPopup(popup_f88925c0e6bc2258ab37271eab0f6140)
+        ;
+
+        
+    
+    
+            var marker_8c36f8853f5beb02b2c97c3758b11406 = L.marker(
+                [38.889675, -104.820596],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_b4139ac3a4317831d0f8f79096f63e9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c36f8853f5beb02b2c97c3758b11406.setIcon(icon_b4139ac3a4317831d0f8f79096f63e9c);
+        
+    
+        var popup_8cd5929d90f145d979b5e560501355c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41c9ce10cf5dfcabdda91e5a22f3536a = $(`<div id="html_41c9ce10cf5dfcabdda91e5a22f3536a" style="width: 100.0%; height: 100.0%;">     <strong>GAS AND GRASS LLC</strong><br>     <strong>Rollup</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     62 Mount View Lane, Units D & E<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_8cd5929d90f145d979b5e560501355c7.setContent(html_41c9ce10cf5dfcabdda91e5a22f3536a);
+            
+        
+
+        marker_8c36f8853f5beb02b2c97c3758b11406.bindPopup(popup_8cd5929d90f145d979b5e560501355c7)
+        ;
+
+        
+    
+    
+            var marker_11505e2a60d97384102fb9aeb9fcf96b = L.marker(
+                [38.8970132, -104.8234938],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_d5190ed9d4c467ff96fc8b1c5e1569e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11505e2a60d97384102fb9aeb9fcf96b.setIcon(icon_d5190ed9d4c467ff96fc8b1c5e1569e4);
+        
+    
+        var popup_9949212ffca2650903ebc91ec08f3af2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe6bededd6eecee4766c7b665779779d = $(`<div id="html_fe6bededd6eecee4766c7b665779779d" style="width: 100.0%; height: 100.0%;">     <strong>GL INDUSTRIAL</strong><br>     <strong>WAX POETIC</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     115 East Garden of the Gods Road<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_9949212ffca2650903ebc91ec08f3af2.setContent(html_fe6bededd6eecee4766c7b665779779d);
+            
+        
+
+        marker_11505e2a60d97384102fb9aeb9fcf96b.bindPopup(popup_9949212ffca2650903ebc91ec08f3af2)
+        ;
+
+        
+    
+    
+            var marker_88b6898933a7fa2ab0750040fe70f635 = L.marker(
+                [38.877916, -104.816097],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_7008c4746b9c383995bf0c3dbbdbaad8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88b6898933a7fa2ab0750040fe70f635.setIcon(icon_7008c4746b9c383995bf0c3dbbdbaad8);
+        
+    
+        var popup_a96d14086fbf6d5b62f861204bc00dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f54c486a224e7fb1937a2f390a756d0 = $(`<div id="html_9f54c486a224e7fb1937a2f390a756d0" style="width: 100.0%; height: 100.0%;">     <strong>GREEN TOWER ENTERPRISES INC</strong><br>     <strong>Stone Street Canna</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3110 North Stone Avenue<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_a96d14086fbf6d5b62f861204bc00dd0.setContent(html_9f54c486a224e7fb1937a2f390a756d0);
+            
+        
+
+        marker_88b6898933a7fa2ab0750040fe70f635.bindPopup(popup_a96d14086fbf6d5b62f861204bc00dd0)
+        ;
+
+        
+    
+    
+            var marker_3a100c259b5fb734c8bdf5f79ce4dfc8 = L.marker(
+                [38.8428856, -104.79393],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_733358207494de0c64441e58aa43ff79 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a100c259b5fb734c8bdf5f79ce4dfc8.setIcon(icon_733358207494de0c64441e58aa43ff79);
+        
+    
+        var popup_5283cb8a6e07a50931af988746197e06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f777c5836c4c4f97f1aabb5bcb8f2e27 = $(`<div id="html_f777c5836c4c4f97f1aabb5bcb8f2e27" style="width: 100.0%; height: 100.0%;">     <strong>HIGH ALTITUDE EXTRACTS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     707 North Union Boulevard<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_5283cb8a6e07a50931af988746197e06.setContent(html_f777c5836c4c4f97f1aabb5bcb8f2e27);
+            
+        
+
+        marker_3a100c259b5fb734c8bdf5f79ce4dfc8.bindPopup(popup_5283cb8a6e07a50931af988746197e06)
+        ;
+
+        
+    
+    
+            var marker_746931e37032acff6852e695db977323 = L.marker(
+                [38.8588931, -104.7568094],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_25d98efab33c79544ae261562ed12b4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_746931e37032acff6852e695db977323.setIcon(icon_25d98efab33c79544ae261562ed12b4e);
+        
+    
+        var popup_3fb3e7c5aa1c0369b7abcdb438b36d1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_875ffe2245c499fe79d1a7a433ceadb3 = $(`<div id="html_875ffe2245c499fe79d1a7a433ceadb3" style="width: 100.0%; height: 100.0%;">     <strong>HIGH COUNTRY INFUSIONS LLC</strong><br>     <strong>High Country Infusions</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     1785 North Academy Boulevard  Suite 180<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_3fb3e7c5aa1c0369b7abcdb438b36d1f.setContent(html_875ffe2245c499fe79d1a7a433ceadb3);
+            
+        
+
+        marker_746931e37032acff6852e695db977323.bindPopup(popup_3fb3e7c5aa1c0369b7abcdb438b36d1f)
+        ;
+
+        
+    
+    
+            var marker_c9bfaa0b5c159965cb3d3171cff65d4e = L.marker(
+                [38.8922807, -104.8255442],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_78ea8b5a535c609a97449de2c528b626 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9bfaa0b5c159965cb3d3171cff65d4e.setIcon(icon_78ea8b5a535c609a97449de2c528b626);
+        
+    
+        var popup_ff84456c6dfd0035620fd1fee8734cda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6204b35871bca437563d978c113578f = $(`<div id="html_b6204b35871bca437563d978c113578f" style="width: 100.0%; height: 100.0%;">     <strong>MILE HIGH CAKE POPS LLC</strong><br>     <strong>Terp Chefs</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     4405 Mark Dabling Boulevard<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_ff84456c6dfd0035620fd1fee8734cda.setContent(html_b6204b35871bca437563d978c113578f);
+            
+        
+
+        marker_c9bfaa0b5c159965cb3d3171cff65d4e.bindPopup(popup_ff84456c6dfd0035620fd1fee8734cda)
+        ;
+
+        
+    
+    
+            var marker_f6c3b670474117b5a838e8baaeab27cb = L.marker(
+                [38.8699707, -104.8107679],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_42d0f55db4c47a27152fa79a14504d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6c3b670474117b5a838e8baaeab27cb.setIcon(icon_42d0f55db4c47a27152fa79a14504d30);
+        
+    
+        var popup_9d04d4bffa45b6be5d3ec72c4a5e5c04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_607bb4c90750496639cfc2ada3628e81 = $(`<div id="html_607bb4c90750496639cfc2ada3628e81" style="width: 100.0%; height: 100.0%;">     <strong>MILE HIGH REMEDIES LLC</strong><br>     <strong>Doctors Orders</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2805 North Prospect Street<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_9d04d4bffa45b6be5d3ec72c4a5e5c04.setContent(html_607bb4c90750496639cfc2ada3628e81);
+            
+        
+
+        marker_f6c3b670474117b5a838e8baaeab27cb.bindPopup(popup_9d04d4bffa45b6be5d3ec72c4a5e5c04)
+        ;
+
+        
+    
+    
+            var marker_fef26233ab9ac25df9ef4a4aea87fa98 = L.marker(
+                [38.8723174, -104.8106241],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_e570c34fa608ce833731ed9b0b1ed0c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fef26233ab9ac25df9ef4a4aea87fa98.setIcon(icon_e570c34fa608ce833731ed9b0b1ed0c5);
+        
+    
+        var popup_f29df7521e2303a16596bee581a518e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aafa1749f59124fa7aa4ae7ad683078 = $(`<div id="html_4aafa1749f59124fa7aa4ae7ad683078" style="width: 100.0%; height: 100.0%;">     <strong>MODERN MEDICINE LLC</strong><br>     <strong>Colorado Extract Company</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2903 North Prospect Street<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_f29df7521e2303a16596bee581a518e0.setContent(html_4aafa1749f59124fa7aa4ae7ad683078);
+            
+        
+
+        marker_fef26233ab9ac25df9ef4a4aea87fa98.bindPopup(popup_f29df7521e2303a16596bee581a518e0)
+        ;
+
+        
+    
+    
+            var marker_28461bf68ff037adef5a6267537aff48 = L.marker(
+                [38.8801038, -104.8409831],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_4642b09703b44badb0d15472dbb01837 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_28461bf68ff037adef5a6267537aff48.setIcon(icon_4642b09703b44badb0d15472dbb01837);
+        
+    
+        var popup_634093e792027e23e53d5c8abba35278 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6824dcdcc10f63220147a0fa7f69524 = $(`<div id="html_e6824dcdcc10f63220147a0fa7f69524" style="width: 100.0%; height: 100.0%;">     <strong>PND LLC</strong><br>     <strong>A Cut Above</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3375 Fillmore Ridge Heights<br>     Colorado Springs, CO 80907     </div>`)[0];
+                popup_634093e792027e23e53d5c8abba35278.setContent(html_e6824dcdcc10f63220147a0fa7f69524);
+            
+        
+
+        marker_28461bf68ff037adef5a6267537aff48.bindPopup(popup_634093e792027e23e53d5c8abba35278)
+        ;
+
+        
+    
+    
+            var marker_b8bec2ec36fc17f4833d29d415433751 = L.marker(
+                [38.7958284, -104.7759169],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_50bc0fed7205d5bcaf6b435cbe5019e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8bec2ec36fc17f4833d29d415433751.setIcon(icon_50bc0fed7205d5bcaf6b435cbe5019e7);
+        
+    
+        var popup_6d2d54a46e789db3e4df4c8b9483790f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_007f9778ca2aaeeb6e7f0766c5e40d6d = $(`<div id="html_007f9778ca2aaeeb6e7f0766c5e40d6d" style="width: 100.0%; height: 100.0%;">     <strong>TEN SIX LLC</strong><br>     <strong>Ten Six Labs</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2560 Carmel Drive<br>     Colorado Springs, CO 80910     </div>`)[0];
+                popup_6d2d54a46e789db3e4df4c8b9483790f.setContent(html_007f9778ca2aaeeb6e7f0766c5e40d6d);
+            
+        
+
+        marker_b8bec2ec36fc17f4833d29d415433751.bindPopup(popup_6d2d54a46e789db3e4df4c8b9483790f)
+        ;
+
+        
+    
+    
+            var marker_7f4949758df5d7b7edace67df0cf2e56 = L.marker(
+                [38.7868631, -104.7548861],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_3a06fbafa0f694e84cca82848c6ae497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7f4949758df5d7b7edace67df0cf2e56.setIcon(icon_3a06fbafa0f694e84cca82848c6ae497);
+        
+    
+        var popup_c2cc5ffc0026f6263ef12d4a66d3504a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95ea0321a8399672adcca027def6c0d8 = $(`<div id="html_95ea0321a8399672adcca027def6c0d8" style="width: 100.0%; height: 100.0%;">     <strong>TERPMAN & ROSIN LLC</strong><br>     <strong>Terpman & Rosin Extracts</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3117 South Academy Boulevard<br>     Colorado Springs, CO 80916     </div>`)[0];
+                popup_c2cc5ffc0026f6263ef12d4a66d3504a.setContent(html_95ea0321a8399672adcca027def6c0d8);
+            
+        
+
+        marker_7f4949758df5d7b7edace67df0cf2e56.bindPopup(popup_c2cc5ffc0026f6263ef12d4a66d3504a)
+        ;
+
+        
+    
+    
+            var marker_83f38721e2c00f0dd6acd7244e883541 = L.marker(
+                [38.79543, -104.777712],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_c1def8aac622c39c1864468325d6a3aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_83f38721e2c00f0dd6acd7244e883541.setIcon(icon_c1def8aac622c39c1864468325d6a3aa);
+        
+    
+        var popup_c7ceca93e8c553d107a4141f3a57617d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_415d50d6e573cfbd589f2bb2ae50fc3d = $(`<div id="html_415d50d6e573cfbd589f2bb2ae50fc3d" style="width: 100.0%; height: 100.0%;">     <strong>THE EPIC REMEDY LLC</strong><br>     <strong>The ER</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2565 Weston Road<br>     Colorado Springs, CO 80910     </div>`)[0];
+                popup_c7ceca93e8c553d107a4141f3a57617d.setContent(html_415d50d6e573cfbd589f2bb2ae50fc3d);
+            
+        
+
+        marker_83f38721e2c00f0dd6acd7244e883541.bindPopup(popup_c7ceca93e8c553d107a4141f3a57617d)
+        ;
+
+        
+    
+    
+            var marker_3b4df55580e174bb4075081c73b1e127 = L.marker(
+                [38.8899711, -104.7564696],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_273b28007c7aaf8f2ebca444b5a4ab40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b4df55580e174bb4075081c73b1e127.setIcon(icon_273b28007c7aaf8f2ebca444b5a4ab40);
+        
+    
+        var popup_78c4cf6e49c4d36caaa5a8d5b6517b81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ebf924355559d1e64d8ff86b16c5e4e = $(`<div id="html_2ebf924355559d1e64d8ff86b16c5e4e" style="width: 100.0%; height: 100.0%;">     <strong>THE EPIC REMEDY LLC</strong><br>     <strong>The Refinery</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3995 North Academy Boulevard<br>     Colorado Springs, CO 80917     </div>`)[0];
+                popup_78c4cf6e49c4d36caaa5a8d5b6517b81.setContent(html_2ebf924355559d1e64d8ff86b16c5e4e);
+            
+        
+
+        marker_3b4df55580e174bb4075081c73b1e127.bindPopup(popup_78c4cf6e49c4d36caaa5a8d5b6517b81)
+        ;
+
+        
+    
+    
+            var marker_3bb374cd559d0332544d6658ad65cdb8 = L.marker(
+                [38.7878898, -104.7666395],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_14b1d576c7028a620c96df771c0b4dff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bb374cd559d0332544d6658ad65cdb8.setIcon(icon_14b1d576c7028a620c96df771c0b4dff);
+        
+    
+        var popup_a15587d7399240cad39af2cc005c2815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55adb56f545056308d3ccb27c66547c4 = $(`<div id="html_55adb56f545056308d3ccb27c66547c4" style="width: 100.0%; height: 100.0%;">     <strong>THE HEALING CANNA LLC</strong><br>     <strong>Terp Labs</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     3330 South Drennan Industrial Loop<br>     Colorado Springs, CO 80910     </div>`)[0];
+                popup_a15587d7399240cad39af2cc005c2815.setContent(html_55adb56f545056308d3ccb27c66547c4);
+            
+        
+
+        marker_3bb374cd559d0332544d6658ad65cdb8.bindPopup(popup_a15587d7399240cad39af2cc005c2815)
+        ;
+
+        
+    
+    
+            var marker_0add8f2c60a7faa6abebc0c0a3583272 = L.marker(
+                [38.9023516, -104.7691219],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_77d6c11d5ce635bc66840be162c22f2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0add8f2c60a7faa6abebc0c0a3583272.setIcon(icon_77d6c11d5ce635bc66840be162c22f2c);
+        
+    
+        var popup_2a37337a48048e92e3652848a8273dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d471311aa63494c2b8cb365bd53bb0c1 = $(`<div id="html_d471311aa63494c2b8cb365bd53bb0c1" style="width: 100.0%; height: 100.0%;">     <strong>THIRD DAY APOTHECARY MC LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     4865 North Academy Boulevard, Unit B<br>     Colorado Springs, CO 80918     </div>`)[0];
+                popup_2a37337a48048e92e3652848a8273dd4.setContent(html_d471311aa63494c2b8cb365bd53bb0c1);
+            
+        
+
+        marker_0add8f2c60a7faa6abebc0c0a3583272.bindPopup(popup_2a37337a48048e92e3652848a8273dd4)
+        ;
+
+        
+    
+    
+            var marker_187237765f0c576d5d2cb6c204b83563 = L.marker(
+                [38.8436913, -104.8571043],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_2eb9fbe1ed98e77cf6b65eb8467ffd34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_187237765f0c576d5d2cb6c204b83563.setIcon(icon_2eb9fbe1ed98e77cf6b65eb8467ffd34);
+        
+    
+        var popup_b95fb20493fcef8745aed3c07e2dd37f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8eca5198d3e8b077048129fbf0fb2f = $(`<div id="html_2e8eca5198d3e8b077048129fbf0fb2f" style="width: 100.0%; height: 100.0%;">     <strong>TRICHOME HEALTH CONSULTANTS INC</strong><br>     <strong>Trichome Health Consultants</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2119 West Colorado Avenue<br>     Colorado Springs, CO 80904     </div>`)[0];
+                popup_b95fb20493fcef8745aed3c07e2dd37f.setContent(html_2e8eca5198d3e8b077048129fbf0fb2f);
+            
+        
+
+        marker_187237765f0c576d5d2cb6c204b83563.bindPopup(popup_b95fb20493fcef8745aed3c07e2dd37f)
+        ;
+
+        
+    
+    
+            var marker_b625859197c471b6a75abcf47a4857be = L.marker(
+                [38.8370289, -104.7837721],
+                {}
+            ).addTo(map_4de8f368c4d3801bd81a611b7ce3daaa);
+        
+    
+            var icon_2a5aa76e986855e2b7d25361fab57c36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b625859197c471b6a75abcf47a4857be.setIcon(icon_2a5aa76e986855e2b7d25361fab57c36);
+        
+    
+        var popup_8a2975d31aae5851dfe0bd9acffbc47a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a251c242230a2a24cbdde21187de983 = $(`<div id="html_1a251c242230a2a24cbdde21187de983" style="width: 100.0%; height: 100.0%;">     <strong>WILLOUGHBY ENTERPRISES LLC</strong><br>     <strong>Nine Extracts</strong><br>     Facility Type: Medical Marijuana Products Mfg<br>     2430 Platte Place<br>     Colorado Springs, CO 80909     </div>`)[0];
+                popup_8a2975d31aae5851dfe0bd9acffbc47a.setContent(html_1a251c242230a2a24cbdde21187de983);
+            
+        
+
+        marker_b625859197c471b6a75abcf47a4857be.bindPopup(popup_8a2975d31aae5851dfe0bd9acffbc47a)
+        ;
+
+        
+    
+</script>
+</html>
