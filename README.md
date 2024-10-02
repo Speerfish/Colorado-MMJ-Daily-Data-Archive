@@ -9,6 +9,6 @@ Select articles from the Colorado MMJ Daily Print Archive are included in Battle
 
 ![IMG_6638](https://github.com/user-attachments/assets/0d57c81c-86da-4ee9-8376-0c3e1ba79e64)
 
-![Untitled 038](https://github.com/user-attachments/assets/d7485e84-7ad8-4ca0-ad22-8c8c56e78a31)
-
 Check out Official Colorado MMJ Daily, Reckless Voters, Cannabis Nation 420, TwiceHigh Industries, Koldbluhded, and Speerfish apparel from [Koldbluhded](https://koldbluhded-dot-com-inc.square.site/).
+
+![Untitled 038](https://github.com/user-attachments/assets/d7485e84-7ad8-4ca0-ad22-8c8c56e78a31)
