@@ -12,3 +12,5 @@ Select articles from the Colorado MMJ Daily Print Archive are included in Battle
 Check out Official Colorado MMJ Daily, Reckless Voters, Cannabis Nation 420, TwiceHigh Industries, Koldbluhded, and Speerfish apparel from [Koldbluhded](https://koldbluhded-dot-com-inc.square.site/).
 
 ![Untitled 038](https://github.com/user-attachments/assets/d7485e84-7ad8-4ca0-ad22-8c8c56e78a31)
+
+[Exploring the therapeutic potential of cannabinoids in cancer by modulating signaling pathways and addressing clinical challenges](https://link.springer.com/article/10.1007/s12672-024-01356-8)
