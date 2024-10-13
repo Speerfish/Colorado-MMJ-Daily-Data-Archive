@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_304e189d85e4d88407aec9f7b4cb8556 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_304e189d85e4d88407aec9f7b4cb8556" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_304e189d85e4d88407aec9f7b4cb8556 = L.map(
+                "map_304e189d85e4d88407aec9f7b4cb8556",
+                {
+                    center: [40.4233, -104.7112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7b5bde4642cd02057be0a4e384c478a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f7b5bde4642cd02057be0a4e384c478a.addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var marker_19e5a42c4a0167de163625b4f04d75b2 = L.marker(
+                [40.3967964, -104.6874197],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_94b0618b63d9a1ee2a06a55198580793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19e5a42c4a0167de163625b4f04d75b2.setIcon(icon_94b0618b63d9a1ee2a06a55198580793);
+        
+    
+        var popup_692153546bafff0948a6d14e34e413a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5dd733d659a3d9d6cbb43154f053463 = $(`<div id="html_b5dd733d659a3d9d6cbb43154f053463" style="width: 100.0%; height: 100.0%;">     <strong>HIGH PLAINZ STRAINS II LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     2506 6th Avenue<br>     Garden City, CO 80631<br>     Phone: 970-352-4119<br>     Website: <a href="https://highplainz.com/our-locations/garden-city/">HIGH PLAINZ STRAINS II LLC</a><br>     </div>`)[0];
+                popup_692153546bafff0948a6d14e34e413a6.setContent(html_b5dd733d659a3d9d6cbb43154f053463);
+            
+        
+
+        marker_19e5a42c4a0167de163625b4f04d75b2.bindPopup(popup_692153546bafff0948a6d14e34e413a6)
+        ;
+
+        
+    
+    
+            var marker_6a957c204fedfd090cddf36ad14f6fa5 = L.marker(
+                [40.393964, -104.6918421],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_dfd9bf1f7747b387c19d714cd4e6dbb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6a957c204fedfd090cddf36ad14f6fa5.setIcon(icon_dfd9bf1f7747b387c19d714cd4e6dbb6);
+        
+    
+        var popup_f700d7834df6c130393f8950b01e1293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a07ab39f3c5338f16d601156152c4a94 = $(`<div id="html_a07ab39f3c5338f16d601156152c4a94" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL I LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Medical Marijuana Store<br>     2647 8th Avenue, Unit B<br>     Garden City, CO 80631<br>     Phone: 970-616-6007<br>     Website: <a href="https://livwell.com/locations/colorado/garden-city">LIVWELL I LLC</a><br>     </div>`)[0];
+                popup_f700d7834df6c130393f8950b01e1293.setContent(html_a07ab39f3c5338f16d601156152c4a94);
+            
+        
+
+        marker_6a957c204fedfd090cddf36ad14f6fa5.bindPopup(popup_f700d7834df6c130393f8950b01e1293)
+        ;
+
+        
+    
+    
+            var marker_9110a93cfb369ff4b8c8b5f5b22f2f53 = L.marker(
+                [40.393964, -104.6918421],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_a34897d7f465512fac4394b8ad150000 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9110a93cfb369ff4b8c8b5f5b22f2f53.setIcon(icon_a34897d7f465512fac4394b8ad150000);
+        
+    
+        var popup_4b0b22368dbf5ed55c5660ce30e0f76f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c7e92f606a7deeda7ccb9c226082084 = $(`<div id="html_9c7e92f606a7deeda7ccb9c226082084" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL I LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     2647 8th Avenue, Unit B<br>     Garden City, CO 80631<br>     Phone: 970-616-6007<br>     Website: <a href="https://livwell.com/locations/colorado/garden-city">LIVWELL I LLC</a><br>     </div>`)[0];
+                popup_4b0b22368dbf5ed55c5660ce30e0f76f.setContent(html_9c7e92f606a7deeda7ccb9c226082084);
+            
+        
+
+        marker_9110a93cfb369ff4b8c8b5f5b22f2f53.bindPopup(popup_4b0b22368dbf5ed55c5660ce30e0f76f)
+        ;
+
+        
+    
+    
+            var marker_90d42049c45bf995e6e5eb0a92736042 = L.marker(
+                [40.3944806, -104.6866871],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_09e5ac9862cf1e956c42e9fd02be5fe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90d42049c45bf995e6e5eb0a92736042.setIcon(icon_09e5ac9862cf1e956c42e9fd02be5fe9);
+        
+    
+        var popup_2aed1b5762bb3f80c661a8d949147169 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bfcdd9ac97dd53d46963b966ac6ee63 = $(`<div id="html_1bfcdd9ac97dd53d46963b966ac6ee63" style="width: 100.0%; height: 100.0%;">     <strong>NATURES HERBS & WELLNESS CENTER</strong><br>     <strong>Nature's Herbs & Wellness Center</strong><br>     Facility Type: Medical Marijuana Store<br>     540 27th Street<br>     Garden City, CO 80631<br>     Phone: 970-573-5087<br>     Website: <a href="https://naturescolorado.com/">NATURES HERBS & WELLNESS CENTER</a><br>     </div>`)[0];
+                popup_2aed1b5762bb3f80c661a8d949147169.setContent(html_1bfcdd9ac97dd53d46963b966ac6ee63);
+            
+        
+
+        marker_90d42049c45bf995e6e5eb0a92736042.bindPopup(popup_2aed1b5762bb3f80c661a8d949147169)
+        ;
+
+        
+    
+    
+            var marker_76dc6597805b5cf4b8fb8962daca834a = L.marker(
+                [40.3944806, -104.6866871],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_c959ca9bcd2db1a7142ed817e19ebab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76dc6597805b5cf4b8fb8962daca834a.setIcon(icon_c959ca9bcd2db1a7142ed817e19ebab7);
+        
+    
+        var popup_3f7afa1e898afdf4651655635efface0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de897077c075e5bae12fa90826ac46f8 = $(`<div id="html_de897077c075e5bae12fa90826ac46f8" style="width: 100.0%; height: 100.0%;">     <strong>NATURES HERBS & WELLNESS CENTER</strong><br>     <strong>Nature's Herbs & Wellness Center</strong><br>     Facility Type: Retail Marijuana Store<br>     540 27th Street<br>     Garden City, CO 80631<br>     Phone: 970-573-5087<br>     Website: <a href="https://naturescolorado.com/">NATURES HERBS & WELLNESS CENTER</a><br>     </div>`)[0];
+                popup_3f7afa1e898afdf4651655635efface0.setContent(html_de897077c075e5bae12fa90826ac46f8);
+            
+        
+
+        marker_76dc6597805b5cf4b8fb8962daca834a.bindPopup(popup_3f7afa1e898afdf4651655635efface0)
+        ;
+
+        
+    
+    
+            var marker_be561b6e352e82960ec8a6c14d807b56 = L.marker(
+                [40.3971411, -104.691015],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_fa03cf50dc1a4ace829e2b52b28866a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be561b6e352e82960ec8a6c14d807b56.setIcon(icon_fa03cf50dc1a4ace829e2b52b28866a6);
+        
+    
+        var popup_cb7717cc113286ea75958adffe308350 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fe8c79cb7eb303c865f659aad4c7107 = $(`<div id="html_5fe8c79cb7eb303c865f659aad4c7107" style="width: 100.0%; height: 100.0%;">     <strong>SMOKE HOLDCO LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Medical Marijuana Store<br>     2502 8th Avenue<br>     Garden City, CO 80631<br>     Phone: 970-515-5839<br>     Website: <a href="https://starbudscolorado.com/stores/recreational-marijuana-dispensary-garden-city/">SMOKE HOLDCO LLC</a><br>     </div>`)[0];
+                popup_cb7717cc113286ea75958adffe308350.setContent(html_5fe8c79cb7eb303c865f659aad4c7107);
+            
+        
+
+        marker_be561b6e352e82960ec8a6c14d807b56.bindPopup(popup_cb7717cc113286ea75958adffe308350)
+        ;
+
+        
+    
+    
+            var marker_c72ecc2dac22224162a8b59afd5636c1 = L.marker(
+                [40.3971411, -104.691015],
+                {}
+            ).addTo(map_304e189d85e4d88407aec9f7b4cb8556);
+        
+    
+            var icon_a5ba37ef22e3e1b3c51602bbf9593cf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c72ecc2dac22224162a8b59afd5636c1.setIcon(icon_a5ba37ef22e3e1b3c51602bbf9593cf7);
+        
+    
+        var popup_1d8861ed415532601582ca0ffbd05d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81289de4be7f00679402d4d2514dfead = $(`<div id="html_81289de4be7f00679402d4d2514dfead" style="width: 100.0%; height: 100.0%;">     <strong>SMOKE HOLDCO LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     2502 8th Avenue<br>     Garden City, CO 80631<br>     Phone: 970-515-5839<br>     Website: <a href="https://starbudscolorado.com/stores/recreational-marijuana-dispensary-garden-city/">SMOKE HOLDCO LLC</a><br>     </div>`)[0];
+                popup_1d8861ed415532601582ca0ffbd05d90.setContent(html_81289de4be7f00679402d4d2514dfead);
+            
+        
+
+        marker_c72ecc2dac22224162a8b59afd5636c1.bindPopup(popup_1d8861ed415532601582ca0ffbd05d90)
+        ;
+
+        
+    
+</script>
+</html>

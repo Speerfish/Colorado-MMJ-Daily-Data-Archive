@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3ca754559c5ee1e150b66816750e31a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e3ca754559c5ee1e150b66816750e31a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e3ca754559c5ee1e150b66816750e31a = L.map(
+                "map_e3ca754559c5ee1e150b66816750e31a",
+                {
+                    center: [40.015, -105.2705],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_763541b4faede58046a5055a2190cb0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_763541b4faede58046a5055a2190cb0a.addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var marker_e9a3ba3b7a9ea46fe65571aa0c2aa10a = L.marker(
+                [40.0258738, -105.2848987],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_df9022cdd807ea251a0cf21985985d5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9a3ba3b7a9ea46fe65571aa0c2aa10a.setIcon(icon_df9022cdd807ea251a0cf21985985d5d);
+        
+    
+        var popup_1565631a76662e9b79099d180d45351b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd73b4816dda511ca5b6684a0563668 = $(`<div id="html_efd73b4816dda511ca5b6684a0563668" style="width: 100.0%; height: 100.0%;">     <strong>A&A INVESTMENTS LLC</strong><br>     <strong>Eclipse Cannabis Company</strong><br>     Facility Type: Retail Marijuana Store<br>     933 Alpine Avenue Suite 2<br>     Boulder, CO 80304<br>     Phone: 720-420-0782<br>     Website: <a href="https://eclipsecannabis.com/">A&A INVESTMENTS LLC</a><br>     </div>`)[0];
+                popup_1565631a76662e9b79099d180d45351b.setContent(html_efd73b4816dda511ca5b6684a0563668);
+            
+        
+
+        marker_e9a3ba3b7a9ea46fe65571aa0c2aa10a.bindPopup(popup_1565631a76662e9b79099d180d45351b)
+        ;
+
+        
+    
+    
+            var marker_fc7f21cda6e282d43c30c5e9a71681c2 = L.marker(
+                [40.0323665, -105.2597227],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_f9f700ba8e3cfc3bc1e6978d439b870f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc7f21cda6e282d43c30c5e9a71681c2.setIcon(icon_f9f700ba8e3cfc3bc1e6978d439b870f);
+        
+    
+        var popup_ac9c4826d8e3d153b5e6ffb381f993a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_418ff783902a237473ff1ab9a5916eed = $(`<div id="html_418ff783902a237473ff1ab9a5916eed" style="width: 100.0%; height: 100.0%;">     <strong>ALPINE RAVEN INC</strong><br>     <strong>Maikoh Holistics</strong><br>     Facility Type: Retail Marijuana Store<br>     2750 Glenwood Drive, Suite 8<br>     Boulder, CO 80304<br>     Phone: 720-476-6805<br>     Website: <a href="https://www.maikohholistics.com/">ALPINE RAVEN INC</a><br>     </div>`)[0];
+                popup_ac9c4826d8e3d153b5e6ffb381f993a5.setContent(html_418ff783902a237473ff1ab9a5916eed);
+            
+        
+
+        marker_fc7f21cda6e282d43c30c5e9a71681c2.bindPopup(popup_ac9c4826d8e3d153b5e6ffb381f993a5)
+        ;
+
+        
+    
+    
+            var marker_e0810e79c2b2788f0e17ee84074acd3d = L.marker(
+                [40.0141938, -105.227272],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_760dd8f9b744e12ed4599f078e7093dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e0810e79c2b2788f0e17ee84074acd3d.setIcon(icon_760dd8f9b744e12ed4599f078e7093dc);
+        
+    
+        var popup_d5d0bbc5f9cf7d58baabf46ef352990b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e853589de18590c6a048a48f43cc489f = $(`<div id="html_e853589de18590c6a048a48f43cc489f" style="width: 100.0%; height: 100.0%;">     <strong>B WELL LLC</strong><br>     <strong>Boulder Built</strong><br>     Facility Type: Medical Marijuana Store<br>     5420 Arapahoe Avenue, Suite F<br>     Boulder, CO 80303<br>     Phone: 303-442-2565<br>     Website: <a href="https://weedmaps.com/dispensaries/boulder-built-recreational">B WELL LLC</a><br>     </div>`)[0];
+                popup_d5d0bbc5f9cf7d58baabf46ef352990b.setContent(html_e853589de18590c6a048a48f43cc489f);
+            
+        
+
+        marker_e0810e79c2b2788f0e17ee84074acd3d.bindPopup(popup_d5d0bbc5f9cf7d58baabf46ef352990b)
+        ;
+
+        
+    
+    
+            var marker_f817ffb94dfdf5cd37db15dd5a089f24 = L.marker(
+                [40.0141938, -105.227272],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_bbb204603a8e661d992abb5315a4918b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f817ffb94dfdf5cd37db15dd5a089f24.setIcon(icon_bbb204603a8e661d992abb5315a4918b);
+        
+    
+        var popup_4c650d2fcdf14e53e5ddd4c7748851c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6553c5fe4b1a348d00c4e562ecac120 = $(`<div id="html_e6553c5fe4b1a348d00c4e562ecac120" style="width: 100.0%; height: 100.0%;">     <strong>B WELL LLC</strong><br>     <strong>Boulder Built</strong><br>     Facility Type: Retail Marijuana Store<br>     5420 Arapahoe Avenue, Suite E<br>     Boulder, CO 80303<br>     Phone: 303-442-2565<br>     Website: <a href="https://www.boulderbuiltcannabis.com/">B WELL LLC</a><br>     </div>`)[0];
+                popup_4c650d2fcdf14e53e5ddd4c7748851c5.setContent(html_e6553c5fe4b1a348d00c4e562ecac120);
+            
+        
+
+        marker_f817ffb94dfdf5cd37db15dd5a089f24.bindPopup(popup_4c650d2fcdf14e53e5ddd4c7748851c5)
+        ;
+
+        
+    
+    
+            var marker_6f87d59fc2d3ace3f9e11ac52ad3af0b = L.marker(
+                [40.0190262, -105.275154],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_0959c45c88d272e0cd33a5bb5d31fbb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f87d59fc2d3ace3f9e11ac52ad3af0b.setIcon(icon_0959c45c88d272e0cd33a5bb5d31fbb0);
+        
+    
+        var popup_cd1359da0017d707a13b07c1c6bc784c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65ae1b26012d4fbefc027d3bc24b315f = $(`<div id="html_65ae1b26012d4fbefc027d3bc24b315f" style="width: 100.0%; height: 100.0%;">     <strong>BIG RIVER BEND LLC</strong><br>     <strong>The Trust Cannabis Company</strong><br>     Facility Type: Medical Marijuana Store<br>     1537 Pearl Street, Suite B<br>     Boulder, CO 80302<br>     Phone: 720-287-0645<br>     Website: <a href="https://thetrustcannaco.com/">BIG RIVER BEND LLC</a><br>     </div>`)[0];
+                popup_cd1359da0017d707a13b07c1c6bc784c.setContent(html_65ae1b26012d4fbefc027d3bc24b315f);
+            
+        
+
+        marker_6f87d59fc2d3ace3f9e11ac52ad3af0b.bindPopup(popup_cd1359da0017d707a13b07c1c6bc784c)
+        ;
+
+        
+    
+    
+            var marker_e808417b027793c1299fd1a2861e9b4e = L.marker(
+                [40.0190262, -105.275154],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_ed70a9191e79c5e6a340594077e32c9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e808417b027793c1299fd1a2861e9b4e.setIcon(icon_ed70a9191e79c5e6a340594077e32c9c);
+        
+    
+        var popup_a5c5959a5d2570cde7abc4a4d90262ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db3b5ef1aa63e3c987c1e495a9db5f98 = $(`<div id="html_db3b5ef1aa63e3c987c1e495a9db5f98" style="width: 100.0%; height: 100.0%;">     <strong>BIG RIVER BEND LLC</strong><br>     <strong>The Trust Cannabis Company</strong><br>     Facility Type: Retail Marijuana Store<br>     1537 Pearl Street, Suite B<br>     Boulder, CO 80302<br>     Phone: 720-287-0645<br>     Website: <a href="https://thetrustcannaco.com/">BIG RIVER BEND LLC</a><br>     </div>`)[0];
+                popup_a5c5959a5d2570cde7abc4a4d90262ea.setContent(html_db3b5ef1aa63e3c987c1e495a9db5f98);
+            
+        
+
+        marker_e808417b027793c1299fd1a2861e9b4e.bindPopup(popup_a5c5959a5d2570cde7abc4a4d90262ea)
+        ;
+
+        
+    
+    
+            var marker_5819faec21c8f731ce6110f8f63a0a43 = L.marker(
+                [40.0141266, -105.2296323],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_fc2ddfce28fac2f1820afc348b471088 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5819faec21c8f731ce6110f8f63a0a43.setIcon(icon_fc2ddfce28fac2f1820afc348b471088);
+        
+    
+        var popup_781cedbcb48ea06c3402526f6dd20094 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a07699abf65b550d18219cb429df88a = $(`<div id="html_6a07699abf65b550d18219cb429df88a" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER INVESTMENTS LLC</strong><br>     <strong>The Dispensary</strong><br>     Facility Type: Retail Marijuana Store<br>     5290 Arapahoe Avenue, Unit J<br>     Boulder, CO 80303<br>     Phone: 303-927-6201<br>     Website: <a href="https://www.yelp.com/biz/the-dispensary-boulder-boulder">BOULDER INVESTMENTS LLC</a><br>     </div>`)[0];
+                popup_781cedbcb48ea06c3402526f6dd20094.setContent(html_6a07699abf65b550d18219cb429df88a);
+            
+        
+
+        marker_5819faec21c8f731ce6110f8f63a0a43.bindPopup(popup_781cedbcb48ea06c3402526f6dd20094)
+        ;
+
+        
+    
+    
+            var marker_bfe183b33211fa000f399bc3c6c717b5 = L.marker(
+                [40.0177033, -105.280149],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_b2f2560baae55f9b465f7645cb4db030 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfe183b33211fa000f399bc3c6c717b5.setIcon(icon_b2f2560baae55f9b465f7645cb4db030);
+        
+    
+        var popup_b3e1e4135d8e679555061a092edcf569 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b53b6f72acbc215050986716d64a2027 = $(`<div id="html_b53b6f72acbc215050986716d64a2027" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER RX LLC</strong><br>     <strong>Native Roots Boulder</strong><br>     Facility Type: Retail Marijuana Store<br>     1146 Pearl Street<br>     Boulder, CO 80302<br>     Phone: 720-726-5126<br>     Website: <a href="https://www.leafly.com/dispensary-info/native-roots---boulder">BOULDER RX LLC</a><br>     </div>`)[0];
+                popup_b3e1e4135d8e679555061a092edcf569.setContent(html_b53b6f72acbc215050986716d64a2027);
+            
+        
+
+        marker_bfe183b33211fa000f399bc3c6c717b5.bindPopup(popup_b3e1e4135d8e679555061a092edcf569)
+        ;
+
+        
+    
+    
+            var marker_0372b0ad48bbc77b7412d1751d596bbe = L.marker(
+                [40.0146775, -105.2129051],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_be54c2d3b150909affc278327c6cccd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0372b0ad48bbc77b7412d1751d596bbe.setIcon(icon_be54c2d3b150909affc278327c6cccd5);
+        
+    
+        var popup_044432b21a23b0479672bc099d94f141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11360357031834d2f3a8fe11434987ee = $(`<div id="html_11360357031834d2f3a8fe11434987ee" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER SNAX INC</strong><br>     <strong>Snaxland</strong><br>     Facility Type: Medical Marijuana Store<br>     7464 Arapahoe Avenue, Unit A9<br>     Boulder, CO 80303<br>     Phone: 303-284-9791<br>     Website: <a href="https://snaxland.com/pages/boulder">BOULDER SNAX INC</a><br>     </div>`)[0];
+                popup_044432b21a23b0479672bc099d94f141.setContent(html_11360357031834d2f3a8fe11434987ee);
+            
+        
+
+        marker_0372b0ad48bbc77b7412d1751d596bbe.bindPopup(popup_044432b21a23b0479672bc099d94f141)
+        ;
+
+        
+    
+    
+            var marker_2c2a75f988f3286b10b7e863f23ffd68 = L.marker(
+                [40.0146775, -105.2129051],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_fc0cf02b5460de2b421164e3178361df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c2a75f988f3286b10b7e863f23ffd68.setIcon(icon_fc0cf02b5460de2b421164e3178361df);
+        
+    
+        var popup_58f40f780166ad5092bb1f3e3aa1cce4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f44ea5f6d4d75c7bc98d0965a4625dc8 = $(`<div id="html_f44ea5f6d4d75c7bc98d0965a4625dc8" style="width: 100.0%; height: 100.0%;">     <strong>BOULDER SNAX INC</strong><br>     <strong>Snaxland</strong><br>     Facility Type: Retail Marijuana Store<br>     7464 Arapahoe Avenue, Unit A9<br>     Boulder, CO 80303<br>     Phone: 303-284-9791<br>     Website: <a href="https://snaxland.com/pages/boulder">BOULDER SNAX INC</a><br>     </div>`)[0];
+                popup_58f40f780166ad5092bb1f3e3aa1cce4.setContent(html_f44ea5f6d4d75c7bc98d0965a4625dc8);
+            
+        
+
+        marker_2c2a75f988f3286b10b7e863f23ffd68.bindPopup(popup_58f40f780166ad5092bb1f3e3aa1cce4)
+        ;
+
+        
+    
+    
+            var marker_823cc23f4433931b81618b7776a03090 = L.marker(
+                [40.0197699, -105.2753688],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_aa5361ace074c51be20e8d241a4d5ba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_823cc23f4433931b81618b7776a03090.setIcon(icon_aa5361ace074c51be20e8d241a4d5ba5);
+        
+    
+        var popup_8e18624865cc5d0087e5ec57ebc9e27a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f62492468472703617c3c0a5d9b8e196 = $(`<div id="html_f62492468472703617c3c0a5d9b8e196" style="width: 100.0%; height: 100.0%;">     <strong>COLORADO KIND CARE LLC</strong><br>     <strong>The Village Green Society Cannaboutique</strong><br>     Facility Type: Retail Marijuana Store<br>     2043 16th Street<br>     Boulder, CO 80302<br>     Phone: 720-389-5726<br>     Website: <a href="https://www.leafly.com/dispensary-info/the-village-green-society">COLORADO KIND CARE LLC</a><br>     </div>`)[0];
+                popup_8e18624865cc5d0087e5ec57ebc9e27a.setContent(html_f62492468472703617c3c0a5d9b8e196);
+            
+        
+
+        marker_823cc23f4433931b81618b7776a03090.bindPopup(popup_8e18624865cc5d0087e5ec57ebc9e27a)
+        ;
+
+        
+    
+    
+            var marker_44989bdb74d2ecf51d0dce4a71296325 = L.marker(
+                [40.0151476, -105.2913816],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_18981de1b79a1708dc408f48d348f54b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44989bdb74d2ecf51d0dce4a71296325.setIcon(icon_18981de1b79a1708dc408f48d348f54b);
+        
+    
+        var popup_81466382b79f339c1badb686a71e718f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5de4be78810b0cbb27d6a8d004aed76e = $(`<div id="html_5de4be78810b0cbb27d6a8d004aed76e" style="width: 100.0%; height: 100.0%;">     <strong>CONSCIOUSLY CRAFTED LLC</strong><br>     <strong>Hash House</strong><br>     Facility Type: Retail Marijuana Store<br>     302 Pearl Street<br>     Boulder, CO 80302<br>     Phone: 303-993-3066<br>     Website: <a href="https://hashhouseboulder.com/">CONSCIOUSLY CRAFTED LLC</a><br>     </div>`)[0];
+                popup_81466382b79f339c1badb686a71e718f.setContent(html_5de4be78810b0cbb27d6a8d004aed76e);
+            
+        
+
+        marker_44989bdb74d2ecf51d0dce4a71296325.bindPopup(popup_81466382b79f339c1badb686a71e718f)
+        ;
+
+        
+    
+    
+            var marker_d83f91e83b2e6c68c19ca877e58b3045 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_67cad9db9ca6936018b77055db8887dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d83f91e83b2e6c68c19ca877e58b3045.setIcon(icon_67cad9db9ca6936018b77055db8887dd);
+        
+    
+        var popup_1358ffd8ff90ed906e81958786141719 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f76d6118c92cf77b1b531875a4e194cd = $(`<div id="html_f76d6118c92cf77b1b531875a4e194cd" style="width: 100.0%; height: 100.0%;">     <strong>DOUBLE BROW LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     1750 30th Street Unit 12<br>     Boulder, CO 80301<br>     Phone: 720-612-4382<br>     Website: <a href="https://starbudscolorado.com/stores/recreational-marijuana-dispensary-boulder/">DOUBLE BROW LLC</a><br>     </div>`)[0];
+                popup_1358ffd8ff90ed906e81958786141719.setContent(html_f76d6118c92cf77b1b531875a4e194cd);
+            
+        
+
+        marker_d83f91e83b2e6c68c19ca877e58b3045.bindPopup(popup_1358ffd8ff90ed906e81958786141719)
+        ;
+
+        
+    
+    
+            var marker_1f1cce31c22a656709de4deefc3cb93a = L.marker(
+                [39.9856087, -105.2294495],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_e9eb3108bae3ddedc350db19ac729f95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f1cce31c22a656709de4deefc3cb93a.setIcon(icon_e9eb3108bae3ddedc350db19ac729f95);
+        
+    
+        var popup_f06c45e5400f16a6c4f8d629bb3a1927 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4dfd02ac12f7525e26733d3239d32c1 = $(`<div id="html_a4dfd02ac12f7525e26733d3239d32c1" style="width: 100.0%; height: 100.0%;">     <strong>DOUBLE BROW LLC</strong><br>     <strong>Emerald Fields</strong><br>     Facility Type: Retail Marijuana Store<br>     5190 South Boulder Road<br>     Boulder, CO 80303<br>     Phone: 303-499-2898<br>     Website: <a href="https://emeraldfields.com/">DOUBLE BROW LLC</a><br>     </div>`)[0];
+                popup_f06c45e5400f16a6c4f8d629bb3a1927.setContent(html_a4dfd02ac12f7525e26733d3239d32c1);
+            
+        
+
+        marker_1f1cce31c22a656709de4deefc3cb93a.bindPopup(popup_f06c45e5400f16a6c4f8d629bb3a1927)
+        ;
+
+        
+    
+    
+            var marker_1f1a7693b6b08909b49ee692406ae107 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_65e454c0e36978fb8cae794c1285f099 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f1a7693b6b08909b49ee692406ae107.setIcon(icon_65e454c0e36978fb8cae794c1285f099);
+        
+    
+        var popup_4c5fbd095f807c3404703d04402033e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_705c03dcbf69cbbe1ba3381ae05e1cc5 = $(`<div id="html_705c03dcbf69cbbe1ba3381ae05e1cc5" style="width: 100.0%; height: 100.0%;">     <strong>DP RETAIL 111 LLC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Retail Marijuana Store<br>     1750 30th Street, Unit 7<br>     Boulder, CO 80301<br>     Phone: 720-446-5490<br>     Website: <a href="https://shop.greendragon.com/boulder/about-us">DP RETAIL 111 LLC</a><br>     </div>`)[0];
+                popup_4c5fbd095f807c3404703d04402033e0.setContent(html_705c03dcbf69cbbe1ba3381ae05e1cc5);
+            
+        
+
+        marker_1f1a7693b6b08909b49ee692406ae107.bindPopup(popup_4c5fbd095f807c3404703d04402033e0)
+        ;
+
+        
+    
+    
+            var marker_f4bd7c3f52531ac60769cf1391b4751a = L.marker(
+                [40.0217375, -105.2624017],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_e43aa8c35b5671ee89b399a288225939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4bd7c3f52531ac60769cf1391b4751a.setIcon(icon_e43aa8c35b5671ee89b399a288225939);
+        
+    
+        var popup_1328316deb04f91f7ed5eacfe0a31865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ac26417998a744ba217c14dac3b46dc = $(`<div id="html_8ac26417998a744ba217c14dac3b46dc" style="width: 100.0%; height: 100.0%;">     <strong>FRESH BAKED LLC</strong><br>     <strong>Fresh Baked</strong><br>     Facility Type: Retail Marijuana Store<br>     2535 Pearl Street<br>     Boulder, CO 80302<br>     Phone: 303-440-9393<br>     Website: <a href="https://www.freshbakedboulder.com/">FRESH BAKED LLC</a><br>     </div>`)[0];
+                popup_1328316deb04f91f7ed5eacfe0a31865.setContent(html_8ac26417998a744ba217c14dac3b46dc);
+            
+        
+
+        marker_f4bd7c3f52531ac60769cf1391b4751a.bindPopup(popup_1328316deb04f91f7ed5eacfe0a31865)
+        ;
+
+        
+    
+    
+            var marker_c22607253a9eb39dbc9b9332694b5b50 = L.marker(
+                [40.015472, -105.2880107],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_0d2b5c7b627c24ee8743603dcf93d19c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c22607253a9eb39dbc9b9332694b5b50.setIcon(icon_0d2b5c7b627c24ee8743603dcf93d19c);
+        
+    
+        var popup_2f3daebe3720b988747bf5b0d2d38698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_866c01ad16af940c254a8f8b28b00b3a = $(`<div id="html_866c01ad16af940c254a8f8b28b00b3a" style="width: 100.0%; height: 100.0%;">     <strong>GOLD & T LLC</strong><br>     <strong>The Health Center</strong><br>     Facility Type: Retail Marijuana Store<br>     537 Canyon Boulevard<br>     Boulder, CO 80302<br>     Phone: 303-758-9997<br>     Website: <a href="https://www.thchealth.com/">GOLD & T LLC</a><br>     </div>`)[0];
+                popup_2f3daebe3720b988747bf5b0d2d38698.setContent(html_866c01ad16af940c254a8f8b28b00b3a);
+            
+        
+
+        marker_c22607253a9eb39dbc9b9332694b5b50.bindPopup(popup_2f3daebe3720b988747bf5b0d2d38698)
+        ;
+
+        
+    
+    
+            var marker_62bc6db96e134b530e20503b7276e0ba = L.marker(
+                [40.0723051, -105.1976901],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_ec6a21379bf519fb2af5096eb4021cee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62bc6db96e134b530e20503b7276e0ba.setIcon(icon_ec6a21379bf519fb2af5096eb4021cee);
+        
+    
+        var popup_64d8ebf808a9d9f6f9468974e5354a5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4f626b921968de6dd3b4718c3faeee5 = $(`<div id="html_d4f626b921968de6dd3b4718c3faeee5" style="width: 100.0%; height: 100.0%;">     <strong>HEALTH SERVICES LLC</strong><br>     <strong>GREEN DREAM CANNABIS</strong><br>     Facility Type: Retail Marijuana Store<br>     6700 Lookout Road, Suite 5<br>     Boulder, CO 80301<br>     Phone: 303-530-3031<br>     Website: <a href="https://www.greendreamcannabis.com/">HEALTH SERVICES LLC</a><br>     </div>`)[0];
+                popup_64d8ebf808a9d9f6f9468974e5354a5f.setContent(html_d4f626b921968de6dd3b4718c3faeee5);
+            
+        
+
+        marker_62bc6db96e134b530e20503b7276e0ba.bindPopup(popup_64d8ebf808a9d9f6f9468974e5354a5f)
+        ;
+
+        
+    
+    
+            var marker_7738b18b174b4d83e93cc94e8271f9fe = L.marker(
+                [40.0807789, -105.2810285],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_e40e8e306631aeeb6314e2d8bf5bcc83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7738b18b174b4d83e93cc94e8271f9fe.setIcon(icon_e40e8e306631aeeb6314e2d8bf5bcc83);
+        
+    
+        var popup_e0339c34099afa28b16d814cc2093108 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c87d1160debd31ec8db20348cec453 = $(`<div id="html_45c87d1160debd31ec8db20348cec453" style="width: 100.0%; height: 100.0%;">     <strong>KARING KIND LLC</strong><br>     <strong>Karing Kind</strong><br>     Facility Type: Retail Marijuana Store<br>     5854 Rawhide Court<br>     Boulder, CO 80302<br>     Phone: 303-449-9333<br>     Website: <a href="https://karingkind.com/boulder-cannabis-dispensary/">KARING KIND LLC</a><br>     </div>`)[0];
+                popup_e0339c34099afa28b16d814cc2093108.setContent(html_45c87d1160debd31ec8db20348cec453);
+            
+        
+
+        marker_7738b18b174b4d83e93cc94e8271f9fe.bindPopup(popup_e0339c34099afa28b16d814cc2093108)
+        ;
+
+        
+    
+    
+            var marker_b9afd874b9defa2d2dd77161d4161184 = L.marker(
+                [40.020759, -105.2647068],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_fbe9c6dee128ac7e55f833830aa00d7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9afd874b9defa2d2dd77161d4161184.setIcon(icon_fbe9c6dee128ac7e55f833830aa00d7b);
+        
+    
+        var popup_3fa294279d3afd199cf6305151a03861 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8e987cd1c8f2cb6b3013063a7899418 = $(`<div id="html_a8e987cd1c8f2cb6b3013063a7899418" style="width: 100.0%; height: 100.0%;">     <strong>LB PEARL LLC</strong><br>     <strong>Elite Cannabis</strong><br>     Facility Type: Retail Marijuana Store<br>     2336 Pearl Street<br>     Boulder, CO 80302<br>     Phone: Unlisted<br>     Website: <a href="Unlisted">LB PEARL LLC</a><br>     </div>`)[0];
+                popup_3fa294279d3afd199cf6305151a03861.setContent(html_a8e987cd1c8f2cb6b3013063a7899418);
+            
+        
+
+        marker_b9afd874b9defa2d2dd77161d4161184.bindPopup(popup_3fa294279d3afd199cf6305151a03861)
+        ;
+
+        
+    
+    
+            var marker_dc5c700c7535b9566ed99cba3cc980ee = L.marker(
+                [40.021576, -105.2623036],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_3ac40a6308f122e12a0a496fdb124196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc5c700c7535b9566ed99cba3cc980ee.setIcon(icon_3ac40a6308f122e12a0a496fdb124196);
+        
+    
+        var popup_40d75ecf27cad2f29ffc9e4fa5c6cb51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e36234bf59eccd2ee3e42e35de21fd05 = $(`<div id="html_e36234bf59eccd2ee3e42e35de21fd05" style="width: 100.0%; height: 100.0%;">     <strong>LIFTREAT INVESTMENT GROUP LLC</strong><br>     <strong>Cannabis Studio</strong><br>     Facility Type: Retail Marijuana Store<br>     2539 Pearl Street<br>     Boulder, CO 80302<br>     Phone: 303-993-8536<br>     Website: <a href="https://mycannabisstudio.com/">LIFTREAT INVESTMENT GROUP LLC</a><br>     </div>`)[0];
+                popup_40d75ecf27cad2f29ffc9e4fa5c6cb51.setContent(html_e36234bf59eccd2ee3e42e35de21fd05);
+            
+        
+
+        marker_dc5c700c7535b9566ed99cba3cc980ee.bindPopup(popup_40d75ecf27cad2f29ffc9e4fa5c6cb51)
+        ;
+
+        
+    
+    
+            var marker_272b9f60011698932c3454791c5093c3 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_df7415ffde8bb6e217d239f65e05412d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_272b9f60011698932c3454791c5093c3.setIcon(icon_df7415ffde8bb6e217d239f65e05412d);
+        
+    
+        var popup_09e8b7bd1a25b200846ebe5f7f14b123 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03d891f97cb5e80ad92ed47047e93646 = $(`<div id="html_03d891f97cb5e80ad92ed47047e93646" style="width: 100.0%; height: 100.0%;">     <strong>MAGNOLIA ROAD INC</strong><br>     <strong>Magnolia Road Cannabis Company</strong><br>     Facility Type: Medical Marijuana Store<br>     1750 30th Street, Unit 84B<br>     Boulder, CO 80301<br>     Phone: 720-741-6111<br>     Website: <a href="https://magnoliaroadcc.com/dispensary-locations/boulder-rec/">MAGNOLIA ROAD INC</a><br>     </div>`)[0];
+                popup_09e8b7bd1a25b200846ebe5f7f14b123.setContent(html_03d891f97cb5e80ad92ed47047e93646);
+            
+        
+
+        marker_272b9f60011698932c3454791c5093c3.bindPopup(popup_09e8b7bd1a25b200846ebe5f7f14b123)
+        ;
+
+        
+    
+    
+            var marker_33a2b596ff1b98495d1e23c6f17d3a12 = L.marker(
+                [40.0174738, -105.2538668],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_4595e07030e54eb216651726ce14aee4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_33a2b596ff1b98495d1e23c6f17d3a12.setIcon(icon_4595e07030e54eb216651726ce14aee4);
+        
+    
+        var popup_0db35b2dd0072d4431050d7b18713b0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa9c19d83f530f714982426ba132b6d8 = $(`<div id="html_aa9c19d83f530f714982426ba132b6d8" style="width: 100.0%; height: 100.0%;">     <strong>MAGNOLIA ROAD INC</strong><br>     <strong>Magnolia Road Cannabis Company</strong><br>     Facility Type: Retail Marijuana Store<br>     1750 30th Street Unit 84A<br>     Boulder, CO 80301<br>     Phone: 720-741-6111<br>     Website: <a href="https://magnoliaroadcc.com/dispensary-locations/boulder-rec/">MAGNOLIA ROAD INC</a><br>     </div>`)[0];
+                popup_0db35b2dd0072d4431050d7b18713b0d.setContent(html_aa9c19d83f530f714982426ba132b6d8);
+            
+        
+
+        marker_33a2b596ff1b98495d1e23c6f17d3a12.bindPopup(popup_0db35b2dd0072d4431050d7b18713b0d)
+        ;
+
+        
+    
+    
+            var marker_3191497ddef053a512a70f299089598c = L.marker(
+                [40.020157, -105.251752],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_517addcdd0c8d908d6ca85d51f665f01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3191497ddef053a512a70f299089598c.setIcon(icon_517addcdd0c8d908d6ca85d51f665f01);
+        
+    
+        var popup_b6f51b56daa1199fb8fb14292f4496be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1216ac013776783cc2b7f9977d2f8a33 = $(`<div id="html_1216ac013776783cc2b7f9977d2f8a33" style="width: 100.0%; height: 100.0%;">     <strong>NEBRINA WALNUT LLC </strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     3141-3151 Walnut Street<br>     Boulder , CO 80301<br>     Phone: 303-658-0808<br>     Website: <a href="https://www.greentreemedicinals.com/locations/boulder-co-recreational-dispensary/">NEBRINA WALNUT LLC </a><br>     </div>`)[0];
+                popup_b6f51b56daa1199fb8fb14292f4496be.setContent(html_1216ac013776783cc2b7f9977d2f8a33);
+            
+        
+
+        marker_3191497ddef053a512a70f299089598c.bindPopup(popup_b6f51b56daa1199fb8fb14292f4496be)
+        ;
+
+        
+    
+    
+            var marker_6d1b249dfd4cc0ca8a720cf4231570ff = L.marker(
+                [40.0138182, -105.2248919],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_04ab628142ff92fcaf049a894bb3cc2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d1b249dfd4cc0ca8a720cf4231570ff.setIcon(icon_04ab628142ff92fcaf049a894bb3cc2c);
+        
+    
+        var popup_b25d06db1765c49c94dca1670362546b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef5cb357e7055903d878114e3f96daae = $(`<div id="html_ef5cb357e7055903d878114e3f96daae" style="width: 100.0%; height: 100.0%;">     <strong>OPTIONS MEDICAL CENTER LLC</strong><br>     <strong>Elements</strong><br>     Facility Type: Retail Marijuana Store<br>     1534 55th Street<br>     Boulder, CO 80303<br>     Phone: 303-444-0861<br>     Website: <a href="https://elementsboulder.com/">OPTIONS MEDICAL CENTER LLC</a><br>     </div>`)[0];
+                popup_b25d06db1765c49c94dca1670362546b.setContent(html_ef5cb357e7055903d878114e3f96daae);
+            
+        
+
+        marker_6d1b249dfd4cc0ca8a720cf4231570ff.bindPopup(popup_b25d06db1765c49c94dca1670362546b)
+        ;
+
+        
+    
+    
+            var marker_c6b76309b08d0562c8fc975022515a73 = L.marker(
+                [40.0297063, -105.2628885],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_c41c5920ac2d9167b1c38f338b329c7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c6b76309b08d0562c8fc975022515a73.setIcon(icon_c41c5920ac2d9167b1c38f338b329c7e);
+        
+    
+        var popup_6ffc051269971f8672622cf4de500f23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ae2c338118cecc0580da60ae114f1b6 = $(`<div id="html_8ae2c338118cecc0580da60ae114f1b6" style="width: 100.0%; height: 100.0%;">     <strong>ROOTS MANAGEMENT LLC</strong><br>     <strong>BAHAMA MAMA CRAFT CANNABIS</strong><br>     Facility Type: Retail Marijuana Store<br>     3000 Folsom Street<br>     Boulder, CO 80304<br>     Phone: 303-815-4658<br>     Website: <a href="https://www.westword.com/marijuana/denver-dispensary-closing-in-january-new-pot-shops-open-in-suburbs-18948461">ROOTS MANAGEMENT LLC</a><br>     </div>`)[0];
+                popup_6ffc051269971f8672622cf4de500f23.setContent(html_8ae2c338118cecc0580da60ae114f1b6);
+            
+        
+
+        marker_c6b76309b08d0562c8fc975022515a73.bindPopup(popup_6ffc051269971f8672622cf4de500f23)
+        ;
+
+        
+    
+    
+            var marker_0ffb72b8fcdb2d6f3c18b14328eb6654 = L.marker(
+                [40.036542, -105.257038],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_7da690758107e99551531aea66c22b95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ffb72b8fcdb2d6f3c18b14328eb6654.setIcon(icon_7da690758107e99551531aea66c22b95);
+        
+    
+        var popup_98076a2518299b8b206e7b8736c7d653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47a1365bdfce1cabc4498b4bd1872389 = $(`<div id="html_47a1365bdfce1cabc4498b4bd1872389" style="width: 100.0%; height: 100.0%;">     <strong>SKINNY PINEAPPLE INC</strong><br>     <strong>The Farm Marijuana Dispensary Boulder</strong><br>     Facility Type: Retail Marijuana Store<br>     2801 Iris Avenue<br>     Boulder, CO 80301<br>     Phone: 303-440-1323<br>     Website: <a href="https://www.thefarmco.com/">SKINNY PINEAPPLE INC</a><br>     </div>`)[0];
+                popup_98076a2518299b8b206e7b8736c7d653.setContent(html_47a1365bdfce1cabc4498b4bd1872389);
+            
+        
+
+        marker_0ffb72b8fcdb2d6f3c18b14328eb6654.bindPopup(popup_98076a2518299b8b206e7b8736c7d653)
+        ;
+
+        
+    
+    
+            var marker_cce15d65f22ecca50b13a8e054cbafb4 = L.marker(
+                [40.0361945, -105.2579304],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_d33835d1a0fae763c23ed6713d6242b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cce15d65f22ecca50b13a8e054cbafb4.setIcon(icon_d33835d1a0fae763c23ed6713d6242b9);
+        
+    
+        var popup_fc933531ec2ba10a8df6f71ea53aa9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e47a167339b91fd0c3fa46bb09721dbd = $(`<div id="html_e47a167339b91fd0c3fa46bb09721dbd" style="width: 100.0%; height: 100.0%;">     <strong>SOUTHERN COLORADO REAL ESTATE DEVELOPERS OF BOULDER LLC</strong><br>     <strong>The Cannabis Depot Boulder LLC</strong><br>     Facility Type: Retail Marijuana Store<br>     3390 28th Street<br>     Boulder, CO 80301<br>     Phone: 720-242-7435<br>     Website: <a href="https://cannabisdepotco.com/locations/boulder-dispensary/">SOUTHERN COLORADO REAL ESTATE DEVELOPERS OF BOULDER LLC</a><br>     </div>`)[0];
+                popup_fc933531ec2ba10a8df6f71ea53aa9b8.setContent(html_e47a167339b91fd0c3fa46bb09721dbd);
+            
+        
+
+        marker_cce15d65f22ecca50b13a8e054cbafb4.bindPopup(popup_fc933531ec2ba10a8df6f71ea53aa9b8)
+        ;
+
+        
+    
+    
+            var marker_d7521dca423b143fba4879782744096d = L.marker(
+                [40.0171972, -105.2630855],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_c8c3868ed168977036c70e5e77042e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7521dca423b143fba4879782744096d.setIcon(icon_c8c3868ed168977036c70e5e77042e45);
+        
+    
+        var popup_7dcf9e23b35b346b2cc2e289e515e4b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80f42d05f146bddd5a24ca352488f1e6 = $(`<div id="html_80f42d05f146bddd5a24ca352488f1e6" style="width: 100.0%; height: 100.0%;">     <strong>ST FOLSOM LLC</strong><br>     <strong>Terrapin Care Station</strong><br>     Facility Type: Retail Marijuana Store<br>     1795 Folsom Street<br>     Boulder, CO 80302<br>     Phone: 303-954-8402<br>     Website: <a href="https://www.denverdispensaries.net/place/terrapin-care-station/">ST FOLSOM LLC</a><br>     </div>`)[0];
+                popup_7dcf9e23b35b346b2cc2e289e515e4b0.setContent(html_80f42d05f146bddd5a24ca352488f1e6);
+            
+        
+
+        marker_d7521dca423b143fba4879782744096d.bindPopup(popup_7dcf9e23b35b346b2cc2e289e515e4b0)
+        ;
+
+        
+    
+    
+            var marker_796c3003246712ac716c04b1d777e570 = L.marker(
+                [39.9848551, -105.2274969],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_760123a7a3d579df4b701ba5dd7cba52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_796c3003246712ac716c04b1d777e570.setIcon(icon_760123a7a3d579df4b701ba5dd7cba52);
+        
+    
+        var popup_830654f17a7532e64002838cbf0c814b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3aa75620af72438c18095778cdcd4f0f = $(`<div id="html_3aa75620af72438c18095778cdcd4f0f" style="width: 100.0%; height: 100.0%;">     <strong>ST MANHATTAN LLC</strong><br>     <strong>Terrapin Care Station</strong><br>     Facility Type: Medical Marijuana Store<br>     5370 Manhattan Circle, Suite 104<br>     Boulder, CO 80303<br>     Phone: 303-954-8402<br>     Website: <a href="https://www.leafly.com/dispensary-info/terrapin-care-station-manhattan-med">ST MANHATTAN LLC</a><br>     </div>`)[0];
+                popup_830654f17a7532e64002838cbf0c814b.setContent(html_3aa75620af72438c18095778cdcd4f0f);
+            
+        
+
+        marker_796c3003246712ac716c04b1d777e570.bindPopup(popup_830654f17a7532e64002838cbf0c814b)
+        ;
+
+        
+    
+    
+            var marker_640d1034cc7080642a8c79f37ac6d04a = L.marker(
+                [39.9848551, -105.2274969],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_b4b9726a754fd287ffd6516109a84221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_640d1034cc7080642a8c79f37ac6d04a.setIcon(icon_b4b9726a754fd287ffd6516109a84221);
+        
+    
+        var popup_58427710291fd6e0c2135b62a2fbc14f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a603ce74970e30a64dc70f6cc86bde6f = $(`<div id="html_a603ce74970e30a64dc70f6cc86bde6f" style="width: 100.0%; height: 100.0%;">     <strong>ST MANHATTAN LLC</strong><br>     <strong>Terrapin Care Station</strong><br>     Facility Type: Retail Marijuana Store<br>     5370 Manhattan Circle, Suite 104,<br>     Boulder, CO 80303<br>     Phone: 303-954-8402<br>     Website: <a href="https://www.leafly.com/dispensary-info/terrapin-care-station-manhattan-med">ST MANHATTAN LLC</a><br>     </div>`)[0];
+                popup_58427710291fd6e0c2135b62a2fbc14f.setContent(html_a603ce74970e30a64dc70f6cc86bde6f);
+            
+        
+
+        marker_640d1034cc7080642a8c79f37ac6d04a.bindPopup(popup_58427710291fd6e0c2135b62a2fbc14f)
+        ;
+
+        
+    
+    
+            var marker_e6c6cf077c1bfbaa620ffed2937034e9 = L.marker(
+                [40.0141938, -105.227272],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_fa9fbb2d1ac80d28d53ef51c6f542c93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6c6cf077c1bfbaa620ffed2937034e9.setIcon(icon_fa9fbb2d1ac80d28d53ef51c6f542c93);
+        
+    
+        var popup_2168afb4eb1a3c218148a72c2a9eb065 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95c7acd628b209963929e847d82aff6f = $(`<div id="html_95c7acd628b209963929e847d82aff6f" style="width: 100.0%; height: 100.0%;">     <strong>SUMMIT WELLNESS</strong><br>     <strong>DENREC Denver Recreational Dispensary</strong><br>     Facility Type: Retail Marijuana Store<br>     5420 Arapahoe Avenue  Unit D<br>     Boulder, CO 80303<br>     Phone: 303-296-2093<br>     Website: <a href="https://www.leafly.com/dispensary-info/den-rec-recreational-dispensary">SUMMIT WELLNESS</a><br>     </div>`)[0];
+                popup_2168afb4eb1a3c218148a72c2a9eb065.setContent(html_95c7acd628b209963929e847d82aff6f);
+            
+        
+
+        marker_e6c6cf077c1bfbaa620ffed2937034e9.bindPopup(popup_2168afb4eb1a3c218148a72c2a9eb065)
+        ;
+
+        
+    
+    
+            var marker_fc685580ce51397196fcd76f2252e701 = L.marker(
+                [40.0259552, -105.256478],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_09134f97931a9ec2f5cacc4e79a9883e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc685580ce51397196fcd76f2252e701.setIcon(icon_09134f97931a9ec2f5cacc4e79a9883e);
+        
+    
+        var popup_684de3321c94732dcd9256d07da370fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_306361708de509985b7079b1b4cbdc31 = $(`<div id="html_306361708de509985b7079b1b4cbdc31" style="width: 100.0%; height: 100.0%;">     <strong>SUSTAINABLE HEALTH LLC</strong><br>     <strong>14er Holistics</strong><br>     Facility Type: Retail Marijuana Store<br>     2897 Mapleton Avenue, Suite 800<br>     Boulder, CO 80301<br>     Phone: 303-539-6525<br>     Website: <a href="https://14erboulder.com/">SUSTAINABLE HEALTH LLC</a><br>     </div>`)[0];
+                popup_684de3321c94732dcd9256d07da370fd.setContent(html_306361708de509985b7079b1b4cbdc31);
+            
+        
+
+        marker_fc685580ce51397196fcd76f2252e701.bindPopup(popup_684de3321c94732dcd9256d07da370fd)
+        ;
+
+        
+    
+    
+            var marker_36f22ba551830355da43b3dccb940324 = L.marker(
+                [40.0161223, -105.2840396],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_ec611a15f2c8794f2981b9748c9067ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_36f22ba551830355da43b3dccb940324.setIcon(icon_ec611a15f2c8794f2981b9748c9067ea);
+        
+    
+        var popup_83fb787da16d0eef6f90670ecc186e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9db24a2ca593060faba5170586b93ca3 = $(`<div id="html_9db24a2ca593060faba5170586b93ca3" style="width: 100.0%; height: 100.0%;">     <strong>THE DANDELION LLC</strong><br>     <strong>The Dandelion</strong><br>     Facility Type: Medical Marijuana Store<br>     845 Walnut Street<br>     Boulder, CO 80302<br>     Phone: 303-459-4676<br>     Website: <a href="https://boulderdowntown.com/go/the-dandelion">THE DANDELION LLC</a><br>     </div>`)[0];
+                popup_83fb787da16d0eef6f90670ecc186e63.setContent(html_9db24a2ca593060faba5170586b93ca3);
+            
+        
+
+        marker_36f22ba551830355da43b3dccb940324.bindPopup(popup_83fb787da16d0eef6f90670ecc186e63)
+        ;
+
+        
+    
+    
+            var marker_b929a17c47c2fbb12fdbedf67b69673b = L.marker(
+                [40.0011404, -105.1570366],
+                {}
+            ).addTo(map_e3ca754559c5ee1e150b66816750e31a);
+        
+    
+            var icon_e054e723f4ca504bc99684eb407f6e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b929a17c47c2fbb12fdbedf67b69673b.setIcon(icon_e054e723f4ca504bc99684eb407f6e5c);
+        
+    
+        var popup_2ad1c861beb7d82d8f165c7e62fe2b50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa0bb15df9421651c4feef5fa034f757 = $(`<div id="html_fa0bb15df9421651c4feef5fa034f757" style="width: 100.0%; height: 100.0%;">     <strong>WLCO LLC</strong><br>     <strong>THE REPUBLIC</strong><br>     Facility Type: Retail Marijuana Store<br>     8401 Baseline Road<br>     Boulder, CO 80303<br>     Phone: 303-325-7385<br>     Website: <a href="https://www.shoptherepublic.com/shop-now">WLCO LLC</a><br>     </div>`)[0];
+                popup_2ad1c861beb7d82d8f165c7e62fe2b50.setContent(html_fa0bb15df9421651c4feef5fa034f757);
+            
+        
+
+        marker_b929a17c47c2fbb12fdbedf67b69673b.bindPopup(popup_2ad1c861beb7d82d8f165c7e62fe2b50)
+        ;
+
+        
+    
+</script>
+</html>

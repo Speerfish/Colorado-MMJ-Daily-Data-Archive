@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_77742d68881758f43ea789032ae0c0ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_77742d68881758f43ea789032ae0c0ac" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_77742d68881758f43ea789032ae0c0ac = L.map(
+                "map_77742d68881758f43ea789032ae0c0ac",
+                {
+                    center: [40.5853, -105.0844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5e69c1cfdf33960a726f9f47f279812 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a5e69c1cfdf33960a726f9f47f279812.addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var marker_120863485abd88ab8d74bcd809c821a0 = L.marker(
+                [40.5738399, -105.0473852],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_7f849b96e698dbcb0e6b3187ca5f6628 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_120863485abd88ab8d74bcd809c821a0.setIcon(icon_7f849b96e698dbcb0e6b3187ca5f6628);
+        
+    
+        var popup_f53e3e6d552989ac9ae71cedb474b19e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2dd40880d354cdcff8fa670ad2d4e2 = $(`<div id="html_2d2dd40880d354cdcff8fa670ad2d4e2" style="width: 100.0%; height: 100.0%;">     <strong>ACES PLACE LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     1101 Academy Court, Unit 4<br>     Fort Collins, CO 80524<br>     Phone: 970-472-5107<br>     Website: <a href="https://www.acesplacefoco.com/home">ACES PLACE LLC</a><br>     </div>`)[0];
+                popup_f53e3e6d552989ac9ae71cedb474b19e.setContent(html_2d2dd40880d354cdcff8fa670ad2d4e2);
+            
+        
+
+        marker_120863485abd88ab8d74bcd809c821a0.bindPopup(popup_f53e3e6d552989ac9ae71cedb474b19e)
+        ;
+
+        
+    
+    
+            var marker_c8739a9f49bc6e6438b03e7a0ece3750 = L.marker(
+                [40.5738399, -105.0473852],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_e3d63e33e7b553c81e7ca688663c384f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c8739a9f49bc6e6438b03e7a0ece3750.setIcon(icon_e3d63e33e7b553c81e7ca688663c384f);
+        
+    
+        var popup_57b7d50d6cda12217dfde3934a21684f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a81af7dd4c58e8e15f8e31dec2d576 = $(`<div id="html_40a81af7dd4c58e8e15f8e31dec2d576" style="width: 100.0%; height: 100.0%;">     <strong>ACES PLACE LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     1101 Academy Court, Unit 4<br>     Fort Collins, CO 80524<br>     Phone: 970-472-5107<br>     Website: <a href="https://www.acesplacefoco.com/home">ACES PLACE LLC</a><br>     </div>`)[0];
+                popup_57b7d50d6cda12217dfde3934a21684f.setContent(html_40a81af7dd4c58e8e15f8e31dec2d576);
+            
+        
+
+        marker_c8739a9f49bc6e6438b03e7a0ece3750.bindPopup(popup_57b7d50d6cda12217dfde3934a21684f)
+        ;
+
+        
+    
+    
+            var marker_ca5a10b20e3b110a0e59afd31dd50a0e = L.marker(
+                [40.577109, -105.003324],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_5ac0fc42174bd4723f45fc7118aff95c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca5a10b20e3b110a0e59afd31dd50a0e.setIcon(icon_5ac0fc42174bd4723f45fc7118aff95c);
+        
+    
+        var popup_100123069792aa518c22899dcd979988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17376888d516fa0afe15d1c5b0bcfc5d = $(`<div id="html_17376888d516fa0afe15d1c5b0bcfc5d" style="width: 100.0%; height: 100.0%;">     <strong>CHOICE ORGANICS INC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Medical Marijuana Store<br>     813 Smithfield Drive, Units A & B<br>     Fort Collins, CO 80524<br>     Phone: 970-225-5420<br>     Website: <a href="https://greendragon.com/locations/fort-collins-smithfield-drive/">CHOICE ORGANICS INC</a><br>     </div>`)[0];
+                popup_100123069792aa518c22899dcd979988.setContent(html_17376888d516fa0afe15d1c5b0bcfc5d);
+            
+        
+
+        marker_ca5a10b20e3b110a0e59afd31dd50a0e.bindPopup(popup_100123069792aa518c22899dcd979988)
+        ;
+
+        
+    
+    
+            var marker_3e43f8711e234f0cce2eff7d94ecf951 = L.marker(
+                [40.577109, -105.003324],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_1f5b80f95a6de1bf394fd991e90097ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3e43f8711e234f0cce2eff7d94ecf951.setIcon(icon_1f5b80f95a6de1bf394fd991e90097ee);
+        
+    
+        var popup_d6f7d823ddad1d354b1b6d9571b2863d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44625fcf09332f1b68d21326dd3d6549 = $(`<div id="html_44625fcf09332f1b68d21326dd3d6549" style="width: 100.0%; height: 100.0%;">     <strong>CHOICE ORGANICS INC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Retail Marijuana Store<br>     813 Smithfield Drive, Units C & D<br>     Fort Collins, CO 80524<br>     Phone: 970-225-5420<br>     Website: <a href="https://greendragon.com/locations/fort-collins-smithfield-drive/">CHOICE ORGANICS INC</a><br>     </div>`)[0];
+                popup_d6f7d823ddad1d354b1b6d9571b2863d.setContent(html_44625fcf09332f1b68d21326dd3d6549);
+            
+        
+
+        marker_3e43f8711e234f0cce2eff7d94ecf951.bindPopup(popup_d6f7d823ddad1d354b1b6d9571b2863d)
+        ;
+
+        
+    
+    
+            var marker_bed732381c1153f865e5cd5d34a12a98 = L.marker(
+                [40.5763751, -105.0767149],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_99030bf6f02c5dfe464fb55033c95900 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bed732381c1153f865e5cd5d34a12a98.setIcon(icon_99030bf6f02c5dfe464fb55033c95900);
+        
+    
+        var popup_a29b5a43aa2abd90f637d5ac365d98e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a0039766bb51a9a85f68b2da9926df6 = $(`<div id="html_9a0039766bb51a9a85f68b2da9926df6" style="width: 100.0%; height: 100.0%;">     <strong>DP RETAIL 100 LLC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Medical Marijuana Store<br>     804 South College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-225-5421<br>     Website: <a href="https://greendragon.com/locations/green-dragon-medical-weed-dispensary-fort-collins-2/">DP RETAIL 100 LLC</a><br>     </div>`)[0];
+                popup_a29b5a43aa2abd90f637d5ac365d98e2.setContent(html_9a0039766bb51a9a85f68b2da9926df6);
+            
+        
+
+        marker_bed732381c1153f865e5cd5d34a12a98.bindPopup(popup_a29b5a43aa2abd90f637d5ac365d98e2)
+        ;
+
+        
+    
+    
+            var marker_b5962fd9816d66edafa53b8b6bd6c6df = L.marker(
+                [40.5763751, -105.0767149],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_f987cc8f8ab321f2c6b0efda7570c846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5962fd9816d66edafa53b8b6bd6c6df.setIcon(icon_f987cc8f8ab321f2c6b0efda7570c846);
+        
+    
+        var popup_24b0947febf3de0edacd8e7af64e326d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d13cedb08d3ce6a19b2375dc69ae514f = $(`<div id="html_d13cedb08d3ce6a19b2375dc69ae514f" style="width: 100.0%; height: 100.0%;">     <strong>DP RETAIL 100 LLC</strong><br>     <strong>Green Dragon</strong><br>     Facility Type: Retail Marijuana Store<br>     804 South College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-225-5421<br>     Website: <a href="https://greendragon.com/locations/green-dragon-medical-weed-dispensary-fort-collins-2/">DP RETAIL 100 LLC</a><br>     </div>`)[0];
+                popup_24b0947febf3de0edacd8e7af64e326d.setContent(html_d13cedb08d3ce6a19b2375dc69ae514f);
+            
+        
+
+        marker_b5962fd9816d66edafa53b8b6bd6c6df.bindPopup(popup_24b0947febf3de0edacd8e7af64e326d)
+        ;
+
+        
+    
+    
+            var marker_8c8d7a771b8b505f2d77b4389a966d6b = L.marker(
+                [40.5912784, -105.0547251],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_856003e5342617612da4b804bab08fd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c8d7a771b8b505f2d77b4389a966d6b.setIcon(icon_856003e5342617612da4b804bab08fd0);
+        
+    
+        var popup_4bcd0b659f8b0f2cd8766572aaa75292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807887529080e15db8751e6fc3ce090d = $(`<div id="html_807887529080e15db8751e6fc3ce090d" style="width: 100.0%; height: 100.0%;">     <strong>FLOWER POWER BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     1308 -1310 Duff Drive<br>     Fort Collins, CO 80524<br>     Phone: 970-672-8165<br>     Website: <a href="https://flowerpowerbotanicals.com/">FLOWER POWER BOTANICALS LLC</a><br>     </div>`)[0];
+                popup_4bcd0b659f8b0f2cd8766572aaa75292.setContent(html_807887529080e15db8751e6fc3ce090d);
+            
+        
+
+        marker_8c8d7a771b8b505f2d77b4389a966d6b.bindPopup(popup_4bcd0b659f8b0f2cd8766572aaa75292)
+        ;
+
+        
+    
+    
+            var marker_d84e7a7dd8713d5bbd22eb8fdb9dcd87 = L.marker(
+                [40.5912784, -105.0547251],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_3b59d42cd58e1847246692852d4c831c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d84e7a7dd8713d5bbd22eb8fdb9dcd87.setIcon(icon_3b59d42cd58e1847246692852d4c831c);
+        
+    
+        var popup_dce03e221f83addf4c3191df85250a43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a985945e3171a20dc12dbb8f175f95 = $(`<div id="html_57a985945e3171a20dc12dbb8f175f95" style="width: 100.0%; height: 100.0%;">     <strong>FLOWER POWER BOTANICALS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     1308 -1310 Duff Drive<br>     Fort Collins, CO 80524<br>     Phone: 970-672-8165<br>     Website: <a href="https://flowerpowerbotanicals.com/">FLOWER POWER BOTANICALS LLC</a><br>     </div>`)[0];
+                popup_dce03e221f83addf4c3191df85250a43.setContent(html_57a985945e3171a20dc12dbb8f175f95);
+            
+        
+
+        marker_d84e7a7dd8713d5bbd22eb8fdb9dcd87.bindPopup(popup_dce03e221f83addf4c3191df85250a43)
+        ;
+
+        
+    
+    
+            var marker_8e09c3bab983d659aa1d08efcc0eb620 = L.marker(
+                [40.49445, -105.077315],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_90908b8e6349042662b243e488bcf58f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e09c3bab983d659aa1d08efcc0eb620.setIcon(icon_90908b8e6349042662b243e488bcf58f);
+        
+    
+        var popup_1cf4542acc816fcfb6d344122f996897 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a05678a4f3cdaddd1ed03d217d762099 = $(`<div id="html_a05678a4f3cdaddd1ed03d217d762099" style="width: 100.0%; height: 100.0%;">     <strong>KIND CARE OF COLORADO LLC</strong><br>     <strong>Kind Care of Colorado</strong><br>     Facility Type: Medical Marijuana Store<br>     6617 South College Avenue, Building A<br>     Fort Collins, CO 80525<br>     Phone: 970-568-8020<br>     Website: <a href="https://weedmaps.com/dispensaries/kind-care-of-colorado-2">KIND CARE OF COLORADO LLC</a><br>     </div>`)[0];
+                popup_1cf4542acc816fcfb6d344122f996897.setContent(html_a05678a4f3cdaddd1ed03d217d762099);
+            
+        
+
+        marker_8e09c3bab983d659aa1d08efcc0eb620.bindPopup(popup_1cf4542acc816fcfb6d344122f996897)
+        ;
+
+        
+    
+    
+            var marker_8057d8a2356bb7b4a92f6a1bafcc24df = L.marker(
+                [40.49445, -105.077315],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_fbb219fff4400a006973505669281df0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8057d8a2356bb7b4a92f6a1bafcc24df.setIcon(icon_fbb219fff4400a006973505669281df0);
+        
+    
+        var popup_65eda3d4e6482c737387bc797b03f631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbbc5a95de3ce1db8424a77498241a03 = $(`<div id="html_fbbc5a95de3ce1db8424a77498241a03" style="width: 100.0%; height: 100.0%;">     <strong>KIND CARE OF COLORADO LLC</strong><br>     <strong>Kind Care of Colorado</strong><br>     Facility Type: Retail Marijuana Store<br>     6617 South College Avenue Building A<br>     Fort Collins, CO 80525<br>     Phone: 970-568-8020<br>     Website: <a href="https://weedmaps.com/dispensaries/kind-care-of-colorado-2">KIND CARE OF COLORADO LLC</a><br>     </div>`)[0];
+                popup_65eda3d4e6482c737387bc797b03f631.setContent(html_fbbc5a95de3ce1db8424a77498241a03);
+            
+        
+
+        marker_8057d8a2356bb7b4a92f6a1bafcc24df.bindPopup(popup_65eda3d4e6482c737387bc797b03f631)
+        ;
+
+        
+    
+    
+            var marker_7737cb3257516687acd0f8d1a26e7c20 = L.marker(
+                [40.5988505, -105.0760529],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_1ed677409b3e9149082c73c5d9e2518f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7737cb3257516687acd0f8d1a26e7c20.setIcon(icon_1ed677409b3e9149082c73c5d9e2518f);
+        
+    
+        var popup_8007bd3f82c4ed8b5ea52ee7dfa66711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3c77b5622deb8be148ba39a5bd03688 = $(`<div id="html_a3c77b5622deb8be148ba39a5bd03688" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL VII LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Medical Marijuana Store<br>     900 North College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-484-8380<br>     Website: <a href="https://livwell.com/locations/colorado/fort-collins">LIVWELL VII LLC</a><br>     </div>`)[0];
+                popup_8007bd3f82c4ed8b5ea52ee7dfa66711.setContent(html_a3c77b5622deb8be148ba39a5bd03688);
+            
+        
+
+        marker_7737cb3257516687acd0f8d1a26e7c20.bindPopup(popup_8007bd3f82c4ed8b5ea52ee7dfa66711)
+        ;
+
+        
+    
+    
+            var marker_adcdbbaaede4b0e4b5fb831682d209da = L.marker(
+                [40.5988505, -105.0760529],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_ba8b3a1f069df5852acbc1d2d0777cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adcdbbaaede4b0e4b5fb831682d209da.setIcon(icon_ba8b3a1f069df5852acbc1d2d0777cfb);
+        
+    
+        var popup_3f6c4e27f29ee01e0df424b2a015a611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10f4cb22690acce9c772238533215768 = $(`<div id="html_10f4cb22690acce9c772238533215768" style="width: 100.0%; height: 100.0%;">     <strong>LIVWELL VII LLC</strong><br>     <strong>LivWell</strong><br>     Facility Type: Retail Marijuana Store<br>     900 North College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-484-8380<br>     Website: <a href="https://livwell.com/locations/">LIVWELL VII LLC</a><br>     </div>`)[0];
+                popup_3f6c4e27f29ee01e0df424b2a015a611.setContent(html_10f4cb22690acce9c772238533215768);
+            
+        
+
+        marker_adcdbbaaede4b0e4b5fb831682d209da.bindPopup(popup_3f6c4e27f29ee01e0df424b2a015a611)
+        ;
+
+        
+    
+    
+            var marker_0b69396124d5f1769693396cab7e63fb = L.marker(
+                [40.4930146, -105.0769588],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_d170b4ccf9af5fe727c43e5a4babb4a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b69396124d5f1769693396cab7e63fb.setIcon(icon_d170b4ccf9af5fe727c43e5a4babb4a8);
+        
+    
+        var popup_980236b30252a137462a13fcd06c3b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41ee5e69012e750af125e48491ff1661 = $(`<div id="html_41ee5e69012e750af125e48491ff1661" style="width: 100.0%; height: 100.0%;">     <strong>NATURAL ALTERNATIVES FOR HEALTH CORP</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     6712 South College Avenue<br>     Fort Collins, CO 80525<br>     Phone: 970-221-0339<br>     Website: <a href="https://www.naturalalternativesforhealth.com/hoursandcontact">NATURAL ALTERNATIVES FOR HEALTH CORP</a><br>     </div>`)[0];
+                popup_980236b30252a137462a13fcd06c3b3e.setContent(html_41ee5e69012e750af125e48491ff1661);
+            
+        
+
+        marker_0b69396124d5f1769693396cab7e63fb.bindPopup(popup_980236b30252a137462a13fcd06c3b3e)
+        ;
+
+        
+    
+    
+            var marker_56e3694ed177ee66b8054dae7f657d6f = L.marker(
+                [40.4930146, -105.0769588],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_108637cbb7a4d27b4d2825ed5108af29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56e3694ed177ee66b8054dae7f657d6f.setIcon(icon_108637cbb7a4d27b4d2825ed5108af29);
+        
+    
+        var popup_24828fb17ac8ab21d65659685b430808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16f91b701a513ebabc0bae1c0aea0598 = $(`<div id="html_16f91b701a513ebabc0bae1c0aea0598" style="width: 100.0%; height: 100.0%;">     <strong>NATURAL ALTERNATIVES FOR HEALTH CORP</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     6712 South College Avenue<br>     Fort Collins, CO 80525<br>     Phone: 970-221-0339<br>     Website: <a href="https://www.naturalalternativesforhealth.com/hoursandcontact">NATURAL ALTERNATIVES FOR HEALTH CORP</a><br>     </div>`)[0];
+                popup_24828fb17ac8ab21d65659685b430808.setContent(html_16f91b701a513ebabc0bae1c0aea0598);
+            
+        
+
+        marker_56e3694ed177ee66b8054dae7f657d6f.bindPopup(popup_24828fb17ac8ab21d65659685b430808)
+        ;
+
+        
+    
+    
+            var marker_58c1fa1ab9db0e85261fd8c05cedadf8 = L.marker(
+                [40.5870952, -105.0730597],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_701a34fc0b19d8aae7e4b5d740bb8547 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_58c1fa1ab9db0e85261fd8c05cedadf8.setIcon(icon_701a34fc0b19d8aae7e4b5d740bb8547);
+        
+    
+        var popup_13e334e309c09f19534883e015782f73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a21d8a8b4d52bd929cbbc2d89b265a54 = $(`<div id="html_a21d8a8b4d52bd929cbbc2d89b265a54" style="width: 100.0%; height: 100.0%;">     <strong>ORGANIC ALTERNATIVES INC</strong><br>     <strong>Organic Alternatives</strong><br>     Facility Type: Medical Marijuana Store<br>     346 East Mountain Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-482-7100<br>     Website: <a href="https://weedmaps.com/dispensaries/organic-alternatives">ORGANIC ALTERNATIVES INC</a><br>     </div>`)[0];
+                popup_13e334e309c09f19534883e015782f73.setContent(html_a21d8a8b4d52bd929cbbc2d89b265a54);
+            
+        
+
+        marker_58c1fa1ab9db0e85261fd8c05cedadf8.bindPopup(popup_13e334e309c09f19534883e015782f73)
+        ;
+
+        
+    
+    
+            var marker_b977def277ff4f6c108af7d14fc4a290 = L.marker(
+                [40.5870952, -105.0730597],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_6db5b697af3867f19d32b04fde796e9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b977def277ff4f6c108af7d14fc4a290.setIcon(icon_6db5b697af3867f19d32b04fde796e9b);
+        
+    
+        var popup_261b353c12f7b3f0f122daf1c61b2bc6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaa85a9ac26b1f755b965410b0c7863f = $(`<div id="html_aaa85a9ac26b1f755b965410b0c7863f" style="width: 100.0%; height: 100.0%;">     <strong>ORGANIC ALTERNATIVES INC</strong><br>     <strong>Organic Alternatives</strong><br>     Facility Type: Retail Marijuana Store<br>     346 East Mountain Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-482-7100<br>     Website: <a href="https://weedmaps.com/dispensaries/organic-alternatives">ORGANIC ALTERNATIVES INC</a><br>     </div>`)[0];
+                popup_261b353c12f7b3f0f122daf1c61b2bc6.setContent(html_aaa85a9ac26b1f755b965410b0c7863f);
+            
+        
+
+        marker_b977def277ff4f6c108af7d14fc4a290.bindPopup(popup_261b353c12f7b3f0f122daf1c61b2bc6)
+        ;
+
+        
+    
+    
+            var marker_ed38e23937e60d988e183b9aa653c288 = L.marker(
+                [40.5068875, -105.0768224],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_716605aff197ca8ba114195a6f7c3183 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed38e23937e60d988e183b9aa653c288.setIcon(icon_716605aff197ca8ba114195a6f7c3183);
+        
+    
+        var popup_f8b2b4e5efbd89b7d0506404281f1063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b7fcd6769bc051b3d5dbe0da4a87838 = $(`<div id="html_1b7fcd6769bc051b3d5dbe0da4a87838" style="width: 100.0%; height: 100.0%;">     <strong>SMOKE HOLDCO LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Medical Marijuana Store<br>     5740 South College Avenue, Unit A<br>     Fort Collins, CO 80525<br>     Phone: 970-797-2155<br>     Website: <a href="https://starbudscolorado.com/stores/recreational-marijuana-dispensary-fort-collins/">SMOKE HOLDCO LLC</a><br>     </div>`)[0];
+                popup_f8b2b4e5efbd89b7d0506404281f1063.setContent(html_1b7fcd6769bc051b3d5dbe0da4a87838);
+            
+        
+
+        marker_ed38e23937e60d988e183b9aa653c288.bindPopup(popup_f8b2b4e5efbd89b7d0506404281f1063)
+        ;
+
+        
+    
+    
+            var marker_bf26676a6a2c0024e94a90693a4f654c = L.marker(
+                [40.5068875, -105.0768224],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_35c6d47f0c143a7b69f9a74a05925add = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf26676a6a2c0024e94a90693a4f654c.setIcon(icon_35c6d47f0c143a7b69f9a74a05925add);
+        
+    
+        var popup_a912d805090a8cb22d60b19410c76f86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25741ac28b9f4b01c640785df2408f4e = $(`<div id="html_25741ac28b9f4b01c640785df2408f4e" style="width: 100.0%; height: 100.0%;">     <strong>SMOKE HOLDCO LLC</strong><br>     <strong>Star Buds</strong><br>     Facility Type: Retail Marijuana Store<br>     5740 South College Avenue Unit A<br>     Fort Collins, CO 80525<br>     Phone: 970-797-2155<br>     Website: <a href="https://starbudscolorado.com/stores/recreational-marijuana-dispensary-fort-collins/">SMOKE HOLDCO LLC</a><br>     </div>`)[0];
+                popup_a912d805090a8cb22d60b19410c76f86.setContent(html_25741ac28b9f4b01c640785df2408f4e);
+            
+        
+
+        marker_bf26676a6a2c0024e94a90693a4f654c.bindPopup(popup_a912d805090a8cb22d60b19410c76f86)
+        ;
+
+        
+    
+    
+            var marker_c1f1e854a1c65a30ead796a991094d71 = L.marker(
+                [40.5064281, -105.0742571],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_7a2fbd4555dd9a0a3c52fc8c72c5103d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1f1e854a1c65a30ead796a991094d71.setIcon(icon_7a2fbd4555dd9a0a3c52fc8c72c5103d);
+        
+    
+        var popup_ca20f9030ae46418f69ee9f02c0dd543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_591832e914ab2bcd9622d720061c3be4 = $(`<div id="html_591832e914ab2bcd9622d720061c3be4" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     301 Smokey Street, Unit A<br>     Fort Collins, CO 80525<br>     Phone: 970-225-6337<br>     Website: <a href="https://solacemeds.com/home/ftc/?sid=868886">SOLACE MEDS LLC</a><br>     </div>`)[0];
+                popup_ca20f9030ae46418f69ee9f02c0dd543.setContent(html_591832e914ab2bcd9622d720061c3be4);
+            
+        
+
+        marker_c1f1e854a1c65a30ead796a991094d71.bindPopup(popup_ca20f9030ae46418f69ee9f02c0dd543)
+        ;
+
+        
+    
+    
+            var marker_71b82753313848f0ba5bf192fcb3351a = L.marker(
+                [40.5064281, -105.0742571],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_fe249a5ddc049fd526d45ee0f7fab965 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_71b82753313848f0ba5bf192fcb3351a.setIcon(icon_fe249a5ddc049fd526d45ee0f7fab965);
+        
+    
+        var popup_91e8898b3ce60ce78b6c8aa5f8ed8a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ebf5360c277825beb033065f98cb2c = $(`<div id="html_04ebf5360c277825beb033065f98cb2c" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     301 Smokey Street, Unit A<br>     Fort Collins, CO 80525<br>     Phone: 970-225-6337<br>     Website: <a href="https://solacemeds.com/home/ftc/?sid=868886">SOLACE MEDS LLC</a><br>     </div>`)[0];
+                popup_91e8898b3ce60ce78b6c8aa5f8ed8a3c.setContent(html_04ebf5360c277825beb033065f98cb2c);
+            
+        
+
+        marker_71b82753313848f0ba5bf192fcb3351a.bindPopup(popup_91e8898b3ce60ce78b6c8aa5f8ed8a3c)
+        ;
+
+        
+    
+    
+            var marker_25efb38c7c2f40d8e0a017ab0f1d9439 = L.marker(
+                [40.5085577, -105.0757221],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_b2a9c2006770a7aaa7509b4de1537d02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25efb38c7c2f40d8e0a017ab0f1d9439.setIcon(icon_b2a9c2006770a7aaa7509b4de1537d02);
+        
+    
+        var popup_c3c6a0f5377a418f40f7cfb877eb315b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b549a51d4ab535d368d22c1e62d40df0 = $(`<div id="html_b549a51d4ab535d368d22c1e62d40df0" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS MASON LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     5739 Bueno Drive, Suite D1<br>     Fort Collins, CO 80525<br>     Phone: 970-225-6337<br>     Website: <a href="https://solacemeds.com/">SOLACE MEDS MASON LLC</a><br>     </div>`)[0];
+                popup_c3c6a0f5377a418f40f7cfb877eb315b.setContent(html_b549a51d4ab535d368d22c1e62d40df0);
+            
+        
+
+        marker_25efb38c7c2f40d8e0a017ab0f1d9439.bindPopup(popup_c3c6a0f5377a418f40f7cfb877eb315b)
+        ;
+
+        
+    
+    
+            var marker_55524b466175f5bca62fec21ca5f8b8d = L.marker(
+                [40.5085577, -105.0757221],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_8c802c00ff196b9a8df64de3b0fbb487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55524b466175f5bca62fec21ca5f8b8d.setIcon(icon_8c802c00ff196b9a8df64de3b0fbb487);
+        
+    
+        var popup_d7a1d534f075ae7eb83b855dbe23c9ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f20d995ffaa056e4f60feea62a3787d = $(`<div id="html_9f20d995ffaa056e4f60feea62a3787d" style="width: 100.0%; height: 100.0%;">     <strong>SOLACE MEDS MASON LLC </strong><br>     <strong>nan</strong><br>     Facility Type: Retail Marijuana Store<br>     5739 Bueno Drive, Suite D1<br>     Fort Collins, CO 80525<br>     Phone: 970-225-6337<br>     Website: <a href="https://solacemeds.com/">SOLACE MEDS MASON LLC </a><br>     </div>`)[0];
+                popup_d7a1d534f075ae7eb83b855dbe23c9ed.setContent(html_9f20d995ffaa056e4f60feea62a3787d);
+            
+        
+
+        marker_55524b466175f5bca62fec21ca5f8b8d.bindPopup(popup_d7a1d534f075ae7eb83b855dbe23c9ed)
+        ;
+
+        
+    
+    
+            var marker_a80a345e98f77f0ce2db7a5dfbd1cfc2 = L.marker(
+                [40.5981146, -105.0761388],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_2c6e6ce84362c659f5d8bf82920cf95c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a80a345e98f77f0ce2db7a5dfbd1cfc2.setIcon(icon_2c6e6ce84362c659f5d8bf82920cf95c);
+        
+    
+        var popup_4499fa8c3b4dd1d22c549944d73cbb1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95f61bb0fef34660d8c0e9d0e49a171d = $(`<div id="html_95f61bb0fef34660d8c0e9d0e49a171d" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>nan</strong><br>     Facility Type: Medical Marijuana Store<br>     810 North College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-239-3117<br>     Website: <a href="https://www.tgscolorado.com/locations/co-fc-ncollege-810">THE GREEN SOLUTION LLC</a><br>     </div>`)[0];
+                popup_4499fa8c3b4dd1d22c549944d73cbb1e.setContent(html_95f61bb0fef34660d8c0e9d0e49a171d);
+            
+        
+
+        marker_a80a345e98f77f0ce2db7a5dfbd1cfc2.bindPopup(popup_4499fa8c3b4dd1d22c549944d73cbb1e)
+        ;
+
+        
+    
+    
+            var marker_a8edbc7b7dc1b88d86cdb439325f7206 = L.marker(
+                [40.5981146, -105.0761388],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_fad31539d889046bf328eb1057cc5e4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8edbc7b7dc1b88d86cdb439325f7206.setIcon(icon_fad31539d889046bf328eb1057cc5e4d);
+        
+    
+        var popup_6d15784b99ba1832579af4d9a61821cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ea8e3f5fa8fff9e9326a272182fa885 = $(`<div id="html_8ea8e3f5fa8fff9e9326a272182fa885" style="width: 100.0%; height: 100.0%;">     <strong>THE GREEN SOLUTION LLC</strong><br>     <strong>Clearance Cannabis Co.</strong><br>     Facility Type: Retail Marijuana Store<br>     810 North College Avenue<br>     Fort Collins, CO 80524<br>     Phone: 970-239-3117<br>     Website: <a href="https://www.tgscolorado.com/locations/co-fc-ncollege-810">THE GREEN SOLUTION LLC</a><br>     </div>`)[0];
+                popup_6d15784b99ba1832579af4d9a61821cf.setContent(html_8ea8e3f5fa8fff9e9326a272182fa885);
+            
+        
+
+        marker_a8edbc7b7dc1b88d86cdb439325f7206.bindPopup(popup_6d15784b99ba1832579af4d9a61821cf)
+        ;
+
+        
+    
+    
+            var marker_77ab5f6a12d1b30ad13d195d7369fc4f = L.marker(
+                [40.574717, -105.097644],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_dbbfb1b3b75d8204173321b1f3f33bb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_77ab5f6a12d1b30ad13d195d7369fc4f.setIcon(icon_dbbfb1b3b75d8204173321b1f3f33bb8);
+        
+    
+        var popup_2b5f8e246372e288ade4d38ed471d9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1331a9529fc40e0f51dd4248f4476c4f = $(`<div id="html_1331a9529fc40e0f51dd4248f4476c4f" style="width: 100.0%; height: 100.0%;">     <strong>VERTS LLC</strong><br>     <strong>Verts Neighborhood Dispensary</strong><br>     Facility Type: Medical Marijuana Store<br>     1240 West Elizabeth Street, Unit A, B, C, and D,<br>     Fort Collins, CO 80521<br>     Phone: 970-286-2318<br>     Website: <a href="https://vertsdispensary.com/colorado/fort-collins/fort-collins-recreational-marijuana/">VERTS LLC</a><br>     </div>`)[0];
+                popup_2b5f8e246372e288ade4d38ed471d9d8.setContent(html_1331a9529fc40e0f51dd4248f4476c4f);
+            
+        
+
+        marker_77ab5f6a12d1b30ad13d195d7369fc4f.bindPopup(popup_2b5f8e246372e288ade4d38ed471d9d8)
+        ;
+
+        
+    
+    
+            var marker_d9318e1920025850364cfc94deee8daf = L.marker(
+                [40.574717, -105.097644],
+                {}
+            ).addTo(map_77742d68881758f43ea789032ae0c0ac);
+        
+    
+            var icon_f9e026beb0e24f85423961de0201dc73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9318e1920025850364cfc94deee8daf.setIcon(icon_f9e026beb0e24f85423961de0201dc73);
+        
+    
+        var popup_73ea899f6c9b7127fb121290d7a61974 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49508292884c055f5d5064fbd666195a = $(`<div id="html_49508292884c055f5d5064fbd666195a" style="width: 100.0%; height: 100.0%;">     <strong>VERTS LLC</strong><br>     <strong>Verts Neighborhood Dispensary</strong><br>     Facility Type: Retail Marijuana Store<br>     1240 West Elizabeth Street, Unit A, B, C, & D<br>     Fort Collins, CO 80521<br>     Phone: 970-286-2318<br>     Website: <a href="https://vertsdispensary.com/colorado/fort-collins/fort-collins-recreational-marijuana/">VERTS LLC</a><br>     </div>`)[0];
+                popup_73ea899f6c9b7127fb121290d7a61974.setContent(html_49508292884c055f5d5064fbd666195a);
+            
+        
+
+        marker_d9318e1920025850364cfc94deee8daf.bindPopup(popup_73ea899f6c9b7127fb121290d7a61974)
+        ;
+
+        
+    
+</script>
+</html>
